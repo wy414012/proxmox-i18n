@@ -63,7 +63,7 @@ msgstr "所选设备不在单独的IOMMU组中，请确保这是预期的。"
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:355
 #: pve-manager/www/manager6/dc/SyncWindow.js:129
 msgid "ACL"
-msgstr "ACL"
+msgstr "访问控制列表"
 
 #: proxmox-backup/www/config/CertificateView.js:63
 msgid "ACME Accounts"
@@ -95,7 +95,7 @@ msgstr "API数据"
 
 #: pve-manager/www/manager6/sdn/dns/PowerdnsEdit.js:39
 msgid "API Key"
-msgstr "API Key"
+msgstr "API密钥"
 
 #: pve-manager/www/manager6/dc/MetricServerView.js:313
 msgid "API Path Prefix"
@@ -165,11 +165,11 @@ msgstr "访问控制"
 
 #: pve-manager/www/manager6/lxc/DeviceEdit.js:88
 msgid "Access Mode in CT"
-msgstr ""
+msgstr "容器中的访问控制模式"
 
 #: pve-manager/www/manager6/lxc/DeviceEdit.js:95
 msgid "Access mode has to be an octal number"
-msgstr ""
+msgstr "访问模式必须是八进制数"
 
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:154
 #: pmg-gui/js/LDAPConfig.js:248 pmg-gui/js/LDAPUserEditor.js:43
@@ -365,7 +365,7 @@ msgstr "添加一个TOTP登录因子"
 
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:10
 msgid "Add a Webauthn login token"
-msgstr "添加Webauthn登录令牌"
+msgstr "添加网络验证登录令牌"
 
 #: proxmox-widget-toolkit/src/window/AddYubico.js:10
 msgid "Add a Yubico OTP key"
@@ -1282,16 +1282,16 @@ msgstr "CIDR"
 #: pve-manager/www/manager6/lxc/ResourceEdit.js:36
 #: pve-manager/www/manager6/qemu/CreateWizard.js:221
 msgid "CPU"
-msgstr "CPU"
+msgstr "处理器"
 
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:200
 msgid "CPU Affinity"
-msgstr "CPU绑定"
+msgstr "处理器绑定"
 
 #: pve-manager/www/manager6/window/GuestImport.js:508
 #, fuzzy
 msgid "CPU Type"
-msgstr "OS类型"
+msgstr "CPU类型"
 
 #: pve-manager/www/manager6/lxc/ResourceEdit.js:79
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:191
@@ -1325,7 +1325,7 @@ msgstr "CPU利用率"
 #: pve-manager/www/manager6/node/StatusView.js:95
 #: proxmox-backup/www/panel/NodeInfo.js:136
 msgid "CPU(s)"
-msgstr "CPU(s)"
+msgstr "CPU信息"
 
 #: pve-manager/www/manager6/ha/Resources.js:113
 msgid "CRM State"
@@ -1335,15 +1335,15 @@ msgstr "CRM状态"
 #: proxmox-backup/www/datastore/Summary.js:150
 #: proxmox-backup/www/form/GroupFilter.js:513
 msgid "CT"
-msgstr "CT"
+msgstr "容器"
 
 #: pve-manager/www/manager6/storage/Browser.js:105
 msgid "CT Templates"
-msgstr "CT模板"
+msgstr "容器模板"
 
 #: pve-manager/www/manager6/storage/Browser.js:82
 msgid "CT Volumes"
-msgstr "CT卷"
+msgstr "容器卷"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:245
 msgid "Cache"
@@ -1355,7 +1355,7 @@ msgstr "取消编辑"
 
 #: pve-manager/www/manager6/dc/PCIMapView.js:35
 msgid "Cannot find PCI id {0}"
-msgstr "找不到PCI id {0}"
+msgstr "找不到PCI ID {0}"
 
 #: pve-manager/www/manager6/dc/USBMapView.js:38
 msgid "Cannot find USB device {0}"
@@ -1406,7 +1406,7 @@ msgstr "目录媒体"
 msgid ""
 "Caution: 'What Objects' match each mail part separately, so be careful with "
 "any option besides 'Any matches'."
-msgstr ""
+msgstr "注意：‘What Objects’分别匹配每个邮件部分，所以要小心，除了‘任何匹配’之外的任何选项。"
 
 #: pve-manager/www/manager6/ceph/Pool.js:260
 msgid "Ceph Pool"
@@ -2212,7 +2212,7 @@ msgstr "创建"
 #: pve-manager/www/manager6/Workspace.js:291
 #: pve-manager/www/manager6/node/CmdMenu.js:20
 msgid "Create CT"
-msgstr "创建CT"
+msgstr "创建容器"
 
 #: pve-manager/www/manager6/ceph/FS.js:144
 msgid "Create CephFS"
@@ -3140,38 +3140,38 @@ msgstr "动态"
 #: pve-manager/www/manager6/node/ACME.js:249
 #: proxmox-backup/www/window/UserEdit.js:162
 msgid "E-Mail"
-msgstr "E-Mail"
+msgstr "邮件"
 
 #: pmg-gui/js/Dashboard.js:409
 msgid "E-Mail Processing"
-msgstr "E-Mail处理中"
+msgstr "邮件处理中"
 
 #: pmg-gui/js/Dashboard.js:355
 msgid "E-Mail Volume"
-msgstr "E-Mail数量"
+msgstr "邮件数量"
 
 #: pmg-gui/js/LDAPConfig.js:319
 msgid "E-Mail address"
-msgstr "E-Mail地址"
+msgstr "邮件地址"
 
 #: pmg-gui/js/LDAPConfig.js:302
 msgid "E-Mail addresses of '{0}'"
-msgstr "'{0}'的E-Mail地址"
+msgstr "'{0}'的邮件地址"
 
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:334
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:245
 msgid "E-Mail attribute"
-msgstr "E-Mail属性"
+msgstr "邮件属性"
 
 #: pve-manager/www/manager6/node/ACME.js:212
 #, fuzzy
 msgid "EAB Key"
-msgstr "API Key"
+msgstr "EAB 密钥"
 
 #: pve-manager/www/manager6/node/ACME.js:202
 #, fuzzy
 msgid "EAB Key ID"
-msgstr "公钥IDs"
+msgstr "EAB 密钥ID"
 
 #: proxmox-widget-toolkit/src/Utils.js:740
 msgid "EB"
@@ -3199,7 +3199,7 @@ msgstr ""
 
 #: pmg-gui/js/SpamQuarantineOptions.js:60
 msgid "EMail 'From:'"
-msgstr "邮件 'From:'"
+msgstr "邮件 '从:'"
 
 #: pmg-gui/js/LDAPConfig.js:144
 msgid "EMail attribute name(s)"
@@ -3551,7 +3551,7 @@ msgstr "入口"
 
 #: pmg-gui/js/DKIMSettings.js:124
 msgid "Envelope"
-msgstr ""
+msgstr "信封"
 
 #: pve-manager/www/manager6/Utils.js:2002
 msgid "Erase data"
@@ -3862,7 +3862,7 @@ msgstr "外部SMTP端口"
 
 #: pve-manager/www/manager6/ceph/ServiceList.js:49
 msgid "Extra ID"
-msgstr "Extra ID"
+msgstr "外部ID"
 
 #: pmg-gui/js/SpamDetectorOptions.js:22
 msgid "Extract Text from Attachments"
@@ -4193,7 +4193,7 @@ msgstr "格式化/擦除"
 
 #: proxmox-widget-toolkit/src/Utils.js:685
 msgid "Forwarded mails to the local root user"
-msgstr ""
+msgstr "将邮件转发给本地root用户"
 
 #: pve-manager/www/manager6/node/ZFS.js:245 proxmox-backup/www/ZFSList.js:82
 msgid "Fragmentation"
@@ -4609,7 +4609,7 @@ msgstr "休眠"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:182
 msgid "Hibernation VM State"
-msgstr "休眠VM状态"
+msgstr "虚拟机休眠状态"
 
 #: pmg-gui/js/MailProxyOptions.js:59
 msgid "Hide Internal Hosts"
@@ -4706,7 +4706,7 @@ msgstr "要显示的时间"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:159
 msgid "I/O workers in the QEMU process (VMs only)."
-msgstr ""
+msgstr "QEMU 进程中的 I/O 工作线程（仅限虚拟机）。"
 
 #: pve-manager/www/manager6/grid/FirewallRules.js:346
 #: pve-manager/www/manager6/grid/FirewallRules.js:358
@@ -4852,16 +4852,16 @@ msgstr "IPv6/CIDR"
 
 #: pve-manager/www/manager6/window/GuestImport.js:766
 msgid "ISO"
-msgstr ""
+msgstr "光盘"
 
 #: pve-manager/www/manager6/storage/Browser.js:92
 msgid "ISO Images"
-msgstr "ISO镜像"
+msgstr "光盘镜像"
 
 #: pve-manager/www/manager6/Utils.js:690
 #: pve-manager/www/manager6/form/IsoSelector.js:101
 msgid "ISO image"
-msgstr "ISO镜像"
+msgstr "光盘镜像"
 
 #: proxmox-backup/www/Utils.js:652
 msgid "Idle"
@@ -4871,7 +4871,7 @@ msgstr "空闲"
 msgid ""
 "If the display type uses SPICE you are able to use the default SPICE "
 "Clipboard."
-msgstr ""
+msgstr "如果显示类型使用 SPICE，您可以使用默认 SPICE，剪贴板。"
 
 #: pve-manager/www/manager6/storage/Browser.js:152
 #: pve-manager/www/manager6/window/GuestImport.js:17
@@ -4887,7 +4887,7 @@ msgstr "目标客户机"
 
 #: pve-manager/www/manager6/window/GuestImport.js:917
 msgid "Import Guest - {0}"
-msgstr ""
+msgstr "导入访客- {0}"
 
 #: proxmox-backup/www/tape/ChangerStatus.js:937
 #: proxmox-backup/www/tape/window/ChangerEdit.js:41
@@ -5007,7 +5007,7 @@ msgstr "使用GPT初始化磁盘"
 
 #: proxmox-backup/www/Utils.js:724 proxmox-backup/www/Utils.js:726
 msgid "Inode"
-msgstr "Inode"
+msgstr "索引节点"
 
 #: pve-manager/www/manager6/grid/FirewallOptions.js:121
 #: pve-manager/www/manager6/grid/FirewallOptions.js:126
@@ -5033,7 +5033,7 @@ msgstr "安装"
 
 #: pve-manager/www/manager6/qemu/MachineEdit.js:153
 msgid "Intel (AMD Compatible)"
-msgstr ""
+msgstr "Intel (AMD Compatible)"
 
 #: proxmox-widget-toolkit/src/form/NetworkSelector.js:102
 #: pve-manager/www/manager6/grid/FirewallRules.js:214
@@ -5365,7 +5365,7 @@ msgstr "LVM存储"
 
 #: pve-manager/www/manager6/Utils.js:2005
 msgid "LVM-Thin Storage"
-msgstr "LVM-Thin存储"
+msgstr "LVM-精简存储"
 
 #: pve-manager/www/manager6/dc/Guests.js:84
 #: pve-manager/www/manager6/form/VMSelector.js:66
@@ -5634,13 +5634,13 @@ msgstr "以root身份登录以进行安装。"
 #: pve-manager/www/manager6/grid/FirewallOptions.js:199
 #: pve-manager/www/manager6/grid/FirewallRules.js:909
 msgid "Log level"
-msgstr "Log级别"
+msgstr "日志级别"
 
 #: pve-manager/www/manager6/grid/FirewallOptions.js:109
 #: pve-manager/www/manager6/window/FirewallLograteEdit.js:22
 #: pve-manager/www/manager6/window/FirewallLograteEdit.js:95
 msgid "Log rate limit"
-msgstr "Log速率限制"
+msgstr "日志速率限制"
 
 #: pmg-gui/js/LoginView.js:290
 #: pve-manager/www/manager6/window/LoginWindow.js:14
@@ -5688,7 +5688,7 @@ msgstr "起始值"
 #: pve-manager/www/manager6/qemu/NetworkEdit.js:169
 #: pve-manager/www/manager6/window/GuestImport.js:818
 msgid "MAC address"
-msgstr "MAC地址"
+msgstr "网卡地址"
 
 #: pve-manager/www/manager6/node/NodeOptionsView.js:55
 msgid "MAC address for Wake on LAN"
@@ -5696,11 +5696,11 @@ msgstr "局域网唤醒的MAC地址"
 
 #: pve-manager/www/manager6/dc/OptionView.js:94
 msgid "MAC address prefix"
-msgstr "MAC地址前缀"
+msgstr "网卡地址前缀"
 
 #: pve-manager/www/manager6/grid/FirewallOptions.js:101
 msgid "MAC filter"
-msgstr "MAC筛选"
+msgstr "网卡筛选"
 
 #: proxmox-widget-toolkit/src/Utils.js:739
 msgid "MB"
@@ -5708,7 +5708,7 @@ msgstr "MB"
 
 #: pve-manager/www/manager6/qemu/PCIEdit.js:265
 msgid "MDev Type"
-msgstr "MDev类型"
+msgstr "映射设备类型"
 
 #: pve-manager/www/manager6/window/DownloadUrlToStorage.js:179
 #: pve-manager/www/manager6/window/UploadToStorage.js:206
@@ -5735,7 +5735,7 @@ msgstr "机型"
 msgid ""
 "Machine version change may affect hardware layout and settings in the guest "
 "OS."
-msgstr "机型版本的更改可能会影响客户机OS中的硬件布局和设置。"
+msgstr "机型版本的更改可能会影响客户机，操作系统中的硬件布局和设置。"
 
 #: pve-manager/www/manager6/grid/FirewallRules.js:11
 #: pve-manager/www/manager6/grid/FirewallRules.js:265
@@ -5747,7 +5747,7 @@ msgstr "宏"
 #: pmg-gui/js/DomainStatistics.js:133 pmg-gui/js/GeneralMailStatistics.js:16
 #: pmg-gui/js/ReceiverStatistics.js:169 pmg-gui/js/SenderStatistics.js:161
 msgid "Mail"
-msgstr "E-Mail"
+msgstr "邮件"
 
 #: pmg-gui/js/NavigationTree.js:16
 msgid "Mail Filter"
@@ -5837,7 +5837,7 @@ msgstr "节点上的映射"
 msgid ""
 "Maps SCSI disks to SATA and changes the SCSI Controller. Useful for a "
 "quicker switch to VirtIO-SCSI attached disks"
-msgstr ""
+msgstr "将 SCSI 磁盘映射到 SATA 并更改 SCSI 控制器。对于更快地切换到 VirtIO-SCSI连接磁盘"
 
 #: pmg-gui/js/LDAPGroupEditor.js:77
 msgid "Match"
@@ -6337,7 +6337,7 @@ msgstr "现在"
 
 #: pve-manager/www/manager6/window/GuestImport.js:925
 msgid "NVMe disks are currently not supported, '{0}' will get attaced as SCSI"
-msgstr ""
+msgstr "目前不支持 NVMe 磁盘，'{0}' 将作为SCSI附加"
 
 #: proxmox-widget-toolkit/src/form/UserSelector.js:33
 #: proxmox-widget-toolkit/src/grid/ObjectGrid.js:343
@@ -6692,7 +6692,7 @@ msgstr "没有群组"
 
 #: pve-manager/www/manager6/qemu/AgentIPView.js:168
 msgid "No Guest Agent configured"
-msgstr "未配置Guest Agent"
+msgstr "未配置客户机代理"
 
 #: proxmox-widget-toolkit/src/button/HelpButton.js:73
 msgid "No Help available"
@@ -6993,7 +6993,7 @@ msgstr "节点"
 
 #: proxmox-widget-toolkit/src/Utils.js:1306
 msgid "Non production-ready repository enabled!"
-msgstr "非生产就绪存储库已启用！"
+msgstr "已启用非生产就绪存储库！"
 
 #: proxmox-widget-toolkit/src/Utils.js:49 pmg-gui/js/PBSSnapshotView.js:179
 #: pve-manager/www/manager6/Utils.js:290
@@ -7202,13 +7202,13 @@ msgstr "OK"
 
 #: pve-manager/www/manager6/qemu/CreateWizard.js:186
 msgid "OS"
-msgstr "操作系统"
+msgstr "系统"
 
 #: pve-manager/www/manager6/lxc/Options.js:50
 #: pve-manager/www/manager6/qemu/Options.js:80
 #: pve-manager/www/manager6/window/GuestImport.js:523
 msgid "OS Type"
-msgstr "OS类型"
+msgstr "系统类型"
 
 #: pve-manager/www/manager6/ceph/OSDDetails.js:141
 msgid "OSD data path"
@@ -7252,7 +7252,7 @@ msgstr "匹配日历： {0}"
 
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:338
 msgid "Often called {0} or {1}"
-msgstr ""
+msgstr "通常称为{0}或者{1}"
 
 #: proxmox-widget-toolkit/src/window/PackageVersions.js:32
 #: pve-manager/www/manager6/node/Summary.js:46
@@ -7307,7 +7307,7 @@ msgstr "打开任务"
 
 #: pve-manager/www/manager6/window/Settings.js:283
 msgid "Open editor on double-click"
-msgstr ""
+msgstr "双击打开编辑器"
 
 #: proxmox-backup/www/tape/BackupOverview.js:361
 msgid "Open restore wizard for {0}"
@@ -8408,11 +8408,11 @@ msgstr "重新分配卷"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:411
 msgid "Reassign disk to another VM"
-msgstr "将磁盘重新分配给另一个VM"
+msgstr "将磁盘重新分配给另一个虚拟机"
 
 #: pve-manager/www/manager6/lxc/Resources.js:279
 msgid "Reassign volume to another CT"
-msgstr "将卷重新分配给另一个CT"
+msgstr "将卷重新分配给另一个容器"
 
 #: pve-manager/www/manager6/ceph/Status.js:271
 msgid "Rebalance"
@@ -8847,7 +8847,7 @@ msgstr "重置所有布局更改（例如，列宽）"
 
 #: proxmox-widget-toolkit/src/window/Edit.js:323
 msgid "Reset form data"
-msgstr ""
+msgstr "重置表单数据"
 
 #: pmg-gui/js/RuleConfiguration.js:99
 msgid "Reset rule database to factory defaults?"
@@ -9027,7 +9027,7 @@ msgstr "回滚"
 #: proxmox-backup/www/form/RemoteTargetSelector.js:99
 #: proxmox-backup/www/tape/window/TapeRestore.js:560
 msgid "Root"
-msgstr "Root"
+msgstr "根"
 
 #: pve-manager/www/manager6/lxc/Resources.js:101
 msgid "Root Disk"
@@ -9088,7 +9088,7 @@ msgstr "磁盘移动或VM迁移后运行guest-trim"
 msgid ""
 "Run jobs as soon as possible if they couldn't start on schedule, for "
 "example, due to the node being offline."
-msgstr ""
+msgstr "如果工作无法按计划开始，请尽快运行，例如：由于节点离线。"
 
 #: pve-manager/www/manager6/dc/Backup.js:680
 #: proxmox-backup/www/config/PruneView.js:163
@@ -9137,7 +9137,7 @@ msgstr "SDN"
 
 #: pve-manager/www/manager6/qemu/IPConfigEdit.js:163
 msgid "SLAAC"
-msgstr "SLAAC"
+msgstr "无状态自动获取"
 
 #: pve-manager/www/manager6/qemu/Options.js:268
 #: pve-manager/www/manager6/qemu/Smbios1Edit.js:100
@@ -9506,7 +9506,7 @@ msgstr "串行接口'{0}'未正确配置。"
 
 #: pve-manager/www/manager6/window/GuestImport.js:927
 msgid "Serial socket '{0}' will be mapped to a socket"
-msgstr ""
+msgstr "串行套接字'{0}'将映射到套接字"
 
 #: pve-manager/www/manager6/Utils.js:605 pve-manager/www/manager6/Utils.js:606
 #: pve-manager/www/manager6/Utils.js:607 pve-manager/www/manager6/Utils.js:608
@@ -9585,11 +9585,11 @@ msgstr "服务"
 
 #: pve-manager/www/manager6/sdn/zones/QinQEdit.js:36
 msgid "Service VLAN"
-msgstr "VLAN"
+msgstr "业务VLAN"
 
 #: pve-manager/www/manager6/sdn/zones/QinQEdit.js:42
 msgid "Service VLAN Protocol"
-msgstr "VLAN服务协议"
+msgstr "业务VLAN协议"
 
 #: pmg-gui/js/ServerAdministration.js:27
 #: pve-manager/www/manager6/ceph/Status.js:221
@@ -9664,7 +9664,7 @@ msgstr "共享"
 #: pve-manager/www/manager6/node/Config.js:162
 #: proxmox-backup/www/NavigationTree.js:87
 msgid "Shell"
-msgstr "Shell"
+msgstr "终端"
 
 #: pmg-gui/js/SpamQuarantineOptions.js:15
 msgid "Short"
@@ -10551,7 +10551,7 @@ msgstr "系统配置"
 #: pve-manager/www/manager6/node/Config.js:247
 #, fuzzy
 msgid "System Log"
-msgstr "系统"
+msgstr "系统日志"
 
 #: pmg-gui/js/Subscription.js:52 pmg-gui/js/Subscription.js:185
 #: pve-manager/www/manager6/node/Subscription.js:57
@@ -10993,7 +10993,7 @@ msgstr "这不是有效的主机名"
 
 #: pve-manager/www/manager6/qemu/DisplayEdit.js:108
 msgid "This option depends on your display type."
-msgstr ""
+msgstr "此选项取决于您的显示器类型。"
 
 #: pve-manager/www/manager6/grid/BackupView.js:210
 #: pve-manager/www/manager6/lxc/Resources.js:247
@@ -11021,7 +11021,7 @@ msgstr "该{0}ID已被使用"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:139
 msgid "Threads used for zstd compression (non-PBS)."
-msgstr ""
+msgstr "用于 zstd 压缩的线程（非 PBS）。"
 
 #: proxmox-widget-toolkit/src/window/DiskSmart.js:50
 msgid "Threshold"
@@ -11160,7 +11160,7 @@ msgstr "太长了，请考虑使用IP集。"
 
 #: pve-manager/www/manager6/window/GuestImport.js:170
 msgid "Too many disks, could not map to SATA."
-msgstr ""
+msgstr "磁盘太多，无法映射到 SATA。"
 
 #: pmg-gui/js/Dashboard.js:440
 msgid "Top Receivers"
@@ -11413,7 +11413,7 @@ msgstr "唯一"
 #: pve-manager/www/manager6/window/GuestImport.js:868
 #, fuzzy
 msgid "Unique MAC addresses"
-msgstr "MAC地址"
+msgstr "网卡地址"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:161
 msgid "Unique task ID"
@@ -11975,16 +11975,16 @@ msgstr "VLAN原始设备"
 #: proxmox-backup/www/datastore/Summary.js:170
 #: proxmox-backup/www/form/GroupFilter.js:512
 msgid "VM"
-msgstr "VM"
+msgstr "虚拟机"
 
 #: pve-manager/www/manager6/storage/Browser.js:72
 msgid "VM Disks"
-msgstr "VM磁盘"
+msgstr "虚拟机磁盘"
 
 #: pve-manager/www/manager6/qemu/Options.js:320
 #: pve-manager/www/manager6/qemu/Options.js:325
 msgid "VM State storage"
-msgstr "VM状态存储"
+msgstr "虚拟机状态存储"
 
 #: pve-manager/www/manager6/Utils.js:600
 msgid "VMware compatible"
@@ -11996,7 +11996,7 @@ msgstr "VMware映像格式"
 
 #: pve-manager/www/manager6/qemu/DisplayEdit.js:99
 msgid "VNC Clipboard requires spice-tools installed in the Guest-VM."
-msgstr ""
+msgstr "VNC剪贴板需要在Guest-VM中安装spice-tools。"
 
 #: pve-manager/www/manager6/form/SDNVnetSelector.js:26
 #: pve-manager/www/manager6/sdn/VnetEdit.js:71
@@ -12005,7 +12005,7 @@ msgstr "VNet"
 
 #: pve-manager/www/manager6/sdn/zones/EvpnEdit.js:38
 msgid "VNet MAC Address"
-msgstr "VNet MAC地址"
+msgstr "VNet 网卡地址"
 
 #: pve-manager/www/manager6/sdn/ZoneContentPanel.js:13
 msgid "VNet Permissions"
@@ -12206,7 +12206,7 @@ msgstr "查看映像"
 #: pve-manager/www/manager6/qemu/HardwareView.js:732
 #: pve-manager/www/manager6/qemu/RNGEdit.js:99
 msgid "VirtIO RNG"
-msgstr "VirtIO RNG"
+msgstr "虚拟RNG"
 
 #: proxmox-widget-toolkit/src/Schema.js:77
 msgid "Virtual"
@@ -12241,7 +12241,7 @@ msgstr "虚拟机"
 msgid ""
 "Virtual guest seems to be running on source host. Import might fail or have "
 "inconsistent state!"
-msgstr ""
+msgstr "虚拟来宾似乎正在源主机上运行。导入可能会失败或有不一致的状态！"
 
 #: pmg-gui/js/ContactStatistics.js:165 pmg-gui/js/DomainStatistics.js:93
 #: pmg-gui/js/DomainStatistics.js:137 pmg-gui/js/ReceiverStatistics.js:173
@@ -12604,7 +12604,7 @@ msgstr "你可以使用 Markdown 进行富文本格式设置。"
 #: pve-manager/www/manager6/qemu/DisplayEdit.js:98
 msgid ""
 "You cannot use the default SPICE clipboard if the VNC Clipboard is selected."
-msgstr ""
+msgstr "如果选择了 VNC 剪贴板，则无法使用默认的 SPICE 剪贴板。"
 
 #: proxmox-widget-toolkit/src/Utils.js:160
 msgid ""
