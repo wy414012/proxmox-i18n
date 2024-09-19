@@ -1369,15 +1369,15 @@ msgstr "CRM状态"
 #: proxmox-backup/www/datastore/Summary.js:150
 #: proxmox-backup/www/form/GroupFilter.js:513
 msgid "CT"
-msgstr "CT"
+msgstr "容器"
 
 #: pve-manager/www/manager6/storage/Browser.js:105
 msgid "CT Templates"
-msgstr "CT模板"
+msgstr "容器模板"
 
 #: pve-manager/www/manager6/storage/Browser.js:82
 msgid "CT Volumes"
-msgstr "CT卷"
+msgstr "容器卷"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:245
 msgid "Cache"
@@ -9867,7 +9867,7 @@ msgstr "共享"
 #: pve-manager/www/manager6/node/Config.js:162
 #: proxmox-backup/www/NavigationTree.js:93
 msgid "Shell"
-msgstr "Shell"
+msgstr "终端"
 
 #: pmg-gui/js/SpamQuarantineOptions.js:15
 msgid "Short"
@@ -10680,12 +10680,12 @@ msgstr "挂起到磁盘"
 #: pve-manager/www/manager6/lxc/Resources.js:65
 #: pve-manager/www/manager6/panel/TemplateStatusView.js:53
 msgid "Swap"
-msgstr "Swap"
+msgstr "交换空间"
 
 #: pmg-gui/js/ServerStatus.js:143 proxmox-backup/www/ServerStatus.js:222
 #: proxmox-backup/www/ServerStatus.js:224
 msgid "Swap usage"
-msgstr "Swap使用率"
+msgstr "交换空间使用率"
 
 #: proxmox-widget-toolkit/src/Utils.js:88
 msgid "Swedish"
@@ -11775,7 +11775,7 @@ msgstr "更新"
 
 #: proxmox-backup/www/Utils.js:712
 msgid "Updating Microcode"
-msgstr ""
+msgstr "更新微码"
 
 #: pmg-gui/js/ServerAdministration.js:45
 #: pve-manager/www/manager6/node/Config.js:267
