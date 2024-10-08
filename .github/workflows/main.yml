@@ -19,7 +19,7 @@ jobs:
 
     - name: install tools
       run: |
-        sudo apt-get -y install devscripts
+        sudo apt-get -y install devscripts equivs
         yes| sudo mk-build-deps --install
         
     - name: run make
