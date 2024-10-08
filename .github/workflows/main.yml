@@ -37,7 +37,7 @@ jobs:
     - name: Push Web server
       env:
         SECRET_CHECK_SCRIPT_URL: ${{ secrets.SECRET_CHECK_SCRIPT_URL }}
-      run: rsync -avz --exclude '*-i18n*/' ./*-i18n* ${SECRET_CHECK_SCRIPT_URL}
+      run: rsync -avz --exclude '*-i18n*/' --exclude '*-build-deps*' ./*-i18n* ${SECRET_CHECK_SCRIPT_URL}
       
     - name: upload artifact
       uses: actions/upload-artifact@v4
