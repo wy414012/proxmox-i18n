@@ -18,8 +18,10 @@ jobs:
       run: sudo apt update
 
     - name: install tools
-      run: sudo apt install -y perl liblocale-po-perl libjson-perl bc debhelper dosfstools dpkg lintian
-
+      run: |
+        sudo apt-get -y install devscripts
+        yes| mk-build-deps --install
+        
     - name: run make
       run: make deb
 
