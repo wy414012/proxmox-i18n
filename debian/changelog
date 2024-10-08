@@ -1,3 +1,13 @@
+proxmox-i18n (3.2.3-1) bookworm; urgency=medium
+
+  * 添加标准的Proxmox镜像CI机器,不在使用Ubuntu构建包
+
+  * 添加构建后推送到服务器
+
+  * 修改几个中文匹配
+
+ -- Proxmox Support Team <ymwlpoolc@qq.com>  Wed, 09 Oct 2024 01:47:50 +0800
+
 proxmox-i18n (3.2.3) bookworm; urgency=medium
 
   * update German translation to fix typo in APT repo message
