@@ -1,3 +1,10 @@
+proxmox-i18n (3.2.4-1) bookworm; urgency=medium
+
+  * 合并主库最新提交，同步变更版本号
+
+
+ -- Proxmox Support Team <ymwlpoolc@qq.com>  Wed, 16 Oct 2024 13:56:38 +0800
+
 proxmox-i18n (3.2.3-1) bookworm; urgency=medium
 
   * 添加标准的Proxmox镜像CI机器,不在使用Ubuntu构建包
@@ -7,6 +14,14 @@ proxmox-i18n (3.2.3-1) bookworm; urgency=medium
   * 修改几个中文匹配
 
  -- Proxmox Support Team <ymwlpoolc@qq.com>  Wed, 09 Oct 2024 01:47:50 +0800
+
+proxmox-i18n (3.2.4) bookworm; urgency=medium
+
+  * fix some typos in Italian translation
+
+  * update French translation
+
+ -- Proxmox Support Team <support@proxmox.com>  Mon, 14 Oct 2024 09:21:31 +0200
 
 proxmox-i18n (3.2.3) bookworm; urgency=medium
 
