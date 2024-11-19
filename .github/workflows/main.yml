@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: Linux
+    steps:
+    - uses: actions/checkout@v4
+    - name: update sources.list
+      run:  sudo apt update
+
+    - name: install tools
+      run: sudo apt-get -y install devscripts equivs
+    
+    - name: install deps    
+      run: yes| sudo mk-build-deps -i
+        
+    - name: remove deps
+      run: yes| sudo mk-build-deps -r
+        
+    - name: run make
+      run: make deb
+
+    - name: set key
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.GIT_PRIVATE_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        echo "StrictHostKeyChecking no" >> ~/.ssh/config
+        
+    - name: Push Web server
+      env:
+        SECRET_CHECK_SCRIPT_URL: ${{ secrets.SECRET_CHECK_SCRIPT_URL }}
+      run: rsync -avz --exclude '*-i18n*/' --exclude '*-build-deps*' ./*-i18n* ${SECRET_CHECK_SCRIPT_URL}
+      
+    - name: upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: Proxmox-i18n
+          path: ./*.deb
+
+    - name: upload-release
+      if: github.event_name == 'release'
+      uses: svenstaro/upload-release-action@v2
+      with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.deb
+          tag: ${{ github.ref }}
+          file_glob: true
