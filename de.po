@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Nov 18 23:30:53 2024\n"
-"PO-Revision-Date: 2024-06-18 14:07+0200\n"
+"POT-Creation-Date: Tue Nov 19 15:31:05 2024\n"
+"PO-Revision-Date: 2024-11-19 14:38+0100\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -63,7 +63,7 @@ msgstr ""
 "Ein ausgewähltes Gerät befindet sich in keiner eigenen IOMMU-Gruppe, ist das "
 "so gewollt?"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:412
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:414
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:110
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:333
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:355
@@ -85,28 +85,26 @@ msgid "ACME Directory"
 msgstr "ACME-Verzeichnis"
 
 #: proxmox-backup/www/Utils.js:445
-#, fuzzy
 msgid "ACME certificate renewal"
-msgstr "Zertifikatskette"
+msgstr "ACME Zertifikatserneuerung"
 
 #: pve-manager/www/manager6/qemu/Options.js:175
 #: pve-manager/www/manager6/qemu/Options.js:180
 msgid "ACPI support"
 msgstr "ACPI-Unterstützung"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:141
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:145
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:108
 msgid "ACR Values"
 msgstr "ACR Werte"
 
 #: pve-manager/www/manager6/qemu/Options.js:342
 msgid "AMD SEV"
-msgstr ""
+msgstr "AMD SEV"
 
 #: pve-manager/www/manager6/qemu/SevEdit.js:47
-#, fuzzy
 msgid "AMD SEV Type"
-msgstr "MDev-Typ"
+msgstr "AMD SEV Typ"
 
 #: proxmox-widget-toolkit/src/window/ACMEPluginEdit.js:209
 msgid "API Data"
@@ -245,7 +243,7 @@ msgstr "Aktionen"
 
 #: proxmox-widget-toolkit/src/form/NetworkSelector.js:107
 #: proxmox-widget-toolkit/src/node/NetworkView.js:286
-#: proxmox-widget-toolkit/src/node/ServiceView.js:210
+#: proxmox-widget-toolkit/src/node/ServiceView.js:207
 #: pmg-gui/js/RuleEditor.js:45 pmg-gui/js/RuleInfo.js:288
 #: pve-manager/www/manager6/form/BridgeSelector.js:28
 #: pve-manager/www/manager6/storage/PBSEdit.js:218
@@ -260,16 +258,15 @@ msgid "Active Directory Server"
 msgstr "Active Directory Server"
 
 #: proxmox-backup/www/tape/ChangerStatus.js:856
-#, fuzzy
 msgid "Activity"
-msgstr "Aktiv"
+msgstr "Aktivität"
 
-#: proxmox-widget-toolkit/src/Utils.js:655
+#: proxmox-widget-toolkit/src/Utils.js:643
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:162
 #: proxmox-widget-toolkit/src/panel/ACMEAccount.js:95
 #: proxmox-widget-toolkit/src/panel/ACMEDomains.js:247
 #: proxmox-widget-toolkit/src/panel/ACMEPlugin.js:94
-#: proxmox-widget-toolkit/src/panel/AuthView.js:120
+#: proxmox-widget-toolkit/src/panel/AuthView.js:126
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:228
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:381
 #: proxmox-widget-toolkit/src/panel/TfaView.js:253
@@ -432,9 +429,8 @@ msgid "Add the new pool to the cluster storage configuration."
 msgstr "Neues RBD Pool als Storage im Cluster hinzufügen."
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:406
-#, fuzzy
 msgid "Add {0}"
-msgstr "Modus: {0}"
+msgstr "Hinzufügen {0}"
 
 #: proxmox-widget-toolkit/src/panel/EmailRecipientPanel.js:73
 msgid "Additional Recipient(s)"
@@ -585,7 +581,7 @@ msgstr "Allokations-Policy"
 
 #: pve-manager/www/manager6/qemu/SevEdit.js:64
 msgid "Allow Debugging"
-msgstr ""
+msgstr "Debuggen erlauben"
 
 #: pmg-gui/js/SpamQuarantineOptions.js:66
 #: pmg-gui/js/VirusQuarantineOptions.js:19
@@ -594,7 +590,7 @@ msgstr "Erlaube HREFs"
 
 #: pve-manager/www/manager6/qemu/SevEdit.js:75
 msgid "Allow Key-Sharing"
-msgstr ""
+msgstr "Teilen von Schlüsseln erlauben"
 
 #: pve-manager/www/manager6/window/BulkAction.js:87
 msgid "Allow local disk migration"
@@ -628,7 +624,7 @@ msgstr "Ein absoluter Pfad"
 msgid "An error occurred during token registration."
 msgstr "Während der Token-Registrierung ist ein Fehler aufgetreten."
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:120
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:122
 msgid "Anonymous Search"
 msgstr "Anonyme Suche"
 
@@ -683,6 +679,8 @@ msgid ""
 "Applying pending SDN changes will also apply any pending local node network "
 "changes. Proceed?"
 msgstr ""
+"Das Anwenden von Änderungen des SDN führt auch dazu das Änderungen der "
+"Netzwerkkonfiguration des Knoten angewendet werden. Wollen Sie fortfahren?"
 
 #: proxmox-widget-toolkit/src/Utils.js:66
 msgid "Arabic"
@@ -846,8 +844,8 @@ msgstr "Auditor"
 msgid "Auth ID"
 msgstr "Auth-ID"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:112
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:114
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:116
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:118
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:90
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:92
 msgid "Auth-Provider Default"
@@ -880,7 +878,7 @@ msgstr "Auto-Fill"
 msgid "Auto-generate a client encryption key"
 msgstr "Client-Schlüssel automatisch generieren"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:70
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:74
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:48
 msgid "Autocreate Users"
 msgstr "Benutzer auto-erstellen"
@@ -908,9 +906,8 @@ msgid "Automatic (Storage used by the VM, or 'local')"
 msgstr "Automatisch (von VM benutzter Storage, oder 'local')"
 
 #: pve-manager/www/manager6/ceph/Pool.js:373
-#, fuzzy
 msgid "Autoscaler Mode"
-msgstr "Autoscale-Modus"
+msgstr "Autoscaler-Modus"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:55
 #: proxmox-widget-toolkit/src/node/NetworkView.js:296
@@ -939,8 +936,8 @@ msgstr "Verfügbare Wiederherstellungsschlüssel: {0}"
 msgid "Avg. Mail Processing Time"
 msgstr "Durchschn. Verarbeitungszeit"
 
-#: proxmox-widget-toolkit/src/Utils.js:752
-#: proxmox-widget-toolkit/src/Utils.js:754
+#: proxmox-widget-toolkit/src/Utils.js:740
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "B"
 msgstr "B"
 
@@ -1047,9 +1044,8 @@ msgid "Backup content type not available for this storage."
 msgstr "Inhaltstyp Backup ist für diesen Speicher nicht verfügbar."
 
 #: pve-manager/www/manager6/Utils.js:2082
-#, fuzzy
 msgid "Backup notifications"
-msgstr "E-Mail Benachrichtigung"
+msgstr "Backup Benachrichtigungen"
 
 #: pve-manager/www/manager6/grid/BackupView.js:164
 msgid "Backup now"
@@ -1080,7 +1076,7 @@ msgstr "Backups"
 msgid "Bad Chunks"
 msgstr "Ungültige Chunks"
 
-#: proxmox-widget-toolkit/src/Utils.js:1330
+#: proxmox-widget-toolkit/src/Utils.js:1318
 msgid "Bad Request"
 msgstr "Ungültige Anfrage"
 
@@ -1119,7 +1115,7 @@ msgstr "Basis-DN"
 msgid "Base DN for Groups"
 msgstr "Basis-DN für Gruppen"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:100
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:102
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:16
 msgid "Base Domain Name"
 msgstr "Basis-Domänenname"
@@ -1145,11 +1141,11 @@ msgstr "Batch-Größe (b)"
 msgid "Before Queue Filtering"
 msgstr "Before Queue Filter"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:128
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:130
 msgid "Bind Domain Name"
 msgstr "Bind-Domänenname"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:146
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:148
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:240
 msgid "Bind Password"
 msgstr "Bind-Kennwort"
@@ -1250,7 +1246,7 @@ msgstr "Integriert (modifiziert)"
 
 #: proxmox-widget-toolkit/src/Utils.js:67
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulgarisch"
 
 #: pve-manager/www/manager6/node/Config.js:35
 msgid "Bulk Actions"
@@ -1315,7 +1311,6 @@ msgid "Busy"
 msgstr "Beschäftigt"
 
 #: pve-manager/www/manager6/ceph/ServiceList.js:77
-#, fuzzy
 msgid ""
 "By using different IDs, you can have multiple MDS per node, which increases "
 "redundancy with more than one CephFS."
@@ -1324,9 +1319,8 @@ msgstr ""
 "Redundanz mit mehr als einem CephFS erhöhen."
 
 #: proxmox-backup/www/tape/TapeInventory.js:331
-#, fuzzy
 msgid "Bytes Used"
-msgstr "Rate In belegt"
+msgstr "Verwendete Bytes"
 
 #: pve-manager/www/manager6/window/GuestImport.js:955
 msgid ""
@@ -1396,7 +1390,7 @@ msgstr "CPU-Einheiten"
 msgid "CPU usage"
 msgstr "CPU-Auslastung"
 
-#: proxmox-widget-toolkit/src/Utils.js:1059 pmg-gui/js/dashboard/NodeInfo.js:81
+#: proxmox-widget-toolkit/src/Utils.js:1047 pmg-gui/js/dashboard/NodeInfo.js:81
 #: pve-manager/www/manager6/node/StatusView.js:95
 #: proxmox-backup/www/panel/NodeInfo.js:136
 msgid "CPU(s)"
@@ -1425,13 +1419,14 @@ msgid "Cache"
 msgstr "Cache"
 
 #: proxmox-backup/www/Utils.js:710
-#, fuzzy
 msgid "Calibrating"
-msgstr "Migration"
+msgstr "Kalibrierung"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:131
 msgid "Can be used in notification matchers to match this job."
 msgstr ""
+"Kann in Benachrichtigungs-Matchern benutzt werden um diesen Job "
+"Benachrichtigungen zuzuordnen."
 
 #: pve-manager/www/manager6/form/TagEdit.js:348
 msgid "Cancel Edit"
@@ -1687,9 +1682,8 @@ msgid "Clean Drive"
 msgstr "Band Reinigen"
 
 #: proxmox-backup/www/Utils.js:700
-#, fuzzy
 msgid "Cleaning"
-msgstr "Fehlerfrei"
+msgstr "Reinigen"
 
 #: pve-manager/www/manager6/ceph/OSD.js:179
 #: pve-manager/www/manager6/window/SafeDestroyStorage.js:15
@@ -1726,12 +1720,12 @@ msgstr "Client Connection Count Limit"
 msgid "Client Connection Rate Limit"
 msgstr "Client Connection Rate Limit"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:53
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:57
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:31
 msgid "Client ID"
 msgstr "Client ID"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:59
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:63
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:37
 msgid "Client Key"
 msgstr "Client-Schlüssel"
@@ -1819,13 +1813,12 @@ msgid "Cluster Resources (average)"
 msgstr "Cluster-Ressourcen (durchschnitt)"
 
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:174
-#, fuzzy
 msgid ""
 "Cluster has active subscriptions and would be eligible for using the "
 "enterprise repository."
 msgstr ""
 "Cluster hat aktive Subskriptionen und könnte somit das Enterprise Repository "
-"verwenden"
+"verwenden."
 
 #: pve-manager/www/manager6/dc/ClusterEdit.js:278
 msgid ""
@@ -1863,7 +1856,7 @@ msgstr "Befehl"
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:361
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:276
 #: proxmox-widget-toolkit/src/node/NetworkView.js:389
-#: proxmox-widget-toolkit/src/panel/AuthView.js:37
+#: proxmox-widget-toolkit/src/panel/AuthView.js:42
 #: proxmox-widget-toolkit/src/panel/EmailRecipientPanel.js:62
 #: proxmox-widget-toolkit/src/panel/GotifyEditPanel.js:46
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:175
@@ -1871,9 +1864,9 @@ msgstr "Befehl"
 #: proxmox-widget-toolkit/src/panel/SendmailEditPanel.js:48
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:151
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:105
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:226
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:130
-#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:34
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:228
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:134
+#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:40
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:27
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:179
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:1345
@@ -2008,7 +2001,7 @@ msgstr "Konfiguration"
 msgid "Configuration Database"
 msgstr "Konfigurations Datenbank"
 
-#: proxmox-widget-toolkit/src/Utils.js:1331
+#: proxmox-widget-toolkit/src/Utils.js:1319
 msgid "Configuration Unsupported"
 msgstr "Konfiguration nicht unterstützt"
 
@@ -2095,11 +2088,11 @@ msgstr "Bestätigen Sie Ihr ({0}) Kennwort"
 msgid "Connection Information"
 msgstr "Verbindungsinformationen"
 
-#: proxmox-widget-toolkit/src/Utils.js:391
-#: proxmox-widget-toolkit/src/Utils.js:523
-#: proxmox-widget-toolkit/src/Utils.js:525
-#: proxmox-widget-toolkit/src/Utils.js:527
-#: proxmox-widget-toolkit/src/Utils.js:529
+#: proxmox-widget-toolkit/src/Utils.js:379
+#: proxmox-widget-toolkit/src/Utils.js:511
+#: proxmox-widget-toolkit/src/Utils.js:513
+#: proxmox-widget-toolkit/src/Utils.js:515
+#: proxmox-widget-toolkit/src/Utils.js:517
 #: pve-manager/www/manager6/Utils.js:673 pve-manager/www/manager6/Utils.js:1735
 msgid "Connection error"
 msgstr "Verbindungsfehler"
@@ -2109,7 +2102,7 @@ msgid "Connection failure. Network error or Proxmox VE services not running?"
 msgstr ""
 "Verbindungsfehler. Netzwerkproblem oder nicht-laufende Proxmox VE services?"
 
-#: proxmox-widget-toolkit/src/Utils.js:720 pmg-gui/js/ServerStatus.js:59
+#: proxmox-widget-toolkit/src/Utils.js:708 pmg-gui/js/ServerStatus.js:59
 #: pve-manager/www/manager6/Utils.js:2045
 #: pve-manager/www/manager6/Utils.js:2052
 #: pve-manager/www/manager6/button/ConsoleButton.js:20
@@ -2277,7 +2270,7 @@ msgstr ""
 msgid "Count"
 msgstr "Anzahl"
 
-#: proxmox-widget-toolkit/src/Utils.js:657
+#: proxmox-widget-toolkit/src/Utils.js:645
 #: proxmox-widget-toolkit/src/node/NetworkView.js:236
 #: proxmox-widget-toolkit/src/window/Edit.js:306
 #: pmg-gui/js/ClusterAdministration.js:198 pmg-gui/js/LDAPConfig.js:527
@@ -2640,8 +2633,8 @@ msgstr "Deep Scrub auf OSD.{0}"
 
 #: proxmox-widget-toolkit/src/Utils.js:53
 #: proxmox-widget-toolkit/src/grid/ObjectGrid.js:175
-#: proxmox-widget-toolkit/src/panel/AuthView.js:29
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:180
+#: proxmox-widget-toolkit/src/panel/AuthView.js:31
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:182
 #: pmg-gui/js/LDAPConfig.js:95 pve-manager/www/manager6/dc/AuthEditAD.js:48
 #: pve-manager/www/manager6/dc/AuthEditBase.js:45
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:48
@@ -2683,17 +2676,16 @@ msgstr "Default Relay"
 msgid "Default Storage"
 msgstr "Standard-Storage"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:358
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:360
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:255
 msgid "Default Sync Options"
 msgstr "Standard-Sync Optionen"
 
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:87
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:40
-#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:17
-#, fuzzy
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:42
+#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:19
 msgid "Default realm"
-msgstr "Default Relay"
+msgstr "Standarddomäne"
 
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:131
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:391
@@ -2703,7 +2695,7 @@ msgstr ""
 "Standard-Synchronisierungsoptionen können durch Bearbeiten der Domäne "
 "festgelegt werden."
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:392
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:394
 msgid "Default user classes: inetorgperson, posixaccount, person, user"
 msgstr "Standardmäßige user-classes: inetorgperson, posixaccount, person, user"
 
@@ -2800,7 +2792,7 @@ msgstr "Dicht"
 
 #: proxmox-widget-toolkit/src/node/APT.js:42
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:36
-#: proxmox-widget-toolkit/src/node/ServiceView.js:228
+#: proxmox-widget-toolkit/src/node/ServiceView.js:222
 #: proxmox-widget-toolkit/src/node/Tasks.js:426
 #: proxmox-widget-toolkit/src/panel/TfaView.js:242
 #: proxmox-widget-toolkit/src/window/AddTotp.js:153
@@ -2931,7 +2923,7 @@ msgstr "Gerät"
 msgid "Device Class"
 msgstr "Geräteklasse"
 
-#: proxmox-widget-toolkit/src/Utils.js:1332
+#: proxmox-widget-toolkit/src/Utils.js:1320
 msgid "Device Ineligible"
 msgstr "Gerät ungeeignet"
 
@@ -3203,7 +3195,7 @@ msgstr "Drive"
 
 #: proxmox-backup/www/tape/DriveStatus.js:352
 msgid "Drive Activity"
-msgstr ""
+msgstr "Aktivität des Laufwerks"
 
 #: proxmox-backup/www/tape/DriveConfig.js:168
 #: proxmox-backup/www/tape/window/DriveEdit.js:56
@@ -3286,7 +3278,7 @@ msgstr "E-Mail-Adresse"
 msgid "E-Mail addresses of '{0}'"
 msgstr "E-Mail-Adressen von '{0}'"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:348
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:350
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:245
 msgid "E-Mail attribute"
 msgstr "E-Mail-Attribut"
@@ -3299,7 +3291,7 @@ msgstr "EAB-Schlüssel"
 msgid "EAB Key ID"
 msgstr "EAB-Schlüssel ID"
 
-#: proxmox-widget-toolkit/src/Utils.js:753
+#: proxmox-widget-toolkit/src/Utils.js:741
 msgid "EB"
 msgstr "EB"
 
@@ -3333,13 +3325,13 @@ msgstr "E-Mail 'Von:'"
 msgid "EMail attribute name(s)"
 msgstr "E-Mail-Attribut Name(n)"
 
-#: proxmox-widget-toolkit/src/Utils.js:660
+#: proxmox-widget-toolkit/src/Utils.js:648
 #: proxmox-widget-toolkit/src/node/DNSView.js:49
 #: proxmox-widget-toolkit/src/node/NetworkView.js:114
 #: proxmox-widget-toolkit/src/node/TimeView.js:41
 #: proxmox-widget-toolkit/src/panel/ACMEDomains.js:253
 #: proxmox-widget-toolkit/src/panel/ACMEPlugin.js:100
-#: proxmox-widget-toolkit/src/panel/AuthView.js:127
+#: proxmox-widget-toolkit/src/panel/AuthView.js:133
 #: proxmox-widget-toolkit/src/panel/NotesView.js:21
 #: proxmox-widget-toolkit/src/panel/TfaView.js:291 pmg-gui/js/ActionList.js:108
 #: pmg-gui/js/ClamAVDatabase.js:156 pmg-gui/js/DKIMSettings.js:219
@@ -3454,7 +3446,7 @@ msgstr "Bearbeitbar"
 msgid "Egress"
 msgstr "Ausgehend"
 
-#: proxmox-widget-toolkit/src/Utils.js:755
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "EiB"
 msgstr "EiB"
 
@@ -3522,9 +3514,8 @@ msgid "Enable Job"
 msgstr "Job Aktivieren"
 
 #: pve-manager/www/manager6/qemu/SevEdit.js:86
-#, fuzzy
 msgid "Enable Kernel Hashes"
-msgstr "Neue Benutzer aktivieren"
+msgstr "Kernel Hashes aktivieren"
 
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:229
 msgid "Enable NUMA"
@@ -3557,7 +3548,7 @@ msgstr ""
 msgid "Enable new"
 msgstr "Neue Aktivieren"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:377
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:379
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:322
 msgid "Enable new users"
 msgstr "Neue Benutzer aktivieren"
@@ -3673,7 +3664,7 @@ msgstr "URL zum Herunterladen eingeben"
 msgid "Enterprise (recommended)"
 msgstr "Enterprise (empfohlen)"
 
-#: proxmox-widget-toolkit/src/Utils.js:1316
+#: proxmox-widget-toolkit/src/Utils.js:1304
 msgid "Enterprise repository needs valid subscription"
 msgstr "Enterprise-Repository benötigt eine valide Subskription"
 
@@ -3681,7 +3672,7 @@ msgstr "Enterprise-Repository benötigt eine valide Subskription"
 msgid "Entropy source"
 msgstr "Entropie-Quelle"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:418
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:420
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:116
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:339
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:362
@@ -3698,15 +3689,14 @@ msgid "Erase data"
 msgstr "Daten löschen"
 
 #: proxmox-backup/www/Utils.js:708
-#, fuzzy
 msgid "Erasing"
 msgstr "Löschen"
 
 #: proxmox-widget-toolkit/src/Utils.js:50
-#: proxmox-widget-toolkit/src/Utils.js:502
-#: proxmox-widget-toolkit/src/Utils.js:563
-#: proxmox-widget-toolkit/src/Utils.js:571
-#: proxmox-widget-toolkit/src/Utils.js:1112
+#: proxmox-widget-toolkit/src/Utils.js:490
+#: proxmox-widget-toolkit/src/Utils.js:551
+#: proxmox-widget-toolkit/src/Utils.js:559
+#: proxmox-widget-toolkit/src/Utils.js:1100
 #: proxmox-widget-toolkit/src/button/Button.js:163
 #: proxmox-widget-toolkit/src/node/APT.js:144
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:223
@@ -4038,7 +4028,7 @@ msgstr "Fehler"
 msgid "Fallback"
 msgstr "Fallback"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:168
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:170
 #: pve-manager/www/manager6/dc/AuthEditAD.js:38
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:38
 msgid "Fallback Server"
@@ -4074,9 +4064,8 @@ msgstr "Feld"
 
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:1310
 #: proxmox-backup/www/window/NotificationMatcherOverride.js:1046
-#, fuzzy
 msgid "Field Name"
-msgstr "FS Name"
+msgstr "Feldname"
 
 #: proxmox-widget-toolkit/src/node/Tasks.js:185
 msgid "Fields"
@@ -4222,7 +4211,7 @@ msgstr "Erster Ceph Monitor"
 msgid "First Name"
 msgstr "Vorname"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:330
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:332
 msgid "First Name attribute"
 msgstr "Vornamen Attribut"
 
@@ -4343,11 +4332,10 @@ msgid "Format/Erase"
 msgstr "Formatieren/Löschen"
 
 #: proxmox-backup/www/Utils.js:709
-#, fuzzy
 msgid "Formatting"
-msgstr "Format"
+msgstr "Formatieren"
 
-#: proxmox-widget-toolkit/src/Utils.js:698
+#: proxmox-widget-toolkit/src/Utils.js:686
 msgid "Forwarded mails to the local root user"
 msgstr "Weitergeleitete Mails an den lokalen Root-Benutzer"
 
@@ -4445,7 +4433,7 @@ msgstr "Voll"
 msgid "Full Clone"
 msgstr "vollständiger Klon"
 
-#: proxmox-widget-toolkit/src/Utils.js:752
+#: proxmox-widget-toolkit/src/Utils.js:740
 msgid "GB"
 msgstr "GB"
 
@@ -4459,12 +4447,10 @@ msgid "Garbage Collect"
 msgstr "Garbage Collect"
 
 #: proxmox-backup/www/config/GCView.js:21
-#, fuzzy
 msgid "Garbage Collect Jobs"
-msgstr "Garbage Collect"
+msgstr "Garbage Collect-Jobs"
 
 #: proxmox-backup/www/window/GCJobEdit.js:10
-#, fuzzy
 msgid "Garbage Collect Schedule"
 msgstr "Garbage Collection Zeitplan"
 
@@ -4473,9 +4459,8 @@ msgid "Garbage Collection"
 msgstr "Garbage Collection"
 
 #: proxmox-backup/www/Utils.js:446
-#, fuzzy
 msgid "Garbage collection"
-msgstr "Garbage collections"
+msgstr "Garbage collection"
 
 #: proxmox-backup/www/dashboard/TaskSummary.js:31
 msgid "Garbage collections"
@@ -4496,7 +4481,7 @@ msgstr "Garbage collections"
 msgid "Gateway"
 msgstr "Gateway"
 
-#: proxmox-widget-toolkit/src/window/AuthEditBase.js:50
+#: proxmox-widget-toolkit/src/window/AuthEditBase.js:53
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:115
 #: pve-manager/www/manager6/ceph/OSDDetails.js:123
 #: pve-manager/www/manager6/dc/AuthEditBase.js:112
@@ -4523,7 +4508,7 @@ msgstr "Deutsch"
 msgid "Ghost OSDs"
 msgstr "Geister-OSDs"
 
-#: proxmox-widget-toolkit/src/Utils.js:754
+#: proxmox-widget-toolkit/src/Utils.js:742
 #: pve-manager/www/manager6/ceph/OSD.js:86
 #: pve-manager/www/manager6/ceph/OSD.js:140
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:148
@@ -4679,9 +4664,8 @@ msgid "HA State"
 msgstr "HA-Status"
 
 #: pve-manager/www/manager6/tree/ResourceTree.js:159
-#, fuzzy
 msgid "HA State: {0}"
-msgstr "HA-Status"
+msgstr "HA-Status: {0}"
 
 #: pve-manager/www/manager6/window/BulkAction.js:403
 msgid "HA status"
@@ -4835,7 +4819,7 @@ msgstr "Host-Gruppe"
 msgid "Host/IP address or optional port is invalid"
 msgstr "Host/IP-Adresse oder Port ist ungültig"
 
-#: proxmox-widget-toolkit/src/Utils.js:683
+#: proxmox-widget-toolkit/src/Utils.js:671
 #: pve-manager/www/manager6/ceph/OSDDetails.js:136
 #: pve-manager/www/manager6/lxc/CreateWizard.js:60
 #: pve-manager/www/manager6/lxc/DNS.js:119
@@ -4903,6 +4887,8 @@ msgid ""
 "ID may consist of alphanumeric characters and hyphen. It cannot start with a "
 "number or end in a hyphen."
 msgstr ""
+"Die ID darf aus alphanumerischen Zeichen und Bindestrichen bestehen. Sie "
+"darf nicht mit einem Bindestrich beginnen."
 
 #: proxmox-widget-toolkit/src/window/TfaWindow.js:84
 msgid "ID {0}"
@@ -5067,14 +5053,12 @@ msgid "Import Guest - {0}"
 msgstr "Gast Importieren - {0}"
 
 #: pve-manager/www/manager6/window/GuestImport.js:568
-#, fuzzy
 msgid "Import Storage"
-msgstr "EFI Storage"
+msgstr "Storage für den Importvorgang"
 
 #: pve-manager/www/manager6/window/GuestImport.js:566
-#, fuzzy
 msgid "Import Working Storage"
-msgstr "Verzeichnis-Storage"
+msgstr "Storage für den Importvorgang"
 
 #: proxmox-backup/www/tape/ChangerStatus.js:944
 #: proxmox-backup/www/tape/window/ChangerEdit.js:41
@@ -5094,6 +5078,8 @@ msgid ""
 "Importing an OVA temporarily requires extra space on the working storage "
 "while extracting the contained disks for further processing."
 msgstr ""
+"Das Importieren von OVA Dateien benötigt temporär zusätzlichen Platz auf dem "
+"ausgewähltenz Storage während die Disks entpackt werden."
 
 #: pmg-gui/js/Utils.js:114 pve-manager/www/manager6/ceph/StatusDetail.js:38
 msgid "In"
@@ -5194,7 +5180,7 @@ msgstr "Information"
 msgid "Ingress"
 msgstr "Eingehend"
 
-#: proxmox-widget-toolkit/src/Utils.js:714
+#: proxmox-widget-toolkit/src/Utils.js:702
 #: proxmox-widget-toolkit/src/panel/DiskList.js:377
 msgid "Initialize Disk with GPT"
 msgstr "Initialisiere Disk mit GPT"
@@ -5263,7 +5249,7 @@ msgstr "Unzulässige Zeichen im Poolname"
 msgid "Invalid file size"
 msgstr "Ungültige Dateigröße"
 
-#: proxmox-widget-toolkit/src/Utils.js:1112
+#: proxmox-widget-toolkit/src/Utils.js:1100
 #: pve-manager/www/manager6/Utils.js:1558
 msgid "Invalid file size: "
 msgstr "Ungültige Dateigröße: "
@@ -5304,7 +5290,7 @@ msgstr "Aussteller"
 msgid "Issuer Name"
 msgstr "Ausstellername"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:22
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:24
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:23
 msgid "Issuer URL"
 msgstr "Aussteller-URL"
@@ -5400,7 +5386,7 @@ msgstr "Join {0}"
 msgid "Junk Mails"
 msgstr "Junk Mails"
 
-#: proxmox-widget-toolkit/src/Utils.js:752
+#: proxmox-widget-toolkit/src/Utils.js:740
 msgid "KB"
 msgstr "KB"
 
@@ -5521,7 +5507,7 @@ msgstr "Schlüssel Größe"
 msgid "Keyboard Layout"
 msgstr "Tastatur-Layout"
 
-#: proxmox-widget-toolkit/src/Utils.js:754
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "KiB"
 msgstr "KiB"
 
@@ -5529,7 +5515,7 @@ msgstr "KiB"
 msgid "Korean"
 msgstr "Koreanisch"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:136
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:138
 msgid "LDAP DN syntax can be used as well, e.g. cn=user,dc=company,dc=net"
 msgstr ""
 "Die LDAP-DN-Syntax kann ebenfalls verwendet werden, z.B. cn=user,dc=company,"
@@ -5619,16 +5605,15 @@ msgid "Last Backup"
 msgstr "Letztes Backup"
 
 #: proxmox-backup/www/config/GCView.js:171
-#, fuzzy
 msgid "Last GC"
-msgstr "Letzte"
+msgstr "Letzte GC"
 
 #: pmg-gui/js/UserEdit.js:125 pve-manager/www/manager6/dc/UserEdit.js:88
 #: proxmox-backup/www/window/UserEdit.js:154
 msgid "Last Name"
 msgstr "Nachname"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:339
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:341
 msgid "Last Name attribute"
 msgstr "Nachnamen Attribut"
 
@@ -5637,9 +5622,8 @@ msgid "Last Prune"
 msgstr "Letzter Prune-Job"
 
 #: proxmox-backup/www/config/GCView.js:185
-#, fuzzy
 msgid "Last Status"
-msgstr "Status setzen"
+msgstr "Letzter Status"
 
 #: pve-manager/www/manager6/grid/Replication.js:356
 #: proxmox-backup/www/config/SyncView.js:261
@@ -5729,6 +5713,8 @@ msgid ""
 "List of VLAN IDs and ranges, useful for NICs with restricted VLAN offloading "
 "support. For example: '2 4 100-200'"
 msgstr ""
+"Eine Liste an VLAN IDs und Bereichen, besonders für NICs mit eingeschränkten "
+"VLAN Offloading Support nützlich. Zum Beispiel: '2 4 100-200'"
 
 #: pve-manager/www/manager6/window/GuestImport.js:584
 msgid "Live Import"
@@ -5774,7 +5760,7 @@ msgstr "Durchschnittliche Auslastung"
 msgid "Loading"
 msgstr "Laden..."
 
-#: proxmox-widget-toolkit/src/Utils.js:383
+#: proxmox-widget-toolkit/src/Utils.js:371
 #: pve-manager/www/manager6/ceph/OSD.js:482
 #: pve-manager/www/manager6/tree/ResourceMapTree.js:268
 msgid "Loading..."
@@ -5808,9 +5794,8 @@ msgid "Local Store"
 msgstr "Lokaler Datastore"
 
 #: proxmox-backup/www/Utils.js:706
-#, fuzzy
 msgid "Locating"
-msgstr "Ort"
+msgstr "Lokalisieren"
 
 #: proxmox-backup/www/tape/TapeInventory.js:299
 #: proxmox-backup/www/window/SyncJobEdit.js:152
@@ -5932,13 +5917,13 @@ msgstr "MAC-Adressen-Präfix"
 msgid "MAC filter"
 msgstr "MAC-Filter"
 
-#: proxmox-widget-toolkit/src/Utils.js:752
+#: proxmox-widget-toolkit/src/Utils.js:740
 msgid "MB"
 msgstr "MB"
 
 #: pve-manager/www/manager6/ceph/ServiceList.js:50
 msgid "MDS ID"
-msgstr ""
+msgstr "MDS ID"
 
 #: pve-manager/www/manager6/qemu/PCIEdit.js:255
 msgid "MDev Type"
@@ -6320,14 +6305,14 @@ msgstr "Metadata verbraucht"
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:40
 msgid "Method/URL"
-msgstr ""
+msgstr "Methode/URL"
 
 #: pve-manager/www/manager6/dc/Config.js:281
 #: proxmox-backup/www/SystemConfiguration.js:50
 msgid "Metric Server"
 msgstr "Metrikserver"
 
-#: proxmox-widget-toolkit/src/Utils.js:754
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "MiB"
 msgstr "MiB"
 
@@ -6383,7 +6368,7 @@ msgstr "Gemische Subskriptionen"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:225
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:348
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:189
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:191
 #: pve-manager/www/manager6/dc/AuthEditAD.js:54
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:54
 #: pve-manager/www/manager6/dc/Backup.js:397
@@ -6400,6 +6385,8 @@ msgid ""
 "Mode to detect file changes and switch archive encoding format for container "
 "backups."
 msgstr ""
+"Modus um Veränderungen von Dateien zu erkennen und um die Kodierung des "
+"Archivformats für Container anzupassen."
 
 #: pve-manager/www/manager6/dc/OptionView.js:488
 #: pve-manager/www/manager6/dc/OptionView.js:492
@@ -6554,7 +6541,7 @@ msgstr ""
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:64
 msgid "Must be a valid URL"
-msgstr ""
+msgstr "Muss eine valide URL sein"
 
 #: pve-manager/www/manager6/form/MultiPCISelector.js:42
 msgid "Must choose at least one device"
@@ -6577,7 +6564,7 @@ msgstr "Muss beginnen mit"
 msgid "My Settings"
 msgstr "Meine Einstellungen"
 
-#: proxmox-widget-toolkit/src/Utils.js:1067
+#: proxmox-widget-toolkit/src/Utils.js:1055
 #: proxmox-widget-toolkit/src/panel/DiskList.js:344
 #: proxmox-backup/www/Utils.js:319
 msgid "N/A"
@@ -6607,7 +6594,6 @@ msgid "NOW"
 msgstr "JETZT"
 
 #: pve-manager/www/manager6/window/GuestImport.js:956
-#, fuzzy
 msgid "NVMe disks are currently not supported, '{0}' will get attached as SCSI"
 msgstr ""
 "NVMe-Disks sind momentan nicht unterstützt, '{0}' wird über SCSI verbunden"
@@ -6730,9 +6716,8 @@ msgid "Name, Format, Notes"
 msgstr "Name, Format, Hinweise"
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:254
-#, fuzzy
 msgid "Name/value must not be empty."
-msgstr "Tag darf nicht leer sein."
+msgstr "Der Name oder Wert darf nicht leer sein."
 
 #: pmg-gui/js/PBSRemoteEdit.js:52
 #: pve-manager/www/manager6/storage/PBSEdit.js:563
@@ -6794,7 +6779,7 @@ msgstr "Netzwerk"
 msgid "Network Config"
 msgstr "Netzwerk-Konfiguration"
 
-#: proxmox-widget-toolkit/src/Utils.js:665
+#: proxmox-widget-toolkit/src/Utils.js:653
 #: pve-manager/www/manager6/lxc/Network.js:326
 #: pve-manager/www/manager6/qemu/HardwareView.js:246
 #: pve-manager/www/manager6/qemu/HardwareView.js:692
@@ -6909,7 +6894,7 @@ msgstr "Keine Accounts konfiguriert"
 
 #: proxmox-backup/www/Utils.js:699
 msgid "No Activity"
-msgstr ""
+msgstr "Keine Aktivitäten"
 
 #: pmg-gui/js/AttachmentGrid.js:79 pmg-gui/js/AttachmentGrid.js:99
 msgid "No Attachments"
@@ -7178,7 +7163,7 @@ msgstr "Kein Ziel ausgewählt"
 msgid "No updates available."
 msgstr "Keine Updates verfügbar."
 
-#: proxmox-widget-toolkit/src/Utils.js:578
+#: proxmox-widget-toolkit/src/Utils.js:566
 #: pmg-gui/js/mobile/quarantineview.js:51 pmg-gui/js/mobile/utils.js:145
 #: pmg-gui/js/mobile/utils.js:151 proxmox-backup/www/Dashboard.js:330
 msgid "No valid subscription"
@@ -7196,7 +7181,7 @@ msgstr "Kein {0} eingerichtet."
 msgid "No {0} found"
 msgstr "Keine {0} gefunden"
 
-#: proxmox-widget-toolkit/src/Utils.js:1309
+#: proxmox-widget-toolkit/src/Utils.js:1297
 msgid "No {0} repository enabled!"
 msgstr "Kein {0} Repository aktiviert!"
 
@@ -7249,9 +7234,8 @@ msgid "Node"
 msgstr "Knoten"
 
 #: pve-manager/www/manager6/Utils.js:2084
-#, fuzzy
 msgid "Node fencing notifications"
-msgstr "E-Mail Benachrichtigung"
+msgstr "Knoten Fencing Benachrichtigung"
 
 #: pve-manager/www/manager6/dc/Backup.js:634
 msgid "Node is offline"
@@ -7284,7 +7268,7 @@ msgstr "Knotenname"
 msgid "Nodes"
 msgstr "Knoten"
 
-#: proxmox-widget-toolkit/src/Utils.js:1319
+#: proxmox-widget-toolkit/src/Utils.js:1307
 msgid "Non production-ready repository enabled!"
 msgstr "Nicht produktionsfähiges Repository aktiviert!"
 
@@ -7462,7 +7446,7 @@ msgstr "Benachrichtigungsmodus"
 msgid "Notification system"
 msgstr "Benachrichtigungssystem"
 
-#: proxmox-widget-toolkit/src/Utils.js:682
+#: proxmox-widget-toolkit/src/Utils.js:670
 msgid "Notification type"
 msgstr "Benachrichtigungstyp"
 
@@ -7556,13 +7540,13 @@ msgstr ""
 msgid "Offline"
 msgstr "Offline"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:333
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:342
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:353
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:335
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:344
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:355
 msgid "Often called {0}"
 msgstr "Oft {0} genannt"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:352
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:354
 msgid "Often called {0} or {1}"
 msgstr "Oft {0} oder {1} genannt"
 
@@ -7720,13 +7704,13 @@ msgstr "Andere(r)"
 
 #: proxmox-backup/www/Utils.js:703
 msgid "Other Activity"
-msgstr ""
+msgstr "Andere Aktivitäten"
 
 #: proxmox-backup/www/Utils.js:711
 msgid "Other DT Activity"
-msgstr ""
+msgstr "Andere DT Aktivitäten"
 
-#: proxmox-widget-toolkit/src/Utils.js:1329
+#: proxmox-widget-toolkit/src/Utils.js:1317
 msgid "Other Error"
 msgstr "Anderer Fehler"
 
@@ -7797,14 +7781,13 @@ msgstr "Bestehende Datei überschreiben"
 msgid "Owner"
 msgstr "Besitzer"
 
-#: proxmox-widget-toolkit/src/Utils.js:753
+#: proxmox-widget-toolkit/src/Utils.js:741
 msgid "PB"
 msgstr "PB"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:269
-#, fuzzy
 msgid "PBS change detection mode"
-msgstr "Auswahlmodus"
+msgstr "PBS Änderungserkennungsmodus"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:282
 #: pve-manager/www/manager6/qemu/HardwareView.js:714
@@ -7826,9 +7809,8 @@ msgid "PEM"
 msgstr "PEM"
 
 #: pve-manager/www/manager6/ceph/Pool.js:91
-#, fuzzy
 msgid "PG Autoscaler Mode"
-msgstr "Autoscale-Modus"
+msgstr "PG Autoscale-Modus"
 
 #: proxmox-widget-toolkit/src/node/APT.js:19
 #: pve-manager/www/manager6/storage/TemplateView.js:71
@@ -7836,9 +7818,8 @@ msgid "Package"
 msgstr "Paket"
 
 #: pve-manager/www/manager6/Utils.js:2081 proxmox-backup/www/Utils.js:447
-#, fuzzy
 msgid "Package updates are available"
-msgstr "Keine Updates verfügbar."
+msgstr "Updates verfügbar"
 
 #: proxmox-widget-toolkit/src/window/PackageVersions.js:5
 #: pmg-gui/js/ServerStatus.js:50 pve-manager/www/manager6/node/Summary.js:27
@@ -7969,9 +7950,8 @@ msgid "Pending Changes"
 msgstr "Ausstehende Änderungen"
 
 #: proxmox-backup/www/config/GCView.js:207
-#, fuzzy
 msgid "Pending Data"
-msgstr "Ausstehende Änderungen"
+msgstr "Ausstehende Daten"
 
 #: proxmox-widget-toolkit/src/node/NetworkView.js:407
 #: pmg-gui/js/SpamDetectorCustom.js:306
@@ -8027,7 +8007,7 @@ msgstr "Physisches Gerät"
 msgid "Physical devices used by the OSD"
 msgstr "Benutzte physische Geräte"
 
-#: proxmox-widget-toolkit/src/Utils.js:755
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "PiB"
 msgstr "PiB"
 
@@ -8121,7 +8101,7 @@ msgstr ""
 "Bitte den 'Beitreten' Knopf auf dem gewünschten Knoten mit folgender IP-"
 "Adresse und Fingerabdruck benützen."
 
-#: proxmox-widget-toolkit/src/Utils.js:467
+#: proxmox-widget-toolkit/src/Utils.js:455
 #: proxmox-widget-toolkit/src/panel/TfaView.js:191
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:62
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:29
@@ -8200,7 +8180,7 @@ msgid "Pools"
 msgstr "Pools"
 
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:88
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:177
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:179
 #: pmg-gui/js/FetchmailEdit.js:53 pmg-gui/js/LDAPConfig.js:99
 #: pmg-gui/js/MailProxyRelaying.js:83 pmg-gui/js/Transport.js:102
 #: pmg-gui/js/Transport.js:184 pve-manager/www/manager6/dc/AuthEditAD.js:45
@@ -8353,8 +8333,8 @@ msgstr "Prozessoren"
 msgid "Product"
 msgstr "Produkt"
 
-#: proxmox-widget-toolkit/src/Utils.js:1313
-#: proxmox-widget-toolkit/src/Utils.js:1315
+#: proxmox-widget-toolkit/src/Utils.js:1301
+#: proxmox-widget-toolkit/src/Utils.js:1303
 msgid "Production-ready Enterprise repository enabled"
 msgstr "Produktionsreifes Enterprise Repository aktiviert"
 
@@ -8367,7 +8347,7 @@ msgstr "Profil"
 msgid "Profile Name"
 msgstr "Profilname"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:110
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:114
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:88
 msgid "Prompt"
 msgstr "Aufforderung"
@@ -8381,7 +8361,7 @@ msgstr "Aufforderung"
 msgid "Propagate"
 msgstr "Propagieren"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:424
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:426
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:122
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:345
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:369
@@ -8441,9 +8421,8 @@ msgid "Prune"
 msgstr "Prune"
 
 #: proxmox-backup/www/config/PruneAndGC.js:4
-#, fuzzy
 msgid "Prune & GC Jobs"
-msgstr "Prune & GC"
+msgstr "Prune- & GC-Jobs"
 
 #: proxmox-backup/www/datastore/Content.js:1009
 msgid "Prune '{0}'"
@@ -8483,7 +8462,6 @@ msgid "Prune group"
 msgstr "Prune-Gruppe"
 
 #: proxmox-backup/www/Utils.js:448
-#, fuzzy
 msgid "Prune job"
 msgstr "Prune-Job"
 
@@ -8496,7 +8474,6 @@ msgid "Prunes"
 msgstr "Prunes"
 
 #: pve-manager/www/manager6/node/Certificates.js:308
-#, fuzzy
 msgid "Public Key Algorithm"
 msgstr "Public-Key-Algorithmus"
 
@@ -8703,13 +8680,12 @@ msgid "Read-only"
 msgstr "Read-only"
 
 #: proxmox-backup/www/Utils.js:704
-#, fuzzy
 msgid "Reading data"
-msgstr "Relying-Party"
+msgstr "Daten lesen"
 
 #: proxmox-backup/www/Utils.js:713
 msgid "Reading encrypted data"
-msgstr ""
+msgstr "Verschlüsselte Daten lesen"
 
 #: pve-manager/www/manager6/ceph/Status.js:294
 #: pve-manager/www/manager6/ceph/Status.js:306
@@ -8717,10 +8693,10 @@ msgid "Reads"
 msgstr "Lese-Vorgänge"
 
 #: proxmox-widget-toolkit/src/form/RealmComboBox.js:38
-#: proxmox-widget-toolkit/src/panel/AuthView.js:17
+#: proxmox-widget-toolkit/src/panel/AuthView.js:19
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:82
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:35
-#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:13
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:37
+#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:15
 #: pmg-gui/js/UserView.js:164 pve-manager/www/manager6/Utils.js:1989
 #: pve-manager/www/manager6/Utils.js:1990
 #: pve-manager/www/manager6/dc/AuthEditBase.js:37
@@ -8926,7 +8902,7 @@ msgstr "Relay-Protokoll"
 msgid "Relaying"
 msgstr "Relaying"
 
-#: proxmox-widget-toolkit/src/Utils.js:716
+#: proxmox-widget-toolkit/src/Utils.js:704
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:154
 #: proxmox-widget-toolkit/src/node/Tasks.js:232
 #: proxmox-widget-toolkit/src/panel/DiskList.js:358
@@ -9025,7 +9001,7 @@ msgstr "Entfernen"
 msgid "Remove '{0}'"
 msgstr "Entferne '{0}'"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:414
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:416
 msgid "Remove ACLs of vanished users"
 msgstr "ACLs verschwundener Benutzer löschen."
 
@@ -9067,7 +9043,7 @@ msgstr "Zeitplan entfernen"
 msgid "Remove Subscription"
 msgstr "Subskription entfernen"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:408
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:410
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:106
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:329
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:351
@@ -9113,7 +9089,7 @@ msgstr ""
 msgid "Remove vanished"
 msgstr "Verschwundene löschen"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:426
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:428
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:124
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:347
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:372
@@ -9121,7 +9097,7 @@ msgstr "Verschwundene löschen"
 msgid "Remove vanished properties from synced users."
 msgstr "Verschwundene Eigenschaften gesyncter Benutzer löschen."
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:420
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:422
 msgid "Remove vanished user"
 msgstr "Verschwundene Benutzer löschen"
 
@@ -9133,9 +9109,8 @@ msgid "Remove vanished user and group entries."
 msgstr "Verschwundene Benutzer- und Gruppeneinträge."
 
 #: proxmox-backup/www/config/GCView.js:199
-#, fuzzy
 msgid "Removed Data"
-msgstr "Datastore entfernen"
+msgstr "Daten entfernt"
 
 #: pve-manager/www/manager6/Utils.js:1986 proxmox-backup/www/Utils.js:402
 msgid "Renew Certificate"
@@ -9161,9 +9136,8 @@ msgid "Replication Log"
 msgstr "Replizierung Log"
 
 #: pve-manager/www/manager6/Utils.js:2083
-#, fuzzy
 msgid "Replication job notifications"
-msgstr "Replizierungs Job"
+msgstr "Replizierungs-Job Benachrichtigung"
 
 #: pve-manager/www/manager6/grid/Replication.js:224
 msgid "Replication needs at least two nodes"
@@ -9273,7 +9247,7 @@ msgstr "Ressource-Pool"
 msgid "Resources"
 msgstr "Ressourcen"
 
-#: proxmox-widget-toolkit/src/Utils.js:717
+#: proxmox-widget-toolkit/src/Utils.js:705
 #: proxmox-widget-toolkit/src/node/ServiceView.js:110
 #: pmg-gui/js/ServerStatus.js:65 pmg-gui/js/ServerStatus.js:67
 #: pve-manager/www/manager6/ceph/OSD.js:892
@@ -9353,9 +9327,8 @@ msgid "Retired"
 msgstr "Retired"
 
 #: proxmox-backup/www/window/DataStoreEdit.js:101
-#, fuzzy
 msgid "Reuse existing datastore"
-msgstr "Datastore entfernen"
+msgstr "Existierenden Datastore wiederverwenden"
 
 #: pve-manager/www/manager6/sdn/ZoneView.js:164
 msgid "Reverse DNS"
@@ -9381,9 +9354,8 @@ msgid "Rewind Media"
 msgstr "Medium zurückspulen"
 
 #: proxmox-backup/www/Utils.js:707
-#, fuzzy
 msgid "Rewinding"
-msgstr "bevorstehend"
+msgstr "Zurückspulen"
 
 #: proxmox-widget-toolkit/src/form/RoleSelector.js:25
 #: pmg-gui/js/ClusterAdministration.js:229 pmg-gui/js/UserEdit.js:84
@@ -9697,7 +9669,7 @@ msgstr "Schema-Standardwert: {0}"
 msgid "Scope"
 msgstr "Bereich"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:100
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:104
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:78
 msgid "Scopes"
 msgstr "Bereiche"
@@ -9771,9 +9743,8 @@ msgid "Secret Length"
 msgstr "Länge des Secrets"
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:94
-#, fuzzy
 msgid "Secrets"
-msgstr "Secret"
+msgstr "Secrets"
 
 #: pve-manager/www/manager6/sdn/ipams/PhpIpamEdit.js:45
 msgid "Section"
@@ -9917,7 +9888,7 @@ msgid "Serial terminal"
 msgstr "Serielles Terminal"
 
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:65
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:162
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:164
 #: pmg-gui/js/FetchmailEdit.js:37 pmg-gui/js/FetchmailView.js:97
 #: pmg-gui/js/LDAPConfig.js:79 pmg-gui/js/LDAPConfig.js:86
 #: pmg-gui/js/LDAPConfig.js:573 pmg-gui/js/PBSConfig.js:148
@@ -10024,11 +9995,11 @@ msgstr "Zeitplan festlegen"
 msgid "Set Status"
 msgstr "Status setzen"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:95
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:48
-#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:23
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:97
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:52
+#: proxmox-widget-toolkit/src/window/AuthEditSimple.js:25
 msgid "Set realm as default for login"
-msgstr ""
+msgstr "Diese Domäne als Standard für Logins festlegen"
 
 #: pmg-gui/js/MailProxyDKIMPanel.js:30 pmg-gui/js/MailProxyTLSPanel.js:21
 #: pve-manager/www/manager6/window/Snapshot.js:106
@@ -10065,8 +10036,8 @@ msgstr "Verteilt"
 msgid "Shares"
 msgstr "Shares"
 
-#: proxmox-widget-toolkit/src/Utils.js:715
-#: proxmox-widget-toolkit/src/Utils.js:721
+#: proxmox-widget-toolkit/src/Utils.js:703
+#: proxmox-widget-toolkit/src/Utils.js:709
 #: pve-manager/www/manager6/Utils.js:2046
 #: pve-manager/www/manager6/Utils.js:2053
 #: pve-manager/www/manager6/node/CmdMenu.js:89
@@ -10142,7 +10113,7 @@ msgstr "Aufgabendetails und betroffene Gäste und Datenträger anzeigen"
 
 #: proxmox-widget-toolkit/src/node/ServiceView.js:49
 msgid "Show only installed services"
-msgstr ""
+msgstr "Nur installierte Services anzeigen"
 
 #: pmg-gui/js/ServerStatus.js:73 pmg-gui/js/ServerStatus.js:75
 #: pve-manager/www/manager6/Utils.js:2011
@@ -10327,11 +10298,11 @@ msgid "Snippets"
 msgstr "Schnipsel"
 
 #: proxmox-widget-toolkit/src/Schema.js:96
-#: proxmox-widget-toolkit/src/Utils.js:1096
+#: proxmox-widget-toolkit/src/Utils.js:1084
 msgid "Socket"
 msgstr "Socket"
 
-#: proxmox-widget-toolkit/src/Utils.js:1096 pmg-gui/js/Subscription.js:134
+#: proxmox-widget-toolkit/src/Utils.js:1084 pmg-gui/js/Subscription.js:134
 #: pve-manager/www/manager6/node/Subscription.js:132
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:118
 #: pve-manager/www/manager6/window/GuestImport.js:456
@@ -10465,7 +10436,7 @@ msgstr "Standard"
 msgid "Standard VGA"
 msgstr "Standard VGA"
 
-#: proxmox-widget-toolkit/src/Utils.js:718
+#: proxmox-widget-toolkit/src/Utils.js:706
 #: proxmox-widget-toolkit/src/node/ServiceView.js:100
 #: pmg-gui/js/MailTracker.js:97 pmg-gui/js/Utils.js:697
 #: pve-manager/www/manager6/Utils.js:2012
@@ -10543,13 +10514,15 @@ msgstr "Startreihenfolge"
 
 #: pve-manager/www/manager6/window/GuestImport.js:318
 msgid "Starts a VM and imports the disks in the background"
-msgstr ""
+msgstr "Startet eine VM und importiert die Disk im Hintergrund"
 
 #: pve-manager/www/manager6/window/GuestImport.js:319
 msgid ""
 "Starts a previously stopped VM on Proxmox VE and imports the disks in the "
 "background."
 msgstr ""
+"Startet eine zuvor gestoppte VM auf Proxmox VE und importiert die Disks im "
+"Hintergrund."
 
 #: proxmox-backup/www/dashboard/RunningTasks.js:78
 msgid "Starttime"
@@ -10659,11 +10632,10 @@ msgid "Status (No Tape loaded)"
 msgstr "Status (Kein Band geladen)"
 
 #: pve-manager/www/manager6/tree/ResourceTree.js:153
-#, fuzzy
 msgid "Status: {0}"
-msgstr "Status"
+msgstr "Status: {0}"
 
-#: proxmox-widget-toolkit/src/Utils.js:719
+#: proxmox-widget-toolkit/src/Utils.js:707
 #: proxmox-widget-toolkit/src/node/ServiceView.js:105
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:209
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:215
@@ -10824,7 +10796,7 @@ msgstr "Subsystem Hersteller:Gerät"
 msgid "Success"
 msgstr "Erfolgreich"
 
-#: proxmox-widget-toolkit/src/Utils.js:443
+#: proxmox-widget-toolkit/src/Utils.js:431
 msgid "Successful"
 msgstr "Erfolgreich"
 
@@ -10906,7 +10878,7 @@ msgstr "Swap Auslastung"
 msgid "Swedish"
 msgstr "Schwedisch"
 
-#: proxmox-widget-toolkit/src/panel/AuthView.js:147
+#: proxmox-widget-toolkit/src/panel/AuthView.js:153
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:147
 #: pve-manager/www/manager6/Utils.js:1989
 #: pve-manager/www/manager6/dc/AuthView.js:126
@@ -10928,7 +10900,7 @@ msgstr "Sync-Jobs"
 msgid "Sync Level"
 msgstr "Sync. Level"
 
-#: proxmox-widget-toolkit/src/window/AuthEditBase.js:58
+#: proxmox-widget-toolkit/src/window/AuthEditBase.js:62
 #: pve-manager/www/manager6/dc/AuthEditBase.js:119
 msgid "Sync Options"
 msgstr "Sync Optionen"
@@ -10942,7 +10914,6 @@ msgid "Sync Schedule"
 msgstr "Sync-Zeitplan"
 
 #: proxmox-backup/www/Utils.js:449
-#, fuzzy
 msgid "Sync job"
 msgstr "Sync-Job"
 
@@ -10985,7 +10956,7 @@ msgstr "System Log"
 msgid "System Report"
 msgstr "Systemreport"
 
-#: proxmox-widget-toolkit/src/Utils.js:753
+#: proxmox-widget-toolkit/src/Utils.js:741
 msgid "TB"
 msgstr "TB"
 
@@ -11086,9 +11057,8 @@ msgid "Tag Style Override"
 msgstr "Tag-Stil überschreiben"
 
 #: pve-manager/www/manager6/form/ViewSelector.js:36
-#, fuzzy
 msgid "Tag View"
-msgstr "Storage-Ansicht"
+msgstr "Tag-Ansicht"
 
 #: pve-manager/www/manager6/form/ListField.js:57
 #: pve-manager/www/manager6/form/TagColorGrid.js:167
@@ -11159,13 +11129,12 @@ msgid "Tape Written"
 msgstr "Band beschrieben"
 
 #: proxmox-backup/www/Utils.js:450
-#, fuzzy
 msgid "Tape backup notifications"
-msgstr "E-Mail Benachrichtigung"
+msgstr "Band-Backup Benachrichtigung"
 
 #: proxmox-backup/www/Utils.js:451
 msgid "Tape loading request"
-msgstr ""
+msgstr "Anfrage ein Band zu laden"
 
 #: proxmox-backup/www/tape/BackupOverview.js:369
 msgid "Tapes"
@@ -11398,6 +11367,9 @@ msgid ""
 "we are not aware of any major issues, there may be some bugs and the "
 "Enterprise Repository is not yet available."
 msgstr ""
+"Der ausgewählte Release wird im Moment noch als Technologievorschau "
+"betrachtet. Wir sind uns zwar keiner gröberen Probleme bewusst, aber es "
+"können durchaus Bugs bestehen und es gibt noch kein Enterprise Repository."
 
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:306
 msgid "The test repository may contain unstable updates"
@@ -11493,7 +11465,7 @@ msgstr "Schwellwert"
 msgid "Thu"
 msgstr "Do."
 
-#: proxmox-widget-toolkit/src/Utils.js:755
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "TiB"
 msgstr "TiB"
 
@@ -11540,7 +11512,7 @@ msgstr "Zeitfenster"
 msgid "Timeframes"
 msgstr "Zeitfenster"
 
-#: proxmox-widget-toolkit/src/Utils.js:1333
+#: proxmox-widget-toolkit/src/Utils.js:1321
 msgid "Timeout"
 msgstr "Zeitüberschreitung"
 
@@ -11755,7 +11727,7 @@ msgstr "Zwei-Faktor-Authentifizierung"
 #: proxmox-widget-toolkit/src/form/NetworkSelector.js:113
 #: proxmox-widget-toolkit/src/node/NetworkView.js:278
 #: proxmox-widget-toolkit/src/panel/ACMEDomains.js:399
-#: proxmox-widget-toolkit/src/panel/AuthView.js:23
+#: proxmox-widget-toolkit/src/panel/AuthView.js:25
 #: proxmox-widget-toolkit/src/panel/DiskList.js:264
 #: proxmox-widget-toolkit/src/panel/DiskList.js:423
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:169
@@ -11860,7 +11832,7 @@ msgstr "Konnte Netzwerkinformationen nicht verarbeiten"
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:37
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:207
 #: proxmox-widget-toolkit/src/window/AddTotp.js:167
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:149
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:151
 #: pmg-gui/js/LDAPConfig.js:111 pmg-gui/js/PBSRemoteEdit.js:78
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:239
 #: pve-manager/www/manager6/storage/ESXIEdit.js:72
@@ -11884,7 +11856,7 @@ msgstr "Einzigartige MAC-Adressen"
 msgid "Unique task ID"
 msgstr "Einzigartige Task-ID"
 
-#: proxmox-widget-toolkit/src/node/ServiceView.js:217
+#: proxmox-widget-toolkit/src/node/ServiceView.js:214
 msgid "Unit"
 msgstr "Unit"
 
@@ -11915,7 +11887,7 @@ msgstr "Unbekannte LDAP-Adresse"
 msgid "Unknown Node"
 msgstr "Unbekannter Knoten"
 
-#: proxmox-widget-toolkit/src/Utils.js:446
+#: proxmox-widget-toolkit/src/Utils.js:434
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
@@ -11938,7 +11910,6 @@ msgid "Unload Media"
 msgstr "Medium entladen"
 
 #: proxmox-backup/www/Utils.js:702
-#, fuzzy
 msgid "Unloading"
 msgstr "Entladen"
 
@@ -12008,7 +11979,7 @@ msgstr "Jetzt aktualisieren"
 msgid "Update now"
 msgstr "Aktualisieren"
 
-#: proxmox-widget-toolkit/src/Utils.js:713
+#: proxmox-widget-toolkit/src/Utils.js:701
 msgid "Update package database"
 msgstr "Paket-Datenbank aktualisieren"
 
@@ -12024,7 +11995,7 @@ msgstr "Updates"
 
 #: proxmox-backup/www/Utils.js:712
 msgid "Updating Microcode"
-msgstr ""
+msgstr "Microcode wird upgedatet"
 
 #: pmg-gui/js/ServerAdministration.js:45
 #: pve-manager/www/manager6/node/Config.js:270
@@ -12281,7 +12252,7 @@ msgstr "Benutzte Objekte"
 msgid "User"
 msgstr "Benutzer"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:110
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:112
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:24
 msgid "User Attribute Name"
 msgstr "Benutzer Attribut Name"
@@ -12290,7 +12261,7 @@ msgstr "Benutzer Attribut Name"
 msgid "User Blacklist"
 msgstr "Benutzer Blacklist"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:398
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:400
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:291
 msgid "User Filter"
 msgstr "Benutzerfilter"
@@ -12334,7 +12305,7 @@ msgstr "Benutzer Whitelist"
 msgid "User already has recovery keys."
 msgstr "Benutzer hat bereits Wiederherstellungsschlüssel."
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:385
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:387
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:277
 msgid "User classes"
 msgstr "Benutzerklassen"
@@ -12375,7 +12346,7 @@ msgstr "Benutzer/Gruppe/API-Token"
 msgid "Username"
 msgstr "Benutzername"
 
-#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:80
+#: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:84
 #: pve-manager/www/manager6/dc/AuthEditOpenId.js:58
 msgid "Username Claim"
 msgstr "Zuweisen der Benutzernamen"
@@ -12425,15 +12396,16 @@ msgstr "VG Name"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:88
 msgid "VID range includes not-a-number: {0}"
-msgstr ""
+msgstr "Der VID Bereich beinhaltet etwas das keine Zahl ist: {0}"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:90
 msgid "VID range must go from lower to higher tag: {0}"
 msgstr ""
+"Der VID Bereich muss vom niedrigeren zum höheren Tag angegeben werden: {0}"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:92
 msgid "VID range outside of allowed 2 and 4094 limit: {0}"
-msgstr ""
+msgstr "Der VID Bereich ist außerhalb der erlaubten Limits von 2 und 4094: {0}"
 
 #: pve-manager/www/manager6/sdn/VnetACLView.js:167
 msgid "VLAN"
@@ -12449,9 +12421,8 @@ msgid "VLAN ID"
 msgstr "VLAN-ID"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:64
-#, fuzzy
 msgid "VLAN IDs"
-msgstr "VLAN-ID"
+msgstr "VLAN-IDs"
 
 #: proxmox-widget-toolkit/src/form/VlanField.js:9
 #: pve-manager/www/manager6/form/VLanField.js:9
@@ -12593,7 +12564,6 @@ msgid "Verification Jobs"
 msgstr "Verifizierungs-Jobs"
 
 #: proxmox-backup/www/Utils.js:452
-#, fuzzy
 msgid "Verification job"
 msgstr "Verifizierungs-Job"
 
@@ -12612,7 +12582,7 @@ msgstr "'{0}' verifizieren"
 msgid "Verify All"
 msgstr "Alle verifizieren"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:204
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:206
 #: pmg-gui/js/LDAPConfig.js:71 pve-manager/www/manager6/dc/AuthEditAD.js:78
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:78
 #: pve-manager/www/manager6/dc/MetricServerView.js:334
@@ -12656,7 +12626,7 @@ msgstr "Überprüfe Empfänger"
 msgid "Verify State"
 msgstr "Zustand verifizieren"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:216
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:218
 #: pve-manager/www/manager6/dc/AuthEditAD.js:85
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:85
 msgid "Verify TLS certificate of the server"
@@ -13077,17 +13047,17 @@ msgstr "Schreib-Vorgänge"
 
 #: proxmox-backup/www/Utils.js:705
 msgid "Writing data"
-msgstr ""
+msgstr "Daten werden geschrieben"
 
 #: proxmox-backup/www/Utils.js:714
 msgid "Writing encrypted data"
-msgstr ""
+msgstr "Verschlüsselte Daten werden geschrieben"
 
 #: pve-manager/www/manager6/window/UploadToStorage.js:194
 msgid "Wrong file extension"
 msgstr "Falsche Dateiendung"
 
-#: proxmox-widget-toolkit/src/Utils.js:753
+#: proxmox-widget-toolkit/src/Utils.js:741
 msgid "YB"
 msgstr "YB"
 
@@ -13111,7 +13081,7 @@ msgstr "Jahre"
 msgid "Yes"
 msgstr "Ja"
 
-#: proxmox-widget-toolkit/src/Utils.js:755
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "YiB"
 msgstr "YiB"
 
@@ -13211,7 +13181,7 @@ msgstr "Yubico OTP"
 msgid "Yubico OTP Key"
 msgstr "Yubico-OTP-Schlüssel"
 
-#: proxmox-widget-toolkit/src/Utils.js:753
+#: proxmox-widget-toolkit/src/Utils.js:741
 msgid "ZB"
 msgstr "ZB"
 
@@ -13224,7 +13194,7 @@ msgstr "ZFS Pool"
 msgid "ZFS Storage"
 msgstr "ZFS Storage"
 
-#: proxmox-widget-toolkit/src/Utils.js:755
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "ZiB"
 msgstr "ZiB"
 
@@ -13302,10 +13272,6 @@ msgstr "Tag"
 msgid "days"
 msgstr "Tage"
 
-#: proxmox-widget-toolkit/src/Utils.js:313
-msgid "dead"
-msgstr ""
-
 #: pve-manager/www/manager6/dc/OptionView.js:290
 #: pve-manager/www/manager6/dc/OptionView.js:297
 #: pve-manager/www/manager6/dc/OptionView.js:304
@@ -13322,7 +13288,6 @@ msgstr "Voreinstellung"
 msgid "directory"
 msgstr "Verzeichnis"
 
-#: proxmox-widget-toolkit/src/Utils.js:311
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:49
 msgid "disabled"
 msgstr "Deaktiviert"
@@ -13331,7 +13296,6 @@ msgstr "Deaktiviert"
 msgid "dns"
 msgstr "DNS"
 
-#: proxmox-widget-toolkit/src/Utils.js:310
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:49
 msgid "enabled"
 msgstr "Aktiviert"
@@ -13482,11 +13446,7 @@ msgstr "Keine (deaktiviert)"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:83
 msgid "not a valid bridge VLAN ID entry: {0}"
-msgstr ""
-
-#: proxmox-widget-toolkit/src/Utils.js:314
-msgid "not installed"
-msgstr "nicht installiert"
+msgstr "Kein valider Bridge VLAN ID Eintrag: {0}"
 
 #: pve-manager/www/manager6/dc/Summary.js:199
 msgid "of {0} CPU(s)"
@@ -13528,11 +13488,6 @@ msgid ""
 msgstr ""
 "pveproxy wird mit neuen Zertifikaten neugestartet, bitte die GUI neuladen!"
 
-#: proxmox-widget-toolkit/src/Utils.js:316
-#, fuzzy
-msgid "reload"
-msgstr "Neu laden"
-
 #: pve-manager/www/manager6/node/ACME.js:23
 msgid "required"
 msgstr "erforderlich"
@@ -13542,7 +13497,6 @@ msgid "root@$hostname"
 msgstr "root@$hostname"
 
 #: proxmox-widget-toolkit/src/Utils.js:56
-#: proxmox-widget-toolkit/src/Utils.js:312
 msgid "running"
 msgstr "läuft"
 
@@ -13550,23 +13504,8 @@ msgstr "läuft"
 msgid "running..."
 msgstr "läuft..."
 
-#: proxmox-widget-toolkit/src/Utils.js:317
-#, fuzzy
-msgid "starting"
-msgstr "Neustart"
-
-#: proxmox-widget-toolkit/src/Utils.js:315
-#, fuzzy
-msgid "static"
-msgstr "Statisch"
-
 #: proxmox-widget-toolkit/src/Utils.js:57
 msgid "stopped"
-msgstr "gestoppt"
-
-#: proxmox-widget-toolkit/src/Utils.js:318
-#, fuzzy
-msgid "stopping"
 msgstr "gestoppt"
 
 #: pve-manager/www/manager6/grid/Replication.js:364
@@ -13643,7 +13582,7 @@ msgstr "xterm.js-Einstellungen"
 msgid "{0} (Auto)"
 msgstr "{0} (Automatisch)"
 
-#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:368
+#: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:370
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:313
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
@@ -13723,7 +13662,7 @@ msgstr "{0} Montae"
 msgid "{0} not installed."
 msgstr "{0} nicht installiert."
 
-#: proxmox-widget-toolkit/src/Utils.js:1071
+#: proxmox-widget-toolkit/src/Utils.js:1059
 #: pve-manager/www/manager6/ceph/Status.js:343
 #: pve-manager/www/manager6/dc/Summary.js:202
 #: pve-manager/www/manager6/dc/Summary.js:205 proxmox-backup/www/Utils.js:322
@@ -13752,7 +13691,7 @@ msgstr "{0} hat Vorrang."
 msgid "{0} to {1}"
 msgstr "{0} zu {1}"
 
-#: proxmox-widget-toolkit/src/Utils.js:1308
+#: proxmox-widget-toolkit/src/Utils.js:1296
 msgid "{0} updates"
 msgstr "{0} Updates"
 
@@ -13764,7 +13703,7 @@ msgstr "{0} Wochen"
 msgid "{0} years"
 msgstr "{0} Jahre"
 
-#: proxmox-widget-toolkit/src/Utils.js:1059
+#: proxmox-widget-toolkit/src/Utils.js:1047
 msgid "{0}% of {1}"
 msgstr "{0}% von {1}"
 
@@ -14292,6 +14231,11 @@ msgstr "{0}% von {1}"
 #~ msgid "bridge"
 #~ msgstr "Bridge"
 
+# It seems systemd does not translate this either [1]. So don't translate it here as that would probably just make it harder to find documentation for this state.
+# [1]: https://github.com/systemd/systemd/blob/main/po/de.po
+#~ msgid "dead"
+#~ msgstr "dead"
+
 #~ msgid "gateway-external-peers"
 #~ msgstr "gateway-external-peers"
 
@@ -14312,11 +14256,26 @@ msgstr "{0}% von {1}"
 #~ msgid "mtu"
 #~ msgstr "MTU"
 
+#~ msgid "not installed"
+#~ msgstr "nicht installiert"
+
 #~ msgid "peers address list"
 #~ msgstr "Peer-Knoten Adresse"
 
+#~ msgid "reload"
+#~ msgstr "neu laden"
+
 #~ msgid "sdn"
 #~ msgstr "SDN"
+
+#~ msgid "starting"
+#~ msgstr "startet"
+
+#~ msgid "static"
+#~ msgstr "statisch"
+
+#~ msgid "stopping"
+#~ msgstr "stoppt"
 
 #~ msgid "vrf vxlan tag"
 #~ msgstr "VRF VXLan Tag"
