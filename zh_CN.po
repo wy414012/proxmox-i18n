@@ -1406,15 +1406,15 @@ msgstr "CRM 状态"
 #: proxmox-backup/www/datastore/Summary.js:156
 #: proxmox-backup/www/form/GroupFilter.js:528
 msgid "CT"
-msgstr "CT"
+msgstr "容器"
 
 #: pve-manager/www/manager6/storage/Browser.js:107
 msgid "CT Templates"
-msgstr "CT 模板"
+msgstr "容器模板"
 
 #: pve-manager/www/manager6/storage/Browser.js:84
 msgid "CT Volumes"
-msgstr "CT 卷"
+msgstr "容器卷"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:245
 msgid "Cache"
@@ -2308,7 +2308,7 @@ msgstr "创建"
 #: pve-manager/www/manager6/Workspace.js:292
 #: pve-manager/www/manager6/node/CmdMenu.js:20
 msgid "Create CT"
-msgstr "创建 CT"
+msgstr "创建容器"
 
 #: pve-manager/www/manager6/ceph/FS.js:144
 msgid "Create CephFS"
@@ -10046,7 +10046,7 @@ msgstr "共享"
 #: pve-manager/www/manager6/node/Config.js:162
 #: proxmox-backup/www/NavigationTree.js:93
 msgid "Shell"
-msgstr "Shell"
+msgstr "终端"
 
 #: pmg-gui/js/SpamQuarantineOptions.js:15
 msgid "Short"
