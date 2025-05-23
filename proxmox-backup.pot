@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: proxmox-backup 254169f622d891d67de38e8c8c6b9fa8f4af5dc9\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Apr  8 12:23:34 2025\n"
+"POT-Creation-Date: Fri May 23 15:46:44 2025\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: proxmox-backup/www/tape/window/TapeBackup.js:127 proxmox-backup/www/tape/window/TapeBackupJob.js:224
+#: proxmox-backup/www/tape/window/TapeBackupJob.js:224 proxmox-backup/www/tape/window/TapeBackup.js:127
 msgid "# of Worker Threads"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 msgid "Alert Flags"
 msgstr ""
 
-#: proxmox-backup/www/ServerAdministration.js:83 proxmox-backup/www/config/SyncView.js:347 proxmox-backup/www/tape/BackupJobs.js:227
+#: proxmox-backup/www/config/SyncView.js:347 proxmox-backup/www/ServerAdministration.js:83 proxmox-backup/www/tape/BackupJobs.js:227
 msgid "All"
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Allocated"
 msgstr ""
 
-#: proxmox-backup/www/tape/PoolConfig.js:116 proxmox-backup/www/tape/form/PoolSelector.js:30 proxmox-backup/www/tape/window/PoolEdit.js:38
+#: proxmox-backup/www/tape/form/PoolSelector.js:30 proxmox-backup/www/tape/PoolConfig.js:116 proxmox-backup/www/tape/window/PoolEdit.js:38
 msgid "Allocation Policy"
 msgstr ""
 
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Backing Path"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:404 proxmox-backup/www/tape/window/TapeBackup.js:5
+#: proxmox-backup/www/tape/window/TapeBackup.js:5 proxmox-backup/www/Utils.js:404
 msgid "Backup"
 msgstr ""
 
@@ -284,7 +284,7 @@ msgstr ""
 msgid "Bytes Used"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:199 proxmox-backup/www/ServerStatus.js:201 proxmox-backup/www/panel/NodeInfo.js:79
+#: proxmox-backup/www/panel/NodeInfo.js:79 proxmox-backup/www/ServerStatus.js:199 proxmox-backup/www/ServerStatus.js:201
 msgid "CPU usage"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr ""
 msgid "Calibrating"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:585 proxmox-backup/www/tape/ChangerStatus.js:906 proxmox-backup/www/tape/DriveStatus.js:277
+#: proxmox-backup/www/tape/ChangerStatus.js:906 proxmox-backup/www/tape/DriveStatus.js:277 proxmox-backup/www/Utils.js:585
 msgid "Cartridge Memory"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Catalog Media"
 msgstr ""
 
-#: proxmox-backup/www/NavigationTree.js:66 proxmox-backup/www/config/CertificateView.js:5 proxmox-backup/www/config/CertificateView.js:26
+#: proxmox-backup/www/config/CertificateView.js:5 proxmox-backup/www/config/CertificateView.js:26 proxmox-backup/www/NavigationTree.js:66
 msgid "Certificates"
 msgstr ""
 
@@ -432,7 +432,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:83 proxmox-backup/www/panel/NodeInfo.js:52 proxmox-backup/www/window/DatastoreRepoInfo.js:125
+#: proxmox-backup/www/panel/NodeInfo.js:52 proxmox-backup/www/ServerStatus.js:83 proxmox-backup/www/window/DatastoreRepoInfo.js:125
 msgid "Copy"
 msgstr ""
 
@@ -488,7 +488,7 @@ msgstr ""
 msgid "Data Sync Level"
 msgstr ""
 
-#: proxmox-backup/www/NavigationTree.js:115 proxmox-backup/www/ServerAdministration.js:82 proxmox-backup/www/Utils.js:407 proxmox-backup/www/Utils.js:420 proxmox-backup/www/Utils.js:431 proxmox-backup/www/Utils.js:441 proxmox-backup/www/config/GCView.js:158 proxmox-backup/www/config/PruneView.js:184 proxmox-backup/www/config/VerifyView.js:190 proxmox-backup/www/datastore/Panel.js:106 proxmox-backup/www/form/DataStoreSelector.js:19 proxmox-backup/www/form/RemoteTargetSelector.js:17 proxmox-backup/www/tape/BackupJobs.js:187 proxmox-backup/www/tape/window/TapeBackup.js:26 proxmox-backup/www/window/DataStoreEdit.js:6 proxmox-backup/www/window/DatastoreRepoInfo.js:43 proxmox-backup/www/window/PruneJobEdit.js:74
+#: proxmox-backup/www/config/GCView.js:158 proxmox-backup/www/config/PruneView.js:184 proxmox-backup/www/config/VerifyView.js:190 proxmox-backup/www/datastore/Panel.js:106 proxmox-backup/www/form/DataStoreSelector.js:19 proxmox-backup/www/form/RemoteTargetSelector.js:17 proxmox-backup/www/NavigationTree.js:115 proxmox-backup/www/ServerAdministration.js:82 proxmox-backup/www/tape/BackupJobs.js:187 proxmox-backup/www/tape/window/TapeBackup.js:26 proxmox-backup/www/Utils.js:407 proxmox-backup/www/Utils.js:420 proxmox-backup/www/Utils.js:431 proxmox-backup/www/Utils.js:441 proxmox-backup/www/window/DataStoreEdit.js:6 proxmox-backup/www/window/DatastoreRepoInfo.js:43 proxmox-backup/www/window/PruneJobEdit.js:74
 msgid "Datastore"
 msgstr ""
 
@@ -624,7 +624,7 @@ msgstr ""
 msgid "Download '{0}'"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:191 proxmox-backup/www/Utils.js:405 proxmox-backup/www/Utils.js:406 proxmox-backup/www/Utils.js:411 proxmox-backup/www/Utils.js:412 proxmox-backup/www/Utils.js:416 proxmox-backup/www/Utils.js:417 proxmox-backup/www/Utils.js:424 proxmox-backup/www/Utils.js:430 proxmox-backup/www/tape/BackupJobs.js:199 proxmox-backup/www/tape/ChangerStatus.js:248 proxmox-backup/www/tape/ChangerStatus.js:359 proxmox-backup/www/tape/ChangerStatus.js:399 proxmox-backup/www/tape/DriveStatus.js:10 proxmox-backup/www/tape/EncryptionKeys.js:47 proxmox-backup/www/tape/form/PoolSelector.js:26 proxmox-backup/www/tape/window/DriveEdit.js:8 proxmox-backup/www/tape/window/Erase.js:82 proxmox-backup/www/tape/window/LabelMedia.js:39 proxmox-backup/www/tape/window/TapeBackup.js:60 proxmox-backup/www/tape/window/TapeBackupJob.js:126 proxmox-backup/www/tape/window/TapeRestore.js:474
+#: proxmox-backup/www/tape/BackupJobs.js:199 proxmox-backup/www/tape/ChangerStatus.js:248 proxmox-backup/www/tape/ChangerStatus.js:359 proxmox-backup/www/tape/ChangerStatus.js:399 proxmox-backup/www/tape/DriveStatus.js:10 proxmox-backup/www/tape/EncryptionKeys.js:47 proxmox-backup/www/tape/form/PoolSelector.js:26 proxmox-backup/www/tape/window/DriveEdit.js:8 proxmox-backup/www/tape/window/Erase.js:82 proxmox-backup/www/tape/window/LabelMedia.js:39 proxmox-backup/www/tape/window/TapeBackupJob.js:126 proxmox-backup/www/tape/window/TapeBackup.js:60 proxmox-backup/www/tape/window/TapeRestore.js:474 proxmox-backup/www/Utils.js:191 proxmox-backup/www/Utils.js:405 proxmox-backup/www/Utils.js:406 proxmox-backup/www/Utils.js:411 proxmox-backup/www/Utils.js:412 proxmox-backup/www/Utils.js:416 proxmox-backup/www/Utils.js:417 proxmox-backup/www/Utils.js:424 proxmox-backup/www/Utils.js:430
 msgid "Drive"
 msgstr ""
 
@@ -672,11 +672,11 @@ msgstr ""
 msgid "Eject"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:411 proxmox-backup/www/tape/window/TapeBackup.js:92 proxmox-backup/www/tape/window/TapeBackupJob.js:186
+#: proxmox-backup/www/tape/window/TapeBackupJob.js:186 proxmox-backup/www/tape/window/TapeBackup.js:92 proxmox-backup/www/Utils.js:411
 msgid "Eject Media"
 msgstr ""
 
-#: proxmox-backup/www/datastore/OptionView.js:170 proxmox-backup/www/tape/window/TapeBackup.js:98 proxmox-backup/www/tape/window/TapeBackupJob.js:133 proxmox-backup/www/tape/window/TapeRestore.js:436 proxmox-backup/www/window/NotifyOptions.js:80
+#: proxmox-backup/www/datastore/OptionView.js:170 proxmox-backup/www/tape/window/TapeBackupJob.js:133 proxmox-backup/www/tape/window/TapeBackup.js:98 proxmox-backup/www/tape/window/TapeRestore.js:436 proxmox-backup/www/window/NotifyOptions.js:80
 msgid "Email (legacy)"
 msgstr ""
 
@@ -688,7 +688,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:27 proxmox-backup/www/datastore/Content.js:1108
+#: proxmox-backup/www/datastore/Content.js:1108 proxmox-backup/www/Utils.js:27
 msgid "Encrypted"
 msgstr ""
 
@@ -700,7 +700,7 @@ msgstr ""
 msgid "Encryption"
 msgstr ""
 
-#: proxmox-backup/www/tape/PoolConfig.js:129 proxmox-backup/www/tape/form/PoolSelector.js:38
+#: proxmox-backup/www/tape/form/PoolSelector.js:38 proxmox-backup/www/tape/PoolConfig.js:129
 msgid "Encryption Fingerprint"
 msgstr ""
 
@@ -720,7 +720,7 @@ msgstr ""
 msgid "Erasing"
 msgstr ""
 
-#: proxmox-backup/www/LoginView.js:64 proxmox-backup/www/LoginView.js:105 proxmox-backup/www/LoginView.js:201 proxmox-backup/www/ServerStatus.js:100 proxmox-backup/www/ServerStatus.js:133 proxmox-backup/www/Utils.js:537 proxmox-backup/www/config/ACLView.js:78 proxmox-backup/www/config/GCView.js:81 proxmox-backup/www/config/PruneView.js:104 proxmox-backup/www/config/SyncView.js:141 proxmox-backup/www/config/TokenView.js:118 proxmox-backup/www/config/UserView.js:119 proxmox-backup/www/config/VerifyView.js:101 proxmox-backup/www/datastore/Content.js:538 proxmox-backup/www/datastore/Content.js:662 proxmox-backup/www/datastore/DataStoreListSummary.js:131 proxmox-backup/www/datastore/Notes.js:59 proxmox-backup/www/datastore/Prune.js:140 proxmox-backup/www/datastore/Summary.js:253 proxmox-backup/www/datastore/Summary.js:278 proxmox-backup/www/tape/BackupJobs.js:102 proxmox-backup/www/tape/ChangerStatus.js:216 proxmox-backup/www/tape/ChangerStatus.js:272 proxmox-backup/www/tape/window/TapeRestore.js:165
+#: proxmox-backup/www/config/ACLView.js:78 proxmox-backup/www/config/GCView.js:81 proxmox-backup/www/config/PruneView.js:104 proxmox-backup/www/config/SyncView.js:141 proxmox-backup/www/config/TokenView.js:118 proxmox-backup/www/config/UserView.js:119 proxmox-backup/www/config/VerifyView.js:101 proxmox-backup/www/datastore/Content.js:538 proxmox-backup/www/datastore/Content.js:662 proxmox-backup/www/datastore/DataStoreListSummary.js:131 proxmox-backup/www/datastore/Notes.js:59 proxmox-backup/www/datastore/Prune.js:140 proxmox-backup/www/datastore/Summary.js:253 proxmox-backup/www/datastore/Summary.js:278 proxmox-backup/www/LoginView.js:64 proxmox-backup/www/LoginView.js:105 proxmox-backup/www/LoginView.js:201 proxmox-backup/www/ServerStatus.js:100 proxmox-backup/www/ServerStatus.js:133 proxmox-backup/www/tape/BackupJobs.js:102 proxmox-backup/www/tape/ChangerStatus.js:216 proxmox-backup/www/tape/ChangerStatus.js:272 proxmox-backup/www/tape/window/TapeRestore.js:165 proxmox-backup/www/Utils.js:537
 msgid "Error"
 msgstr ""
 
@@ -776,7 +776,7 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: proxmox-backup/www/tape/window/TapeBackup.js:76 proxmox-backup/www/tape/window/TapeBackupJob.js:168
+#: proxmox-backup/www/tape/window/TapeBackupJob.js:168 proxmox-backup/www/tape/window/TapeBackup.js:76
 msgid "Export Media-Set"
 msgstr ""
 
@@ -788,7 +788,7 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: proxmox-backup/www/DirectoryList.js:148 proxmox-backup/www/Utils.js:833 proxmox-backup/www/Utils.js:836 proxmox-backup/www/form/PartitionSelector.js:59 proxmox-backup/www/window/CreateDirectory.js:30
+#: proxmox-backup/www/DirectoryList.js:148 proxmox-backup/www/form/PartitionSelector.js:59 proxmox-backup/www/Utils.js:833 proxmox-backup/www/Utils.js:836 proxmox-backup/www/window/CreateDirectory.js:30
 msgid "Filesystem"
 msgstr ""
 
@@ -872,7 +872,7 @@ msgstr ""
 msgid "From Slot"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:296 proxmox-backup/www/form/NamespaceMaxDepth.js:7 proxmox-backup/www/tape/TapeInventory.js:159
+#: proxmox-backup/www/form/NamespaceMaxDepth.js:7 proxmox-backup/www/tape/TapeInventory.js:159 proxmox-backup/www/Utils.js:296
 msgid "Full"
 msgstr ""
 
@@ -884,7 +884,7 @@ msgstr ""
 msgid "GC Access-Time Cutoff (minutes)"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:854 proxmox-backup/www/datastore/OptionView.js:279
+#: proxmox-backup/www/datastore/OptionView.js:279 proxmox-backup/www/Utils.js:854
 msgid "GC Access-Time Support Check"
 msgstr ""
 
@@ -928,7 +928,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:413 proxmox-backup/www/datastore/Content.js:893 proxmox-backup/www/form/GroupFilter.js:515 proxmox-backup/www/form/GroupSelector.js:47
+#: proxmox-backup/www/datastore/Content.js:893 proxmox-backup/www/form/GroupFilter.js:515 proxmox-backup/www/form/GroupSelector.js:47 proxmox-backup/www/Utils.js:413
 msgid "Group"
 msgstr ""
 
@@ -972,11 +972,11 @@ msgstr ""
 msgid "Hourly"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:599 proxmox-backup/www/tape/ChangerStatus.js:31 proxmox-backup/www/tape/ChangerStatus.js:725 proxmox-backup/www/tape/ChangerStatus.js:831 proxmox-backup/www/tape/ChangerStatus.js:947
+#: proxmox-backup/www/tape/ChangerStatus.js:31 proxmox-backup/www/tape/ChangerStatus.js:725 proxmox-backup/www/tape/ChangerStatus.js:831 proxmox-backup/www/tape/ChangerStatus.js:947 proxmox-backup/www/Utils.js:599
 msgid "ID"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:260 proxmox-backup/www/datastore/Summary.js:348
+#: proxmox-backup/www/datastore/Summary.js:348 proxmox-backup/www/ServerStatus.js:260
 msgid "IO Delay"
 msgstr ""
 
@@ -1044,7 +1044,7 @@ msgstr ""
 msgid "Inventory Update"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:442 proxmox-backup/www/config/PruneView.js:175 proxmox-backup/www/config/SyncView.js:270 proxmox-backup/www/config/VerifyView.js:181 proxmox-backup/www/tape/BackupJobs.js:178 proxmox-backup/www/tape/window/TapeBackupJob.js:95 proxmox-backup/www/window/PruneJobEdit.js:154 proxmox-backup/www/window/SyncJobEdit.js:368 proxmox-backup/www/window/VerifyJobEdit.js:159
+#: proxmox-backup/www/config/PruneView.js:175 proxmox-backup/www/config/SyncView.js:270 proxmox-backup/www/config/VerifyView.js:181 proxmox-backup/www/tape/BackupJobs.js:178 proxmox-backup/www/tape/window/TapeBackupJob.js:95 proxmox-backup/www/Utils.js:442 proxmox-backup/www/window/PruneJobEdit.js:154 proxmox-backup/www/window/SyncJobEdit.js:368 proxmox-backup/www/window/VerifyJobEdit.js:159
 msgid "Job ID"
 msgstr ""
 
@@ -1092,7 +1092,7 @@ msgstr ""
 msgid "Label Information"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:417 proxmox-backup/www/tape/ChangerStatus.js:795 proxmox-backup/www/tape/DriveStatus.js:215 proxmox-backup/www/tape/window/LabelMedia.js:8
+#: proxmox-backup/www/tape/ChangerStatus.js:795 proxmox-backup/www/tape/DriveStatus.js:215 proxmox-backup/www/tape/window/LabelMedia.js:8 proxmox-backup/www/Utils.js:417
 msgid "Label Media"
 msgstr ""
 
@@ -1164,7 +1164,7 @@ msgstr ""
 msgid "Load Media into Drive"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:208 proxmox-backup/www/panel/NodeInfo.js:106
+#: proxmox-backup/www/panel/NodeInfo.js:106 proxmox-backup/www/ServerStatus.js:208
 msgid "Load average"
 msgstr ""
 
@@ -1268,7 +1268,7 @@ msgstr ""
 msgid "Media"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:443 proxmox-backup/www/tape/BackupJobs.js:193 proxmox-backup/www/tape/window/LabelMedia.js:63 proxmox-backup/www/tape/window/PoolEdit.js:10 proxmox-backup/www/tape/window/TapeBackup.js:55 proxmox-backup/www/tape/window/TapeBackupJob.js:121
+#: proxmox-backup/www/tape/BackupJobs.js:193 proxmox-backup/www/tape/window/LabelMedia.js:63 proxmox-backup/www/tape/window/PoolEdit.js:10 proxmox-backup/www/tape/window/TapeBackupJob.js:121 proxmox-backup/www/tape/window/TapeBackup.js:55 proxmox-backup/www/Utils.js:443
 msgid "Media Pool"
 msgstr ""
 
@@ -1332,11 +1332,11 @@ msgstr ""
 msgid "N/A"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:605 proxmox-backup/www/ZFSList.js:62 proxmox-backup/www/config/MetricServerView.js:56 proxmox-backup/www/config/UserView.js:230 proxmox-backup/www/dashboard/DataStoreStatistics.js:71 proxmox-backup/www/tape/ChangerConfig.js:107 proxmox-backup/www/tape/ChangerStatus.js:849 proxmox-backup/www/tape/DriveConfig.js:143 proxmox-backup/www/tape/DriveStatus.js:434 proxmox-backup/www/tape/PoolConfig.js:111 proxmox-backup/www/tape/form/ChangerSelector.js:24 proxmox-backup/www/tape/form/DriveSelector.js:25 proxmox-backup/www/tape/form/PoolSelector.js:22 proxmox-backup/www/tape/window/ChangerEdit.js:24 proxmox-backup/www/tape/window/DriveEdit.js:24 proxmox-backup/www/tape/window/PoolEdit.js:28 proxmox-backup/www/tape/window/TapeRestore.js:932 proxmox-backup/www/window/CreateDirectory.js:38 proxmox-backup/www/window/DataStoreEdit.js:53 proxmox-backup/www/window/InfluxDbEdit.js:28 proxmox-backup/www/window/InfluxDbEdit.js:143 proxmox-backup/www/window/TrafficControlEdit.js:227 proxmox-backup/www/window/ZFSCreate.js:26
+#: proxmox-backup/www/config/MetricServerView.js:56 proxmox-backup/www/config/UserView.js:230 proxmox-backup/www/dashboard/DataStoreStatistics.js:71 proxmox-backup/www/tape/ChangerConfig.js:107 proxmox-backup/www/tape/ChangerStatus.js:849 proxmox-backup/www/tape/DriveConfig.js:143 proxmox-backup/www/tape/DriveStatus.js:434 proxmox-backup/www/tape/form/ChangerSelector.js:24 proxmox-backup/www/tape/form/DriveSelector.js:25 proxmox-backup/www/tape/form/PoolSelector.js:22 proxmox-backup/www/tape/PoolConfig.js:111 proxmox-backup/www/tape/window/ChangerEdit.js:24 proxmox-backup/www/tape/window/DriveEdit.js:24 proxmox-backup/www/tape/window/PoolEdit.js:28 proxmox-backup/www/tape/window/TapeRestore.js:932 proxmox-backup/www/Utils.js:605 proxmox-backup/www/window/CreateDirectory.js:38 proxmox-backup/www/window/DataStoreEdit.js:53 proxmox-backup/www/window/InfluxDbEdit.js:28 proxmox-backup/www/window/InfluxDbEdit.js:143 proxmox-backup/www/window/TrafficControlEdit.js:227 proxmox-backup/www/window/ZFSCreate.js:26 proxmox-backup/www/ZFSList.js:62
 msgid "Name"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:408 proxmox-backup/www/config/PruneView.js:190 proxmox-backup/www/config/SyncView.js:302 proxmox-backup/www/config/VerifyView.js:196 proxmox-backup/www/datastore/Content.js:1249 proxmox-backup/www/form/RemoteTargetSelector.js:127 proxmox-backup/www/tape/window/TapeBackup.js:42 proxmox-backup/www/window/NamespaceEdit.js:9 proxmox-backup/www/window/PruneJobEdit.js:88 proxmox-backup/www/window/VerifyAll.js:36 proxmox-backup/www/window/VerifyJobEdit.js:80
+#: proxmox-backup/www/config/PruneView.js:190 proxmox-backup/www/config/SyncView.js:302 proxmox-backup/www/config/VerifyView.js:196 proxmox-backup/www/datastore/Content.js:1249 proxmox-backup/www/form/RemoteTargetSelector.js:127 proxmox-backup/www/tape/window/TapeBackup.js:42 proxmox-backup/www/Utils.js:408 proxmox-backup/www/window/NamespaceEdit.js:9 proxmox-backup/www/window/PruneJobEdit.js:88 proxmox-backup/www/window/VerifyAll.js:36 proxmox-backup/www/window/VerifyJobEdit.js:80
 msgid "Namespace"
 msgstr ""
 
@@ -1376,7 +1376,7 @@ msgstr ""
 msgid "Networks"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:309 proxmox-backup/www/config/VerifyView.js:219 proxmox-backup/www/window/NotifyOptions.js:9 proxmox-backup/www/window/NotifyOptions.js:21
+#: proxmox-backup/www/config/VerifyView.js:219 proxmox-backup/www/Utils.js:309 proxmox-backup/www/window/NotifyOptions.js:9 proxmox-backup/www/window/NotifyOptions.js:21
 msgid "Never"
 msgstr ""
 
@@ -1464,7 +1464,7 @@ msgstr ""
 msgid "No {0} selected"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:780 proxmox-backup/www/Utils.js:829 proxmox-backup/www/Utils.js:834 proxmox-backup/www/datastore/Content.js:1162 proxmox-backup/www/datastore/Content.js:1180 proxmox-backup/www/datastore/Content.js:1194 proxmox-backup/www/window/MaintenanceOptions.js:6
+#: proxmox-backup/www/datastore/Content.js:1162 proxmox-backup/www/datastore/Content.js:1180 proxmox-backup/www/datastore/Content.js:1194 proxmox-backup/www/Utils.js:780 proxmox-backup/www/Utils.js:829 proxmox-backup/www/Utils.js:834 proxmox-backup/www/window/MaintenanceOptions.js:6
 msgid "None"
 msgstr ""
 
@@ -1492,11 +1492,11 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
-#: proxmox-backup/www/datastore/OptionView.js:165 proxmox-backup/www/tape/window/TapeBackup.js:101 proxmox-backup/www/tape/window/TapeBackupJob.js:136 proxmox-backup/www/tape/window/TapeRestore.js:439 proxmox-backup/www/window/NotifyOptions.js:84
+#: proxmox-backup/www/datastore/OptionView.js:165 proxmox-backup/www/tape/window/TapeBackupJob.js:136 proxmox-backup/www/tape/window/TapeBackup.js:101 proxmox-backup/www/tape/window/TapeRestore.js:439 proxmox-backup/www/window/NotifyOptions.js:84
 msgid "Notification mode"
 msgstr ""
 
-#: proxmox-backup/www/datastore/OptionView.js:168 proxmox-backup/www/tape/window/TapeBackup.js:99 proxmox-backup/www/tape/window/TapeBackupJob.js:134 proxmox-backup/www/tape/window/TapeRestore.js:437 proxmox-backup/www/window/NotifyOptions.js:81
+#: proxmox-backup/www/datastore/OptionView.js:168 proxmox-backup/www/tape/window/TapeBackupJob.js:134 proxmox-backup/www/tape/window/TapeBackup.js:99 proxmox-backup/www/tape/window/TapeRestore.js:437 proxmox-backup/www/window/NotifyOptions.js:81
 msgid "Notification system"
 msgstr ""
 
@@ -1508,19 +1508,19 @@ msgstr ""
 msgid "Notify"
 msgstr ""
 
-#: proxmox-backup/www/datastore/OptionView.js:197 proxmox-backup/www/tape/window/TapeBackup.js:111 proxmox-backup/www/tape/window/TapeBackupJob.js:145 proxmox-backup/www/tape/window/TapeRestore.js:448 proxmox-backup/www/window/NotifyOptions.js:93
+#: proxmox-backup/www/datastore/OptionView.js:197 proxmox-backup/www/tape/window/TapeBackupJob.js:145 proxmox-backup/www/tape/window/TapeBackup.js:111 proxmox-backup/www/tape/window/TapeRestore.js:448 proxmox-backup/www/window/NotifyOptions.js:93
 msgid "Notify User"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:235 proxmox-backup/www/dashboard/TaskSummary.js:168 proxmox-backup/www/tape/ChangerStatus.js:60 proxmox-backup/www/tape/ChangerStatus.js:99 proxmox-backup/www/tape/ChangerStatus.js:223 proxmox-backup/www/tape/window/LabelMedia.js:9
+#: proxmox-backup/www/dashboard/TaskSummary.js:168 proxmox-backup/www/tape/ChangerStatus.js:60 proxmox-backup/www/tape/ChangerStatus.js:99 proxmox-backup/www/tape/ChangerStatus.js:223 proxmox-backup/www/tape/window/LabelMedia.js:9 proxmox-backup/www/Utils.js:235
 msgid "OK"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:806 proxmox-backup/www/tape/TapeInventory.js:304 proxmox-backup/www/window/MaintenanceOptions.js:8
+#: proxmox-backup/www/tape/TapeInventory.js:304 proxmox-backup/www/Utils.js:806 proxmox-backup/www/window/MaintenanceOptions.js:8
 msgid "Offline"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:86 proxmox-backup/www/panel/NodeInfo.js:55 proxmox-backup/www/tape/window/Erase.js:31 proxmox-backup/www/tape/window/MediaRemoveWindow.js:23 proxmox-backup/www/window/DatastoreRepoInfo.js:89
+#: proxmox-backup/www/panel/NodeInfo.js:55 proxmox-backup/www/ServerStatus.js:86 proxmox-backup/www/tape/window/Erase.js:31 proxmox-backup/www/tape/window/MediaRemoveWindow.js:23 proxmox-backup/www/window/DatastoreRepoInfo.js:89
 msgid "Ok"
 msgstr ""
 
@@ -1556,7 +1556,7 @@ msgstr ""
 msgid "OpenID redirect failed, please try again"
 msgstr ""
 
-#: proxmox-backup/www/DirectoryList.js:153 proxmox-backup/www/datastore/Panel.js:87 proxmox-backup/www/tape/window/TapeBackupJob.js:72
+#: proxmox-backup/www/datastore/Panel.js:87 proxmox-backup/www/DirectoryList.js:153 proxmox-backup/www/tape/window/TapeBackupJob.js:72
 msgid "Options"
 msgstr ""
 
@@ -1608,7 +1608,7 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: proxmox-backup/www/DirectoryList.js:138 proxmox-backup/www/config/ACLView.js:176 proxmox-backup/www/form/PartitionSelector.js:52 proxmox-backup/www/tape/ChangerConfig.js:112 proxmox-backup/www/tape/DriveConfig.js:148 proxmox-backup/www/tape/DriveStatus.js:470 proxmox-backup/www/tape/form/ChangerSelector.js:31 proxmox-backup/www/tape/form/TapeDevicePathSelector.js:15 proxmox-backup/www/tape/window/ChangerEdit.js:34 proxmox-backup/www/tape/window/DriveEdit.js:69 proxmox-backup/www/window/ACLEdit.js:26
+#: proxmox-backup/www/config/ACLView.js:176 proxmox-backup/www/DirectoryList.js:138 proxmox-backup/www/form/PartitionSelector.js:52 proxmox-backup/www/tape/ChangerConfig.js:112 proxmox-backup/www/tape/DriveConfig.js:148 proxmox-backup/www/tape/DriveStatus.js:470 proxmox-backup/www/tape/form/ChangerSelector.js:31 proxmox-backup/www/tape/form/TapeDevicePathSelector.js:15 proxmox-backup/www/tape/window/ChangerEdit.js:34 proxmox-backup/www/tape/window/DriveEdit.js:69 proxmox-backup/www/window/ACLEdit.js:26
 msgid "Path"
 msgstr ""
 
@@ -1672,7 +1672,7 @@ msgstr ""
 msgid "Proxmox Backup Server Login"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:421 proxmox-backup/www/datastore/Content.js:1330
+#: proxmox-backup/www/datastore/Content.js:1330 proxmox-backup/www/Utils.js:421
 msgid "Prune"
 msgstr ""
 
@@ -1732,7 +1732,7 @@ msgstr ""
 msgid "RAID Level"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:215 proxmox-backup/www/panel/NodeInfo.js:98
+#: proxmox-backup/www/panel/NodeInfo.js:98 proxmox-backup/www/ServerStatus.js:215
 msgid "RAM usage"
 msgstr ""
 
@@ -1768,7 +1768,7 @@ msgstr ""
 msgid "Re-sync snapshots, whose verification failed."
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:246 proxmox-backup/www/ServerStatus.js:253 proxmox-backup/www/datastore/Summary.js:334 proxmox-backup/www/datastore/Summary.js:340
+#: proxmox-backup/www/datastore/Summary.js:334 proxmox-backup/www/datastore/Summary.js:340 proxmox-backup/www/ServerStatus.js:246 proxmox-backup/www/ServerStatus.js:253
 msgid "Read"
 msgstr ""
 
@@ -1832,7 +1832,7 @@ msgstr ""
 msgid "Register {0} Account"
 msgstr ""
 
-#: proxmox-backup/www/DirectoryList.js:74 proxmox-backup/www/ZFSList.js:108 proxmox-backup/www/datastore/Content.js:1229 proxmox-backup/www/tape/BackupOverview.js:301 proxmox-backup/www/tape/ChangerStatus.js:676 proxmox-backup/www/tape/DriveStatus.js:207 proxmox-backup/www/tape/TapeInventory.js:204
+#: proxmox-backup/www/datastore/Content.js:1229 proxmox-backup/www/DirectoryList.js:74 proxmox-backup/www/tape/BackupOverview.js:301 proxmox-backup/www/tape/ChangerStatus.js:676 proxmox-backup/www/tape/DriveStatus.js:207 proxmox-backup/www/tape/TapeInventory.js:204 proxmox-backup/www/ZFSList.js:108
 msgid "Reload"
 msgstr ""
 
@@ -1860,7 +1860,7 @@ msgstr ""
 msgid "Remote Sync"
 msgstr ""
 
-#: proxmox-backup/www/NavigationTree.js:54 proxmox-backup/www/config/RemoteView.js:33
+#: proxmox-backup/www/config/RemoteView.js:33 proxmox-backup/www/NavigationTree.js:54
 msgid "Remotes"
 msgstr ""
 
@@ -1872,11 +1872,11 @@ msgstr ""
 msgid "Removable datastore not mounted"
 msgstr ""
 
-#: proxmox-backup/www/DirectoryList.js:110 proxmox-backup/www/Utils.js:410 proxmox-backup/www/datastore/Content.js:1339 proxmox-backup/www/datastore/Content.js:1388 proxmox-backup/www/tape/TapeInventory.js:233
+#: proxmox-backup/www/datastore/Content.js:1339 proxmox-backup/www/datastore/Content.js:1388 proxmox-backup/www/DirectoryList.js:110 proxmox-backup/www/tape/TapeInventory.js:233 proxmox-backup/www/Utils.js:410
 msgid "Remove"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:407 proxmox-backup/www/datastore/OptionView.js:149
+#: proxmox-backup/www/datastore/OptionView.js:149 proxmox-backup/www/Utils.js:407
 msgid "Remove Datastore"
 msgstr ""
 
@@ -1960,7 +1960,7 @@ msgstr ""
 msgid "Restore Snapshot(s)"
 msgstr ""
 
-#: proxmox-backup/www/tape/PoolConfig.js:120 proxmox-backup/www/tape/form/PoolSelector.js:34 proxmox-backup/www/tape/window/PoolEdit.js:49
+#: proxmox-backup/www/tape/form/PoolSelector.js:34 proxmox-backup/www/tape/PoolConfig.js:120 proxmox-backup/www/tape/window/PoolEdit.js:49
 msgid "Retention Policy"
 msgstr ""
 
@@ -1988,7 +1988,7 @@ msgstr ""
 msgid "Role"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:815 proxmox-backup/www/datastore/Content.js:347 proxmox-backup/www/datastore/Content.js:375 proxmox-backup/www/form/NamespaceSelector.js:25 proxmox-backup/www/form/RemoteTargetSelector.js:99 proxmox-backup/www/tape/window/TapeRestore.js:577
+#: proxmox-backup/www/datastore/Content.js:347 proxmox-backup/www/datastore/Content.js:375 proxmox-backup/www/form/NamespaceSelector.js:25 proxmox-backup/www/form/RemoteTargetSelector.js:99 proxmox-backup/www/tape/window/TapeRestore.js:577 proxmox-backup/www/Utils.js:815
 msgid "Root"
 msgstr ""
 
@@ -2164,7 +2164,7 @@ msgstr ""
 msgid "Single Disk"
 msgstr ""
 
-#: proxmox-backup/www/ZFSList.js:67 proxmox-backup/www/dashboard/DataStoreStatistics.js:85 proxmox-backup/www/datastore/Content.js:1079 proxmox-backup/www/form/PartitionSelector.js:65
+#: proxmox-backup/www/dashboard/DataStoreStatistics.js:85 proxmox-backup/www/datastore/Content.js:1079 proxmox-backup/www/form/PartitionSelector.js:65 proxmox-backup/www/ZFSList.js:67
 msgid "Size"
 msgstr ""
 
@@ -2220,7 +2220,7 @@ msgstr ""
 msgid "Stats from last Garbage Collection"
 msgstr ""
 
-#: proxmox-backup/www/Subscription.js:102 proxmox-backup/www/Utils.js:679 proxmox-backup/www/config/PruneView.js:243 proxmox-backup/www/config/SyncView.js:379 proxmox-backup/www/config/VerifyView.js:245 proxmox-backup/www/dashboard/LongestTasks.js:91 proxmox-backup/www/tape/BackupJobs.js:252 proxmox-backup/www/tape/ChangerStatus.js:923 proxmox-backup/www/tape/DriveStatus.js:51 proxmox-backup/www/tape/DriveStatus.js:323 proxmox-backup/www/tape/TapeInventory.js:153 proxmox-backup/www/tape/TapeInventory.js:317
+#: proxmox-backup/www/config/PruneView.js:243 proxmox-backup/www/config/SyncView.js:379 proxmox-backup/www/config/VerifyView.js:245 proxmox-backup/www/dashboard/LongestTasks.js:91 proxmox-backup/www/Subscription.js:102 proxmox-backup/www/tape/BackupJobs.js:252 proxmox-backup/www/tape/ChangerStatus.js:923 proxmox-backup/www/tape/DriveStatus.js:51 proxmox-backup/www/tape/DriveStatus.js:323 proxmox-backup/www/tape/TapeInventory.js:153 proxmox-backup/www/tape/TapeInventory.js:317 proxmox-backup/www/Utils.js:679
 msgid "Status"
 msgstr ""
 
@@ -2324,11 +2324,11 @@ msgstr ""
 msgid "TOTP Locked"
 msgstr ""
 
-#: proxmox-backup/www/NavigationTree.js:107 proxmox-backup/www/Utils.js:427 proxmox-backup/www/dashboard/TaskSummary.js:34 proxmox-backup/www/tape/TapeManagement.js:5
+#: proxmox-backup/www/dashboard/TaskSummary.js:34 proxmox-backup/www/NavigationTree.js:107 proxmox-backup/www/tape/TapeManagement.js:5 proxmox-backup/www/Utils.js:427
 msgid "Tape Backup"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:428 proxmox-backup/www/tape/window/TapeBackupJob.js:10
+#: proxmox-backup/www/tape/window/TapeBackupJob.js:10 proxmox-backup/www/Utils.js:428
 msgid "Tape Backup Job"
 msgstr ""
 
@@ -2356,7 +2356,7 @@ msgstr ""
 msgid "Tape Read"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:429 proxmox-backup/www/dashboard/TaskSummary.js:35
+#: proxmox-backup/www/dashboard/TaskSummary.js:35 proxmox-backup/www/Utils.js:429
 msgid "Tape Restore"
 msgstr ""
 
@@ -2408,7 +2408,7 @@ msgstr ""
 msgid "Task Summary"
 msgstr ""
 
-#: proxmox-backup/www/ServerAdministration.js:76 proxmox-backup/www/button/TaskButton.js:12
+#: proxmox-backup/www/button/TaskButton.js:12 proxmox-backup/www/ServerAdministration.js:76
 msgid "Tasks"
 msgstr ""
 
@@ -2464,11 +2464,11 @@ msgstr ""
 msgid "Token name"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:215 proxmox-backup/www/ServerStatus.js:224 proxmox-backup/www/ServerStatus.js:239 proxmox-backup/www/datastore/Summary.js:328
+#: proxmox-backup/www/datastore/Summary.js:328 proxmox-backup/www/ServerStatus.js:215 proxmox-backup/www/ServerStatus.js:224 proxmox-backup/www/ServerStatus.js:239
 msgid "Total"
 msgstr ""
 
-#: proxmox-backup/www/NavigationTree.js:60 proxmox-backup/www/config/TrafficControlView.js:29
+#: proxmox-backup/www/config/TrafficControlView.js:29 proxmox-backup/www/NavigationTree.js:60
 msgid "Traffic Control"
 msgstr ""
 
@@ -2500,7 +2500,7 @@ msgstr ""
 msgid "Two Factor Authentication"
 msgstr ""
 
-#: proxmox-backup/www/Subscription.js:96 proxmox-backup/www/config/MetricServerView.js:61 proxmox-backup/www/form/AuthidSelector.js:72 proxmox-backup/www/form/GroupFilter.js:514 proxmox-backup/www/tape/ChangerStatus.js:36
+#: proxmox-backup/www/config/MetricServerView.js:61 proxmox-backup/www/form/AuthidSelector.js:72 proxmox-backup/www/form/GroupFilter.js:514 proxmox-backup/www/Subscription.js:96 proxmox-backup/www/tape/ChangerStatus.js:36
 msgid "Type"
 msgstr ""
 
@@ -2612,7 +2612,7 @@ msgstr ""
 msgid "User Sync"
 msgstr ""
 
-#: proxmox-backup/www/LoginView.js:285 proxmox-backup/www/config/UserView.js:202 proxmox-backup/www/window/UserEdit.js:66
+#: proxmox-backup/www/config/UserView.js:202 proxmox-backup/www/LoginView.js:285 proxmox-backup/www/window/UserEdit.js:66
 msgid "User name"
 msgstr ""
 
@@ -2696,7 +2696,7 @@ msgstr ""
 msgid "Verify new backups immediately after completion"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:634 proxmox-backup/www/tape/ChangerStatus.js:912 proxmox-backup/www/tape/DriveStatus.js:267
+#: proxmox-backup/www/tape/ChangerStatus.js:912 proxmox-backup/www/tape/DriveStatus.js:267 proxmox-backup/www/Utils.js:634
 msgid "Volume Statistics"
 msgstr ""
 
@@ -2740,7 +2740,7 @@ msgstr ""
 msgid "With Current User"
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:246 proxmox-backup/www/ServerStatus.js:253 proxmox-backup/www/datastore/Summary.js:334 proxmox-backup/www/datastore/Summary.js:340
+#: proxmox-backup/www/datastore/Summary.js:334 proxmox-backup/www/datastore/Summary.js:340 proxmox-backup/www/ServerStatus.js:246 proxmox-backup/www/ServerStatus.js:253
 msgid "Write"
 msgstr ""
 
@@ -2876,7 +2876,7 @@ msgstr ""
 msgid "{0} months"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:322 proxmox-backup/www/datastore/DataStoreListSummary.js:71 proxmox-backup/www/datastore/DataStoreListSummary.js:76
+#: proxmox-backup/www/datastore/DataStoreListSummary.js:71 proxmox-backup/www/datastore/DataStoreListSummary.js:76 proxmox-backup/www/Utils.js:322
 msgid "{0} of {1}"
 msgstr ""
 
