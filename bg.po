@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: proxmox-backup e97132bb64a203535c28214c1cec4c1e49cf9009\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri May 23 15:46:43 2025\n"
+"POT-Creation-Date: Fri May 23 16:03:18 2025\n"
 "PO-Revision-Date: 2025-05-05 14:24+0300\n"
 "Last-Translator: Kalin Sabevski <kalin_sabevski@yahoo.com>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -271,9 +271,9 @@ msgstr "Обекти за действие"
 #: pve-manager/www/manager6/tree/DhcpTree.js:222
 #: pve-manager/www/manager6/tree/ResourceMapTree.js:332
 #: proxmox-backup/www/datastore/Content.js:989
-#: proxmox-backup/www/tape/ChangerStatus.js:742
-#: proxmox-backup/www/tape/ChangerStatus.js:894
-#: proxmox-backup/www/tape/ChangerStatus.js:964
+#: proxmox-backup/www/tape/ChangerStatus.js:743
+#: proxmox-backup/www/tape/ChangerStatus.js:895
+#: proxmox-backup/www/tape/ChangerStatus.js:965
 msgid "Actions"
 msgstr "Действия"
 
@@ -289,11 +289,11 @@ msgid "Active"
 msgstr "Активен"
 
 #: proxmox-widget-toolkit/src/Schema.js:38
-#: pve-manager/www/manager6/Utils.js:709
+#: pve-manager/www/manager6/Utils.js:718
 msgid "Active Directory Server"
 msgstr "Сървър Активна Директория"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:856
+#: proxmox-backup/www/tape/ChangerStatus.js:857
 msgid "Activity"
 msgstr "Активност"
 
@@ -306,7 +306,7 @@ msgstr "Активност"
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:381
 #: proxmox-widget-toolkit/src/panel/TfaView.js:253
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:406
-#: proxmox-widget-toolkit/src/Utils.js:643
+#: proxmox-widget-toolkit/src/Utils.js:645
 #: proxmox-widget-toolkit/src/window/Edit.js:302
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:851
 #: pmg-gui/js/ActionList.js:101 pmg-gui/js/ClusterAdministration.js:206
@@ -334,7 +334,7 @@ msgstr "Активност"
 #: pve-manager/www/manager6/node/ACME.js:605
 #: pve-manager/www/manager6/panel/IPSet.js:345
 #: pve-manager/www/manager6/panel/MultiDiskEdit.js:256
-#: pve-manager/www/manager6/qemu/HardwareView.js:690
+#: pve-manager/www/manager6/qemu/HardwareView.js:689
 #: pve-manager/www/manager6/sdn/ControllerView.js:91
 #: pve-manager/www/manager6/sdn/DnsView.js:91
 #: pve-manager/www/manager6/sdn/IpamView.js:89
@@ -488,7 +488,7 @@ msgstr "Добавете новия пул към конфигурацията �
 msgid "Additional Recipient(s)"
 msgstr "Допълнителен получател(и)"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:513
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:514
 msgid ""
 "Additional monitors are recommended. They can be created at any time in the "
 "Monitor tab."
@@ -634,7 +634,7 @@ msgstr "Политика за разпределение"
 msgid "Allow Debugging"
 msgstr "Разрешаване на отстраняване на грешки"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:87
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:82
 msgid "Allow Direct IO"
 msgstr "Разрешаване на директен вход/изход"
 
@@ -770,7 +770,7 @@ msgstr "Сигурни ли сте, че искате да забравите м
 msgid "Are you sure you want to format tape '{0}' ?"
 msgstr "Сигурни ли сте, че искате да форматирате лентата '{0}'?"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:818
+#: proxmox-backup/www/tape/ChangerStatus.js:819
 #: proxmox-backup/www/tape/DriveStatus.js:240
 msgid "Are you sure you want to format the inserted tape?"
 msgstr "Сигурни ли сте, че искате да форматирате поставената лента?"
@@ -888,7 +888,7 @@ msgstr "Атрибут"
 #: pve-manager/www/manager6/qemu/AudioEdit.js:24
 #: pve-manager/www/manager6/qemu/AudioEdit.js:47
 #: pve-manager/www/manager6/qemu/HardwareView.js:303
-#: pve-manager/www/manager6/qemu/HardwareView.js:750
+#: pve-manager/www/manager6/qemu/HardwareView.js:749
 msgid "Audio Device"
 msgstr "Аудио Устройство"
 
@@ -948,7 +948,7 @@ msgstr "Автоматично създаване на потребители"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:121
 #: proxmox-backup/www/window/PruneJobEdit.js:155
-#: proxmox-backup/www/window/SyncJobEdit.js:369
+#: proxmox-backup/www/window/SyncJobEdit.js:396
 #: proxmox-backup/www/window/VerifyJobEdit.js:160
 msgid "Autogenerate"
 msgstr "Автоматично генериране"
@@ -999,8 +999,8 @@ msgstr "Налични ключове за възстановяване: {0}"
 msgid "Avg. Mail Processing Time"
 msgstr "Средно Време за обработка на пощата"
 
-#: proxmox-widget-toolkit/src/Utils.js:740
 #: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "B"
 msgstr "B"
 
@@ -1042,9 +1042,9 @@ msgstr "Резултат обратно разсейване"
 #: pve-manager/www/manager6/lxc/MPEdit.js:258
 #: pve-manager/www/manager6/qemu/Config.js:331
 #: pve-manager/www/manager6/qemu/HDEdit.js:293
-#: pve-manager/www/manager6/Utils.js:689 pve-manager/www/manager6/Utils.js:2074
-#: pve-manager/www/manager6/window/Backup.js:293
-#: pve-manager/www/manager6/window/Backup.js:365
+#: pve-manager/www/manager6/Utils.js:689 pve-manager/www/manager6/Utils.js:2083
+#: pve-manager/www/manager6/window/Backup.js:312
+#: pve-manager/www/manager6/window/Backup.js:384
 #: proxmox-backup/www/tape/window/TapeBackup.js:5
 #: proxmox-backup/www/Utils.js:404
 msgid "Backup"
@@ -1069,7 +1069,7 @@ msgstr "Групи за архивиране"
 
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:52
 #: pve-manager/www/manager6/dc/Backup.js:9
-#: pve-manager/www/manager6/Utils.js:2074
+#: pve-manager/www/manager6/Utils.js:2083
 msgid "Backup Job"
 msgstr "Задача за Архивиране"
 
@@ -1107,7 +1107,7 @@ msgstr "Време за Архивиране"
 msgid "Backup content type not available for this storage."
 msgstr "Резервният тип съдържание не е наличен за това хранилище."
 
-#: pve-manager/www/manager6/Utils.js:2098
+#: pve-manager/www/manager6/Utils.js:2107
 msgid "Backup notifications"
 msgstr "Архивни Известия"
 
@@ -1140,7 +1140,7 @@ msgstr "Архивиране"
 msgid "Bad Chunks"
 msgstr "Лоши парчета"
 
-#: proxmox-widget-toolkit/src/Utils.js:1318
+#: proxmox-widget-toolkit/src/Utils.js:1321
 msgid "Bad Request"
 msgstr "Лоша Заявка"
 
@@ -1163,7 +1163,7 @@ msgid "Bandwidth Limits"
 msgstr "Ограничения на честотната лента"
 
 #: proxmox-backup/www/tape/ChangerStatus.js:346
-#: proxmox-backup/www/tape/ChangerStatus.js:683
+#: proxmox-backup/www/tape/ChangerStatus.js:684
 msgid "Barcode Label"
 msgstr "Баркод Етикет"
 
@@ -1250,7 +1250,7 @@ msgid "Bond Mode"
 msgstr "Режим на връзка"
 
 #: pmg-gui/js/dashboard/NodeInfo.js:105
-#: pve-manager/www/manager6/node/StatusView.js:119
+#: pve-manager/www/manager6/node/StatusView.js:333
 #: proxmox-backup/www/panel/NodeInfo.js:160
 msgid "Boot Mode"
 msgstr "Режим на стартиране"
@@ -1345,15 +1345,15 @@ msgstr "Групово Начало"
 msgid "Bulk Suspend"
 msgstr "Групово Спиране"
 
-#: pve-manager/www/manager6/Utils.js:2035
+#: pve-manager/www/manager6/Utils.js:2044
 msgid "Bulk migrate VMs and Containers"
 msgstr "Групово мигрирайте виртуални машини и контейнери"
 
-#: pve-manager/www/manager6/Utils.js:2064
+#: pve-manager/www/manager6/Utils.js:2073
 msgid "Bulk shutdown VMs and Containers"
 msgstr "Групово изключване на виртуални машини и контейнери"
 
-#: pve-manager/www/manager6/Utils.js:2063
+#: pve-manager/www/manager6/Utils.js:2072
 msgid "Bulk start VMs and Containers"
 msgstr "Групово стартиране на виртуални машини и контейнери"
 
@@ -1396,7 +1396,7 @@ msgstr ""
 "да преконфигурирате устройството '{0}' в раздела „Разширени“."
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:234
-#: pve-manager/www/manager6/qemu/HardwareView.js:701
+#: pve-manager/www/manager6/qemu/HardwareView.js:700
 msgid "CD/DVD Drive"
 msgstr "CD/DVD устройство"
 
@@ -1455,11 +1455,23 @@ msgstr "Процесорни единици"
 msgid "CPU usage"
 msgstr "Използване на Процесора"
 
-#: proxmox-widget-toolkit/src/Utils.js:1047 pmg-gui/js/dashboard/NodeInfo.js:81
+#: proxmox-widget-toolkit/src/Utils.js:1049 pmg-gui/js/dashboard/NodeInfo.js:81
 #: pve-manager/www/manager6/node/StatusView.js:95
 #: proxmox-backup/www/panel/NodeInfo.js:136
 msgid "CPU(s)"
 msgstr "Процесор(и)"
+
+#: pve-manager/www/manager6/node/StatusView.js:257
+msgid "CPU功耗"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:123
+msgid "CPU温度"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:104
+msgid "CPU频率(Hz)"
+msgstr ""
 
 #: pve-manager/www/manager6/ha/Resources.js:113
 msgid "CRM State"
@@ -1539,7 +1551,7 @@ msgstr "Не може да се използва запазено име на п
 msgid "Capacity"
 msgstr "Капацитет"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:906
+#: proxmox-backup/www/tape/ChangerStatus.js:907
 #: proxmox-backup/www/tape/DriveStatus.js:277 proxmox-backup/www/Utils.js:585
 msgid "Cartridge Memory"
 msgstr "Памет на касетата"
@@ -1554,7 +1566,7 @@ msgstr "Чувствителни към малки и големи букви"
 msgid "Catalan"
 msgstr "Kаталонски"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:803
+#: proxmox-backup/www/tape/ChangerStatus.js:804
 #: proxmox-backup/www/tape/DriveStatus.js:247
 #: proxmox-backup/www/tape/TapeInventory.js:292
 msgid "Catalog"
@@ -1580,7 +1592,7 @@ msgstr "Ceph Пул"
 msgid "Ceph Version"
 msgstr "Ceph Версия"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:471
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:472
 msgid "Ceph cluster configuration"
 msgstr "Конфигурация на клъстер Ceph"
 
@@ -1647,7 +1659,7 @@ msgstr "Промяна на паролата"
 msgid "Change Protection"
 msgstr "Защита срещу промяна"
 
-#: pve-manager/www/manager6/Utils.js:2019
+#: pve-manager/www/manager6/Utils.js:2028
 msgid "Change global Ceph flags"
 msgstr "Променете глобалните Ceph флагове"
 
@@ -1668,7 +1680,7 @@ msgstr "Промяна на защитата на '{0}'"
 msgid "Changelog"
 msgstr "Дневник на промените"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:664
+#: proxmox-backup/www/tape/ChangerStatus.js:665
 #: proxmox-backup/www/tape/window/ChangerEdit.js:8
 #: proxmox-backup/www/tape/window/DriveEdit.js:34
 msgid "Changer"
@@ -1712,11 +1724,11 @@ msgstr "Проверете връзката"
 msgid "Checksum"
 msgstr "Контролна сума"
 
-#: proxmox-widget-toolkit/src/Utils.js:92
+#: proxmox-widget-toolkit/src/Utils.js:93
 msgid "Chinese (Simplified)"
 msgstr "Китайски (опростен)"
 
-#: proxmox-widget-toolkit/src/Utils.js:93
+#: proxmox-widget-toolkit/src/Utils.js:94
 msgid "Chinese (Traditional)"
 msgstr "Китайски (традиционен)"
 
@@ -1768,7 +1780,7 @@ msgstr "Клас"
 msgid "Clean"
 msgstr "Чисто"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:822
+#: proxmox-backup/www/tape/ChangerStatus.js:823
 msgid "Clean Drive"
 msgstr "Чист диск"
 
@@ -1835,8 +1847,8 @@ msgstr "Клипборд"
 #: pve-manager/www/manager6/menu/TemplateMenu.js:42
 #: pve-manager/www/manager6/qemu/CmdMenu.js:130
 #: pve-manager/www/manager6/qemu/Config.js:88
-#: pve-manager/www/manager6/Utils.js:2040
-#: pve-manager/www/manager6/Utils.js:2070
+#: pve-manager/www/manager6/Utils.js:2049
+#: pve-manager/www/manager6/Utils.js:2079
 #: pve-manager/www/manager6/window/Clone.js:299
 msgid "Clone"
 msgstr "Клонинг"
@@ -1851,7 +1863,7 @@ msgstr "Затвори"
 #: pve-manager/www/manager6/qemu/CIDriveEdit.js:41
 #: pve-manager/www/manager6/qemu/CIDriveEdit.js:61
 #: pve-manager/www/manager6/qemu/HardwareView.js:235
-#: pve-manager/www/manager6/qemu/HardwareView.js:743
+#: pve-manager/www/manager6/qemu/HardwareView.js:742
 msgid "CloudInit Drive"
 msgstr "ОблачноInit Устройство"
 
@@ -2043,7 +2055,7 @@ msgstr "Командване"
 #: proxmox-backup/www/window/InfluxDbEdit.js:181
 #: proxmox-backup/www/window/PruneJobEdit.js:143
 #: proxmox-backup/www/window/RemoteEdit.js:126
-#: proxmox-backup/www/window/SyncJobEdit.js:356
+#: proxmox-backup/www/window/SyncJobEdit.js:383
 #: proxmox-backup/www/window/TokenEdit.js:71
 #: proxmox-backup/www/window/TrafficControlEdit.js:258
 #: proxmox-backup/www/window/UserEdit.js:174
@@ -2080,7 +2092,7 @@ msgstr "Конфигурацията е заключена ({0})"
 #: pmg-gui/js/SpamDetectorConfiguration.js:5
 #: pmg-gui/js/SystemConfiguration.js:6 pmg-gui/js/UserManagement.js:5
 #: pmg-gui/js/VirusDetectorConfiguration.js:5
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:441
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:442
 #: pve-manager/www/manager6/ceph/Config.js:132
 #: pve-manager/www/manager6/node/Config.js:366
 #: pve-manager/www/manager6/UIOptions.js:81
@@ -2094,7 +2106,7 @@ msgstr "Конфигурация"
 msgid "Configuration Database"
 msgstr "Конфигурационна база данни"
 
-#: proxmox-widget-toolkit/src/Utils.js:1319
+#: proxmox-widget-toolkit/src/Utils.js:1322
 msgid "Configuration Unsupported"
 msgstr "Конфигурацията не се поддържа"
 
@@ -2107,7 +2119,7 @@ msgstr "Само промяна на конфигурацията, никакв�
 msgid "Configuration for {0} not correct ('{1}' != '{2}')"
 msgstr "Конфигурацията за {0} не е правилна ('{1}' != '{2}')"
 
-#: pve-manager/www/manager6/Utils.js:2041
+#: pve-manager/www/manager6/Utils.js:2050
 msgid "Configure"
 msgstr "Конфигуриране"
 
@@ -2181,16 +2193,16 @@ msgstr "Потвърдете своята ({0}) парола"
 msgid "Connection Information"
 msgstr "Информация за връзка"
 
-#: proxmox-widget-toolkit/src/Utils.js:379
-#: proxmox-widget-toolkit/src/Utils.js:511
-#: proxmox-widget-toolkit/src/Utils.js:513
-#: proxmox-widget-toolkit/src/Utils.js:515
-#: proxmox-widget-toolkit/src/Utils.js:517
-#: pve-manager/www/manager6/Utils.js:673 pve-manager/www/manager6/Utils.js:1738
+#: proxmox-widget-toolkit/src/Utils.js:380
+#: proxmox-widget-toolkit/src/Utils.js:512
+#: proxmox-widget-toolkit/src/Utils.js:514
+#: proxmox-widget-toolkit/src/Utils.js:516
+#: proxmox-widget-toolkit/src/Utils.js:518
+#: pve-manager/www/manager6/Utils.js:673 pve-manager/www/manager6/Utils.js:1747
 msgid "Connection error"
 msgstr "Грешка при свързване"
 
-#: pve-manager/www/manager6/window/LoginWindow.js:159
+#: pve-manager/www/manager6/window/LoginWindow.js:162
 msgid "Connection failure. Network error or Proxmox VE services not running?"
 msgstr ""
 "Неуспешна връзка. Грешка в мрежата или услугите на Proxmox VE не работят?"
@@ -2204,14 +2216,14 @@ msgstr "Съгласие"
 msgid "Consent Text"
 msgstr "Текст на съгласието"
 
-#: proxmox-widget-toolkit/src/Utils.js:708 pmg-gui/js/ServerStatus.js:59
+#: proxmox-widget-toolkit/src/Utils.js:710 pmg-gui/js/ServerStatus.js:59
 #: pve-manager/www/manager6/button/ConsoleButton.js:20
 #: pve-manager/www/manager6/lxc/CmdMenu.js:132
 #: pve-manager/www/manager6/lxc/Config.js:244
 #: pve-manager/www/manager6/qemu/CmdMenu.js:160
 #: pve-manager/www/manager6/qemu/Config.js:279
-#: pve-manager/www/manager6/Utils.js:2061
-#: pve-manager/www/manager6/Utils.js:2068
+#: pve-manager/www/manager6/Utils.js:2070
+#: pve-manager/www/manager6/Utils.js:2077
 #: proxmox-backup/www/ServerStatus.js:159
 msgid "Console"
 msgstr "Конзола"
@@ -2259,9 +2271,9 @@ msgstr "Контейнер {0} на възел '{1}'"
 #: pve-manager/www/manager6/storage/StatusView.js:38
 #: pve-manager/www/manager6/storage/ZFSPoolEdit.js:87
 #: proxmox-backup/www/datastore/Content.js:57
-#: proxmox-backup/www/tape/ChangerStatus.js:730
-#: proxmox-backup/www/tape/ChangerStatus.js:837
-#: proxmox-backup/www/tape/ChangerStatus.js:952
+#: proxmox-backup/www/tape/ChangerStatus.js:731
+#: proxmox-backup/www/tape/ChangerStatus.js:838
+#: proxmox-backup/www/tape/ChangerStatus.js:953
 #: proxmox-backup/www/tape/TapeManagement.js:18
 msgid "Content"
 msgstr "Съдържание"
@@ -2291,8 +2303,8 @@ msgstr "Контролери"
 #: pve-manager/www/manager6/lxc/Config.js:129
 #: pve-manager/www/manager6/qemu/CmdMenu.js:142
 #: pve-manager/www/manager6/qemu/Config.js:102
-#: pve-manager/www/manager6/Utils.js:2058
-#: pve-manager/www/manager6/Utils.js:2086
+#: pve-manager/www/manager6/Utils.js:2067
+#: pve-manager/www/manager6/Utils.js:2095
 msgid "Convert to template"
 msgstr "Конвертиране в шаблон"
 
@@ -2322,7 +2334,7 @@ msgstr "Копиране на ключове за възстановяване"
 msgid "Copy Secret Value"
 msgstr "Копиране на Секретна Стойност"
 
-#: pve-manager/www/manager6/Utils.js:2029
+#: pve-manager/www/manager6/Utils.js:2038
 msgid "Copy data"
 msgstr "Копиране на данни"
 
@@ -2371,7 +2383,7 @@ msgid "Count"
 msgstr "Брой"
 
 #: proxmox-widget-toolkit/src/node/NetworkView.js:236
-#: proxmox-widget-toolkit/src/Utils.js:645
+#: proxmox-widget-toolkit/src/Utils.js:647
 #: proxmox-widget-toolkit/src/window/Edit.js:306
 #: pmg-gui/js/ClusterAdministration.js:198 pmg-gui/js/LDAPConfig.js:527
 #: pmg-gui/js/MailProxyTLSDestinations.js:120
@@ -2393,18 +2405,18 @@ msgstr "Брой"
 #: pve-manager/www/manager6/panel/IPSet.js:106
 #: pve-manager/www/manager6/sdn/SubnetView.js:56
 #: pve-manager/www/manager6/sdn/VnetView.js:74
-#: pve-manager/www/manager6/Utils.js:2006
-#: pve-manager/www/manager6/Utils.js:2007
-#: pve-manager/www/manager6/Utils.js:2008
-#: pve-manager/www/manager6/Utils.js:2009
-#: pve-manager/www/manager6/Utils.js:2010
+#: pve-manager/www/manager6/Utils.js:2015
+#: pve-manager/www/manager6/Utils.js:2016
 #: pve-manager/www/manager6/Utils.js:2017
-#: pve-manager/www/manager6/Utils.js:2022
+#: pve-manager/www/manager6/Utils.js:2018
+#: pve-manager/www/manager6/Utils.js:2019
+#: pve-manager/www/manager6/Utils.js:2026
 #: pve-manager/www/manager6/Utils.js:2031
-#: pve-manager/www/manager6/Utils.js:2033
+#: pve-manager/www/manager6/Utils.js:2040
 #: pve-manager/www/manager6/Utils.js:2042
-#: pve-manager/www/manager6/Utils.js:2071
-#: pve-manager/www/manager6/Utils.js:2088
+#: pve-manager/www/manager6/Utils.js:2051
+#: pve-manager/www/manager6/Utils.js:2080
+#: pve-manager/www/manager6/Utils.js:2097
 #: proxmox-backup/www/DirectoryList.js:79 proxmox-backup/www/Utils.js:409
 #: proxmox-backup/www/Utils.js:437 proxmox-backup/www/ZFSList.js:113
 msgid "Create"
@@ -2421,7 +2433,7 @@ msgstr "Създайте CephFS"
 
 #: pmg-gui/js/Utils.js:892 pve-manager/www/manager6/dc/ClusterEdit.js:5
 #: pve-manager/www/manager6/dc/Cluster.js:152
-#: pve-manager/www/manager6/Utils.js:2020
+#: pve-manager/www/manager6/Utils.js:2029
 msgid "Create Cluster"
 msgstr "Създайте клъстер"
 
@@ -2453,7 +2465,7 @@ msgstr "Време на създаване"
 msgid "Critical"
 msgstr "Критичен"
 
-#: proxmox-widget-toolkit/src/Utils.js:76
+#: proxmox-widget-toolkit/src/Utils.js:77
 msgid "Croatian"
 msgstr "Хърватски"
 
@@ -2493,6 +2505,10 @@ msgstr "Оценка по персонализирано правило"
 #: pmg-gui/js/SpamDetectorConfiguration.js:28
 msgid "Custom Scores"
 msgstr "Персонализирани резултати"
+
+#: proxmox-widget-toolkit/src/Utils.js:69
+msgid "Czech"
+msgstr ""
 
 #: pve-manager/www/manager6/grid/FirewallRules.js:983
 msgid "D.Port"
@@ -2595,7 +2611,7 @@ msgstr "Ежедневно"
 msgid "Damaged"
 msgstr "Повредено"
 
-#: proxmox-widget-toolkit/src/Utils.js:69
+#: proxmox-widget-toolkit/src/Utils.js:70
 msgid "Danish"
 msgstr "Датски"
 
@@ -2711,7 +2727,7 @@ msgstr "Дни"
 msgid "Days to show"
 msgstr "Дни за показване"
 
-#: pve-manager/www/manager6/Utils.js:1997
+#: pve-manager/www/manager6/Utils.js:2006
 msgid "Deactivate"
 msgstr "Деактивирайте"
 
@@ -2859,8 +2875,8 @@ msgstr "Изтриване"
 msgid "Delete Custom Certificate"
 msgstr "Изтриване на персонализиран сертификат"
 
-#: pve-manager/www/manager6/Utils.js:2043
-#: pve-manager/www/manager6/Utils.js:2072
+#: pve-manager/www/manager6/Utils.js:2052
+#: pve-manager/www/manager6/Utils.js:2081
 msgid "Delete Snapshot"
 msgstr "Изтриване на моментна снимка"
 
@@ -2960,14 +2976,14 @@ msgstr "Дестинация"
 #: pve-manager/www/manager6/node/LVM.js:185
 #: pve-manager/www/manager6/node/LVMThin.js:220
 #: pve-manager/www/manager6/node/ZFS.js:330
-#: pve-manager/www/manager6/Utils.js:2011
-#: pve-manager/www/manager6/Utils.js:2012
-#: pve-manager/www/manager6/Utils.js:2013
-#: pve-manager/www/manager6/Utils.js:2014
-#: pve-manager/www/manager6/Utils.js:2015
-#: pve-manager/www/manager6/Utils.js:2016
-#: pve-manager/www/manager6/Utils.js:2044
-#: pve-manager/www/manager6/Utils.js:2073
+#: pve-manager/www/manager6/Utils.js:2020
+#: pve-manager/www/manager6/Utils.js:2021
+#: pve-manager/www/manager6/Utils.js:2022
+#: pve-manager/www/manager6/Utils.js:2023
+#: pve-manager/www/manager6/Utils.js:2024
+#: pve-manager/www/manager6/Utils.js:2025
+#: pve-manager/www/manager6/Utils.js:2053
+#: pve-manager/www/manager6/Utils.js:2082
 msgid "Destroy"
 msgstr "Унищожи"
 
@@ -2987,7 +3003,7 @@ msgstr "Унищожаване на пространството от имена
 msgid "Destroy all data (dangerous!)"
 msgstr "Унищожи всички данни (опасно!)"
 
-#: pve-manager/www/manager6/Utils.js:2066
+#: pve-manager/www/manager6/Utils.js:2075
 msgid "Destroy image from unknown guest"
 msgstr "Унищожи изображение от неизвестен гост"
 
@@ -3043,7 +3059,7 @@ msgstr "Клас на устройството"
 msgid "Device ID"
 msgstr "Устройство ID"
 
-#: proxmox-widget-toolkit/src/Utils.js:1320
+#: proxmox-widget-toolkit/src/Utils.js:1323
 msgid "Device Ineligible"
 msgstr "Устройството не отговаря на условията"
 
@@ -3085,7 +3101,7 @@ msgstr "Посока"
 #: pve-manager/www/manager6/node/Directory.js:145
 #: pve-manager/www/manager6/node/Directory.js:170
 #: pve-manager/www/manager6/storage/DirEdit.js:14
-#: pve-manager/www/manager6/Utils.js:2023
+#: pve-manager/www/manager6/Utils.js:2032
 #: proxmox-backup/www/DirectoryList.js:95 proxmox-backup/www/Utils.js:410
 msgid "Directory"
 msgstr "Директории"
@@ -3108,7 +3124,7 @@ msgstr ""
 "Съпоставяния на директории"
 
 # Хранилище на Директории
-#: pve-manager/www/manager6/Utils.js:2022 proxmox-backup/www/Utils.js:409
+#: pve-manager/www/manager6/Utils.js:2031 proxmox-backup/www/Utils.js:409
 msgid "Directory Storage"
 msgstr "Съхранение на Директории"
 
@@ -3287,7 +3303,7 @@ msgstr "Надолу"
 #: pve-manager/www/manager6/node/Subscription.js:65
 #: pve-manager/www/manager6/storage/PBSEdit.js:79
 #: pve-manager/www/manager6/storage/TemplateView.js:127
-#: pve-manager/www/manager6/Utils.js:2024
+#: pve-manager/www/manager6/Utils.js:2033
 #: pve-manager/www/manager6/window/DownloadUrlToStorage.js:13
 #: proxmox-backup/www/Subscription.js:62
 msgid "Download"
@@ -3350,7 +3366,7 @@ msgstr "Номер на устройството"
 msgid "Drive is busy"
 msgstr "Устройството е заето"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:784
+#: proxmox-backup/www/tape/ChangerStatus.js:785
 #: proxmox-backup/www/tape/TapeManagement.js:36
 msgid "Drives"
 msgstr "Устройства"
@@ -3384,7 +3400,7 @@ msgstr "Дублираният номер на връзката не е разр
 msgid "Duration"
 msgstr "Продължителност"
 
-#: proxmox-widget-toolkit/src/Utils.js:83
+#: proxmox-widget-toolkit/src/Utils.js:84
 msgid "Dutch"
 msgstr "Холандски"
 
@@ -3434,7 +3450,7 @@ msgstr "EAB ключ"
 msgid "EAB Key ID"
 msgstr "ID на EAB ключ"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "EB"
 msgstr "EB"
 
@@ -3476,7 +3492,7 @@ msgstr "Име(на) на Пощенски атрибут"
 #: proxmox-widget-toolkit/src/panel/AuthView.js:138
 #: proxmox-widget-toolkit/src/panel/NotesView.js:21
 #: proxmox-widget-toolkit/src/panel/TfaView.js:291
-#: proxmox-widget-toolkit/src/Utils.js:648 pmg-gui/js/ActionList.js:108
+#: proxmox-widget-toolkit/src/Utils.js:650 pmg-gui/js/ActionList.js:108
 #: pmg-gui/js/ClamAVDatabase.js:159 pmg-gui/js/DKIMSettings.js:217
 #: pmg-gui/js/FetchmailView.js:77 pmg-gui/js/LDAPConfig.js:533
 #: pmg-gui/js/MailProxyOptions.js:115 pmg-gui/js/MailProxyPorts.js:33
@@ -3530,7 +3546,7 @@ msgstr "Име(на) на Пощенски атрибут"
 #: pve-manager/www/manager6/tree/DhcpTree.js:257
 #: pve-manager/www/manager6/tree/SnapshotTree.js:27
 #: pve-manager/www/manager6/tree/SnapshotTree.js:279
-#: pve-manager/www/manager6/Utils.js:2018
+#: pve-manager/www/manager6/Utils.js:2027
 #: proxmox-backup/www/config/GCView.js:134
 #: proxmox-backup/www/config/MetricServerView.js:104
 #: proxmox-backup/www/config/NodeOptionView.js:23
@@ -3589,7 +3605,7 @@ msgstr "Може да се редактира"
 msgid "Egress"
 msgstr "Излизане"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "EiB"
 msgstr "EiB"
 
@@ -3701,7 +3717,7 @@ msgstr "Активиране на нови потребители"
 msgid "Enable quota"
 msgstr "Активиране на квотата"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:69
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:64
 msgid "Enable support for extended attributes."
 msgstr "Активирайте поддръжката за разширени атрибути."
 
@@ -3759,7 +3775,7 @@ msgstr "Шифроване на OSD"
 msgid "Encrypted"
 msgstr "Криптиран"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:408
+#: proxmox-backup/www/window/SyncJobEdit.js:435
 msgid "Encrypted Only"
 msgstr "Само криптирано"
 
@@ -3805,7 +3821,7 @@ msgstr "Краен час"
 msgid "Endpoint Name"
 msgstr "Име на крайна точка"
 
-#: proxmox-widget-toolkit/src/Utils.js:71
+#: proxmox-widget-toolkit/src/Utils.js:72
 msgid "English"
 msgstr "Английски"
 
@@ -3821,10 +3837,6 @@ msgstr "Въведете URL за изтегляне"
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:322
 msgid "Enterprise (recommended)"
 msgstr "Enterprise (препоръчително)"
-
-#: proxmox-widget-toolkit/src/Utils.js:1304
-msgid "Enterprise repository needs valid subscription"
-msgstr "Корпоративното хранилище се нуждае от валиден абонамент"
 
 #: pve-manager/www/manager6/qemu/RNGEdit.js:46
 msgid "Entropy source"
@@ -3842,7 +3854,7 @@ msgstr "Вход"
 msgid "Envelope"
 msgstr "Плик"
 
-#: pve-manager/www/manager6/Utils.js:2030
+#: pve-manager/www/manager6/Utils.js:2039
 msgid "Erase data"
 msgstr "Изтриване на данни"
 
@@ -3868,10 +3880,10 @@ msgstr "Изтриване"
 #: proxmox-widget-toolkit/src/panel/NotesView.js:105
 #: proxmox-widget-toolkit/src/panel/TfaView.js:198
 #: proxmox-widget-toolkit/src/Utils.js:50
-#: proxmox-widget-toolkit/src/Utils.js:490
-#: proxmox-widget-toolkit/src/Utils.js:551
-#: proxmox-widget-toolkit/src/Utils.js:559
-#: proxmox-widget-toolkit/src/Utils.js:1100
+#: proxmox-widget-toolkit/src/Utils.js:491
+#: proxmox-widget-toolkit/src/Utils.js:552
+#: proxmox-widget-toolkit/src/Utils.js:560
+#: proxmox-widget-toolkit/src/Utils.js:1102
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:96
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:151
 #: proxmox-widget-toolkit/src/window/Edit.js:177
@@ -3898,8 +3910,8 @@ msgstr "Изтриване"
 #: pmg-gui/js/UserBlackWhiteList.js:88 pmg-gui/js/UserView.js:101
 #: pmg-gui/js/Utils.js:789 pmg-gui/js/ViewMailHeaders.js:61
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:131
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:581
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:586
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:582
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:587
 #: pve-manager/www/manager6/ceph/Config.js:84
 #: pve-manager/www/manager6/ceph/Crush.js:17
 #: pve-manager/www/manager6/ceph/OSD.js:23
@@ -3953,24 +3965,24 @@ msgstr "Изтриване"
 #: pve-manager/www/manager6/qemu/IPConfigEdit.js:236
 #: pve-manager/www/manager6/qemu/NetworkEdit.js:246
 #: pve-manager/www/manager6/qemu/Smbios1Edit.js:114
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:128
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:123
 #: pve-manager/www/manager6/sdn/StatusView.js:55
 #: pve-manager/www/manager6/sdn/VnetACLView.js:205
 #: pve-manager/www/manager6/storage/TemplateView.js:139
 #: pve-manager/www/manager6/tree/DhcpTree.js:123
 #: pve-manager/www/manager6/tree/ResourceMapTree.js:176
 #: pve-manager/www/manager6/tree/SnapshotTree.js:85
-#: pve-manager/www/manager6/Utils.js:1549
-#: pve-manager/www/manager6/Utils.js:1560
-#: pve-manager/www/manager6/window/Backup.js:196
+#: pve-manager/www/manager6/Utils.js:1558
+#: pve-manager/www/manager6/Utils.js:1569
+#: pve-manager/www/manager6/window/Backup.js:221
 #: pve-manager/www/manager6/window/DirMapEdit.js:57
 #: pve-manager/www/manager6/window/DownloadUrlToStorage.js:74
 #: pve-manager/www/manager6/window/FirewallEnableEdit.js:40
 #: pve-manager/www/manager6/window/GuestDiskReassign.js:94
-#: pve-manager/www/manager6/window/LoginWindow.js:64
-#: pve-manager/www/manager6/window/LoginWindow.js:162
-#: pve-manager/www/manager6/window/LoginWindow.js:204
-#: pve-manager/www/manager6/window/LoginWindow.js:307
+#: pve-manager/www/manager6/window/LoginWindow.js:67
+#: pve-manager/www/manager6/window/LoginWindow.js:165
+#: pve-manager/www/manager6/window/LoginWindow.js:207
+#: pve-manager/www/manager6/window/LoginWindow.js:310
 #: pve-manager/www/manager6/window/Prune.js:106
 #: pve-manager/www/manager6/window/Restore.js:84
 #: pve-manager/www/manager6/window/ScheduleSimulator.js:37
@@ -3991,8 +4003,8 @@ msgstr "Изтриване"
 #: proxmox-backup/www/datastore/Prune.js:140
 #: proxmox-backup/www/datastore/Summary.js:253
 #: proxmox-backup/www/datastore/Summary.js:278
-#: proxmox-backup/www/LoginView.js:64 proxmox-backup/www/LoginView.js:105
-#: proxmox-backup/www/LoginView.js:201 proxmox-backup/www/ServerStatus.js:100
+#: proxmox-backup/www/LoginView.js:62 proxmox-backup/www/LoginView.js:103
+#: proxmox-backup/www/LoginView.js:199 proxmox-backup/www/ServerStatus.js:100
 #: proxmox-backup/www/ServerStatus.js:133
 #: proxmox-backup/www/tape/BackupJobs.js:102
 #: proxmox-backup/www/tape/ChangerStatus.js:216
@@ -4014,7 +4026,7 @@ msgstr "Грешки"
 msgid "Estimated Full"
 msgstr "Очаквано пълно"
 
-#: proxmox-widget-toolkit/src/Utils.js:73
+#: proxmox-widget-toolkit/src/Utils.js:74
 msgid "Euskera (Basque)"
 msgstr "Euskera (баски)"
 
@@ -4234,7 +4246,7 @@ msgstr "Полета"
 #: proxmox-widget-toolkit/src/panel/Certificates.js:13
 #: proxmox-widget-toolkit/src/Schema.js:92
 #: pve-manager/www/manager6/node/Certificates.js:293
-#: pve-manager/www/manager6/Utils.js:2024
+#: pve-manager/www/manager6/Utils.js:2033
 #: pve-manager/www/manager6/window/UploadToStorage.js:191
 #: proxmox-backup/www/Utils.js:835
 msgid "File"
@@ -4247,7 +4259,7 @@ msgstr "Файл"
 msgid "File Restore"
 msgstr "Възстановяване на файлове"
 
-#: pve-manager/www/manager6/Utils.js:2037
+#: pve-manager/www/manager6/Utils.js:2046
 msgid "File Restore Download"
 msgstr "Изтегляне на възстановяване на файлове"
 
@@ -4336,7 +4348,7 @@ msgstr "Филтрите са добавки"
 msgid "Fingerprint"
 msgstr "Пръстов отпечатък"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:465
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:466
 #: pve-manager/www/manager6/window/Wizard.js:206
 msgid "Finish"
 msgstr "Завършете"
@@ -4365,7 +4377,7 @@ msgstr "Защитна стена"
 msgid "Firmware"
 msgstr "Фърмуер"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:502
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:503
 msgid "First Ceph monitor"
 msgstr "Първи монитор Ceph"
 
@@ -4483,8 +4495,8 @@ msgstr "Полетата на формуляра не могат да се из�
 #: pve-manager/www/manager6/storage/ContentView.js:180
 #: pve-manager/www/manager6/Toolkit.js:11
 #: pve-manager/www/manager6/window/GuestImport.js:699
-#: proxmox-backup/www/tape/ChangerStatus.js:755
-#: proxmox-backup/www/tape/ChangerStatus.js:811
+#: proxmox-backup/www/tape/ChangerStatus.js:756
+#: proxmox-backup/www/tape/ChangerStatus.js:812
 #: proxmox-backup/www/tape/DriveStatus.js:235
 #: proxmox-backup/www/tape/TapeInventory.js:227
 msgid "Format"
@@ -4516,7 +4528,7 @@ msgstr ""
 "Правилата за пренасочване влизат в сила само когато защитната стена на "
 "nftables е активирана в опциите на хоста"
 
-#: proxmox-widget-toolkit/src/Utils.js:686
+#: proxmox-widget-toolkit/src/Utils.js:688
 msgid "Forwarded mails to the local root user"
 msgstr "Препратени писма до локалния root потребител"
 
@@ -4549,7 +4561,7 @@ msgstr ""
 "Замразяване/размразяване на гост файлови системи при архивиране за "
 "последователност"
 
-#: proxmox-widget-toolkit/src/Utils.js:75
+#: proxmox-widget-toolkit/src/Utils.js:76
 msgid "French"
 msgstr "Френски"
 
@@ -4614,7 +4626,7 @@ msgstr "Пълен"
 msgid "Full Clone"
 msgstr "Пълен Клонинг"
 
-#: proxmox-widget-toolkit/src/Utils.js:740
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "GB"
 msgstr "GB"
 
@@ -4698,11 +4710,11 @@ msgstr "Шлюз"
 msgid "General"
 msgstr "Генерално"
 
-#: proxmox-widget-toolkit/src/Utils.js:80
+#: proxmox-widget-toolkit/src/Utils.js:81
 msgid "Georgian"
 msgstr "Грузински"
 
-#: proxmox-widget-toolkit/src/Utils.js:70
+#: proxmox-widget-toolkit/src/Utils.js:71
 msgid "German"
 msgstr "Немски"
 
@@ -4710,7 +4722,7 @@ msgstr "Немски"
 msgid "Ghost OSDs"
 msgstr "Екранни менюта на госта OSDs"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:744
 #: pve-manager/www/manager6/ceph/OSD.js:86
 #: pve-manager/www/manager6/ceph/OSD.js:140
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:148
@@ -4760,7 +4772,7 @@ msgstr "Група"
 
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:297
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:250
-#: proxmox-backup/www/window/SyncJobEdit.js:451
+#: proxmox-backup/www/window/SyncJobEdit.js:478
 msgid "Group Filter"
 msgstr "Групов Филтър"
 
@@ -4891,7 +4903,7 @@ msgid "HTTP proxy"
 msgstr "HTTP прокси"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:233
-#: pve-manager/www/manager6/qemu/HardwareView.js:695
+#: pve-manager/www/manager6/qemu/HardwareView.js:694
 #: pve-manager/www/manager6/qemu/HDEdit.js:475
 #: pve-manager/www/manager6/qemu/HDEdit.js:477
 msgid "Hard Disk"
@@ -4948,7 +4960,7 @@ msgstr "Обратен Адрес на \"Heartbeat\""
 msgid "Heartbeat Front Address"
 msgstr "Преден Адрес на \"Heartbeat\""
 
-#: proxmox-widget-toolkit/src/Utils.js:77
+#: proxmox-widget-toolkit/src/Utils.js:78
 msgid "Hebrew"
 msgstr "Иврит"
 
@@ -4968,7 +4980,7 @@ msgstr "Евристичен резултат"
 
 #: pve-manager/www/manager6/qemu/CmdMenu.js:72
 #: pve-manager/www/manager6/qemu/Config.js:179
-#: pve-manager/www/manager6/Utils.js:2057
+#: pve-manager/www/manager6/Utils.js:2066
 msgid "Hibernate"
 msgstr "Хибернация"
 
@@ -5026,7 +5038,7 @@ msgstr "Хост Група"
 msgid "Host/IP address or optional port is invalid"
 msgstr "Хост/IP адресът или незадължителният порт е невалиден"
 
-#: proxmox-widget-toolkit/src/Utils.js:671
+#: proxmox-widget-toolkit/src/Utils.js:673
 #: pve-manager/www/manager6/ceph/OSDDetails.js:136
 #: pve-manager/www/manager6/lxc/CreateWizard.js:60
 #: pve-manager/www/manager6/lxc/DNS.js:119
@@ -5083,9 +5095,9 @@ msgstr "ICMP тип"
 #: pve-manager/www/manager6/form/PCIMapSelector.js:35
 #: pve-manager/www/manager6/window/GuestImport.js:846
 #: proxmox-backup/www/tape/ChangerStatus.js:31
-#: proxmox-backup/www/tape/ChangerStatus.js:725
-#: proxmox-backup/www/tape/ChangerStatus.js:831
-#: proxmox-backup/www/tape/ChangerStatus.js:947 proxmox-backup/www/Utils.js:599
+#: proxmox-backup/www/tape/ChangerStatus.js:726
+#: proxmox-backup/www/tape/ChangerStatus.js:832
+#: proxmox-backup/www/tape/ChangerStatus.js:948 proxmox-backup/www/Utils.js:599
 msgid "ID"
 msgstr "ID"
 
@@ -5250,7 +5262,7 @@ msgstr ""
 msgid "Ignore header information"
 msgstr "Игнориране на информацията в заглавката"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:75
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:70
 msgid "Implies xattr support."
 msgstr "Подразбира поддръжка на xattr."
 
@@ -5259,7 +5271,7 @@ msgstr "Подразбира поддръжка на xattr."
 #: pve-manager/www/manager6/Utils.js:694
 #: pve-manager/www/manager6/window/GuestImport.js:19
 #: proxmox-backup/www/tape/ChangerStatus.js:58
-#: proxmox-backup/www/tape/ChangerStatus.js:970
+#: proxmox-backup/www/tape/ChangerStatus.js:971
 msgid "Import"
 msgstr "Импортиране"
 
@@ -5276,7 +5288,7 @@ msgstr "Импортиране на Гост – {0}"
 msgid "Import Working Storage"
 msgstr "Импортиране на работно хранилище"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:944
+#: proxmox-backup/www/tape/ChangerStatus.js:945
 #: proxmox-backup/www/tape/window/ChangerEdit.js:41
 msgid "Import-Export Slots"
 msgstr "Слотове за импортиране и експортиране"
@@ -5396,7 +5408,7 @@ msgid "Ingress"
 msgstr "Ingress"
 
 #: proxmox-widget-toolkit/src/panel/DiskList.js:377
-#: proxmox-widget-toolkit/src/Utils.js:702
+#: proxmox-widget-toolkit/src/Utils.js:704
 msgid "Initialize Disk with GPT"
 msgstr "Инициализирайте диска с GPT"
 
@@ -5460,12 +5472,12 @@ msgstr "Невалидна Стойност"
 msgid "Invalid characters in pool name"
 msgstr "Невалидни знаци в името на пула"
 
-#: pve-manager/www/manager6/Utils.js:1549
+#: pve-manager/www/manager6/Utils.js:1558
 msgid "Invalid file size"
 msgstr "Невалиден размер на файла"
 
-#: proxmox-widget-toolkit/src/Utils.js:1100
-#: pve-manager/www/manager6/Utils.js:1560
+#: proxmox-widget-toolkit/src/Utils.js:1102
+#: pve-manager/www/manager6/Utils.js:1569
 msgid "Invalid file size: "
 msgstr "Невалиден размер на файла "
 
@@ -5474,10 +5486,10 @@ msgid "Invalid permission path."
 msgstr "Невалиден път на разрешение."
 
 #: proxmox-backup/www/tape/ChangerStatus.js:385
-#: proxmox-backup/www/tape/ChangerStatus.js:689
-#: proxmox-backup/www/tape/ChangerStatus.js:736
-#: proxmox-backup/www/tape/ChangerStatus.js:843
-#: proxmox-backup/www/tape/ChangerStatus.js:958
+#: proxmox-backup/www/tape/ChangerStatus.js:690
+#: proxmox-backup/www/tape/ChangerStatus.js:737
+#: proxmox-backup/www/tape/ChangerStatus.js:844
+#: proxmox-backup/www/tape/ChangerStatus.js:959
 #: proxmox-backup/www/tape/TapeManagement.js:24
 msgid "Inventory"
 msgstr "Инвентаризация"
@@ -5531,7 +5543,7 @@ msgstr ""
 "За предпочитане е да конфигурирате запазването на резервни копия директно на "
 "Проксмокс Сървъра за Архивиране."
 
-#: proxmox-widget-toolkit/src/Utils.js:78
+#: proxmox-widget-toolkit/src/Utils.js:79
 msgid "Italian"
 msgstr "Италиански"
 
@@ -5544,7 +5556,7 @@ msgstr "Артикул"
 msgid "Iterations"
 msgstr "Итерации"
 
-#: proxmox-widget-toolkit/src/Utils.js:79
+#: proxmox-widget-toolkit/src/Utils.js:80
 msgid "Japanese"
 msgstr "Японски"
 
@@ -5562,7 +5574,7 @@ msgid "Job Detail"
 msgstr "Подробности за работата"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:120
-#: pve-manager/www/manager6/Utils.js:2093
+#: pve-manager/www/manager6/Utils.js:2102
 #: proxmox-backup/www/config/PruneView.js:175
 #: proxmox-backup/www/config/SyncView.js:270
 #: proxmox-backup/www/config/VerifyView.js:181
@@ -5570,7 +5582,7 @@ msgstr "Подробности за работата"
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:95
 #: proxmox-backup/www/Utils.js:442
 #: proxmox-backup/www/window/PruneJobEdit.js:154
-#: proxmox-backup/www/window/SyncJobEdit.js:368
+#: proxmox-backup/www/window/SyncJobEdit.js:395
 #: proxmox-backup/www/window/VerifyJobEdit.js:159
 msgid "Job ID"
 msgstr "ID на работа"
@@ -5585,7 +5597,7 @@ msgid "Join"
 msgstr "Присъединете се"
 
 #: pmg-gui/js/Utils.js:893 pve-manager/www/manager6/dc/Cluster.js:168
-#: pve-manager/www/manager6/Utils.js:2021
+#: pve-manager/www/manager6/Utils.js:2030
 msgid "Join Cluster"
 msgstr "Присъедини към клъстера"
 
@@ -5607,7 +5619,7 @@ msgstr "Присъединете се към {0}"
 msgid "Junk Mails"
 msgstr "Нежелана поща"
 
-#: proxmox-widget-toolkit/src/Utils.js:740
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "KB"
 msgstr "KB"
 
@@ -5632,7 +5644,7 @@ msgstr "Запази всички"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:30
 #: pmg-gui/js/PBSRemoteEdit.js:142
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:315
-#: pve-manager/www/manager6/window/Backup.js:72
+#: pve-manager/www/manager6/window/Backup.js:92
 #: proxmox-backup/www/panel/PrunePanel.js:49
 msgid "Keep Daily"
 msgstr "Съхранявайте Ежедневно"
@@ -5640,7 +5652,7 @@ msgstr "Съхранявайте Ежедневно"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:47
 #: pmg-gui/js/PBSRemoteEdit.js:156
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:296
-#: pve-manager/www/manager6/window/Backup.js:71
+#: pve-manager/www/manager6/window/Backup.js:91
 #: proxmox-backup/www/panel/PrunePanel.js:75
 msgid "Keep Hourly"
 msgstr "Съхранявайте Почасово"
@@ -5648,7 +5660,7 @@ msgstr "Съхранявайте Почасово"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:21
 #: pmg-gui/js/PBSRemoteEdit.js:136
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:295
-#: pve-manager/www/manager6/window/Backup.js:70
+#: pve-manager/www/manager6/window/Backup.js:90
 #: proxmox-backup/www/panel/PrunePanel.js:41
 msgid "Keep Last"
 msgstr "Съхранявайте Последно"
@@ -5656,7 +5668,7 @@ msgstr "Съхранявайте Последно"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:38
 #: pmg-gui/js/PBSRemoteEdit.js:148
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:334
-#: pve-manager/www/manager6/window/Backup.js:74
+#: pve-manager/www/manager6/window/Backup.js:94
 #: proxmox-backup/www/panel/PrunePanel.js:57
 msgid "Keep Monthly"
 msgstr "Съхранявайте Месечно"
@@ -5664,7 +5676,7 @@ msgstr "Съхранявайте Месечно"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:56
 #: pmg-gui/js/PBSRemoteEdit.js:162
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:316
-#: pve-manager/www/manager6/window/Backup.js:73
+#: pve-manager/www/manager6/window/Backup.js:93
 #: proxmox-backup/www/panel/PrunePanel.js:84
 msgid "Keep Weekly"
 msgstr "Съхранявайте Седмично"
@@ -5672,7 +5684,7 @@ msgstr "Съхранявайте Седмично"
 #: proxmox-widget-toolkit/src/panel/PruneKeepPanel.js:64
 #: pmg-gui/js/PBSRemoteEdit.js:168
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:335
-#: pve-manager/www/manager6/window/Backup.js:75
+#: pve-manager/www/manager6/window/Backup.js:95
 #: proxmox-backup/www/panel/PrunePanel.js:92
 msgid "Keep Yearly"
 msgstr "Съхранявайте Ежегодно"
@@ -5701,7 +5713,7 @@ msgstr ""
 "възстановяване след бедствие."
 
 #: pmg-gui/js/dashboard/NodeInfo.js:88
-#: pve-manager/www/manager6/node/StatusView.js:102
+#: pve-manager/www/manager6/node/StatusView.js:316
 #: proxmox-backup/www/panel/NodeInfo.js:143
 msgid "Kernel Version"
 msgstr "Версия на ядрото"
@@ -5728,11 +5740,11 @@ msgstr "Размер на ключа"
 msgid "Keyboard Layout"
 msgstr "Подредба на клавиатурата"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "KiB"
 msgstr "KiB"
 
-#: proxmox-widget-toolkit/src/Utils.js:81
+#: proxmox-widget-toolkit/src/Utils.js:82
 msgid "Korean"
 msgstr "Корейски"
 
@@ -5746,7 +5758,7 @@ msgid "LDAP Group"
 msgstr "LDAP група"
 
 #: proxmox-widget-toolkit/src/Schema.js:27
-#: pve-manager/www/manager6/Utils.js:717
+#: pve-manager/www/manager6/Utils.js:726
 msgid "LDAP Server"
 msgstr "LDAP сървър"
 
@@ -5770,11 +5782,11 @@ msgstr "LV път"
 msgid "LV UUID"
 msgstr "LV UUID"
 
-#: pve-manager/www/manager6/Utils.js:2031
+#: pve-manager/www/manager6/Utils.js:2040
 msgid "LVM Storage"
 msgstr "LVM Хранилище"
 
-#: pve-manager/www/manager6/Utils.js:2033
+#: pve-manager/www/manager6/Utils.js:2042
 msgid "LVM-Thin Storage"
 msgstr "LVM-тънко Хранилище"
 
@@ -5797,7 +5809,7 @@ msgstr "Етикет"
 msgid "Label Information"
 msgstr "Информация за етикета"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:795
+#: proxmox-backup/www/tape/ChangerStatus.js:796
 #: proxmox-backup/www/tape/DriveStatus.js:215
 #: proxmox-backup/www/tape/window/LabelMedia.js:8
 #: proxmox-backup/www/Utils.js:417
@@ -5808,9 +5820,9 @@ msgstr "Медия за етикети"
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:43
 #: pmg-gui/js/LoginView.js:381 pmg-gui/js/MainView.js:221
 #: pmg-gui/js/QuarantineView.js:258
-#: pve-manager/www/manager6/window/LoginWindow.js:381
+#: pve-manager/www/manager6/window/LoginWindow.js:384
 #: pve-manager/www/manager6/Workspace.js:411
-#: proxmox-backup/www/LoginView.js:315 proxmox-backup/www/MainView.js:271
+#: proxmox-backup/www/LoginView.js:313 proxmox-backup/www/MainView.js:271
 msgid "Language"
 msgstr "Език"
 
@@ -5961,7 +5973,7 @@ msgstr ""
 "Виртуална машина, работеща в режим на мигриране на живо с картографирани "
 "ресурси (експериментална версия): {0}"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:761
+#: proxmox-backup/www/tape/ChangerStatus.js:762
 msgid "Load"
 msgstr "Заредете"
 
@@ -5992,7 +6004,7 @@ msgstr "Средно натоварване"
 msgid "Loading"
 msgstr "Зарежда се"
 
-#: proxmox-widget-toolkit/src/Utils.js:371
+#: proxmox-widget-toolkit/src/Utils.js:372
 #: pve-manager/www/manager6/ceph/OSD.js:483
 #: pve-manager/www/manager6/tree/ResourceMapTree.js:268
 msgid "Loading..."
@@ -6007,13 +6019,13 @@ msgid "Local Backup/Restore"
 msgstr "Локално Архивиране/Възстановяване"
 
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:104
-#: proxmox-backup/www/window/SyncJobEdit.js:122
+#: proxmox-backup/www/window/SyncJobEdit.js:139
 #: proxmox-backup/www/window/VerifyJobEdit.js:65
 msgid "Local Datastore"
 msgstr "Локално хранилище за данни"
 
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:115
-#: proxmox-backup/www/window/SyncJobEdit.js:146
+#: proxmox-backup/www/window/SyncJobEdit.js:163
 msgid "Local Namespace"
 msgstr "Локално пространство на имената"
 
@@ -6038,7 +6050,7 @@ msgid "Locating"
 msgstr "Локализиране"
 
 #: proxmox-backup/www/tape/TapeInventory.js:299
-#: proxmox-backup/www/window/SyncJobEdit.js:200
+#: proxmox-backup/www/window/SyncJobEdit.js:227
 msgid "Location"
 msgstr "Местоположение"
 
@@ -6081,7 +6093,7 @@ msgstr "Ротация на Логове"
 msgid "Log burst limit"
 msgstr "Ограничение за спукване на регистрационни файлове"
 
-#: pve-manager/www/manager6/Utils.js:1763
+#: pve-manager/www/manager6/Utils.js:1772
 msgid "Log in as root to install."
 msgstr "Влезте като root, за да инсталирате."
 
@@ -6111,8 +6123,8 @@ msgid "Login (OpenID redirect)"
 msgstr "Вход (OpenID пренасочване)"
 
 #: pmg-gui/js/LoginView.js:139
-#: pve-manager/www/manager6/window/LoginWindow.js:156
-#: proxmox-backup/www/LoginView.js:106
+#: pve-manager/www/manager6/window/LoginWindow.js:159
+#: proxmox-backup/www/LoginView.js:104
 msgid "Login failed. Please try again"
 msgstr "Неуспешно влизане. Моля, опитайте отново"
 
@@ -6159,7 +6171,7 @@ msgstr "Префикс на MAC адрес"
 msgid "MAC filter"
 msgstr "MAC филтър"
 
-#: proxmox-widget-toolkit/src/Utils.js:740
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "MB"
 msgstr "MB"
 
@@ -6272,7 +6284,7 @@ msgstr "Управлявайте HA"
 msgid "Manager"
 msgstr "Мениджър"
 
-#: pve-manager/www/manager6/node/StatusView.js:136
+#: pve-manager/www/manager6/node/StatusView.js:350
 msgid "Manager Version"
 msgstr "Версия на мениджъра"
 
@@ -6407,7 +6419,7 @@ msgstr "Максимален размер на сканиране"
 #: proxmox-backup/www/form/NamespaceMaxDepth.js:8
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:204
 #: proxmox-backup/www/window/PruneJobEdit.js:107
-#: proxmox-backup/www/window/SyncJobEdit.js:336
+#: proxmox-backup/www/window/SyncJobEdit.js:363
 #: proxmox-backup/www/window/VerifyJobEdit.js:88
 msgid "Max. Depth"
 msgstr "Макс.Дълбочина"
@@ -6552,7 +6564,7 @@ msgstr "Метод/URL"
 msgid "Metric Server"
 msgstr "Метричен сървър"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "MiB"
 msgstr "MiB"
 
@@ -6563,9 +6575,9 @@ msgstr "MiB"
 #: pve-manager/www/manager6/node/Config.js:92
 #: pve-manager/www/manager6/qemu/CmdMenu.js:116
 #: pve-manager/www/manager6/qemu/Config.js:68
-#: pve-manager/www/manager6/Utils.js:2025
-#: pve-manager/www/manager6/Utils.js:2045
-#: pve-manager/www/manager6/Utils.js:2075
+#: pve-manager/www/manager6/Utils.js:2034
+#: pve-manager/www/manager6/Utils.js:2054
+#: pve-manager/www/manager6/Utils.js:2084
 #: pve-manager/www/manager6/window/Migrate.js:98
 #: pve-manager/www/manager6/window/Migrate.js:477
 msgid "Migrate"
@@ -6632,7 +6644,7 @@ msgstr "Смесени абонаменти"
 msgid "Mode"
 msgstr "Режим"
 
-#: pve-manager/www/manager6/window/Backup.js:220
+#: pve-manager/www/manager6/window/Backup.js:82
 msgid ""
 "Mode to detect file changes and switch archive encoding format for container "
 "backups to Proxmox Backup Server. Not available for VM backups."
@@ -6661,7 +6673,7 @@ msgstr "Режим: {0}"
 #: pve-manager/www/manager6/window/GuestImport.js:856
 #: proxmox-backup/www/form/PartitionSelector.js:72
 #: proxmox-backup/www/tape/ChangerConfig.js:122
-#: proxmox-backup/www/tape/ChangerStatus.js:877
+#: proxmox-backup/www/tape/ChangerStatus.js:878
 #: proxmox-backup/www/tape/DriveConfig.js:158
 #: proxmox-backup/www/tape/DriveStatus.js:452
 #: proxmox-backup/www/tape/form/ChangerSelector.js:45
@@ -6703,7 +6715,7 @@ msgstr "От Понеделник до Петък"
 msgid "Monitor"
 msgstr "Монитор"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:506
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:507
 msgid "Monitor node"
 msgstr "Мониторен възел"
 
@@ -6732,7 +6744,7 @@ msgstr "Месечно"
 msgid "More"
 msgstr "Повече"
 
-#: pve-manager/www/manager6/Utils.js:2076
+#: pve-manager/www/manager6/Utils.js:2085
 #: proxmox-backup/www/datastore/Summary.js:268
 msgid "Mount"
 msgstr "Монтирайте"
@@ -6772,12 +6784,12 @@ msgid "Move Storage"
 msgstr "Преместете Хранилище"
 
 #: pve-manager/www/manager6/qemu/HDMove.js:28
-#: pve-manager/www/manager6/Utils.js:2036
+#: pve-manager/www/manager6/Utils.js:2045
 msgid "Move Volume"
 msgstr "Преместете Том"
 
 #: pve-manager/www/manager6/qemu/HDMove.js:28
-#: pve-manager/www/manager6/Utils.js:2046
+#: pve-manager/www/manager6/Utils.js:2055
 msgid "Move disk"
 msgstr "Преместете диска"
 
@@ -6832,7 +6844,7 @@ msgid "My Settings"
 msgstr "Моите настройки"
 
 #: proxmox-widget-toolkit/src/panel/DiskList.js:344
-#: proxmox-widget-toolkit/src/Utils.js:1055 proxmox-backup/www/Utils.js:319
+#: proxmox-widget-toolkit/src/Utils.js:1057 proxmox-backup/www/Utils.js:319
 msgid "N/A"
 msgstr "Неприложимо"
 
@@ -6857,6 +6869,10 @@ msgstr ""
 #: pve-manager/www/manager6/tree/SnapshotTree.js:336
 msgid "NOW"
 msgstr "СЕГА"
+
+#: pve-manager/www/manager6/node/StatusView.js:268
+msgid "NVME温度"
+msgstr ""
 
 #: pve-manager/www/manager6/window/GuestImport.js:958
 msgid "NVMe disks are currently not supported, '{0}' will get attached as SCSI"
@@ -6948,7 +6964,7 @@ msgstr ""
 #: proxmox-backup/www/config/UserView.js:230
 #: proxmox-backup/www/dashboard/DataStoreStatistics.js:71
 #: proxmox-backup/www/tape/ChangerConfig.js:107
-#: proxmox-backup/www/tape/ChangerStatus.js:849
+#: proxmox-backup/www/tape/ChangerStatus.js:850
 #: proxmox-backup/www/tape/DriveConfig.js:143
 #: proxmox-backup/www/tape/DriveStatus.js:434
 #: proxmox-backup/www/tape/form/ChangerSelector.js:24
@@ -7045,10 +7061,10 @@ msgstr "Мрежа"
 msgid "Network Config"
 msgstr "Мрежова Конфигурация"
 
-#: proxmox-widget-toolkit/src/Utils.js:653
+#: proxmox-widget-toolkit/src/Utils.js:655
 #: pve-manager/www/manager6/lxc/Network.js:326
 #: pve-manager/www/manager6/qemu/HardwareView.js:247
-#: pve-manager/www/manager6/qemu/HardwareView.js:707
+#: pve-manager/www/manager6/qemu/HardwareView.js:706
 #: pve-manager/www/manager6/qemu/IPConfigEdit.js:66
 #: pve-manager/www/manager6/qemu/NetworkEdit.js:232
 msgid "Network Device"
@@ -7104,7 +7120,7 @@ msgid "Newest ceph version in cluster is {0}"
 msgstr "Най-новата версия на ceph в клъстера е {0}"
 
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:352
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:455
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:456
 #: pve-manager/www/manager6/window/Wizard.js:187
 #: proxmox-backup/www/tape/window/TapeRestore.js:274
 msgid "Next"
@@ -7435,7 +7451,7 @@ msgstr "Няма избрана цел"
 msgid "No updates available."
 msgstr "Няма налични актуализации."
 
-#: proxmox-widget-toolkit/src/Utils.js:566
+#: proxmox-widget-toolkit/src/Utils.js:567
 #: pmg-gui/js/mobile/quarantineview.js:51 pmg-gui/js/mobile/utils.js:145
 #: pmg-gui/js/mobile/utils.js:151 proxmox-backup/www/Dashboard.js:330
 msgid "No valid subscription"
@@ -7457,14 +7473,9 @@ msgstr "Не е конфигуриран {0}."
 msgid "No {0} found"
 msgstr "Няма намерени {0}"
 
-#: proxmox-widget-toolkit/src/Utils.js:1297
+#: proxmox-widget-toolkit/src/Utils.js:1299
 msgid "No {0} repository enabled!"
 msgstr "Няма {0} активирано хранилище!"
-
-#: proxmox-widget-toolkit/src/node/APTRepositories.js:474
-msgid "No {0} repository is enabled, you do not get any updates!"
-msgstr ""
-"Няма {0} активирано хранилище , няма да получавате никакви актуализации!"
 
 #: pve-manager/www/manager6/node/Directory.js:172
 #: pve-manager/www/manager6/node/LVM.js:172
@@ -7510,7 +7521,7 @@ msgstr "Без-Абонамент"
 msgid "Node"
 msgstr "Възел"
 
-#: pve-manager/www/manager6/Utils.js:2100
+#: pve-manager/www/manager6/Utils.js:2109
 msgid "Node fencing notifications"
 msgstr "Известия за ограждане на възли"
 
@@ -7544,10 +7555,6 @@ msgstr "Име на възел"
 msgid "Nodes"
 msgstr "Възли"
 
-#: proxmox-widget-toolkit/src/Utils.js:1307
-msgid "Non production-ready repository enabled!"
-msgstr "Активиране на Не-Готово-Продукционно хранилище!"
-
 #: proxmox-widget-toolkit/src/Utils.js:49 pmg-gui/js/PBSSnapshotView.js:179
 #: pve-manager/www/manager6/dc/OptionView.js:60
 #: pve-manager/www/manager6/storage/CIFSEdit.js:179
@@ -7571,15 +7578,15 @@ msgstr "Няма съвпадения"
 msgid "Normalized"
 msgstr "Нормализирано"
 
-#: proxmox-widget-toolkit/src/Utils.js:82
+#: proxmox-widget-toolkit/src/Utils.js:83
 msgid "Norwegian (Bokmal)"
 msgstr "Норвежки (Букмал)"
 
-#: proxmox-widget-toolkit/src/Utils.js:84
+#: proxmox-widget-toolkit/src/Utils.js:85
 msgid "Norwegian (Nynorsk)"
 msgstr "Норвежки (Нюнорск)"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:628
+#: proxmox-backup/www/tape/ChangerStatus.js:629
 msgid "Not Labeled"
 msgstr "Не е Етикетирано"
 
@@ -7670,7 +7677,7 @@ msgstr ""
 #: pve-manager/www/manager6/node/Config.js:151
 #: pve-manager/www/manager6/storage/BackupView.js:159
 #: pve-manager/www/manager6/storage/ContentView.js:161
-#: pve-manager/www/manager6/window/Backup.js:235
+#: pve-manager/www/manager6/window/Backup.js:254
 #: pve-manager/www/manager6/window/Settings.js:281
 #: proxmox-backup/www/NavigationTree.js:36
 #: proxmox-backup/www/window/NotesEdit.js:5
@@ -7726,7 +7733,7 @@ msgstr "Режим на уведомяване"
 msgid "Notification system"
 msgstr "Система за уведомяване"
 
-#: proxmox-widget-toolkit/src/Utils.js:670
+#: proxmox-widget-toolkit/src/Utils.js:672
 msgid "Notification type"
 msgstr "Тип известие"
 
@@ -7878,12 +7885,6 @@ msgstr "Само заглавки от най-високо ниво"
 msgid "Open Repositories Panel"
 msgstr "Отворете панела за хранилища"
 
-#: proxmox-backup/www/dashboard/LongestTasks.js:103
-#: proxmox-backup/www/dashboard/RunningTasks.js:98
-#: proxmox-backup/www/dashboard/TaskSummary.js:112
-msgid "Open Task"
-msgstr "Отворете задачата"
-
 #: pve-manager/www/manager6/window/Settings.js:283
 msgid "Open editor on double-click"
 msgstr "Отворете редактора с двойно щракване"
@@ -7893,7 +7894,7 @@ msgid "Open restore wizard for {0}"
 msgstr "Отворете съветника за възстановяване за {0}"
 
 #: proxmox-widget-toolkit/src/Schema.js:16
-#: pve-manager/www/manager6/Utils.js:725
+#: pve-manager/www/manager6/Utils.js:734
 msgid "OpenID Connect Server"
 msgstr "OpenID свързващ сървър"
 
@@ -7909,21 +7910,21 @@ msgstr "Влизането в OpenID Connect не бе успешно, моля,
 msgid "OpenID Connect redirect failed."
 msgstr "Пренасочването на OpenID Connect не бе успешно."
 
-#: pve-manager/www/manager6/window/LoginWindow.js:291
-#: proxmox-backup/www/LoginView.js:184
+#: pve-manager/www/manager6/window/LoginWindow.js:294
+#: proxmox-backup/www/LoginView.js:182
 msgid "OpenID login - please wait..."
 msgstr "OpenID вход - моля изчакайте..."
 
-#: pve-manager/www/manager6/window/LoginWindow.js:308
-#: proxmox-backup/www/LoginView.js:202
+#: pve-manager/www/manager6/window/LoginWindow.js:311
+#: proxmox-backup/www/LoginView.js:200
 msgid "OpenID login failed, please try again"
 msgstr "Влизането в OpenID не бе успешно, моля, опитайте отново"
 
-#: proxmox-backup/www/LoginView.js:65
+#: proxmox-backup/www/LoginView.js:63
 msgid "OpenID redirect failed, please try again"
 msgstr "Пренасочването на OpenID не бе успешно, моля, опитайте отново"
 
-#: pve-manager/www/manager6/window/LoginWindow.js:65
+#: pve-manager/www/manager6/window/LoginWindow.js:68
 msgid "OpenID redirect failed."
 msgstr "Пренасочването на OpenID не бе успешно."
 
@@ -7961,7 +7962,7 @@ msgstr "Опции"
 msgid "Order"
 msgstr "Поръчайте"
 
-#: pve-manager/www/manager6/Utils.js:1998 proxmox-backup/www/Utils.js:401
+#: pve-manager/www/manager6/Utils.js:2007 proxmox-backup/www/Utils.js:401
 msgid "Order Certificate"
 msgstr "Поръчай Сертификат"
 
@@ -8006,7 +8007,7 @@ msgstr "Друга дейност"
 msgid "Other DT Activity"
 msgstr "Друга DT дейност"
 
-#: proxmox-widget-toolkit/src/Utils.js:1317
+#: proxmox-widget-toolkit/src/Utils.js:1320
 msgid "Other Error"
 msgstr "Друга Грешка"
 
@@ -8084,17 +8085,17 @@ msgstr "Презаписване на проверката за недостъп
 msgid "Owner"
 msgstr "Собственик"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "PB"
 msgstr "PB"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:269
-#: pve-manager/www/manager6/window/Backup.js:58
+#: pve-manager/www/manager6/window/Backup.js:71
 msgid "PBS change detection mode"
 msgstr "PBS режим на откриване на промяна"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:285
-#: pve-manager/www/manager6/qemu/HardwareView.js:729
+#: pve-manager/www/manager6/qemu/HardwareView.js:728
 #: pve-manager/www/manager6/qemu/PCIEdit.js:344
 msgid "PCI Device"
 msgstr "PCI устройство"
@@ -8116,7 +8117,7 @@ msgstr "PEM"
 msgid "PG Autoscaler Mode"
 msgstr "Режим на автоматично мащабиране на PG"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:74
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:69
 msgid "POSIX ACLs"
 msgstr "POSIX ACLs"
 
@@ -8125,7 +8126,7 @@ msgstr "POSIX ACLs"
 msgid "Package"
 msgstr "Пакет"
 
-#: pve-manager/www/manager6/Utils.js:2097 proxmox-backup/www/Utils.js:449
+#: pve-manager/www/manager6/Utils.js:2106 proxmox-backup/www/Utils.js:449
 msgid "Package updates are available"
 msgstr "Налични са актуализации на пакети"
 
@@ -8178,9 +8179,9 @@ msgstr "Преминаване през конкретно устройство"
 #: pve-manager/www/manager6/storage/CIFSEdit.js:180
 #: pve-manager/www/manager6/storage/ESXIEdit.js:70
 #: pve-manager/www/manager6/storage/PBSEdit.js:538
-#: pve-manager/www/manager6/window/LoginWindow.js:366
+#: pve-manager/www/manager6/window/LoginWindow.js:369
 #: pve-manager/www/manager6/Workspace.js:380
-#: proxmox-backup/www/LoginView.js:299
+#: proxmox-backup/www/LoginView.js:297
 #: proxmox-backup/www/tape/EncryptionKeys.js:53
 #: proxmox-backup/www/tape/window/EncryptionEdit.js:36
 #: proxmox-backup/www/window/RemoteEdit.js:102
@@ -8233,7 +8234,7 @@ msgstr "Път на устройството"
 
 #: pve-manager/www/manager6/qemu/CmdMenu.js:65
 #: pve-manager/www/manager6/qemu/Config.js:171
-#: pve-manager/www/manager6/Utils.js:2047
+#: pve-manager/www/manager6/Utils.js:2056
 msgid "Pause"
 msgstr "Пауза"
 
@@ -8309,7 +8310,7 @@ msgstr "Разрешение"
 msgid "Permissions"
 msgstr "Разрешения"
 
-#: proxmox-widget-toolkit/src/Utils.js:74
+#: proxmox-widget-toolkit/src/Utils.js:75
 msgid "Persian (Farsi)"
 msgstr "Персийски (Фарси)"
 
@@ -8321,7 +8322,7 @@ msgstr "Физическо устройство"
 msgid "Physical devices used by the OSD"
 msgstr "Физически устройства, използвани от OSD"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "PiB"
 msgstr "PiB"
 
@@ -8361,7 +8362,7 @@ msgid "Please insert your authentication device and press its button"
 msgstr ""
 "Моля, поставете вашето устройство за удостоверяване и натиснете бутона му"
 
-#: pve-manager/www/manager6/window/LoginWindow.js:192
+#: pve-manager/www/manager6/window/LoginWindow.js:195
 msgid "Please press the button on your U2F Device"
 msgstr "Моля, натиснете бутона на вашето U2F устройство"
 
@@ -8417,16 +8418,16 @@ msgstr ""
 "добавите, като използвате следния IP адрес и пръстов отпечатък."
 
 #: proxmox-widget-toolkit/src/panel/TfaView.js:191
-#: proxmox-widget-toolkit/src/Utils.js:455
+#: proxmox-widget-toolkit/src/Utils.js:456
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:62
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:29
 #: proxmox-widget-toolkit/src/window/ThemeEdit.js:26 pmg-gui/js/LoginView.js:81
 #: pmg-gui/js/LoginView.js:206 pve-manager/www/manager6/dc/Backup.js:639
-#: pve-manager/www/manager6/window/Backup.js:378
-#: pve-manager/www/manager6/window/LoginWindow.js:72
-#: pve-manager/www/manager6/window/LoginWindow.js:214
-#: pve-manager/www/manager6/window/LoginWindow.js:253
-#: proxmox-backup/www/LoginView.js:75 proxmox-backup/www/LoginView.js:148
+#: pve-manager/www/manager6/window/Backup.js:397
+#: pve-manager/www/manager6/window/LoginWindow.js:75
+#: pve-manager/www/manager6/window/LoginWindow.js:217
+#: pve-manager/www/manager6/window/LoginWindow.js:256
+#: proxmox-backup/www/LoginView.js:73 proxmox-backup/www/LoginView.js:146
 msgid "Please wait..."
 msgstr "Моля изчакайте..."
 
@@ -8447,7 +8448,7 @@ msgstr "ID на Приставка"
 msgid "Policy"
 msgstr "Политика"
 
-#: proxmox-widget-toolkit/src/Utils.js:85
+#: proxmox-widget-toolkit/src/Utils.js:86
 msgid "Polish"
 msgstr "Полски"
 
@@ -8520,7 +8521,7 @@ msgstr "Портове"
 msgid "Ports/Slaves"
 msgstr "Портове/Подчинени"
 
-#: proxmox-widget-toolkit/src/Utils.js:86
+#: proxmox-widget-toolkit/src/Utils.js:87
 msgid "Portuguese (Brazil)"
 msgstr "Португалски (Бразилия)"
 
@@ -8529,7 +8530,7 @@ msgid "Position"
 msgstr "Позиция"
 
 #: pve-manager/www/manager6/dc/Backup.js:488
-#: pve-manager/www/manager6/window/Backup.js:246
+#: pve-manager/www/manager6/window/Backup.js:265
 msgid "Possible template variables are: {0}"
 msgstr "Възможните променливи на шаблона са: {0}"
 
@@ -8649,8 +8650,10 @@ msgstr "Процесори"
 msgid "Product"
 msgstr "Продукт"
 
-#: proxmox-widget-toolkit/src/Utils.js:1301
 #: proxmox-widget-toolkit/src/Utils.js:1303
+#: proxmox-widget-toolkit/src/Utils.js:1306
+#: proxmox-widget-toolkit/src/Utils.js:1309
+#: proxmox-widget-toolkit/src/Utils.js:1312
 msgid "Production-ready Enterprise repository enabled"
 msgstr "Готово за производство корпоративно хранилище е активирано"
 
@@ -8694,7 +8697,7 @@ msgstr "Собственост"
 #: pve-manager/www/manager6/grid/BackupView.js:350
 #: pve-manager/www/manager6/storage/ContentView.js:168
 #: pve-manager/www/manager6/storage/ContentView.js:170
-#: pve-manager/www/manager6/window/Backup.js:207
+#: pve-manager/www/manager6/window/Backup.js:232
 #: proxmox-backup/www/datastore/Content.js:708
 msgid "Protected"
 msgstr "Защитен"
@@ -8718,7 +8721,7 @@ msgstr "Защита"
 msgid "Protocol"
 msgstr "Протокол"
 
-#: proxmox-backup/www/LoginView.js:265
+#: proxmox-backup/www/LoginView.js:263
 msgid "Proxmox Backup Server Login"
 msgstr "Вход в Proxmox Архив Сървър"
 
@@ -8730,11 +8733,11 @@ msgstr "Вход в Proxmox Mail Gateway"
 msgid "Proxmox Mail Gateway Quarantine Help"
 msgstr "Помощ за карантината на Proxmox Mail Gateway"
 
-#: pve-manager/www/manager6/window/LoginWindow.js:333
+#: pve-manager/www/manager6/window/LoginWindow.js:336
 msgid "Proxmox VE Login"
 msgstr "Вход в Proxmox VE"
 
-#: pve-manager/www/manager6/window/Backup.js:91
+#: pve-manager/www/manager6/window/Backup.js:111
 #: pve-manager/www/manager6/window/Prune.js:210
 #: proxmox-backup/www/datastore/Content.js:1330 proxmox-backup/www/Utils.js:421
 msgid "Prune"
@@ -8785,7 +8788,7 @@ msgstr "Група Подрязвaне/Премахване"
 msgid "Prune job"
 msgstr "Съкращаване на работа"
 
-#: pve-manager/www/manager6/window/Backup.js:94
+#: pve-manager/www/manager6/window/Backup.js:114
 msgid "Prune older backups afterwards"
 msgstr "След това отрежете по-старите резервни копия"
 
@@ -8817,7 +8820,7 @@ msgstr "Тип публичен ключ"
 msgid "Pull"
 msgstr "Издърпай"
 
-#: pve-manager/www/manager6/Utils.js:2038
+#: pve-manager/www/manager6/Utils.js:2047
 msgid "Pull file"
 msgstr "Издърпване на файл"
 
@@ -8833,7 +8836,7 @@ msgstr "Изчистване от конфигурации на работа"
 msgid "Push"
 msgstr "Бутни"
 
-#: pve-manager/www/manager6/Utils.js:2039
+#: pve-manager/www/manager6/Utils.js:2048
 msgid "Push file"
 msgstr "Бутни Файл"
 
@@ -8949,7 +8952,8 @@ msgstr "Оценете в"
 msgid "Rate In Used"
 msgstr "Оценете В ИзползваноЛимит на скоростта"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:190
+#: proxmox-backup/www/window/SyncJobEdit.js:207
+#: proxmox-backup/www/window/SyncJobEdit.js:216
 msgid "Rate Limit"
 msgstr "Лимит на скоростта"
 
@@ -8987,11 +8991,11 @@ msgstr "Необработен образ на диска"
 msgid "Re-Verify After"
 msgstr "Повторна проверка след"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:391
+#: proxmox-backup/www/window/SyncJobEdit.js:418
 msgid "Re-sync Corrupt"
 msgstr "Повторно синхронизиране на Повредата"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:395
+#: proxmox-backup/www/window/SyncJobEdit.js:422
 msgid "Re-sync snapshots, whose verification failed."
 msgstr "Синхронизирайте повторно снимките, чиято проверка е неуспешна."
 
@@ -9002,7 +9006,7 @@ msgstr "Синхронизирайте повторно снимките, чия
 msgid "Read"
 msgstr "Прочетете"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:918
+#: proxmox-backup/www/tape/ChangerStatus.js:919
 #: proxmox-backup/www/tape/DriveStatus.js:257
 msgid "Read Label"
 msgstr "Прочетете етикета"
@@ -9055,8 +9059,8 @@ msgstr "Чете"
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:292
 #: pve-manager/www/manager6/dc/UserEdit.js:102
 #: pve-manager/www/manager6/dc/UserView.js:172
-#: pve-manager/www/manager6/Utils.js:2004
-#: pve-manager/www/manager6/Utils.js:2005
+#: pve-manager/www/manager6/Utils.js:2013
+#: pve-manager/www/manager6/Utils.js:2014
 #: proxmox-backup/www/config/UserView.js:209
 #: proxmox-backup/www/window/UserEdit.js:76
 msgid "Realm"
@@ -9119,8 +9123,8 @@ msgstr "Ребалансиране на старт"
 #: pve-manager/www/manager6/node/Config.js:102
 #: pve-manager/www/manager6/qemu/CmdMenu.js:105
 #: pve-manager/www/manager6/qemu/Config.js:162
-#: pve-manager/www/manager6/Utils.js:2048
-#: pve-manager/www/manager6/Utils.js:2077
+#: pve-manager/www/manager6/Utils.js:2057
+#: pve-manager/www/manager6/Utils.js:2086
 #: proxmox-backup/www/ServerStatus.js:139
 msgid "Reboot"
 msgstr "Рестартирайте"
@@ -9176,7 +9180,7 @@ msgid "Referenced disks will always be destroyed."
 msgstr "Реферираните дискове винаги ще бъдат унищожени."
 
 #: proxmox-widget-toolkit/src/node/APT.js:106
-#: pve-manager/www/manager6/Utils.js:1999
+#: pve-manager/www/manager6/Utils.js:2008
 msgid "Refresh"
 msgstr "Опресняване"
 
@@ -9189,9 +9193,10 @@ msgid "Regenerate Secret"
 msgstr "Регенериране на тайна"
 
 #: proxmox-backup/www/config/TokenView.js:196
+#, fuzzy
 msgid ""
-"Regenerate the secret of the API token '{0}'? All current use-sites will "
-"loose access!"
+"Regenerate the secret of the API token '{0}'? All users of the previous "
+"token secret will lose access!"
 msgstr ""
 "Да се ​​генерира ли отново тайната на API токена „{0}“? Всички текущи сайтове "
 "за ползване ще загубят достъп!"
@@ -9205,7 +9210,7 @@ msgstr "Regex"
 
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:12
 #: pve-manager/www/manager6/node/ACME.js:9
-#: pve-manager/www/manager6/Utils.js:2000
+#: pve-manager/www/manager6/Utils.js:2009
 msgid "Register"
 msgstr "Регистрирайте се"
 
@@ -9267,7 +9272,7 @@ msgstr "Препредаване"
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:154
 #: proxmox-widget-toolkit/src/node/Tasks.js:232
 #: proxmox-widget-toolkit/src/panel/DiskList.js:358
-#: proxmox-widget-toolkit/src/Utils.js:704
+#: proxmox-widget-toolkit/src/Utils.js:706
 #: proxmox-widget-toolkit/src/window/DiskSmart.js:89
 #: proxmox-widget-toolkit/src/window/ZFSDetail.js:65
 #: pmg-gui/js/PBSConfig.js:129 pmg-gui/js/PBSSnapshotView.js:163
@@ -9282,14 +9287,14 @@ msgstr "Препредаване"
 #: proxmox-backup/www/datastore/Content.js:1229
 #: proxmox-backup/www/DirectoryList.js:74
 #: proxmox-backup/www/tape/BackupOverview.js:301
-#: proxmox-backup/www/tape/ChangerStatus.js:676
+#: proxmox-backup/www/tape/ChangerStatus.js:677
 #: proxmox-backup/www/tape/DriveStatus.js:207
 #: proxmox-backup/www/tape/TapeInventory.js:204
 #: proxmox-backup/www/ZFSList.js:108
 msgid "Reload"
 msgstr "Презареди"
 
-#: pve-manager/www/manager6/Utils.js:2060
+#: pve-manager/www/manager6/Utils.js:2069
 msgid "Reload network configuration on all nodes"
 msgstr "Презаредете мрежовата конфигурация на всички възли"
 
@@ -9363,10 +9368,10 @@ msgstr "Планирано премахване"
 #: pve-manager/www/manager6/sdn/VnetACLView.js:179
 #: pve-manager/www/manager6/storage/ImageView.js:33
 #: pve-manager/www/manager6/tree/SnapshotTree.js:290
-#: pve-manager/www/manager6/Utils.js:2023
 #: pve-manager/www/manager6/Utils.js:2032
-#: pve-manager/www/manager6/Utils.js:2034
-#: pve-manager/www/manager6/Utils.js:2089
+#: pve-manager/www/manager6/Utils.js:2041
+#: pve-manager/www/manager6/Utils.js:2043
+#: pve-manager/www/manager6/Utils.js:2098
 #: proxmox-backup/www/datastore/Content.js:1339
 #: proxmox-backup/www/datastore/Content.js:1388
 #: proxmox-backup/www/DirectoryList.js:110
@@ -9420,7 +9425,7 @@ msgstr "Премахване на График"
 msgid "Remove Subscription"
 msgstr "Премахване на Абонамент"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:344
+#: proxmox-backup/www/window/SyncJobEdit.js:371
 msgid "Remove Vanished"
 msgstr "Премахване на изчезналото"
 
@@ -9459,7 +9464,7 @@ msgstr "Премахване на съпоставянето за '{0}'"
 msgid "Remove namespace '{0}'"
 msgstr "Премахване на пространството от имена '{0}'"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:347
+#: proxmox-backup/www/window/SyncJobEdit.js:374
 msgid ""
 "Remove snapshots from sync target datastore if they vanished from source "
 "datastore?"
@@ -9490,7 +9495,7 @@ msgstr "Премахнете изчезналите потребителски �
 msgid "Removed Data"
 msgstr "Премахнати данни"
 
-#: pve-manager/www/manager6/Utils.js:2001 proxmox-backup/www/Utils.js:402
+#: pve-manager/www/manager6/Utils.js:2010 proxmox-backup/www/Utils.js:402
 msgid "Renew Certificate"
 msgstr "Подновяване на сертификата"
 
@@ -9513,7 +9518,7 @@ msgstr "Задача за репликация"
 msgid "Replication Log"
 msgstr "Дневник на репликация"
 
-#: pve-manager/www/manager6/Utils.js:2099
+#: pve-manager/www/manager6/Utils.js:2108
 msgid "Replication job notifications"
 msgstr "Известия за задание за репликация"
 
@@ -9562,7 +9567,7 @@ msgstr "Изисква привилегии '{0}'"
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:11
 #: pmg-gui/js/Settings.js:159 pmg-gui/js/Settings.js:180
 #: pmg-gui/js/Settings.js:278 pve-manager/www/manager6/qemu/Config.js:200
-#: pve-manager/www/manager6/Utils.js:2049
+#: pve-manager/www/manager6/Utils.js:2058
 #: pve-manager/www/manager6/window/Settings.js:223
 #: pve-manager/www/manager6/window/Settings.js:244
 #: pve-manager/www/manager6/window/Settings.js:363
@@ -9591,7 +9596,7 @@ msgstr "Нулирайте незабавно {0}"
 
 #: pve-manager/www/manager6/lxc/Resources.js:289
 #: pve-manager/www/manager6/qemu/HardwareView.js:455
-#: pve-manager/www/manager6/Utils.js:2059
+#: pve-manager/www/manager6/Utils.js:2068
 msgid "Resize"
 msgstr "Преоразмеряване"
 
@@ -9626,7 +9631,7 @@ msgid "Resources"
 msgstr "Ресурси"
 
 #: proxmox-widget-toolkit/src/node/ServiceView.js:110
-#: proxmox-widget-toolkit/src/Utils.js:705 pmg-gui/js/ServerStatus.js:65
+#: proxmox-widget-toolkit/src/Utils.js:707 pmg-gui/js/ServerStatus.js:65
 #: pmg-gui/js/ServerStatus.js:67 pve-manager/www/manager6/ceph/OSD.js:896
 #: pve-manager/www/manager6/ceph/ServiceList.js:327
 msgid "Restart"
@@ -9645,8 +9650,8 @@ msgstr "Рестартирайте pmg-smtp-filter, за да активират
 #: pmg-gui/js/PBSSnapshotView.js:206 pmg-gui/js/Utils.js:894
 #: pve-manager/www/manager6/grid/BackupView.js:185
 #: pve-manager/www/manager6/storage/BackupView.js:84
-#: pve-manager/www/manager6/Utils.js:2050
-#: pve-manager/www/manager6/Utils.js:2078
+#: pve-manager/www/manager6/Utils.js:2059
+#: pve-manager/www/manager6/Utils.js:2087
 #: pve-manager/www/manager6/window/Restore.js:358
 #: pve-manager/www/manager6/window/Restore.js:380
 #: proxmox-backup/www/tape/BackupOverview.js:313
@@ -9679,8 +9684,8 @@ msgstr "Получената конфигурация"
 
 #: pve-manager/www/manager6/qemu/CmdMenu.js:80
 #: pve-manager/www/manager6/qemu/Config.js:48
-#: pve-manager/www/manager6/Utils.js:2051
-#: pve-manager/www/manager6/Utils.js:2079
+#: pve-manager/www/manager6/Utils.js:2060
+#: pve-manager/www/manager6/Utils.js:2088
 msgid "Resume"
 msgstr "Резюме"
 
@@ -9722,7 +9727,7 @@ msgstr "Обратен DNS Сървър"
 msgid "Revert"
 msgstr "Върнете Обратно"
 
-#: pve-manager/www/manager6/Utils.js:2002 proxmox-backup/www/Utils.js:403
+#: pve-manager/www/manager6/Utils.js:2011 proxmox-backup/www/Utils.js:403
 msgid "Revoke Certificate"
 msgstr "Анулиране на Сертификат"
 
@@ -9751,8 +9756,8 @@ msgid "Roles"
 msgstr "Роли"
 
 #: pve-manager/www/manager6/tree/SnapshotTree.js:257
-#: pve-manager/www/manager6/Utils.js:2052
-#: pve-manager/www/manager6/Utils.js:2080
+#: pve-manager/www/manager6/Utils.js:2061
+#: pve-manager/www/manager6/Utils.js:2089
 msgid "Rollback"
 msgstr "Връщане назад"
 
@@ -9849,7 +9854,7 @@ msgstr "Изпълнение"
 msgid "Running Tasks"
 msgstr "Изпълняващи се задачи"
 
-#: proxmox-widget-toolkit/src/Utils.js:87
+#: proxmox-widget-toolkit/src/Utils.js:88
 msgid "Russian"
 msgstr "Руски"
 
@@ -9926,7 +9931,7 @@ msgstr "SSH публичен ключ(ове)"
 msgid "SWAP usage"
 msgstr "Използване на SWAP"
 
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:492
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:493
 msgid "Same as Public Network"
 msgstr "Същото като публичната мрежа"
 
@@ -9954,8 +9959,8 @@ msgid "Save"
 msgstr "Запазване"
 
 #: pmg-gui/js/LoginView.js:390
-#: pve-manager/www/manager6/window/LoginWindow.js:391
-#: proxmox-backup/www/LoginView.js:325
+#: pve-manager/www/manager6/window/LoginWindow.js:394
+#: proxmox-backup/www/LoginView.js:323
 msgid "Save User name"
 msgstr "Запазете потребителското име"
 
@@ -10238,7 +10243,7 @@ msgstr "Seq. Nr."
 #: proxmox-widget-toolkit/src/panel/DiskList.js:426
 #: pve-manager/www/manager6/qemu/Smbios1Edit.js:63
 #: proxmox-backup/www/tape/ChangerConfig.js:127
-#: proxmox-backup/www/tape/ChangerStatus.js:885
+#: proxmox-backup/www/tape/ChangerStatus.js:886
 #: proxmox-backup/www/tape/DriveConfig.js:163
 #: proxmox-backup/www/tape/DriveStatus.js:461
 #: proxmox-backup/www/tape/form/ChangerSelector.js:52
@@ -10248,7 +10253,7 @@ msgid "Serial"
 msgstr "Сериен"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:295
-#: pve-manager/www/manager6/qemu/HardwareView.js:736
+#: pve-manager/www/manager6/qemu/HardwareView.js:735
 #: pve-manager/www/manager6/qemu/SerialEdit.js:32
 #: pve-manager/www/manager6/qemu/SerialEdit.js:57
 msgid "Serial Port"
@@ -10418,13 +10423,13 @@ msgstr "Споделено"
 msgid "Shares"
 msgstr "Споделени"
 
-#: proxmox-widget-toolkit/src/Utils.js:703
-#: proxmox-widget-toolkit/src/Utils.js:709
+#: proxmox-widget-toolkit/src/Utils.js:705
+#: proxmox-widget-toolkit/src/Utils.js:711
 #: pve-manager/www/manager6/node/CmdMenu.js:89
 #: pve-manager/www/manager6/node/Config.js:125
 #: pve-manager/www/manager6/node/Config.js:162
-#: pve-manager/www/manager6/Utils.js:2062
-#: pve-manager/www/manager6/Utils.js:2069
+#: pve-manager/www/manager6/Utils.js:2071
+#: pve-manager/www/manager6/Utils.js:2078
 #: proxmox-backup/www/NavigationTree.js:93
 msgid "Shell"
 msgstr "Шел"
@@ -10507,9 +10512,9 @@ msgstr "Показване само на инсталирани услуги"
 #: pve-manager/www/manager6/node/Config.js:113
 #: pve-manager/www/manager6/qemu/CmdMenu.js:86
 #: pve-manager/www/manager6/qemu/Config.js:153
-#: pve-manager/www/manager6/Utils.js:2026
-#: pve-manager/www/manager6/Utils.js:2053
-#: pve-manager/www/manager6/Utils.js:2081
+#: pve-manager/www/manager6/Utils.js:2035
+#: pve-manager/www/manager6/Utils.js:2062
+#: pve-manager/www/manager6/Utils.js:2090
 #: proxmox-backup/www/ServerStatus.js:149
 msgid "Shutdown"
 msgstr "Изключване"
@@ -10641,11 +10646,11 @@ msgstr "Подопечени"
 msgid "Slot"
 msgstr "Слот"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:711
+#: proxmox-backup/www/tape/ChangerStatus.js:712
 msgid "Slots"
 msgstr "Слотове"
 
-#: proxmox-widget-toolkit/src/Utils.js:88
+#: proxmox-widget-toolkit/src/Utils.js:89
 msgid "Slovenian"
 msgstr "Sловенски"
 
@@ -10657,8 +10662,8 @@ msgstr "Smarthost"
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:239
 #: pve-manager/www/manager6/form/BackupModeSelector.js:5
 #: pve-manager/www/manager6/form/SnapshotSelector.js:56
-#: pve-manager/www/manager6/Utils.js:2054
-#: pve-manager/www/manager6/Utils.js:2082
+#: pve-manager/www/manager6/Utils.js:2063
+#: pve-manager/www/manager6/Utils.js:2091
 #: pve-manager/www/manager6/window/Clone.js:230
 #: pve-manager/www/manager6/window/Snapshot.js:145
 #: pve-manager/www/manager6/window/Snapshot.js:149
@@ -10683,11 +10688,11 @@ msgid "Snippets"
 msgstr "Откъси"
 
 #: proxmox-widget-toolkit/src/Schema.js:96
-#: proxmox-widget-toolkit/src/Utils.js:1084
+#: proxmox-widget-toolkit/src/Utils.js:1086
 msgid "Socket"
 msgstr "Гнездо"
 
-#: proxmox-widget-toolkit/src/Utils.js:1084 pmg-gui/js/Subscription.js:134
+#: proxmox-widget-toolkit/src/Utils.js:1086 pmg-gui/js/Subscription.js:134
 #: pve-manager/www/manager6/node/Subscription.js:132
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:118
 #: pve-manager/www/manager6/window/GuestImport.js:458
@@ -10791,7 +10796,7 @@ msgstr "Актуализация на SpamAssassin"
 msgid "Spamscore"
 msgstr "Spamscore"
 
-#: proxmox-widget-toolkit/src/Utils.js:72
+#: proxmox-widget-toolkit/src/Utils.js:73
 msgid "Spanish"
 msgstr "Испански"
 
@@ -10828,7 +10833,7 @@ msgid "Standard VGA"
 msgstr "Стандартен VGA"
 
 #: proxmox-widget-toolkit/src/node/ServiceView.js:100
-#: proxmox-widget-toolkit/src/Utils.js:706 pmg-gui/js/MailTracker.js:97
+#: proxmox-widget-toolkit/src/Utils.js:708 pmg-gui/js/MailTracker.js:97
 #: pmg-gui/js/Utils.js:714 pve-manager/www/manager6/ceph/OSD.js:876
 #: pve-manager/www/manager6/ceph/ServiceList.js:309
 #: pve-manager/www/manager6/lxc/CmdMenu.js:53
@@ -10837,9 +10842,9 @@ msgstr "Стандартен VGA"
 #: pve-manager/www/manager6/node/Config.js:49
 #: pve-manager/www/manager6/qemu/CmdMenu.js:58
 #: pve-manager/www/manager6/qemu/Config.js:58
-#: pve-manager/www/manager6/Utils.js:2027
-#: pve-manager/www/manager6/Utils.js:2055
-#: pve-manager/www/manager6/Utils.js:2083
+#: pve-manager/www/manager6/Utils.js:2036
+#: pve-manager/www/manager6/Utils.js:2064
+#: pve-manager/www/manager6/Utils.js:2092
 msgid "Start"
 msgstr "Старт"
 
@@ -10930,7 +10935,7 @@ msgstr "Забавяне при стартиране"
 #: pve-manager/www/manager6/sdn/SubnetView.js:136
 #: pve-manager/www/manager6/sdn/VnetView.js:129
 #: pve-manager/www/manager6/sdn/ZoneView.js:181
-#: proxmox-backup/www/tape/ChangerStatus.js:863
+#: proxmox-backup/www/tape/ChangerStatus.js:864
 #: proxmox-backup/www/tape/DriveStatus.js:480
 msgid "State"
 msgstr "Състояние"
@@ -11009,7 +11014,7 @@ msgstr "Статистика от последното събиране на о�
 #: proxmox-backup/www/dashboard/LongestTasks.js:91
 #: proxmox-backup/www/Subscription.js:102
 #: proxmox-backup/www/tape/BackupJobs.js:252
-#: proxmox-backup/www/tape/ChangerStatus.js:923
+#: proxmox-backup/www/tape/ChangerStatus.js:924
 #: proxmox-backup/www/tape/DriveStatus.js:51
 #: proxmox-backup/www/tape/DriveStatus.js:323
 #: proxmox-backup/www/tape/TapeInventory.js:153
@@ -11026,7 +11031,7 @@ msgid "Status: {0}"
 msgstr "Статус: {0}"
 
 #: proxmox-widget-toolkit/src/node/ServiceView.js:105
-#: proxmox-widget-toolkit/src/Utils.js:707
+#: proxmox-widget-toolkit/src/Utils.js:709
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:214
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:220
 #: pve-manager/www/manager6/ceph/OSD.js:886
@@ -11037,9 +11042,9 @@ msgstr "Статус: {0}"
 #: pve-manager/www/manager6/lxc/Config.js:78
 #: pve-manager/www/manager6/qemu/CmdMenu.js:92
 #: pve-manager/www/manager6/qemu/Config.js:188
-#: pve-manager/www/manager6/Utils.js:2028
-#: pve-manager/www/manager6/Utils.js:2056
-#: pve-manager/www/manager6/Utils.js:2084
+#: pve-manager/www/manager6/Utils.js:2037
+#: pve-manager/www/manager6/Utils.js:2065
+#: pve-manager/www/manager6/Utils.js:2093
 msgid "Stop"
 msgstr "Стоп"
 
@@ -11083,7 +11088,7 @@ msgstr "Спряно"
 #: pve-manager/www/manager6/grid/PoolMembers.js:243
 #: pve-manager/www/manager6/lxc/CreateWizard.js:198
 #: pve-manager/www/manager6/tree/ResourceTree.js:22
-#: pve-manager/www/manager6/window/Backup.js:107
+#: pve-manager/www/manager6/window/Backup.js:127
 #: pve-manager/www/manager6/window/GuestImport.js:683
 #: pve-manager/www/manager6/window/GuestImport.js:784
 #: pve-manager/www/manager6/window/Restore.js:173
@@ -11095,7 +11100,7 @@ msgstr "Съхранение"
 msgid "Storage / Disks"
 msgstr "Хранилище / Дискове"
 
-#: pve-manager/www/manager6/window/Backup.js:253
+#: pve-manager/www/manager6/window/Backup.js:272
 msgid "Storage Retention Configuration"
 msgstr "Конфигурация за съхранение"
 
@@ -11191,11 +11196,11 @@ msgid "Subsystem Vendor/Device"
 msgstr "Доставчик на подсистема/устройство"
 
 #: pmg-gui/js/RegexTester.js:48
-#: pve-manager/www/manager6/ceph/CephInstallWizard.js:595
+#: pve-manager/www/manager6/ceph/CephInstallWizard.js:596
 msgid "Success"
 msgstr "Успех"
 
-#: proxmox-widget-toolkit/src/Utils.js:431
+#: proxmox-widget-toolkit/src/Utils.js:432
 msgid "Successful"
 msgstr "Успешно"
 
@@ -11250,11 +11255,11 @@ msgstr "Поддръжката за {0} {1} приключва на {2}"
 #: pve-manager/www/manager6/form/BackupModeSelector.js:6
 #: pve-manager/www/manager6/node/CmdMenu.js:67
 #: pve-manager/www/manager6/node/Config.js:77
-#: pve-manager/www/manager6/Utils.js:2085
+#: pve-manager/www/manager6/Utils.js:2094
 msgid "Suspend"
 msgstr "Спиране"
 
-#: pve-manager/www/manager6/Utils.js:2065
+#: pve-manager/www/manager6/Utils.js:2074
 msgid "Suspend all VMs"
 msgstr "Спиране на всички виртуални машини"
 
@@ -11274,7 +11279,7 @@ msgstr "Размяна"
 msgid "Swap usage"
 msgstr "Използване на Swap"
 
-#: proxmox-widget-toolkit/src/Utils.js:89
+#: proxmox-widget-toolkit/src/Utils.js:90
 msgid "Swedish"
 msgstr "Шведски"
 
@@ -11282,7 +11287,7 @@ msgstr "Шведски"
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:147
 #: pve-manager/www/manager6/dc/AuthView.js:126
 #: pve-manager/www/manager6/dc/SyncWindow.js:172
-#: pve-manager/www/manager6/Utils.js:2004
+#: pve-manager/www/manager6/Utils.js:2013
 msgid "Sync"
 msgstr "Синхронизиране"
 
@@ -11313,11 +11318,11 @@ msgstr "Ниво на синхронизация"
 msgid "Sync Options"
 msgstr "Опции за синхронизиране"
 
-#: pve-manager/www/manager6/Utils.js:2005
+#: pve-manager/www/manager6/Utils.js:2014
 msgid "Sync Preview"
 msgstr "Визуализация на синхронизирането"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:180
+#: proxmox-backup/www/window/SyncJobEdit.js:197
 msgid "Sync Schedule"
 msgstr "График за синхронизиране"
 
@@ -11325,11 +11330,11 @@ msgstr "График за синхронизиране"
 msgid "Sync job"
 msgstr "Задача за синхронизиране"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:411
+#: proxmox-backup/www/window/SyncJobEdit.js:438
 msgid "Sync only encrypted backup snapshots, exclude others."
 msgstr "Синхронизирайте само криптирани резервни снимки, изключете други."
 
-#: proxmox-backup/www/window/SyncJobEdit.js:422
+#: proxmox-backup/www/window/SyncJobEdit.js:449
 msgid "Sync only verified backup snapshots, exclude others."
 msgstr ""
 "Синхронизирайте само проверени моментни снимки на резервни копия, изключете "
@@ -11374,7 +11379,7 @@ msgstr "Системен дневник"
 msgid "System Report"
 msgstr "Системен отчет"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "TB"
 msgstr "TB"
 
@@ -11444,7 +11449,7 @@ msgid "TOTP codes usually consist of six decimal digits"
 msgstr "TOTP кодовете обикновено се състоят от шест десетични цифри"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:263
-#: pve-manager/www/manager6/qemu/HardwareView.js:715
+#: pve-manager/www/manager6/qemu/HardwareView.js:714
 #: pve-manager/www/manager6/qemu/HDTPM.js:81
 msgid "TPM State"
 msgstr "Състояние на TPM"
@@ -11734,17 +11739,13 @@ msgid ""
 "The enterprise repository is enabled, but there is no active subscription!"
 msgstr "Корпоративното хранилище е активирано, но няма активен абонамент!"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:383
+#: proxmox-backup/www/window/SyncJobEdit.js:410
 msgid "The maximum amount of snapshots to be transferred (per group)"
 msgstr "Максималното количество моментни снимки за прехвърляне (на група)"
 
 #: pve-manager/www/manager6/ceph/Status.js:67
 msgid "The newest version installed in the Cluster."
 msgstr "Най-новата версия, инсталирана в клъстера."
-
-#: proxmox-widget-toolkit/src/node/APTRepositories.js:305
-msgid "The no-subscription repository is NOT production-ready"
-msgstr "Хранилище без абонамент НЕ е готово за производство"
 
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:175
 msgid ""
@@ -11794,6 +11795,7 @@ msgstr ""
 "сме запознати с някакви сериозни проблеми, може да има някои грешки и "
 "Enterprise Repository все още не е наличен."
 
+#: proxmox-widget-toolkit/src/node/APTRepositories.js:305
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:306
 msgid "The test repository may contain unstable updates"
 msgstr "Тестовото хранилище може да съдържа нестабилни актуализации"
@@ -11885,7 +11887,7 @@ msgstr "Праг"
 msgid "Thu"
 msgstr "Чет"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "TiB"
 msgstr "TiB"
 
@@ -11932,7 +11934,7 @@ msgstr "Времева Рамка"
 msgid "Timeframes"
 msgstr "Времеви рамки"
 
-#: proxmox-widget-toolkit/src/Utils.js:1321
+#: proxmox-widget-toolkit/src/Utils.js:1324
 msgid "Timeout"
 msgstr "Време на изчакване"
 
@@ -12085,12 +12087,12 @@ msgid "Traffic Control Rule"
 msgstr "Правило за контрол на движението"
 
 #: proxmox-backup/www/tape/ChangerStatus.js:97
-#: proxmox-backup/www/tape/ChangerStatus.js:749
+#: proxmox-backup/www/tape/ChangerStatus.js:750
 msgid "Transfer"
 msgstr "Трансфер"
 
 #: proxmox-backup/www/config/SyncView.js:351
-#: proxmox-backup/www/window/SyncJobEdit.js:379
+#: proxmox-backup/www/window/SyncJobEdit.js:406
 msgid "Transfer Last"
 msgstr "Последен трансфер"
 
@@ -12132,7 +12134,7 @@ msgstr "Вто"
 msgid "Tuning Options"
 msgstr "Опции за настройка"
 
-#: proxmox-widget-toolkit/src/Utils.js:90
+#: proxmox-widget-toolkit/src/Utils.js:91
 msgid "Turkish"
 msgstr "Турски"
 
@@ -12231,7 +12233,7 @@ msgid "URL"
 msgstr "URL адрес"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:274
-#: pve-manager/www/manager6/qemu/HardwareView.js:722
+#: pve-manager/www/manager6/qemu/HardwareView.js:721
 #: pve-manager/www/manager6/qemu/USBEdit.js:157
 msgid "USB Device"
 msgstr "USB устройство"
@@ -12240,7 +12242,7 @@ msgstr "USB устройство"
 msgid "USB Devices"
 msgstr "USB устройства"
 
-#: proxmox-widget-toolkit/src/Utils.js:91
+#: proxmox-widget-toolkit/src/Utils.js:92
 msgid "Ukrainian"
 msgstr "Украински"
 
@@ -12310,7 +12312,7 @@ msgstr "Неизвестен LDAP адрес"
 msgid "Unknown Node"
 msgstr "Неизвестен възел"
 
-#: proxmox-widget-toolkit/src/Utils.js:434
+#: proxmox-widget-toolkit/src/Utils.js:435
 msgid "Unknown error"
 msgstr "Неизвестна грешка"
 
@@ -12318,13 +12320,14 @@ msgstr "Неизвестна грешка"
 msgid "Unknown warning"
 msgstr "Неизвестно предупреждение"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:191
+#: proxmox-backup/www/window/SyncJobEdit.js:208
+#: proxmox-backup/www/window/SyncJobEdit.js:217
 #: proxmox-backup/www/window/TrafficControlEdit.js:239
 #: proxmox-backup/www/window/TrafficControlEdit.js:246
 msgid "Unlimited"
 msgstr "Неограничен"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:900
+#: proxmox-backup/www/tape/ChangerStatus.js:901
 msgid "Unload"
 msgstr "Разтоварвам"
 
@@ -12346,7 +12349,7 @@ msgstr "Отключете TFA"
 msgid "Unlock TFA authentication for {0}"
 msgstr "Отключване на TFA удостоверяване за {0}"
 
-#: pve-manager/www/manager6/Utils.js:2087
+#: pve-manager/www/manager6/Utils.js:2096
 #: proxmox-backup/www/datastore/Summary.js:243
 msgid "Unmount"
 msgstr "Демонтиране"
@@ -12396,7 +12399,7 @@ msgstr "Неизползван диск"
 msgid "Up"
 msgstr "Нагоре"
 
-#: pmg-gui/js/DKIMSettings.js:152 pve-manager/www/manager6/Utils.js:2003
+#: pmg-gui/js/DKIMSettings.js:152 pve-manager/www/manager6/Utils.js:2012
 msgid "Update"
 msgstr "Актуализация"
 
@@ -12412,7 +12415,7 @@ msgstr "Актуализирайте сега"
 msgid "Update now"
 msgstr "Актуализирайте сега"
 
-#: proxmox-widget-toolkit/src/Utils.js:701
+#: proxmox-widget-toolkit/src/Utils.js:703
 msgid "Update package database"
 msgstr "Актуализирайте базата данни с пакети"
 
@@ -12487,7 +12490,7 @@ msgstr "Горна"
 #: pmg-gui/js/ClusterAdministration.js:272 pmg-gui/js/dashboard/NodeInfo.js:129
 #: pve-manager/www/manager6/data/ResourceStore.js:239
 #: pve-manager/www/manager6/dc/NodeView.js:68
-#: pve-manager/www/manager6/node/StatusView.js:145
+#: pve-manager/www/manager6/node/StatusView.js:359
 #: pve-manager/www/manager6/panel/GuestStatusView.js:166
 #: proxmox-backup/www/panel/NodeInfo.js:184
 msgid "Uptime"
@@ -12764,9 +12767,9 @@ msgstr "Потребителски класове"
 #: pve-manager/www/manager6/dc/UserView.js:165
 #: pve-manager/www/manager6/storage/CephFSEdit.js:62
 #: pve-manager/www/manager6/storage/RBDEdit.js:181
-#: pve-manager/www/manager6/window/LoginWindow.js:352
+#: pve-manager/www/manager6/window/LoginWindow.js:355
 #: proxmox-backup/www/config/UserView.js:202
-#: proxmox-backup/www/LoginView.js:285 proxmox-backup/www/window/UserEdit.js:66
+#: proxmox-backup/www/LoginView.js:283 proxmox-backup/www/window/UserEdit.js:66
 msgid "User name"
 msgstr "Потребителско име"
 
@@ -12959,7 +12962,7 @@ msgstr "Трезор"
 #: pve-manager/www/manager6/form/MultiPCISelector.js:235
 #: pve-manager/www/manager6/form/PCISelector.js:40
 #: proxmox-backup/www/tape/ChangerConfig.js:117
-#: proxmox-backup/www/tape/ChangerStatus.js:869
+#: proxmox-backup/www/tape/ChangerStatus.js:870
 #: proxmox-backup/www/tape/DriveConfig.js:153
 #: proxmox-backup/www/tape/DriveStatus.js:443
 #: proxmox-backup/www/tape/form/ChangerSelector.js:38
@@ -12980,7 +12983,7 @@ msgstr "Доставчик/устройство"
 msgid "Verbose"
 msgstr "Многословен"
 
-#: pve-manager/www/manager6/window/LoginWindow.js:191
+#: pve-manager/www/manager6/window/LoginWindow.js:194
 #: proxmox-backup/www/Utils.js:433 proxmox-backup/www/Utils.js:434
 #: proxmox-backup/www/Utils.js:435
 msgid "Verification"
@@ -12998,7 +13001,7 @@ msgstr "Работни места за проверка"
 msgid "Verification job"
 msgstr "Работа за проверка"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:419
+#: proxmox-backup/www/window/SyncJobEdit.js:446
 msgid "Verified Only"
 msgstr "Само проверено"
 
@@ -13114,6 +13117,9 @@ msgstr "Преглед на DNS Запис"
 #: proxmox-widget-toolkit/src/node/Tasks.js:225
 #: proxmox-widget-toolkit/src/node/Tasks.js:451
 #: pve-manager/www/manager6/dc/Tasks.js:137
+#: proxmox-backup/www/dashboard/LongestTasks.js:103
+#: proxmox-backup/www/dashboard/RunningTasks.js:98
+#: proxmox-backup/www/dashboard/TaskSummary.js:112
 msgid "View Task"
 msgstr "Преглед на задачата"
 
@@ -13123,17 +13129,17 @@ msgid "View images"
 msgstr "Преглед на изображения"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:321
-#: pve-manager/www/manager6/qemu/HardwareView.js:757
+#: pve-manager/www/manager6/qemu/HardwareView.js:756
 #: pve-manager/www/manager6/qemu/RNGEdit.js:86
 msgid "VirtIO RNG"
 msgstr "VirtIO RNG"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:330
-#: pve-manager/www/manager6/qemu/HardwareView.js:764
+#: pve-manager/www/manager6/qemu/HardwareView.js:763
 msgid "Virtiofs"
 msgstr "Virtiofs"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:100
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:95
 msgid "Virtiofs Filesystem Passthrough"
 msgstr "Преминаване през файлова система Virtiofs"
 
@@ -13226,7 +13232,7 @@ msgstr "Обемно действие"
 msgid "Volume Details for {0}"
 msgstr "Подробности за тома за {0}"
 
-#: proxmox-backup/www/tape/ChangerStatus.js:912
+#: proxmox-backup/www/tape/ChangerStatus.js:913
 #: proxmox-backup/www/tape/DriveStatus.js:267 proxmox-backup/www/Utils.js:634
 msgid "Volume Statistics"
 msgstr "Статистика на обема"
@@ -13412,7 +13418,7 @@ msgid "Whole year"
 msgstr "Цяла година"
 
 #: proxmox-widget-toolkit/src/panel/DiskList.js:396
-#: pve-manager/www/manager6/Utils.js:2067 proxmox-backup/www/Utils.js:436
+#: pve-manager/www/manager6/Utils.js:2076 proxmox-backup/www/Utils.js:436
 msgid "Wipe Disk"
 msgstr "Изтриване на диска"
 
@@ -13497,10 +13503,6 @@ msgstr "Ограничение за писане"
 msgid "Write max burst"
 msgstr "Max burst Ограничение"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:63
-msgid "Writeback cache"
-msgstr "Кеш за обратно записване"
-
 #: pve-manager/www/manager6/ceph/Status.js:304
 #: pve-manager/www/manager6/ceph/Status.js:316
 msgid "Writes"
@@ -13518,7 +13520,7 @@ msgstr "Записване на криптирани данни"
 msgid "Wrong file extension"
 msgstr "Грешно файлово разширение"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "YB"
 msgstr "YB"
 
@@ -13543,7 +13545,7 @@ msgstr "Годишно"
 msgid "Yes"
 msgstr "Да"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "YiB"
 msgstr "YiB"
 
@@ -13575,7 +13577,7 @@ msgstr ""
 "Не можете да използвате клипборда по подразбиране на SPICE, ако е избран VNC "
 "клипбордът."
 
-#: proxmox-widget-toolkit/src/Utils.js:161
+#: proxmox-widget-toolkit/src/Utils.js:162
 msgid ""
 "You do not have a valid subscription for this server. Please visit {0} to "
 "get a list of available options."
@@ -13583,6 +13585,7 @@ msgstr ""
 "Нямате валиден абонамент за този сървър. Моля, посетете {0}, за да получите "
 "списък с налични опции."
 
+#: proxmox-widget-toolkit/src/node/APTRepositories.js:474
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:479
 msgid "You get supported updates for {0}"
 msgstr "Получавате поддържани актуализации за {0}"
@@ -13648,7 +13651,7 @@ msgstr "Yubico OTP"
 msgid "Yubico OTP Key"
 msgstr "OTP ключ на Yubico"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "ZB"
 msgstr "ZB"
 
@@ -13657,11 +13660,11 @@ msgstr "ZB"
 msgid "ZFS Pool"
 msgstr "ZFS Пул"
 
-#: pve-manager/www/manager6/Utils.js:2088 proxmox-backup/www/Utils.js:437
+#: pve-manager/www/manager6/Utils.js:2097 proxmox-backup/www/Utils.js:437
 msgid "ZFS Storage"
 msgstr "ZFS съхранение"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "ZiB"
 msgstr "ZiB"
 
@@ -13688,7 +13691,7 @@ msgstr "Zstd нишки"
 msgid "a min_size of 1 is not recommended and can lead to data loss"
 msgstr "min_size от 1 не се препоръчва и може да доведе до загуба на данни"
 
-#: proxmox-backup/www/window/SyncJobEdit.js:380
+#: proxmox-backup/www/window/SyncJobEdit.js:407
 msgid "all"
 msgstr "всички"
 
@@ -13911,7 +13914,7 @@ msgstr "няма"
 
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:161
 #: proxmox-backup/www/window/GCJobEdit.js:26
-#: proxmox-backup/www/window/SyncJobEdit.js:181
+#: proxmox-backup/www/window/SyncJobEdit.js:198
 #: proxmox-backup/www/window/VerifyJobEdit.js:100
 msgid "none (disabled)"
 msgstr "няма (забранено)"
@@ -13945,7 +13948,7 @@ msgid "peer's link address: {0}"
 msgstr "адрес на връзката на партньор: {0}"
 
 #: pve-manager/www/manager6/grid/Replication.js:386
-#: pve-manager/www/manager6/Utils.js:1115 proxmox-backup/www/Utils.js:248
+#: pve-manager/www/manager6/Utils.js:1124 proxmox-backup/www/Utils.js:248
 msgid "pending"
 msgstr "в очакване"
 
@@ -14047,7 +14050,7 @@ msgstr "потвърдете текущата парола"
 msgid "with options"
 msgstr "с опции"
 
-#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:68
+#: pve-manager/www/manager6/qemu/VirtiofsEdit.js:63
 msgid "xattr Support"
 msgstr "поддръжка на xattr"
 
@@ -14113,11 +14116,11 @@ msgstr "{0} минути"
 msgid "{0} months"
 msgstr "{0} месеца"
 
-#: pve-manager/www/manager6/Utils.js:1762
+#: pve-manager/www/manager6/Utils.js:1771
 msgid "{0} not installed."
 msgstr "{0} не е инсталиран."
 
-#: proxmox-widget-toolkit/src/Utils.js:1059
+#: proxmox-widget-toolkit/src/Utils.js:1061
 #: pve-manager/www/manager6/ceph/Status.js:347
 #: pve-manager/www/manager6/dc/Summary.js:202
 #: pve-manager/www/manager6/dc/Summary.js:205
@@ -14147,7 +14150,7 @@ msgstr "{0} има предимство."
 msgid "{0} to {1}"
 msgstr "{0} до {1}"
 
-#: proxmox-widget-toolkit/src/Utils.js:1296
+#: proxmox-widget-toolkit/src/Utils.js:1298
 msgid "{0} updates"
 msgstr "{0} актуализации"
 
@@ -14159,9 +14162,17 @@ msgstr "{0} седмици"
 msgid "{0} years"
 msgstr "{0} години"
 
-#: proxmox-widget-toolkit/src/Utils.js:1047
+#: proxmox-widget-toolkit/src/Utils.js:1049
 msgid "{0}% of {1}"
 msgstr "{0}% от {1}"
+
+#: pve-manager/www/manager6/node/StatusView.js:176
+msgid "主板温度"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:216
+msgid "风扇转速"
+msgstr ""
 
 #~ msgid "Add NS"
 #~ msgstr "Добавете NS"
@@ -14173,6 +14184,9 @@ msgstr "{0}% от {1}"
 #~ msgid "Any"
 #~ msgstr "Всички"
 
+#~ msgid "Enterprise repository needs valid subscription"
+#~ msgstr "Корпоративното хранилище се нуждае от валиден абонамент"
+
 #, fuzzy
 #~ msgid "Import Storage"
 #~ msgstr "EFI съхранение"
@@ -14183,9 +14197,22 @@ msgstr "{0}% от {1}"
 #~ msgid "Meta Data Servers"
 #~ msgstr "Сървъри за Мета Данни"
 
+#~ msgid "No {0} repository is enabled, you do not get any updates!"
+#~ msgstr ""
+#~ "Няма {0} активирано хранилище , няма да получавате никакви актуализации!"
+
+#~ msgid "Non production-ready repository enabled!"
+#~ msgstr "Активиране на Не-Готово-Продукционно хранилище!"
+
 #, fuzzy
 #~ msgid "On device path"
 #~ msgstr "Път на устройството"
+
+#~ msgid "Open Task"
+#~ msgstr "Отворете задачата"
+
+#~ msgid "The no-subscription repository is NOT production-ready"
+#~ msgstr "Хранилище без абонамент НЕ е готово за производство"
 
 #~ msgid ""
 #~ "Using /dev/random as entropy source is discouraged, as it can lead to "
@@ -14198,6 +14225,9 @@ msgstr "{0}% от {1}"
 
 #~ msgid "VZDump backup file"
 #~ msgstr "VZDump архивен файл"
+
+#~ msgid "Writeback cache"
+#~ msgstr "Кеш за обратно записване"
 
 #~ msgid "{0} ID"
 #~ msgstr "{0} ID"
