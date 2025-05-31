@@ -1,3 +1,9 @@
+proxmox-i18n (3.4.5-1) bookworm; urgency=medium
+
+  * 更新子模块到最新提交
+
+ -- Proxmox Support Team <support@proxmox.com>  Fri, 31 May 2025 21:19:31 +0800
+
 proxmox-i18n (3.4.4-3) bookworm; urgency=medium
 
   * 更新子模块到最新提交
@@ -15,6 +21,14 @@ proxmox-i18n (3.4.4-1) bookworm; urgency=medium
   * 更新相关提交代码,修复中文中部分拼写错误
 
  -- Proxmox Support Team <ymwlpoolc@qq.com>  Fri, 23 May 2025 15:54:36 +0800
+
+proxmox-i18n (3.4.5) bookworm; urgency=medium
+
+  * update Korean translations
+
+  * update Russian translations
+
+ -- Proxmox Support Team <support@proxmox.com>  Tue, 27 May 2025 16:28:31 +0200
 
 proxmox-i18n (3.4.4) bookworm; urgency=medium
 
