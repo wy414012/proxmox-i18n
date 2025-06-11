@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: proxmox-backup f3c47efb3976ab928e575961f7a8b0f7ca6027d6\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: 2025-06-04 19:10+0200\n"
+"POT-Creation-Date: 2025-06-11 13:29+0800\n"
 "PO-Revision-Date: 2023-07-24 14:15+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <support@proxmox.com>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: proxmox-backup/www/tape/window/TapeBackup.js:127
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:224
+#: proxmox-backup/www/tape/window/TapeBackup.js:127
 msgid "# of Worker Threads"
 msgstr ""
 
@@ -303,7 +303,6 @@ msgstr "Active Directory -ის სერვერი"
 msgid "Activity"
 msgstr "აქტიური"
 
-#: proxmox-widget-toolkit/src/Utils.js:644
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:162
 #: proxmox-widget-toolkit/src/panel/ACMEAccount.js:95
 #: proxmox-widget-toolkit/src/panel/ACMEDomains.js:247
@@ -313,6 +312,7 @@ msgstr "აქტიური"
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:381
 #: proxmox-widget-toolkit/src/panel/TfaView.js:253
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:406
+#: proxmox-widget-toolkit/src/Utils.js:645
 #: proxmox-widget-toolkit/src/window/Edit.js:302
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:851
 #: pmg-gui/js/ActionList.js:101 pmg-gui/js/ClusterAdministration.js:206
@@ -586,16 +586,16 @@ msgstr "მეტსახელი"
 
 #: proxmox-widget-toolkit/src/node/Tasks.js:336
 #: proxmox-widget-toolkit/src/node/Tasks.js:344
-#: pve-manager/www/manager6/Utils.js:378
+#: pve-manager/www/manager6/dc/BackupJobDetail.js:178
+#: pve-manager/www/manager6/dc/BackupJobDetail.js:390
 #: pve-manager/www/manager6/dc/Backup.js:275
 #: pve-manager/www/manager6/dc/Backup.js:303
 #: pve-manager/www/manager6/dc/Backup.js:514
-#: pve-manager/www/manager6/dc/BackupJobDetail.js:178
-#: pve-manager/www/manager6/dc/BackupJobDetail.js:390
 #: pve-manager/www/manager6/form/StorageSelector.js:52
 #: pve-manager/www/manager6/sdn/VnetACLView.js:63
 #: pve-manager/www/manager6/sdn/zones/Base.js:45
 #: pve-manager/www/manager6/storage/Base.js:42
+#: pve-manager/www/manager6/Utils.js:378
 #: pve-manager/www/manager6/window/BulkAction.js:173
 #: pve-manager/www/manager6/window/BulkAction.js:285
 #: pve-manager/www/manager6/window/BulkAction.js:294
@@ -603,8 +603,8 @@ msgstr "მეტსახელი"
 #: pve-manager/www/manager6/window/BulkAction.js:324
 #: pve-manager/www/manager6/window/BulkAction.js:333
 #: pve-manager/www/manager6/window/BulkAction.js:404
-#: proxmox-backup/www/ServerAdministration.js:83
 #: proxmox-backup/www/config/SyncView.js:347
+#: proxmox-backup/www/ServerAdministration.js:83
 #: proxmox-backup/www/tape/BackupJobs.js:227
 msgid "All"
 msgstr "ყველა"
@@ -658,8 +658,8 @@ msgstr ""
 msgid "Allocated"
 msgstr "გამოყოფილი"
 
-#: proxmox-backup/www/tape/PoolConfig.js:116
 #: proxmox-backup/www/tape/form/PoolSelector.js:30
+#: proxmox-backup/www/tape/PoolConfig.js:116
 #: proxmox-backup/www/tape/window/PoolEdit.js:38
 msgid "Allocation Policy"
 msgstr "გამოყოფის პოლიტიკა"
@@ -1044,13 +1044,13 @@ msgstr "ხელმისაწვდომი ობიექტები"
 msgid "Available recovery keys: {0}"
 msgstr "ხელმისაწვდომი აღდგენის გასაღებები: {0}"
 
-#: pmg-gui/js/GeneralMailStatistics.js:119
 #: pmg-gui/js/dashboard/MailProcessing.js:49
+#: pmg-gui/js/GeneralMailStatistics.js:119
 msgid "Avg. Mail Processing Time"
 msgstr "საშ. ელფოსტის დამუშავების დრო"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "B"
 msgstr "ბ"
 
@@ -1087,17 +1087,16 @@ msgstr "უკან დაბრუნებულების ქულა"
 
 #: pmg-gui/js/BackupConfiguration.js:5 pmg-gui/js/BackupRestore.js:78
 #: pmg-gui/js/BackupRestore.js:81 pmg-gui/js/BackupRestore.js:102
-#: pmg-gui/js/Utils.js:891 pve-manager/www/manager6/Utils.js:689
-#: pve-manager/www/manager6/Utils.js:2083
-#: pve-manager/www/manager6/dc/Config.js:70
+#: pmg-gui/js/Utils.js:891 pve-manager/www/manager6/dc/Config.js:70
 #: pve-manager/www/manager6/lxc/Config.js:296
 #: pve-manager/www/manager6/lxc/MPEdit.js:258
 #: pve-manager/www/manager6/qemu/Config.js:331
 #: pve-manager/www/manager6/qemu/HDEdit.js:293
+#: pve-manager/www/manager6/Utils.js:689 pve-manager/www/manager6/Utils.js:2083
 #: pve-manager/www/manager6/window/Backup.js:312
 #: pve-manager/www/manager6/window/Backup.js:384
-#: proxmox-backup/www/Utils.js:404
 #: proxmox-backup/www/tape/window/TapeBackup.js:5
+#: proxmox-backup/www/Utils.js:404
 msgid "Backup"
 msgstr "მარქაფი"
 
@@ -1118,9 +1117,9 @@ msgstr "მარქაფის ჯგუფი"
 msgid "Backup Groups"
 msgstr "მარქაფის ჯგუფები"
 
-#: pve-manager/www/manager6/Utils.js:2083
-#: pve-manager/www/manager6/dc/Backup.js:9
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:52
+#: pve-manager/www/manager6/dc/Backup.js:9
+#: pve-manager/www/manager6/Utils.js:2083
 msgid "Backup Job"
 msgstr "მარქაფის დავალება"
 
@@ -1190,7 +1189,7 @@ msgstr "მარქაფები"
 msgid "Bad Chunks"
 msgstr "გაფუჭებული ნაგლეჯები"
 
-#: proxmox-widget-toolkit/src/Utils.js:1319
+#: proxmox-widget-toolkit/src/Utils.js:1321
 msgid "Bad Request"
 msgstr "ცუდი მოთხოვნა"
 
@@ -1268,10 +1267,10 @@ msgstr "Bind-ის პაროლი"
 msgid "Bind User"
 msgstr "Bind-ის მომხმარებელი"
 
+#: pmg-gui/js/mobile/mailview.js:29 pmg-gui/js/mobile/quarantineview.js:94
 #: pmg-gui/js/QuarantineView.js:29 pmg-gui/js/SpamContextMenu.js:25
 #: pmg-gui/js/SpamQuarantine.js:261 pmg-gui/js/UserBlackWhiteList.js:54
-#: pmg-gui/js/UserBlackWhiteList.js:204 pmg-gui/js/mobile/mailview.js:29
-#: pmg-gui/js/mobile/quarantineview.js:94
+#: pmg-gui/js/UserBlackWhiteList.js:204
 msgid "Blacklist"
 msgstr "შავი სია"
 
@@ -1299,7 +1298,7 @@ msgid "Bond Mode"
 msgstr "ინტერფეისების გადაბმის რეჟიმი"
 
 #: pmg-gui/js/dashboard/NodeInfo.js:105
-#: pve-manager/www/manager6/node/StatusView.js:119
+#: pve-manager/www/manager6/node/StatusView.js:333
 #: proxmox-backup/www/panel/NodeInfo.js:160
 #, fuzzy
 msgid "Boot Mode"
@@ -1465,12 +1464,12 @@ msgstr "CD/DVD ამძრავი"
 msgid "CIDR"
 msgstr "CIDR"
 
-#: pmg-gui/js/Dashboard.js:496 pve-manager/www/manager6/Utils.js:451
-#: pve-manager/www/manager6/dc/Summary.js:37
+#: pmg-gui/js/Dashboard.js:496 pve-manager/www/manager6/dc/Summary.js:37
 #: pve-manager/www/manager6/form/HotplugFeatureSelector.js:33
 #: pve-manager/www/manager6/lxc/CreateWizard.js:230
 #: pve-manager/www/manager6/lxc/ResourceEdit.js:36
 #: pve-manager/www/manager6/qemu/CreateWizard.js:220
+#: pve-manager/www/manager6/Utils.js:451
 msgid "CPU"
 msgstr "CPU"
 
@@ -1493,8 +1492,8 @@ msgstr "CPU-ის ლიმიტი"
 msgid "CPU units"
 msgstr "CPU-ის ერთეული"
 
-#: pmg-gui/js/ServerStatus.js:120 pmg-gui/js/ServerStatus.js:123
-#: pmg-gui/js/dashboard/NodeInfo.js:24
+#: pmg-gui/js/dashboard/NodeInfo.js:24 pmg-gui/js/ServerStatus.js:120
+#: pmg-gui/js/ServerStatus.js:123
 #: pve-manager/www/manager6/data/ResourceStore.js:186
 #: pve-manager/www/manager6/dc/NodeView.js:46
 #: pve-manager/www/manager6/form/NodeSelector.js:53
@@ -1505,9 +1504,9 @@ msgstr "CPU-ის ერთეული"
 #: pve-manager/www/manager6/panel/GuestStatusView.js:101
 #: pve-manager/www/manager6/panel/GuestSummary.js:74
 #: pve-manager/www/manager6/panel/GuestSummary.js:77
+#: proxmox-backup/www/panel/NodeInfo.js:79
 #: proxmox-backup/www/ServerStatus.js:199
 #: proxmox-backup/www/ServerStatus.js:201
-#: proxmox-backup/www/panel/NodeInfo.js:79
 #, fuzzy
 msgid "CPU usage"
 msgstr ""
@@ -1521,11 +1520,23 @@ msgstr ""
 "#-#-#-#-#\n"
 "CPU-ის გამოყენება"
 
-#: proxmox-widget-toolkit/src/Utils.js:1048 pmg-gui/js/dashboard/NodeInfo.js:81
+#: proxmox-widget-toolkit/src/Utils.js:1049 pmg-gui/js/dashboard/NodeInfo.js:81
 #: pve-manager/www/manager6/node/StatusView.js:95
 #: proxmox-backup/www/panel/NodeInfo.js:136
 msgid "CPU(s)"
 msgstr "CPU(ები)"
+
+#: pve-manager/www/manager6/node/StatusView.js:257
+msgid "CPU功耗"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:123
+msgid "CPU温度"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:104
+msgid "CPU频率(Hz)"
+msgstr ""
 
 #: pve-manager/www/manager6/ha/Resources.js:113
 msgid "CRM State"
@@ -1603,8 +1614,8 @@ msgstr "წინასწარ-დაკავებულ პულის ს
 msgid "Capacity"
 msgstr "მოცულობა"
 
-#: proxmox-backup/www/Utils.js:585 proxmox-backup/www/tape/ChangerStatus.js:907
-#: proxmox-backup/www/tape/DriveStatus.js:277
+#: proxmox-backup/www/tape/ChangerStatus.js:907
+#: proxmox-backup/www/tape/DriveStatus.js:277 proxmox-backup/www/Utils.js:585
 msgid "Cartridge Memory"
 msgstr "კარტრიჯის მეხსიერება"
 
@@ -1681,9 +1692,9 @@ msgstr "სერტიფიკატების ჯაჭვი"
 
 #: pmg-gui/js/Certificates.js:5 pmg-gui/js/Certificates.js:30
 #: pmg-gui/js/NavigationTree.js:96 pve-manager/www/manager6/node/Config.js:204
-#: proxmox-backup/www/NavigationTree.js:66
 #: proxmox-backup/www/config/CertificateView.js:5
 #: proxmox-backup/www/config/CertificateView.js:26
+#: proxmox-backup/www/NavigationTree.js:66
 msgid "Certificates"
 msgstr "სერტიფიკატები"
 
@@ -1898,14 +1909,14 @@ msgstr "კლენტის შეტყობინებების სი�
 msgid "Clipboard"
 msgstr ""
 
-#: pve-manager/www/manager6/Utils.js:2049
-#: pve-manager/www/manager6/Utils.js:2079
 #: pve-manager/www/manager6/dc/OptionView.js:306
 #: pve-manager/www/manager6/lxc/CmdMenu.js:89
 #: pve-manager/www/manager6/lxc/Config.js:115
 #: pve-manager/www/manager6/menu/TemplateMenu.js:42
 #: pve-manager/www/manager6/qemu/CmdMenu.js:130
 #: pve-manager/www/manager6/qemu/Config.js:88
+#: pve-manager/www/manager6/Utils.js:2049
+#: pve-manager/www/manager6/Utils.js:2079
 #: pve-manager/www/manager6/window/Clone.js:299
 msgid "Clone"
 msgstr "კლონირება"
@@ -1950,8 +1961,8 @@ msgstr "კლასტერში შეერთება"
 msgid "Cluster Join Information"
 msgstr "კლასტერში შეერთების ინფორმაცია"
 
-#: pve-manager/www/manager6/dc/Cluster.js:181
 #: pve-manager/www/manager6/dc/ClusterEdit.js:21
+#: pve-manager/www/manager6/dc/Cluster.js:181
 msgid "Cluster Name"
 msgstr "კლასტერის სახელი"
 
@@ -2043,8 +2054,8 @@ msgstr "ბრძანება"
 #: pmg-gui/js/Utils.js:625 pmg-gui/js/Utils.js:658 pmg-gui/js/Utils.js:697
 #: pve-manager/www/manager6/dc/AuthEditBase.js:61
 #: pve-manager/www/manager6/dc/AuthView.js:35
-#: pve-manager/www/manager6/dc/Backup.js:847
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:263
+#: pve-manager/www/manager6/dc/Backup.js:847
 #: pve-manager/www/manager6/dc/DirMapView.js:30
 #: pve-manager/www/manager6/dc/GroupEdit.js:35
 #: pve-manager/www/manager6/dc/GroupView.js:85
@@ -2129,8 +2140,8 @@ msgstr "საზოგადოება"
 msgid "Components"
 msgstr "კომპონენტები"
 
-#: pve-manager/www/manager6/dc/Backup.js:383
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:231
+#: pve-manager/www/manager6/dc/Backup.js:383
 #: pve-manager/www/manager6/node/ZFS.js:91
 #: pve-manager/www/manager6/window/Backup.js:24
 #: proxmox-backup/www/tape/DriveStatus.js:348
@@ -2150,10 +2161,10 @@ msgstr "კონფიგურაცის დაბლოკილია ({0}
 #: pmg-gui/js/SpamDetectorConfiguration.js:5
 #: pmg-gui/js/SystemConfiguration.js:6 pmg-gui/js/UserManagement.js:5
 #: pmg-gui/js/VirusDetectorConfiguration.js:5
-#: pve-manager/www/manager6/UIOptions.js:81
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:442
 #: pve-manager/www/manager6/ceph/Config.js:132
 #: pve-manager/www/manager6/node/Config.js:366
+#: pve-manager/www/manager6/UIOptions.js:81
 #: pve-manager/www/manager6/window/BackupConfig.js:3
 #: proxmox-backup/www/NavigationTree.js:42
 #: proxmox-backup/www/SystemConfiguration.js:5
@@ -2174,7 +2185,7 @@ msgstr ""
 msgid "Configuration Database"
 msgstr "კონფიგურაციის ბაზა"
 
-#: proxmox-widget-toolkit/src/Utils.js:1320
+#: proxmox-widget-toolkit/src/Utils.js:1322
 msgid "Configuration Unsupported"
 msgstr "მხარდაუჭერელი კონფიგურაცია"
 
@@ -2205,8 +2216,8 @@ msgstr "მორგებულია"
 
 #: proxmox-widget-toolkit/src/button/Button.js:49
 #: proxmox-widget-toolkit/src/window/SafeDestroy.js:7
-#: pmg-gui/js/RuleConfiguration.js:98 pmg-gui/js/RuleInfo.js:39
 #: pmg-gui/js/controller/QuarantineController.js:95 pmg-gui/js/mobile/app.js:32
+#: pmg-gui/js/RuleConfiguration.js:98 pmg-gui/js/RuleInfo.js:39
 #: pve-manager/www/manager6/button/Split.js:43
 #: pve-manager/www/manager6/ceph/OSD.js:436
 #: pve-manager/www/manager6/dc/Backup.js:687
@@ -2301,14 +2312,14 @@ msgstr "კონსოლი"
 msgid "Consent Text"
 msgstr "შემცველობის ტიპი"
 
-#: proxmox-widget-toolkit/src/Utils.js:709 pmg-gui/js/ServerStatus.js:59
-#: pve-manager/www/manager6/Utils.js:2070
-#: pve-manager/www/manager6/Utils.js:2077
+#: proxmox-widget-toolkit/src/Utils.js:710 pmg-gui/js/ServerStatus.js:59
 #: pve-manager/www/manager6/button/ConsoleButton.js:20
 #: pve-manager/www/manager6/lxc/CmdMenu.js:132
 #: pve-manager/www/manager6/lxc/Config.js:244
 #: pve-manager/www/manager6/qemu/CmdMenu.js:160
 #: pve-manager/www/manager6/qemu/Config.js:279
+#: pve-manager/www/manager6/Utils.js:2070
+#: pve-manager/www/manager6/Utils.js:2077
 #: proxmox-backup/www/ServerStatus.js:159
 msgid "Console"
 msgstr "კონსოლი"
@@ -2328,8 +2339,8 @@ msgstr "კონსოლის რეჟიმი"
 msgid "Contact"
 msgstr "კონტაქტი"
 
-#: pve-manager/www/manager6/Utils.js:692
 #: pve-manager/www/manager6/ha/ResourceEdit.js:180
+#: pve-manager/www/manager6/Utils.js:692
 msgid "Container"
 msgstr "კონტეინერი"
 
@@ -2344,8 +2355,8 @@ msgstr "კონტეინერი {0} კვანძზე '{1}'"
 #: pve-manager/www/manager6/dc/StorageView.js:115
 #: pve-manager/www/manager6/sdn/Browser.js:32
 #: pve-manager/www/manager6/storage/BTRFSEdit.js:22
-#: pve-manager/www/manager6/storage/CIFSEdit.js:204
 #: pve-manager/www/manager6/storage/CephFSEdit.js:96
+#: pve-manager/www/manager6/storage/CIFSEdit.js:204
 #: pve-manager/www/manager6/storage/DirEdit.js:22
 #: pve-manager/www/manager6/storage/GlusterFsEdit.js:106
 #: pve-manager/www/manager6/storage/LVMEdit.js:216
@@ -2384,20 +2395,20 @@ msgstr "კონტროლერი"
 msgid "Controllers"
 msgstr "კონტროლერები"
 
-#: pve-manager/www/manager6/Utils.js:2067
-#: pve-manager/www/manager6/Utils.js:2095
 #: pve-manager/www/manager6/lxc/CmdMenu.js:115
 #: pve-manager/www/manager6/lxc/Config.js:129
 #: pve-manager/www/manager6/qemu/CmdMenu.js:142
 #: pve-manager/www/manager6/qemu/Config.js:102
+#: pve-manager/www/manager6/Utils.js:2067
+#: pve-manager/www/manager6/Utils.js:2095
 msgid "Convert to template"
 msgstr "ნიმუშად გადაკეთება"
 
 #: proxmox-widget-toolkit/src/window/PackageVersions.js:22
 #: pve-manager/www/manager6/grid/FirewallRules.js:809
 #: pve-manager/www/manager6/node/Summary.js:43
-#: proxmox-backup/www/ServerStatus.js:83
 #: proxmox-backup/www/panel/NodeInfo.js:52
+#: proxmox-backup/www/ServerStatus.js:83
 #: proxmox-backup/www/window/DatastoreRepoInfo.js:125
 msgid "Copy"
 msgstr "კოპირება"
@@ -2467,26 +2478,14 @@ msgstr ""
 msgid "Count"
 msgstr "რაოდენობა"
 
-#: proxmox-widget-toolkit/src/Utils.js:646
 #: proxmox-widget-toolkit/src/node/NetworkView.js:236
+#: proxmox-widget-toolkit/src/Utils.js:647
 #: proxmox-widget-toolkit/src/window/Edit.js:306
 #: pmg-gui/js/ClusterAdministration.js:198 pmg-gui/js/LDAPConfig.js:527
 #: pmg-gui/js/MailProxyTLSDestinations.js:120
 #: pmg-gui/js/MailProxyTLSInboundDomains.js:67 pmg-gui/js/MyNetworks.js:61
 #: pmg-gui/js/ObjectGroupList.js:99 pmg-gui/js/RelayDomains.js:71
 #: pmg-gui/js/SpamDetectorCustom.js:221 pmg-gui/js/Transport.js:50
-#: pve-manager/www/manager6/Utils.js:2015
-#: pve-manager/www/manager6/Utils.js:2016
-#: pve-manager/www/manager6/Utils.js:2017
-#: pve-manager/www/manager6/Utils.js:2018
-#: pve-manager/www/manager6/Utils.js:2019
-#: pve-manager/www/manager6/Utils.js:2026
-#: pve-manager/www/manager6/Utils.js:2031
-#: pve-manager/www/manager6/Utils.js:2040
-#: pve-manager/www/manager6/Utils.js:2042
-#: pve-manager/www/manager6/Utils.js:2051
-#: pve-manager/www/manager6/Utils.js:2080
-#: pve-manager/www/manager6/Utils.js:2097
 #: pve-manager/www/manager6/ceph/Pool.js:460
 #: pve-manager/www/manager6/ceph/Pool.js:482
 #: pve-manager/www/manager6/ceph/ServiceList.js:336
@@ -2502,13 +2501,25 @@ msgstr "რაოდენობა"
 #: pve-manager/www/manager6/panel/IPSet.js:106
 #: pve-manager/www/manager6/sdn/SubnetView.js:56
 #: pve-manager/www/manager6/sdn/VnetView.js:74
+#: pve-manager/www/manager6/Utils.js:2015
+#: pve-manager/www/manager6/Utils.js:2016
+#: pve-manager/www/manager6/Utils.js:2017
+#: pve-manager/www/manager6/Utils.js:2018
+#: pve-manager/www/manager6/Utils.js:2019
+#: pve-manager/www/manager6/Utils.js:2026
+#: pve-manager/www/manager6/Utils.js:2031
+#: pve-manager/www/manager6/Utils.js:2040
+#: pve-manager/www/manager6/Utils.js:2042
+#: pve-manager/www/manager6/Utils.js:2051
+#: pve-manager/www/manager6/Utils.js:2080
+#: pve-manager/www/manager6/Utils.js:2097
 #: proxmox-backup/www/DirectoryList.js:79 proxmox-backup/www/Utils.js:409
 #: proxmox-backup/www/Utils.js:437 proxmox-backup/www/ZFSList.js:113
 msgid "Create"
 msgstr "შექმნა"
 
-#: pve-manager/www/manager6/Workspace.js:292
 #: pve-manager/www/manager6/node/CmdMenu.js:20
+#: pve-manager/www/manager6/Workspace.js:292
 msgid "Create CT"
 msgstr "CT-ის შექმნა"
 
@@ -2516,9 +2527,9 @@ msgstr "CT-ის შექმნა"
 msgid "Create CephFS"
 msgstr "CephFS-ის შექმნა"
 
-#: pmg-gui/js/Utils.js:892 pve-manager/www/manager6/Utils.js:2029
+#: pmg-gui/js/Utils.js:892 pve-manager/www/manager6/dc/ClusterEdit.js:5
 #: pve-manager/www/manager6/dc/Cluster.js:152
-#: pve-manager/www/manager6/dc/ClusterEdit.js:5
+#: pve-manager/www/manager6/Utils.js:2029
 msgid "Create Cluster"
 msgstr "კლასტერის შექმნა"
 
@@ -2526,8 +2537,8 @@ msgstr "კლასტერის შექმნა"
 msgid "Create Device Nodes"
 msgstr "მოწყობილობის კვანძების შექმნა"
 
-#: pve-manager/www/manager6/Workspace.js:279
 #: pve-manager/www/manager6/node/CmdMenu.js:9
+#: pve-manager/www/manager6/Workspace.js:279
 msgid "Create VM"
 msgstr "ვმ-ის შექმნა"
 
@@ -2767,18 +2778,18 @@ msgstr "ბაზის ანარეკლი"
 msgid "Datacenter"
 msgstr "მდც"
 
-#: pmg-gui/js/PBSConfig.js:154 proxmox-backup/www/NavigationTree.js:115
-#: proxmox-backup/www/ServerAdministration.js:82
-#: proxmox-backup/www/Utils.js:407 proxmox-backup/www/Utils.js:420
-#: proxmox-backup/www/Utils.js:431 proxmox-backup/www/Utils.js:441
-#: proxmox-backup/www/config/GCView.js:158
+#: pmg-gui/js/PBSConfig.js:154 proxmox-backup/www/config/GCView.js:158
 #: proxmox-backup/www/config/PruneView.js:184
 #: proxmox-backup/www/config/VerifyView.js:190
 #: proxmox-backup/www/datastore/Panel.js:106
 #: proxmox-backup/www/form/DataStoreSelector.js:19
 #: proxmox-backup/www/form/RemoteTargetSelector.js:17
+#: proxmox-backup/www/NavigationTree.js:115
+#: proxmox-backup/www/ServerAdministration.js:82
 #: proxmox-backup/www/tape/BackupJobs.js:187
 #: proxmox-backup/www/tape/window/TapeBackup.js:26
+#: proxmox-backup/www/Utils.js:407 proxmox-backup/www/Utils.js:420
+#: proxmox-backup/www/Utils.js:431 proxmox-backup/www/Utils.js:441
 #: proxmox-backup/www/window/DataStoreEdit.js:6
 #: proxmox-backup/www/window/DatastoreRepoInfo.js:43
 #: proxmox-backup/www/window/PruneJobEdit.js:74
@@ -2872,9 +2883,9 @@ msgstr "ღრმა სკრაბინგი"
 msgid "Deep Scrub OSD.{0}"
 msgstr "ღრმა სკრაბინგი OSD.{0}"
 
-#: proxmox-widget-toolkit/src/Utils.js:53
 #: proxmox-widget-toolkit/src/grid/ObjectGrid.js:180
 #: proxmox-widget-toolkit/src/panel/AuthView.js:32
+#: proxmox-widget-toolkit/src/Utils.js:53
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:182
 #: pmg-gui/js/LDAPConfig.js:95 pve-manager/www/manager6/dc/AuthEditAD.js:48
 #: pve-manager/www/manager6/dc/AuthEditBase.js:45
@@ -2975,10 +2986,10 @@ msgstr "დაყოვნება"
 msgid "Delay Warning Time (hours)"
 msgstr "დაყოვნების გაფრთხილების დრო (საათები)"
 
-#: pmg-gui/js/AttachmentQuarantine.js:143
+#: pmg-gui/js/AttachmentQuarantine.js:143 pmg-gui/js/mobile/mailview.js:43
+#: pmg-gui/js/mobile/quarantineview.js:99
 #: pmg-gui/js/QuarantineContextMenu.js:25 pmg-gui/js/SpamContextMenu.js:12
 #: pmg-gui/js/SpamQuarantine.js:273 pmg-gui/js/VirusQuarantine.js:156
-#: pmg-gui/js/mobile/mailview.js:43 pmg-gui/js/mobile/quarantineview.js:99
 #: pve-manager/www/manager6/tree/DhcpTree.js:268
 msgid "Delete"
 msgstr "წაშლა"
@@ -3021,10 +3032,10 @@ msgstr ""
 "დაშიფვრის გასაღების წაშლა ან ჩანაცვლება მისით შექმნილი მარქაფების აღდგენას "
 "შეუძლებელს გახდის!"
 
-#: pmg-gui/js/AttachmentQuarantine.js:137
+#: pmg-gui/js/AttachmentQuarantine.js:137 pmg-gui/js/mobile/mailview.js:50
+#: pmg-gui/js/mobile/quarantineview.js:82
 #: pmg-gui/js/QuarantineContextMenu.js:19 pmg-gui/js/SpamContextMenu.js:6
 #: pmg-gui/js/SpamQuarantine.js:267 pmg-gui/js/VirusQuarantine.js:150
-#: pmg-gui/js/mobile/mailview.js:50 pmg-gui/js/mobile/quarantineview.js:82
 msgid "Deliver"
 msgstr "მიწოდება"
 
@@ -3081,14 +3092,6 @@ msgstr "სამიზნე პორტი"
 msgid "Destination"
 msgstr "დანიშნულება"
 
-#: pve-manager/www/manager6/Utils.js:2020
-#: pve-manager/www/manager6/Utils.js:2021
-#: pve-manager/www/manager6/Utils.js:2022
-#: pve-manager/www/manager6/Utils.js:2023
-#: pve-manager/www/manager6/Utils.js:2024
-#: pve-manager/www/manager6/Utils.js:2025
-#: pve-manager/www/manager6/Utils.js:2053
-#: pve-manager/www/manager6/Utils.js:2082
 #: pve-manager/www/manager6/ceph/OSD.js:208
 #: pve-manager/www/manager6/ceph/OSD.js:951
 #: pve-manager/www/manager6/ceph/Pool.js:506
@@ -3097,6 +3100,14 @@ msgstr "დანიშნულება"
 #: pve-manager/www/manager6/node/LVM.js:185
 #: pve-manager/www/manager6/node/LVMThin.js:220
 #: pve-manager/www/manager6/node/ZFS.js:330
+#: pve-manager/www/manager6/Utils.js:2020
+#: pve-manager/www/manager6/Utils.js:2021
+#: pve-manager/www/manager6/Utils.js:2022
+#: pve-manager/www/manager6/Utils.js:2023
+#: pve-manager/www/manager6/Utils.js:2024
+#: pve-manager/www/manager6/Utils.js:2025
+#: pve-manager/www/manager6/Utils.js:2053
+#: pve-manager/www/manager6/Utils.js:2082
 msgid "Destroy"
 msgstr "განადგურება"
 
@@ -3134,8 +3145,8 @@ msgid "Detail"
 msgstr "დეტალები"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:65
-#: pve-manager/www/manager6/ceph/OSD.js:867
 #: pve-manager/www/manager6/ceph/OSDDetails.js:17
+#: pve-manager/www/manager6/ceph/OSD.js:867
 #: pve-manager/www/manager6/sdn/ZoneContentView.js:77
 msgid "Details"
 msgstr "დეტალები"
@@ -3173,7 +3184,7 @@ msgstr "მოწყობილობის კლასი"
 msgid "Device ID"
 msgstr "მოწყობილობა"
 
-#: proxmox-widget-toolkit/src/Utils.js:1321
+#: proxmox-widget-toolkit/src/Utils.js:1323
 msgid "Device Ineligible"
 msgstr "მოწყობილობა შეუფერებელია"
 
@@ -3222,10 +3233,10 @@ msgstr "მიმართულება"
 #: proxmox-widget-toolkit/src/Schema.js:91
 #: proxmox-widget-toolkit/src/Utils.js:61
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:174
-#: pve-manager/www/manager6/Utils.js:2032
 #: pve-manager/www/manager6/node/Directory.js:145
 #: pve-manager/www/manager6/node/Directory.js:170
 #: pve-manager/www/manager6/storage/DirEdit.js:14
+#: pve-manager/www/manager6/Utils.js:2032
 #: proxmox-backup/www/DirectoryList.js:95 proxmox-backup/www/Utils.js:410
 #, fuzzy
 msgid "Directory"
@@ -3317,7 +3328,6 @@ msgstr "გათიშვა"
 msgid "Disconnected"
 msgstr "გამოერთებული"
 
-#: pve-manager/www/manager6/Utils.js:443
 #: pve-manager/www/manager6/ceph/OSD.js:61
 #: pve-manager/www/manager6/form/HotplugFeatureSelector.js:14
 #: pve-manager/www/manager6/lxc/MPResize.js:43
@@ -3327,6 +3337,7 @@ msgstr "გამოერთებული"
 #: pve-manager/www/manager6/qemu/HDEdit.js:411
 #: pve-manager/www/manager6/qemu/HDMove.js:67
 #: pve-manager/www/manager6/qemu/HDResize.js:44
+#: pve-manager/www/manager6/Utils.js:443
 #: pve-manager/www/manager6/window/GuestImport.js:660
 #: proxmox-backup/www/window/CreateDirectory.js:21
 msgid "Disk"
@@ -3344,11 +3355,11 @@ msgstr "დისკის შეტ/გამოტ"
 msgid "Disk Move"
 msgstr "დისკის გადატანა"
 
-#: pve-manager/www/manager6/Utils.js:688
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:139
 #: pve-manager/www/manager6/lxc/MPEdit.js:233
 #: pve-manager/www/manager6/qemu/HDEdit.js:213
 #: pve-manager/www/manager6/qemu/HDEdit.js:235
+#: pve-manager/www/manager6/Utils.js:688
 msgid "Disk image"
 msgstr "დისკის გამოსახულება"
 
@@ -3442,10 +3453,10 @@ msgstr "ქვემოთ"
 #: pmg-gui/js/AttachmentGrid.js:124 pmg-gui/js/AttachmentQuarantine.js:125
 #: pmg-gui/js/BackupRestore.js:190 pmg-gui/js/SpamQuarantine.js:242
 #: pmg-gui/js/Subscription.js:60 pmg-gui/js/VirusQuarantine.js:138
-#: pve-manager/www/manager6/Utils.js:2033
 #: pve-manager/www/manager6/node/Subscription.js:65
 #: pve-manager/www/manager6/storage/PBSEdit.js:79
 #: pve-manager/www/manager6/storage/TemplateView.js:127
+#: pve-manager/www/manager6/Utils.js:2033
 #: pve-manager/www/manager6/window/DownloadUrlToStorage.js:13
 #: proxmox-backup/www/Subscription.js:62
 msgid "Download"
@@ -3473,11 +3484,7 @@ msgstr "გადმოწერეთ გასაღები USB დისკ
 msgid "Drag and drop to reorder"
 msgstr "გადასალაგებლად გადაათრიეთ და დააგდეთ"
 
-#: proxmox-backup/www/Utils.js:191 proxmox-backup/www/Utils.js:405
-#: proxmox-backup/www/Utils.js:406 proxmox-backup/www/Utils.js:411
-#: proxmox-backup/www/Utils.js:412 proxmox-backup/www/Utils.js:416
-#: proxmox-backup/www/Utils.js:417 proxmox-backup/www/Utils.js:424
-#: proxmox-backup/www/Utils.js:430 proxmox-backup/www/tape/BackupJobs.js:199
+#: proxmox-backup/www/tape/BackupJobs.js:199
 #: proxmox-backup/www/tape/ChangerStatus.js:248
 #: proxmox-backup/www/tape/ChangerStatus.js:359
 #: proxmox-backup/www/tape/ChangerStatus.js:399
@@ -3487,9 +3494,14 @@ msgstr "გადასალაგებლად გადაათრიე�
 #: proxmox-backup/www/tape/window/DriveEdit.js:8
 #: proxmox-backup/www/tape/window/Erase.js:82
 #: proxmox-backup/www/tape/window/LabelMedia.js:39
-#: proxmox-backup/www/tape/window/TapeBackup.js:60
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:126
+#: proxmox-backup/www/tape/window/TapeBackup.js:60
 #: proxmox-backup/www/tape/window/TapeRestore.js:474
+#: proxmox-backup/www/Utils.js:191 proxmox-backup/www/Utils.js:405
+#: proxmox-backup/www/Utils.js:406 proxmox-backup/www/Utils.js:411
+#: proxmox-backup/www/Utils.js:412 proxmox-backup/www/Utils.js:416
+#: proxmox-backup/www/Utils.js:417 proxmox-backup/www/Utils.js:424
+#: proxmox-backup/www/Utils.js:430
 msgid "Drive"
 msgstr "დრაივი"
 
@@ -3592,13 +3604,13 @@ msgstr "API კოდი"
 msgid "EAB Key ID"
 msgstr "გასაღების ID-ები"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "EB"
 msgstr "ებ"
 
-#: pve-manager/www/manager6/qemu/HDEfi.js:95
 #: pve-manager/www/manager6/qemu/HardwareView.js:255
 #: pve-manager/www/manager6/qemu/HardwareView.js:556
+#: pve-manager/www/manager6/qemu/HDEfi.js:95
 msgid "EFI Disk"
 msgstr "EFI დისკი"
 
@@ -3624,7 +3636,6 @@ msgstr "ელფოსტის 'ვისგან:'"
 msgid "EMail attribute name(s)"
 msgstr "ელფოსტის ატრიბუტის სახელები"
 
-#: proxmox-widget-toolkit/src/Utils.js:649
 #: proxmox-widget-toolkit/src/node/DNSView.js:49
 #: proxmox-widget-toolkit/src/node/NetworkView.js:114
 #: proxmox-widget-toolkit/src/node/TimeView.js:41
@@ -3632,20 +3643,20 @@ msgstr "ელფოსტის ატრიბუტის სახელე�
 #: proxmox-widget-toolkit/src/panel/ACMEPlugin.js:100
 #: proxmox-widget-toolkit/src/panel/AuthView.js:138
 #: proxmox-widget-toolkit/src/panel/NotesView.js:21
-#: proxmox-widget-toolkit/src/panel/TfaView.js:291 pmg-gui/js/ActionList.js:108
+#: proxmox-widget-toolkit/src/panel/TfaView.js:291
+#: proxmox-widget-toolkit/src/Utils.js:650 pmg-gui/js/ActionList.js:108
 #: pmg-gui/js/ClamAVDatabase.js:159 pmg-gui/js/DKIMSettings.js:217
 #: pmg-gui/js/FetchmailView.js:77 pmg-gui/js/LDAPConfig.js:533
 #: pmg-gui/js/MailProxyOptions.js:115 pmg-gui/js/MailProxyPorts.js:33
-#: pmg-gui/js/MailProxyRelaying.js:99 pmg-gui/js/MailProxyTLS.js:22
-#: pmg-gui/js/MailProxyTLSDestinations.js:133 pmg-gui/js/MyNetworks.js:89
-#: pmg-gui/js/ObjectGroup.js:206 pmg-gui/js/ObjectGroupList.js:119
-#: pmg-gui/js/PBSConfig.js:118 pmg-gui/js/RelayDomains.js:99
-#: pmg-gui/js/SpamDetectorCustom.js:227 pmg-gui/js/SpamDetectorOptions.js:61
-#: pmg-gui/js/SpamQuarantineOptions.js:78 pmg-gui/js/SystemOptions.js:25
-#: pmg-gui/js/Transport.js:64 pmg-gui/js/UserView.js:127
-#: pmg-gui/js/VirusDetectorOptions.js:49
+#: pmg-gui/js/MailProxyRelaying.js:99
+#: pmg-gui/js/MailProxyTLSDestinations.js:133 pmg-gui/js/MailProxyTLS.js:22
+#: pmg-gui/js/MyNetworks.js:89 pmg-gui/js/ObjectGroup.js:206
+#: pmg-gui/js/ObjectGroupList.js:119 pmg-gui/js/PBSConfig.js:118
+#: pmg-gui/js/RelayDomains.js:99 pmg-gui/js/SpamDetectorCustom.js:227
+#: pmg-gui/js/SpamDetectorOptions.js:61 pmg-gui/js/SpamQuarantineOptions.js:78
+#: pmg-gui/js/SystemOptions.js:25 pmg-gui/js/Transport.js:64
+#: pmg-gui/js/UserView.js:127 pmg-gui/js/VirusDetectorOptions.js:49
 #: pmg-gui/js/VirusQuarantineOptions.js:30
-#: pve-manager/www/manager6/Utils.js:2027
 #: pve-manager/www/manager6/ceph/Pool.js:444
 #: pve-manager/www/manager6/ceph/Pool.js:499
 #: pve-manager/www/manager6/dc/AuthView.js:113
@@ -3687,6 +3698,7 @@ msgstr "ელფოსტის ატრიბუტის სახელე�
 #: pve-manager/www/manager6/tree/DhcpTree.js:257
 #: pve-manager/www/manager6/tree/SnapshotTree.js:27
 #: pve-manager/www/manager6/tree/SnapshotTree.js:279
+#: pve-manager/www/manager6/Utils.js:2027
 #: proxmox-backup/www/config/GCView.js:134
 #: proxmox-backup/www/config/MetricServerView.js:104
 #: proxmox-backup/www/config/NodeOptionView.js:23
@@ -3746,7 +3758,7 @@ msgstr "ჩასწორებადი"
 msgid "Egress"
 msgstr "გამოტანა"
 
-#: proxmox-widget-toolkit/src/Utils.js:744
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "EiB"
 msgstr "ეიბ"
 
@@ -3759,25 +3771,25 @@ msgstr ""
 msgid ""
 "Either reboot or use 'Apply Configuration' (needs ifupdown2) to activate"
 msgstr ""
-"გასააქტიურებლად გადატვირთეთ ან გამოიყენეთ 'კონფიგურაციის გადატარება' "
-"(აუცილებელია ifupdown2)"
+"გასააქტიურებლად გადატვირთეთ ან გამოიყენეთ 'კონფიგურაციის "
+"გადატარება' (აუცილებელია ifupdown2)"
 
 #: proxmox-backup/www/tape/BackupJobs.js:205
 #: proxmox-backup/www/tape/DriveStatus.js:225
 msgid "Eject"
 msgstr "მოხსნა"
 
-#: proxmox-backup/www/Utils.js:411
-#: proxmox-backup/www/tape/window/TapeBackup.js:92
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:186
+#: proxmox-backup/www/tape/window/TapeBackup.js:92
+#: proxmox-backup/www/Utils.js:411
 msgid "Eject Media"
 msgstr "დისკის გამოღება"
 
 #: pve-manager/www/manager6/dc/Backup.js:344
 #: pve-manager/www/manager6/window/Backup.js:43
 #: proxmox-backup/www/datastore/OptionView.js:170
-#: proxmox-backup/www/tape/window/TapeBackup.js:98
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:133
+#: proxmox-backup/www/tape/window/TapeBackup.js:98
 #: proxmox-backup/www/tape/window/TapeRestore.js:436
 #: proxmox-backup/www/window/NotifyOptions.js:80
 msgid "Email (legacy)"
@@ -3862,17 +3874,16 @@ msgstr "კვოტის ჩართვა"
 msgid "Enable support for extended attributes."
 msgstr ""
 
-#: proxmox-widget-toolkit/src/Utils.js:46
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:242
 #: proxmox-widget-toolkit/src/panel/TfaView.js:222
+#: proxmox-widget-toolkit/src/Utils.js:46
 #: proxmox-widget-toolkit/src/window/TfaEdit.js:65
 #: pmg-gui/js/FetchmailEdit.js:83 pmg-gui/js/FetchmailView.js:119
 #: pmg-gui/js/LDAPConfig.js:584 pmg-gui/js/LDAPProfileSelector.js:34
 #: pmg-gui/js/PBSConfig.js:174 pmg-gui/js/UserEdit.js:122
-#: pmg-gui/js/UserView.js:177 pve-manager/www/manager6/Utils.js:397
-#: pve-manager/www/manager6/Utils.js:399 pve-manager/www/manager6/Utils.js:551
-#: pve-manager/www/manager6/dc/Backup.js:805
+#: pmg-gui/js/UserView.js:177
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:249
+#: pve-manager/www/manager6/dc/Backup.js:805
 #: pve-manager/www/manager6/dc/MetricServerView.js:75
 #: pve-manager/www/manager6/dc/MetricServerView.js:269
 #: pve-manager/www/manager6/dc/MetricServerView.js:418
@@ -3889,6 +3900,8 @@ msgstr ""
 #: pve-manager/www/manager6/qemu/Options.js:206
 #: pve-manager/www/manager6/qemu/Options.js:301
 #: pve-manager/www/manager6/storage/StatusView.js:24
+#: pve-manager/www/manager6/Utils.js:397 pve-manager/www/manager6/Utils.js:399
+#: pve-manager/www/manager6/Utils.js:551
 #: proxmox-backup/www/config/MetricServerView.js:67
 #: proxmox-backup/www/config/TokenView.js:229
 #: proxmox-backup/www/config/UserView.js:216
@@ -3921,10 +3934,10 @@ msgstr "ჩართულია Windows-სთვის"
 msgid "Encrypt OSD"
 msgstr "OSD-ის დაშიფვრა"
 
-#: pve-manager/www/manager6/Utils.js:285
 #: pve-manager/www/manager6/grid/BackupView.js:376
 #: pve-manager/www/manager6/storage/BackupView.js:204
-#: proxmox-backup/www/Utils.js:27 proxmox-backup/www/datastore/Content.js:1108
+#: pve-manager/www/manager6/Utils.js:285
+#: proxmox-backup/www/datastore/Content.js:1108 proxmox-backup/www/Utils.js:27
 msgid "Encrypted"
 msgstr "დაშიფრული"
 
@@ -3939,8 +3952,8 @@ msgstr "დაშიფრული"
 msgid "Encryption"
 msgstr "დაშიფვრა"
 
-#: proxmox-backup/www/tape/PoolConfig.js:129
 #: proxmox-backup/www/tape/form/PoolSelector.js:38
+#: proxmox-backup/www/tape/PoolConfig.js:129
 msgid "Encryption Fingerprint"
 msgstr "შიფრაციის ანაბეჭდი"
 
@@ -3993,10 +4006,6 @@ msgstr "შეიყვანეთ გადმოწერის URL"
 msgid "Enterprise (recommended)"
 msgstr "საწარმოო (რეკომენდებულია)"
 
-#: proxmox-widget-toolkit/src/Utils.js:1305
-msgid "Enterprise repository needs valid subscription"
-msgstr "საწარმოო რეპოზიტორიას სწორი გამოწერა ესაჭიროება"
-
 #: pve-manager/www/manager6/qemu/RNGEdit.js:46
 msgid "Entropy source"
 msgstr "ენტროპიის წყარო"
@@ -4021,11 +4030,6 @@ msgstr "მონაცემების წაშლა"
 msgid "Erasing"
 msgstr ""
 
-#: proxmox-widget-toolkit/src/Utils.js:50
-#: proxmox-widget-toolkit/src/Utils.js:491
-#: proxmox-widget-toolkit/src/Utils.js:552
-#: proxmox-widget-toolkit/src/Utils.js:560
-#: proxmox-widget-toolkit/src/Utils.js:1101
 #: proxmox-widget-toolkit/src/button/Button.js:163
 #: proxmox-widget-toolkit/src/node/APT.js:144
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:223
@@ -4043,6 +4047,11 @@ msgstr ""
 #: proxmox-widget-toolkit/src/panel/DiskList.js:127
 #: proxmox-widget-toolkit/src/panel/NotesView.js:105
 #: proxmox-widget-toolkit/src/panel/TfaView.js:198
+#: proxmox-widget-toolkit/src/Utils.js:50
+#: proxmox-widget-toolkit/src/Utils.js:491
+#: proxmox-widget-toolkit/src/Utils.js:552
+#: proxmox-widget-toolkit/src/Utils.js:560
+#: proxmox-widget-toolkit/src/Utils.js:1102
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:96
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:151
 #: proxmox-widget-toolkit/src/window/Edit.js:177
@@ -4053,23 +4062,21 @@ msgstr ""
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:168
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:209
 #: pmg-gui/js/ClamAVDatabase.js:143 pmg-gui/js/ClusterAdministration.js:161
-#: pmg-gui/js/DKIMSettings.js:26 pmg-gui/js/Dashboard.js:169
+#: pmg-gui/js/Dashboard.js:169 pmg-gui/js/DKIMSettings.js:26
 #: pmg-gui/js/LDAPConfig.js:506 pmg-gui/js/LoginView.js:113
 #: pmg-gui/js/LoginView.js:138 pmg-gui/js/LoginView.js:266
 #: pmg-gui/js/MailTracker.js:188 pmg-gui/js/MailTracker.js:297
-#: pmg-gui/js/PostfixMailQueue.js:62 pmg-gui/js/PostfixMailQueue.js:80
-#: pmg-gui/js/PostfixQShape.js:52 pmg-gui/js/PostfixQShape.js:68
-#: pmg-gui/js/PostfixQShape.js:81 pmg-gui/js/RegexTester.js:55
-#: pmg-gui/js/RuleConfiguration.js:68 pmg-gui/js/RuleConfiguration.js:112
-#: pmg-gui/js/RuleInfo.js:31 pmg-gui/js/RuleInfo.js:53
-#: pmg-gui/js/RuleInfo.js:75 pmg-gui/js/ServerStatus.js:35
-#: pmg-gui/js/SpamDetectorStatus.js:70 pmg-gui/js/Subscription.js:89
-#: pmg-gui/js/Subscription.js:177 pmg-gui/js/UserBlackWhiteList.js:88
-#: pmg-gui/js/UserView.js:101 pmg-gui/js/Utils.js:789
-#: pmg-gui/js/ViewMailHeaders.js:61 pmg-gui/js/mobile/utils.js:44
-#: pmg-gui/js/mobile/utils.js:47 pmg-gui/js/mobile/utils.js:58
-#: pve-manager/www/manager6/Utils.js:1558
-#: pve-manager/www/manager6/Utils.js:1569
+#: pmg-gui/js/mobile/utils.js:44 pmg-gui/js/mobile/utils.js:47
+#: pmg-gui/js/mobile/utils.js:58 pmg-gui/js/PostfixMailQueue.js:62
+#: pmg-gui/js/PostfixMailQueue.js:80 pmg-gui/js/PostfixQShape.js:52
+#: pmg-gui/js/PostfixQShape.js:68 pmg-gui/js/PostfixQShape.js:81
+#: pmg-gui/js/RegexTester.js:55 pmg-gui/js/RuleConfiguration.js:68
+#: pmg-gui/js/RuleConfiguration.js:112 pmg-gui/js/RuleInfo.js:31
+#: pmg-gui/js/RuleInfo.js:53 pmg-gui/js/RuleInfo.js:75
+#: pmg-gui/js/ServerStatus.js:35 pmg-gui/js/SpamDetectorStatus.js:70
+#: pmg-gui/js/Subscription.js:89 pmg-gui/js/Subscription.js:177
+#: pmg-gui/js/UserBlackWhiteList.js:88 pmg-gui/js/UserView.js:101
+#: pmg-gui/js/Utils.js:789 pmg-gui/js/ViewMailHeaders.js:61
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:131
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:582
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:587
@@ -4133,6 +4140,8 @@ msgstr ""
 #: pve-manager/www/manager6/tree/DhcpTree.js:123
 #: pve-manager/www/manager6/tree/ResourceMapTree.js:176
 #: pve-manager/www/manager6/tree/SnapshotTree.js:85
+#: pve-manager/www/manager6/Utils.js:1558
+#: pve-manager/www/manager6/Utils.js:1569
 #: pve-manager/www/manager6/window/Backup.js:221
 #: pve-manager/www/manager6/window/DirMapEdit.js:57
 #: pve-manager/www/manager6/window/DownloadUrlToStorage.js:74
@@ -4148,9 +4157,6 @@ msgstr ""
 #: pve-manager/www/manager6/window/UploadToStorage.js:114
 #: pve-manager/www/manager6/window/UploadToStorage.js:120
 #: pve-manager/www/manager6/window/UploadToStorage.js:126
-#: proxmox-backup/www/LoginView.js:62 proxmox-backup/www/LoginView.js:103
-#: proxmox-backup/www/LoginView.js:199 proxmox-backup/www/ServerStatus.js:100
-#: proxmox-backup/www/ServerStatus.js:133 proxmox-backup/www/Utils.js:537
 #: proxmox-backup/www/config/ACLView.js:78
 #: proxmox-backup/www/config/GCView.js:81
 #: proxmox-backup/www/config/PruneView.js:104
@@ -4165,10 +4171,14 @@ msgstr ""
 #: proxmox-backup/www/datastore/Prune.js:140
 #: proxmox-backup/www/datastore/Summary.js:253
 #: proxmox-backup/www/datastore/Summary.js:278
+#: proxmox-backup/www/LoginView.js:62 proxmox-backup/www/LoginView.js:103
+#: proxmox-backup/www/LoginView.js:199 proxmox-backup/www/ServerStatus.js:100
+#: proxmox-backup/www/ServerStatus.js:133
 #: proxmox-backup/www/tape/BackupJobs.js:102
 #: proxmox-backup/www/tape/ChangerStatus.js:216
 #: proxmox-backup/www/tape/ChangerStatus.js:272
 #: proxmox-backup/www/tape/window/TapeRestore.js:165
+#: proxmox-backup/www/Utils.js:537
 msgid "Error"
 msgstr "შეცდომა"
 
@@ -4237,6 +4247,7 @@ msgstr "ყოველ {0} წუთში"
 msgid "Exact"
 msgstr ""
 
+#: proxmox-widget-toolkit/src/form/FingerprintField.js:10
 #: proxmox-widget-toolkit/src/Toolkit.js:11
 #: proxmox-widget-toolkit/src/Toolkit.js:20
 #: proxmox-widget-toolkit/src/Toolkit.js:26
@@ -4247,13 +4258,12 @@ msgstr ""
 #: proxmox-widget-toolkit/src/Toolkit.js:70
 #: proxmox-widget-toolkit/src/Toolkit.js:76
 #: proxmox-widget-toolkit/src/Toolkit.js:122
-#: proxmox-widget-toolkit/src/Toolkit.js:143
-#: proxmox-widget-toolkit/src/form/FingerprintField.js:10
-#: pmg-gui/js/PBSRemoteEdit.js:62 pmg-gui/js/PBSRemoteEdit.js:65
-#: pmg-gui/js/PBSRemoteEdit.js:117 pve-manager/www/manager6/Toolkit.js:14
-#: pve-manager/www/manager6/Toolkit.js:16
+#: proxmox-widget-toolkit/src/Toolkit.js:143 pmg-gui/js/PBSRemoteEdit.js:62
+#: pmg-gui/js/PBSRemoteEdit.js:65 pmg-gui/js/PBSRemoteEdit.js:117
 #: pve-manager/www/manager6/storage/PBSEdit.js:526
 #: pve-manager/www/manager6/storage/PBSEdit.js:529
+#: pve-manager/www/manager6/Toolkit.js:14
+#: pve-manager/www/manager6/Toolkit.js:16
 msgid "Example"
 msgstr "მაგალითი"
 
@@ -4271,8 +4281,8 @@ msgstr "ჭდეების ჩასწორება"
 msgid "Exclude filters will be applied after include filters"
 msgstr ""
 
-#: pve-manager/www/manager6/dc/Backup.js:304
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:393
+#: pve-manager/www/manager6/dc/Backup.js:304
 msgid "Exclude selected VMs"
 msgstr "მონიშნული ვმ-ების გამორიცხვა"
 
@@ -4323,8 +4333,8 @@ msgstr "იწურება"
 msgid "Export"
 msgstr "გატანა"
 
-#: proxmox-backup/www/tape/window/TapeBackup.js:76
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:168
+#: proxmox-backup/www/tape/window/TapeBackup.js:76
 msgid "Export Media-Set"
 msgstr "Media-Set-ის წაშლა"
 
@@ -4406,10 +4416,10 @@ msgstr "ფს-ის სახელი"
 msgid "Fields"
 msgstr "ველები"
 
-#: proxmox-widget-toolkit/src/Schema.js:92
 #: proxmox-widget-toolkit/src/panel/Certificates.js:13
-#: pve-manager/www/manager6/Utils.js:2033
+#: proxmox-widget-toolkit/src/Schema.js:92
 #: pve-manager/www/manager6/node/Certificates.js:293
+#: pve-manager/www/manager6/Utils.js:2033
 #: pve-manager/www/manager6/window/UploadToStorage.js:191
 #: proxmox-backup/www/Utils.js:835
 msgid "File"
@@ -4448,9 +4458,9 @@ msgid "Filename"
 msgstr "ფაილის სახელი"
 
 #: pve-manager/www/manager6/node/Directory.js:39
-#: proxmox-backup/www/DirectoryList.js:148 proxmox-backup/www/Utils.js:833
-#: proxmox-backup/www/Utils.js:836
+#: proxmox-backup/www/DirectoryList.js:148
 #: proxmox-backup/www/form/PartitionSelector.js:59
+#: proxmox-backup/www/Utils.js:833 proxmox-backup/www/Utils.js:836
 #: proxmox-backup/www/window/CreateDirectory.js:30
 msgid "Filesystem"
 msgstr "ფაილური სისტემა"
@@ -4459,8 +4469,9 @@ msgstr "ფაილური სისტემა"
 msgid "Filetype"
 msgstr "ფაილის ტიპი"
 
-#: proxmox-widget-toolkit/src/node/Tasks.js:253 pmg-gui/js/MailTracker.js:81
-#: pmg-gui/js/PostfixMailQueue.js:132 pmg-gui/js/form/FilterField.js:14
+#: proxmox-widget-toolkit/src/node/Tasks.js:253
+#: pmg-gui/js/form/FilterField.js:14 pmg-gui/js/MailTracker.js:81
+#: pmg-gui/js/PostfixMailQueue.js:132
 msgid "Filter"
 msgstr "ფილტრი"
 
@@ -4655,11 +4666,11 @@ msgstr "არასწორი მნიშვნელობების მ�
 
 #: proxmox-widget-toolkit/src/Toolkit.js:89
 #: proxmox-widget-toolkit/src/Toolkit.js:94
-#: pve-manager/www/manager6/Toolkit.js:11
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:161
 #: pve-manager/www/manager6/form/FileSelector.js:83
 #: pve-manager/www/manager6/grid/BackupView.js:360
 #: pve-manager/www/manager6/storage/ContentView.js:180
+#: pve-manager/www/manager6/Toolkit.js:11
 #: pve-manager/www/manager6/window/GuestImport.js:699
 #: proxmox-backup/www/tape/ChangerStatus.js:756
 #: proxmox-backup/www/tape/ChangerStatus.js:812
@@ -4713,7 +4724,7 @@ msgid ""
 "the host options"
 msgstr ""
 
-#: proxmox-widget-toolkit/src/Utils.js:687
+#: proxmox-widget-toolkit/src/Utils.js:688
 msgid "Forwarded mails to the local root user"
 msgstr ""
 
@@ -4802,9 +4813,9 @@ msgstr "მარქაფის კონფიგურაციიდან"
 msgid "Front Address"
 msgstr "Front-მისამართი"
 
-#: pve-manager/www/manager6/UIOptions.js:73 proxmox-backup/www/Utils.js:296
+#: pve-manager/www/manager6/UIOptions.js:73
 #: proxmox-backup/www/form/NamespaceMaxDepth.js:7
-#: proxmox-backup/www/tape/TapeInventory.js:159
+#: proxmox-backup/www/tape/TapeInventory.js:159 proxmox-backup/www/Utils.js:296
 msgid "Full"
 msgstr "სრული"
 
@@ -4812,7 +4823,7 @@ msgstr "სრული"
 msgid "Full Clone"
 msgstr "სრული კლონი"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "GB"
 msgstr "გბ"
 
@@ -4824,8 +4835,8 @@ msgstr ""
 msgid "GC Access-Time Cutoff (minutes)"
 msgstr ""
 
-#: proxmox-backup/www/Utils.js:854
 #: proxmox-backup/www/datastore/OptionView.js:279
+#: proxmox-backup/www/Utils.js:854
 msgid "GC Access-Time Support Check"
 msgstr ""
 
@@ -4929,7 +4940,7 @@ msgstr "გერმანული"
 msgid "Ghost OSDs"
 msgstr "მოჩვენებითი OSD-ები"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:744
 #: pve-manager/www/manager6/ceph/OSD.js:86
 #: pve-manager/www/manager6/ceph/OSD.js:140
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:148
@@ -4970,9 +4981,9 @@ msgstr "ნასრისფერ სიაში ჩასმული ელ
 #: pve-manager/www/manager6/ha/Resources.js:140
 #: pve-manager/www/manager6/sdn/VnetACLView.js:29
 #: pve-manager/www/manager6/sdn/VnetACLView.js:154
-#: proxmox-backup/www/Utils.js:413 proxmox-backup/www/datastore/Content.js:893
+#: proxmox-backup/www/datastore/Content.js:893
 #: proxmox-backup/www/form/GroupFilter.js:515
-#: proxmox-backup/www/form/GroupSelector.js:47
+#: proxmox-backup/www/form/GroupSelector.js:47 proxmox-backup/www/Utils.js:413
 msgid "Group"
 msgstr "ჯგუფი"
 
@@ -5120,10 +5131,10 @@ msgstr "HD ადგილი"
 msgid "HTTP proxy"
 msgstr "HTTP პროქსი"
 
-#: pve-manager/www/manager6/qemu/HDEdit.js:475
-#: pve-manager/www/manager6/qemu/HDEdit.js:477
 #: pve-manager/www/manager6/qemu/HardwareView.js:233
 #: pve-manager/www/manager6/qemu/HardwareView.js:694
+#: pve-manager/www/manager6/qemu/HDEdit.js:475
+#: pve-manager/www/manager6/qemu/HDEdit.js:477
 msgid "Hard Disk"
 msgstr "მყარი დისკი"
 
@@ -5203,9 +5214,9 @@ msgstr "მხარდაჭერის სამსახური"
 msgid "Heuristic Score"
 msgstr "ევრისტიკის ქულა"
 
-#: pve-manager/www/manager6/Utils.js:2066
 #: pve-manager/www/manager6/qemu/CmdMenu.js:72
 #: pve-manager/www/manager6/qemu/Config.js:179
+#: pve-manager/www/manager6/Utils.js:2066
 msgid "Hibernate"
 msgstr "პროგრამული ძილი"
 
@@ -5263,7 +5274,7 @@ msgstr "ჰოსტების ჯგუფი"
 msgid "Host/IP address or optional port is invalid"
 msgstr "ჰოსტი/IP მისამართი ან არასავალდებულო პორტი არასწორია"
 
-#: proxmox-widget-toolkit/src/Utils.js:672
+#: proxmox-widget-toolkit/src/Utils.js:673
 #: pve-manager/www/manager6/ceph/OSDDetails.js:136
 #: pve-manager/www/manager6/lxc/CreateWizard.js:60
 #: pve-manager/www/manager6/lxc/DNS.js:119
@@ -5320,10 +5331,10 @@ msgstr "ICMP ტიპი"
 #: pve-manager/www/manager6/dc/Cluster.js:286
 #: pve-manager/www/manager6/form/PCIMapSelector.js:35
 #: pve-manager/www/manager6/window/GuestImport.js:846
-#: proxmox-backup/www/Utils.js:599 proxmox-backup/www/tape/ChangerStatus.js:31
+#: proxmox-backup/www/tape/ChangerStatus.js:31
 #: proxmox-backup/www/tape/ChangerStatus.js:726
 #: proxmox-backup/www/tape/ChangerStatus.js:832
-#: proxmox-backup/www/tape/ChangerStatus.js:948
+#: proxmox-backup/www/tape/ChangerStatus.js:948 proxmox-backup/www/Utils.js:599
 msgid "ID"
 msgstr "ID"
 
@@ -5350,8 +5361,8 @@ msgstr "ID/კვანძი/ბილიკი"
 msgid "ID/Node/Vendor&Device"
 msgstr "ID/კვანძი/მომწოდებელი&მოწყობილობა"
 
-#: proxmox-backup/www/ServerStatus.js:260
 #: proxmox-backup/www/datastore/Summary.js:348
+#: proxmox-backup/www/ServerStatus.js:260
 msgid "IO Delay"
 msgstr "IO დაყოვნება"
 
@@ -5359,7 +5370,7 @@ msgstr "IO დაყოვნება"
 msgid "IO Delay (ms)"
 msgstr "IO დაყოვნება (მწმ)"
 
-#: pmg-gui/js/ServerStatus.js:123 pmg-gui/js/dashboard/NodeInfo.js:32
+#: pmg-gui/js/dashboard/NodeInfo.js:32 pmg-gui/js/ServerStatus.js:123
 #: pve-manager/www/manager6/node/StatusView.js:35
 #: pve-manager/www/manager6/node/Summary.js:163
 #: proxmox-backup/www/panel/NodeInfo.js:87
@@ -5467,8 +5478,8 @@ msgstr ""
 msgid "ISO Images"
 msgstr "ISO ასლები"
 
-#: pve-manager/www/manager6/Utils.js:691
 #: pve-manager/www/manager6/form/IsoSelector.js:101
+#: pve-manager/www/manager6/Utils.js:691
 msgid "ISO image"
 msgstr "ISO ასლი"
 
@@ -5491,9 +5502,9 @@ msgstr "ქსელის ინფორმაციის გარეშე"
 msgid "Implies xattr support."
 msgstr ""
 
-#: pve-manager/www/manager6/Utils.js:694
 #: pve-manager/www/manager6/storage/Browser.js:146
 #: pve-manager/www/manager6/storage/Browser.js:164
+#: pve-manager/www/manager6/Utils.js:694
 #: pve-manager/www/manager6/window/GuestImport.js:19
 #: proxmox-backup/www/tape/ChangerStatus.js:58
 #: proxmox-backup/www/tape/ChangerStatus.js:971
@@ -5575,8 +5586,8 @@ msgstr "ყველა ჯგუფის ჩასმა"
 msgid "Include in Backup"
 msgstr "მარქაფში ჩასასმელი"
 
-#: pve-manager/www/manager6/dc/Backup.js:302
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:387
+#: pve-manager/www/manager6/dc/Backup.js:302
 msgid "Include selected VMs"
 msgstr "მონიშნული ვმ-ების ჩასმა"
 
@@ -5634,8 +5645,8 @@ msgstr "ინფორმაცია"
 msgid "Ingress"
 msgstr "შეტანა"
 
-#: proxmox-widget-toolkit/src/Utils.js:703
 #: proxmox-widget-toolkit/src/panel/DiskList.js:377
+#: proxmox-widget-toolkit/src/Utils.js:704
 msgid "Initialize Disk with GPT"
 msgstr "დისკის ინიციალიზაცია GPT-ით"
 
@@ -5703,7 +5714,7 @@ msgstr "პულის სახელი არასწორ სიმბო
 msgid "Invalid file size"
 msgstr "არასწორი ფაილის ზომა"
 
-#: proxmox-widget-toolkit/src/Utils.js:1101
+#: proxmox-widget-toolkit/src/Utils.js:1102
 #: pve-manager/www/manager6/Utils.js:1569
 msgid "Invalid file size: "
 msgstr "არასწორი ფაილის ზომა: "
@@ -5800,13 +5811,14 @@ msgstr "დავალების კომენტარი"
 msgid "Job Detail"
 msgstr "დავალების დეტალები"
 
-#: pve-manager/www/manager6/Utils.js:2102
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:120
-#: proxmox-backup/www/Utils.js:442 proxmox-backup/www/config/PruneView.js:175
+#: pve-manager/www/manager6/Utils.js:2102
+#: proxmox-backup/www/config/PruneView.js:175
 #: proxmox-backup/www/config/SyncView.js:270
 #: proxmox-backup/www/config/VerifyView.js:181
 #: proxmox-backup/www/tape/BackupJobs.js:178
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:95
+#: proxmox-backup/www/Utils.js:442
 #: proxmox-backup/www/window/PruneJobEdit.js:154
 #: proxmox-backup/www/window/SyncJobEdit.js:395
 #: proxmox-backup/www/window/VerifyJobEdit.js:159
@@ -5822,13 +5834,13 @@ msgstr "დავალების გეგმის სიმულატო�
 msgid "Join"
 msgstr "შეერთება"
 
-#: pmg-gui/js/Utils.js:893 pve-manager/www/manager6/Utils.js:2030
-#: pve-manager/www/manager6/dc/Cluster.js:168
+#: pmg-gui/js/Utils.js:893 pve-manager/www/manager6/dc/Cluster.js:168
+#: pve-manager/www/manager6/Utils.js:2030
 msgid "Join Cluster"
 msgstr "კლასტერში შეერთება"
 
-#: pve-manager/www/manager6/dc/Cluster.js:160
 #: pve-manager/www/manager6/dc/ClusterEdit.js:88
+#: pve-manager/www/manager6/dc/Cluster.js:160
 msgid "Join Information"
 msgstr "შესვლის ინფორმაცია"
 
@@ -5845,7 +5857,7 @@ msgstr "{0}-ში მესვლა"
 msgid "Junk Mails"
 msgstr "ნაგავი ელფოსტები"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "KB"
 msgstr "კბ"
 
@@ -5939,7 +5951,7 @@ msgstr ""
 "შეინახეთ."
 
 #: pmg-gui/js/dashboard/NodeInfo.js:88
-#: pve-manager/www/manager6/node/StatusView.js:102
+#: pve-manager/www/manager6/node/StatusView.js:316
 #: proxmox-backup/www/panel/NodeInfo.js:143
 msgid "Kernel Version"
 msgstr "ბირთვის ვერსია"
@@ -5965,7 +5977,7 @@ msgstr "გასაღების ზომა"
 msgid "Keyboard Layout"
 msgstr "კლავიატურის განლაგება"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "KiB"
 msgstr "კიბ"
 
@@ -6033,17 +6045,19 @@ msgstr "იარლიყი"
 msgid "Label Information"
 msgstr "ჭდის ინფორმაცია"
 
-#: proxmox-backup/www/Utils.js:417 proxmox-backup/www/tape/ChangerStatus.js:796
+#: proxmox-backup/www/tape/ChangerStatus.js:796
 #: proxmox-backup/www/tape/DriveStatus.js:215
 #: proxmox-backup/www/tape/window/LabelMedia.js:8
+#: proxmox-backup/www/Utils.js:417
 msgid "Label Media"
 msgstr "მედიის ჭდე"
 
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:36
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:43
 #: pmg-gui/js/LoginView.js:381 pmg-gui/js/MainView.js:221
-#: pmg-gui/js/QuarantineView.js:258 pve-manager/www/manager6/Workspace.js:411
+#: pmg-gui/js/QuarantineView.js:258
 #: pve-manager/www/manager6/window/LoginWindow.js:384
+#: pve-manager/www/manager6/Workspace.js:411
 #: proxmox-backup/www/LoginView.js:313 proxmox-backup/www/MainView.js:271
 msgid "Language"
 msgstr "ენა"
@@ -6211,12 +6225,12 @@ msgstr "მედიის ჩატვირთვა ამძრავში"
 msgid "Load SSH Key File"
 msgstr "SSH გასაღების ფაილის ჩატვრთვა"
 
-#: pmg-gui/js/ClusterAdministration.js:278 pmg-gui/js/ServerStatus.js:130
-#: pmg-gui/js/dashboard/NodeInfo.js:51
+#: pmg-gui/js/ClusterAdministration.js:278 pmg-gui/js/dashboard/NodeInfo.js:51
+#: pmg-gui/js/ServerStatus.js:130
 #: pve-manager/www/manager6/node/StatusView.js:42
 #: pve-manager/www/manager6/node/Summary.js:171
-#: proxmox-backup/www/ServerStatus.js:208
 #: proxmox-backup/www/panel/NodeInfo.js:106
+#: proxmox-backup/www/ServerStatus.js:208
 msgid "Load average"
 msgstr "საშუალო დატვირთვა"
 
@@ -6396,7 +6410,7 @@ msgstr "MAC მისამართების პრეფიქსი"
 msgid "MAC filter"
 msgstr "MAC ფილტრი"
 
-#: proxmox-widget-toolkit/src/Utils.js:741
+#: proxmox-widget-toolkit/src/Utils.js:742
 msgid "MB"
 msgstr "მბ"
 
@@ -6511,7 +6525,7 @@ msgstr "HA-ის გამართვა"
 msgid "Manager"
 msgstr "მმართველი"
 
-#: pve-manager/www/manager6/node/StatusView.js:136
+#: pve-manager/www/manager6/node/StatusView.js:350
 #, fuzzy
 msgid "Manager Version"
 msgstr "PVE მმართველის ვერსია"
@@ -6687,11 +6701,12 @@ msgstr "სიმბოლოების მაქს. რაოდენობ
 msgid "Media"
 msgstr "მედია"
 
-#: proxmox-backup/www/Utils.js:443 proxmox-backup/www/tape/BackupJobs.js:193
+#: proxmox-backup/www/tape/BackupJobs.js:193
 #: proxmox-backup/www/tape/window/LabelMedia.js:63
 #: proxmox-backup/www/tape/window/PoolEdit.js:10
-#: proxmox-backup/www/tape/window/TapeBackup.js:55
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:121
+#: proxmox-backup/www/tape/window/TapeBackup.js:55
+#: proxmox-backup/www/Utils.js:443
 msgid "Media Pool"
 msgstr "მედიის პული"
 
@@ -6720,8 +6735,7 @@ msgstr "შუალედური მოწყობილობები"
 msgid "Members"
 msgstr "წევრები"
 
-#: pmg-gui/js/Dashboard.js:500 pve-manager/www/manager6/Utils.js:449
-#: pve-manager/www/manager6/dc/Summary.js:41
+#: pmg-gui/js/Dashboard.js:500 pve-manager/www/manager6/dc/Summary.js:41
 #: pve-manager/www/manager6/form/HotplugFeatureSelector.js:29
 #: pve-manager/www/manager6/lxc/CreateWizard.js:235
 #: pve-manager/www/manager6/lxc/ResourceEdit.js:10
@@ -6733,6 +6747,7 @@ msgstr "წევრები"
 #: pve-manager/www/manager6/qemu/HardwareView.js:70
 #: pve-manager/www/manager6/qemu/MemoryEdit.js:65
 #: pve-manager/www/manager6/qemu/MemoryEdit.js:168
+#: pve-manager/www/manager6/Utils.js:449
 #: pve-manager/www/manager6/window/GuestImport.js:484
 #: pve-manager/www/manager6/window/Restore.js:337
 msgid "Memory"
@@ -6799,13 +6814,10 @@ msgstr ""
 msgid "Metric Server"
 msgstr "მეტრიკების სერვერი"
 
-#: proxmox-widget-toolkit/src/Utils.js:743
+#: proxmox-widget-toolkit/src/Utils.js:744
 msgid "MiB"
 msgstr "მიბ"
 
-#: pve-manager/www/manager6/Utils.js:2034
-#: pve-manager/www/manager6/Utils.js:2054
-#: pve-manager/www/manager6/Utils.js:2084
 #: pve-manager/www/manager6/lxc/CmdMenu.js:101
 #: pve-manager/www/manager6/lxc/Config.js:95
 #: pve-manager/www/manager6/menu/TemplateMenu.js:29
@@ -6813,6 +6825,9 @@ msgstr "მიბ"
 #: pve-manager/www/manager6/node/Config.js:92
 #: pve-manager/www/manager6/qemu/CmdMenu.js:116
 #: pve-manager/www/manager6/qemu/Config.js:68
+#: pve-manager/www/manager6/Utils.js:2034
+#: pve-manager/www/manager6/Utils.js:2054
+#: pve-manager/www/manager6/Utils.js:2084
 #: pve-manager/www/manager6/window/Migrate.js:98
 #: pve-manager/www/manager6/window/Migrate.js:477
 msgid "Migrate"
@@ -6868,8 +6883,8 @@ msgstr "შერეული გამოწერები"
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:191
 #: pve-manager/www/manager6/dc/AuthEditAD.js:54
 #: pve-manager/www/manager6/dc/AuthEditLDAP.js:54
-#: pve-manager/www/manager6/dc/Backup.js:397
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:236
+#: pve-manager/www/manager6/dc/Backup.js:397
 #: pve-manager/www/manager6/dc/UserTagAccessEdit.js:52
 #: pve-manager/www/manager6/window/Backup.js:28
 #: pve-manager/www/manager6/window/Clone.js:212
@@ -7014,13 +7029,13 @@ msgstr "მიმაგრება"
 msgid "Move Storage"
 msgstr "საცავის გადატანა"
 
-#: pve-manager/www/manager6/Utils.js:2045
 #: pve-manager/www/manager6/qemu/HDMove.js:28
+#: pve-manager/www/manager6/Utils.js:2045
 msgid "Move Volume"
 msgstr "ტომის გადატანა"
 
-#: pve-manager/www/manager6/Utils.js:2055
 #: pve-manager/www/manager6/qemu/HDMove.js:28
+#: pve-manager/www/manager6/Utils.js:2055
 msgid "Move disk"
 msgstr "დისკის გადატანა"
 
@@ -7066,15 +7081,14 @@ msgid "Must start with"
 msgstr "უნდა იწყებოდეს"
 
 #: pmg-gui/js/MainView.js:208 pmg-gui/js/Settings.js:5
-#: pve-manager/www/manager6/Workspace.js:373
 #: pve-manager/www/manager6/window/Settings.js:5
-#: proxmox-backup/www/MainView.js:258 proxmox-backup/www/window/Settings.js:5
+#: pve-manager/www/manager6/Workspace.js:373 proxmox-backup/www/MainView.js:258
+#: proxmox-backup/www/window/Settings.js:5
 msgid "My Settings"
 msgstr "ჩემი პარამეტრები"
 
-#: proxmox-widget-toolkit/src/Utils.js:1056
 #: proxmox-widget-toolkit/src/panel/DiskList.js:344
-#: proxmox-backup/www/Utils.js:319
+#: proxmox-widget-toolkit/src/Utils.js:1057 proxmox-backup/www/Utils.js:319
 msgid "N/A"
 msgstr "N/A"
 
@@ -7099,6 +7113,10 @@ msgstr ""
 #: pve-manager/www/manager6/tree/SnapshotTree.js:336
 msgid "NOW"
 msgstr "ახლა"
+
+#: pve-manager/www/manager6/node/StatusView.js:268
+msgid "NVME温度"
+msgstr ""
 
 #: pve-manager/www/manager6/window/GuestImport.js:958
 msgid "NVMe disks are currently not supported, '{0}' will get attached as SCSI"
@@ -7185,7 +7203,6 @@ msgstr ""
 #: pve-manager/www/manager6/window/Snapshot.js:65
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:26
 #: pve-manager/www/manager6/window/USBMapEdit.js:144
-#: proxmox-backup/www/Utils.js:605 proxmox-backup/www/ZFSList.js:62
 #: proxmox-backup/www/config/MetricServerView.js:56
 #: proxmox-backup/www/config/UserView.js:230
 #: proxmox-backup/www/dashboard/DataStoreStatistics.js:71
@@ -7193,20 +7210,21 @@ msgstr ""
 #: proxmox-backup/www/tape/ChangerStatus.js:850
 #: proxmox-backup/www/tape/DriveConfig.js:143
 #: proxmox-backup/www/tape/DriveStatus.js:434
-#: proxmox-backup/www/tape/PoolConfig.js:111
 #: proxmox-backup/www/tape/form/ChangerSelector.js:24
 #: proxmox-backup/www/tape/form/DriveSelector.js:25
 #: proxmox-backup/www/tape/form/PoolSelector.js:22
+#: proxmox-backup/www/tape/PoolConfig.js:111
 #: proxmox-backup/www/tape/window/ChangerEdit.js:24
 #: proxmox-backup/www/tape/window/DriveEdit.js:24
 #: proxmox-backup/www/tape/window/PoolEdit.js:28
 #: proxmox-backup/www/tape/window/TapeRestore.js:932
+#: proxmox-backup/www/Utils.js:605
 #: proxmox-backup/www/window/CreateDirectory.js:38
 #: proxmox-backup/www/window/DataStoreEdit.js:53
 #: proxmox-backup/www/window/InfluxDbEdit.js:28
 #: proxmox-backup/www/window/InfluxDbEdit.js:143
 #: proxmox-backup/www/window/TrafficControlEdit.js:227
-#: proxmox-backup/www/window/ZFSCreate.js:26
+#: proxmox-backup/www/window/ZFSCreate.js:26 proxmox-backup/www/ZFSList.js:62
 msgid "Name"
 msgstr "სახელი"
 
@@ -7230,13 +7248,13 @@ msgstr "ჭდე ცარიელი არ უნდა იყოს."
 #: pmg-gui/js/PBSRemoteEdit.js:52
 #: pve-manager/www/manager6/storage/PBSEdit.js:563
 #: pve-manager/www/manager6/storage/RBDEdit.js:238
-#: proxmox-backup/www/Utils.js:408 proxmox-backup/www/config/PruneView.js:190
+#: proxmox-backup/www/config/PruneView.js:190
 #: proxmox-backup/www/config/SyncView.js:302
 #: proxmox-backup/www/config/VerifyView.js:196
 #: proxmox-backup/www/datastore/Content.js:1249
 #: proxmox-backup/www/form/RemoteTargetSelector.js:127
 #: proxmox-backup/www/tape/window/TapeBackup.js:42
-#: proxmox-backup/www/window/NamespaceEdit.js:9
+#: proxmox-backup/www/Utils.js:408 proxmox-backup/www/window/NamespaceEdit.js:9
 #: proxmox-backup/www/window/PruneJobEdit.js:88
 #: proxmox-backup/www/window/VerifyAll.js:36
 #: proxmox-backup/www/window/VerifyJobEdit.js:80
@@ -7272,7 +7290,6 @@ msgstr "ქსელის ნიღაბი IPv4-ის ნაცრისფ�
 msgid "Netmask for Greylisting IPv6"
 msgstr "ქსელის ნიღაბი IPv6-ის ნაცრისფერი სიისთვის"
 
-#: pve-manager/www/manager6/Utils.js:445
 #: pve-manager/www/manager6/ceph/OSDDetails.js:166
 #: pve-manager/www/manager6/dc/OptionView.js:113
 #: pve-manager/www/manager6/form/HotplugFeatureSelector.js:19
@@ -7280,6 +7297,7 @@ msgstr "ქსელის ნიღაბი IPv6-ის ნაცრისფ�
 #: pve-manager/www/manager6/lxc/CreateWizard.js:240
 #: pve-manager/www/manager6/node/Config.js:191
 #: pve-manager/www/manager6/qemu/CreateWizard.js:232
+#: pve-manager/www/manager6/Utils.js:445
 msgid "Network"
 msgstr "ქსელი"
 
@@ -7287,7 +7305,7 @@ msgstr "ქსელი"
 msgid "Network Config"
 msgstr "ქსელის მორგება"
 
-#: proxmox-widget-toolkit/src/Utils.js:654
+#: proxmox-widget-toolkit/src/Utils.js:655
 #: pve-manager/www/manager6/lxc/Network.js:326
 #: pve-manager/www/manager6/qemu/HardwareView.js:247
 #: pve-manager/www/manager6/qemu/HardwareView.js:706
@@ -7323,7 +7341,7 @@ msgstr "ქსელები"
 
 #: pmg-gui/js/PBSRemoteEdit.js:89 pmg-gui/js/PBSRemoteEdit.js:92
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:217
-#: proxmox-backup/www/Utils.js:309 proxmox-backup/www/config/VerifyView.js:219
+#: proxmox-backup/www/config/VerifyView.js:219 proxmox-backup/www/Utils.js:309
 #: proxmox-backup/www/window/NotifyOptions.js:9
 #: proxmox-backup/www/window/NotifyOptions.js:21
 msgid "Never"
@@ -7361,8 +7379,9 @@ msgstr "შემდეგი თავისუფალი VMID დიაპ�
 msgid "Next Media"
 msgstr "შემდეგი მედია"
 
-#: pmg-gui/js/PBSSnapshotView.js:185 pve-manager/www/manager6/dc/Backup.js:835
+#: pmg-gui/js/PBSSnapshotView.js:185
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:193
+#: pve-manager/www/manager6/dc/Backup.js:835
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:117
 #: proxmox-backup/www/config/GCView.js:196
 #: proxmox-backup/www/config/PruneView.js:249
@@ -7382,10 +7401,10 @@ msgstr "შემდეგი სინქი"
 msgid "Next due date"
 msgstr "შემდეგი შემოწმება"
 
-#: proxmox-widget-toolkit/src/Utils.js:45 pve-manager/www/manager6/Utils.js:277
-#: pve-manager/www/manager6/Utils.js:322
+#: proxmox-widget-toolkit/src/Utils.js:45
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:250
 #: pve-manager/www/manager6/node/Subscription.js:143
+#: pve-manager/www/manager6/Utils.js:277 pve-manager/www/manager6/Utils.js:322
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:39
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:52
 #: proxmox-backup/www/Subscription.js:131
@@ -7689,7 +7708,6 @@ msgstr "ვმ-ი არჩეული არაა"
 msgid "No updates available."
 msgstr "განახლება ხელმისაწვდომი არაა."
 
-#: proxmox-widget-toolkit/src/Utils.js:567
 #: pmg-gui/js/mobile/quarantineview.js:51 pmg-gui/js/mobile/utils.js:145
 #: pmg-gui/js/mobile/utils.js:151 proxmox-backup/www/Dashboard.js:330
 msgid "No valid subscription"
@@ -7712,14 +7730,6 @@ msgstr "{0} მორგებული არაა."
 msgid "No {0} found"
 msgstr "{0} ვერ ვიპოვე"
 
-#: proxmox-widget-toolkit/src/Utils.js:1298
-msgid "No {0} repository enabled!"
-msgstr "{0} რეპოზიტორია ჩართული არაა!"
-
-#: proxmox-widget-toolkit/src/node/APTRepositories.js:474
-msgid "No {0} repository is enabled, you do not get any updates!"
-msgstr "{0} რეპოზიტორია ჩართული არაა. განახლებებს არ მიიღებთ!"
-
 #: pve-manager/www/manager6/node/Directory.js:172
 #: pve-manager/www/manager6/node/LVM.js:172
 #: pve-manager/www/manager6/node/LVMThin.js:207
@@ -7736,9 +7746,9 @@ msgstr "გამოწერს-გარეშე"
 #: pmg-gui/js/ClusterAdministration.js:224 pmg-gui/js/ServerStatus.js:67
 #: pmg-gui/js/ServerStatus.js:75
 #: pve-manager/www/manager6/data/ResourceStore.js:246
+#: pve-manager/www/manager6/dc/BackupJobDetail.js:177
 #: pve-manager/www/manager6/dc/Backup.js:271
 #: pve-manager/www/manager6/dc/Backup.js:818
-#: pve-manager/www/manager6/dc/BackupJobDetail.js:177
 #: pve-manager/www/manager6/dc/Log.js:52
 #: pve-manager/www/manager6/dc/Tasks.js:100
 #: pve-manager/www/manager6/form/GlobalSearchField.js:89
@@ -7755,10 +7765,10 @@ msgstr "გამოწერს-გარეშე"
 #: pve-manager/www/manager6/panel/GuestStatusView.js:79
 #: pve-manager/www/manager6/panel/TemplateStatusView.js:31
 #: pve-manager/www/manager6/qemu/CreateWizard.js:79
-#: pve-manager/www/manager6/sdn/ControllerView.js:119
-#: pve-manager/www/manager6/sdn/StatusView.js:73
 #: pve-manager/www/manager6/sdn/controllers/BgpEdit.js:26
 #: pve-manager/www/manager6/sdn/controllers/IsisEdit.js:26
+#: pve-manager/www/manager6/sdn/ControllerView.js:119
+#: pve-manager/www/manager6/sdn/StatusView.js:73
 #: pve-manager/www/manager6/window/DirMapEdit.js:145
 #: pve-manager/www/manager6/window/Settings.js:188
 msgid "Node"
@@ -7793,28 +7803,24 @@ msgstr "კვანძის სახელი"
 #: pve-manager/www/manager6/form/StorageSelector.js:49
 #: pve-manager/www/manager6/ha/GroupSelector.js:17
 #: pve-manager/www/manager6/ha/Groups.js:96
-#: pve-manager/www/manager6/sdn/ZoneView.js:173
 #: pve-manager/www/manager6/sdn/zones/Base.js:44
+#: pve-manager/www/manager6/sdn/ZoneView.js:173
 #: pve-manager/www/manager6/storage/Base.js:41
 #: pve-manager/www/manager6/tree/ResourceTree.js:14
 msgid "Nodes"
 msgstr "კვანძები"
 
-#: proxmox-widget-toolkit/src/Utils.js:1308
-msgid "Non production-ready repository enabled!"
-msgstr "ჩართულია არა-წარმოებისთვის-მზა რეპოზიტორია!"
-
 #: proxmox-widget-toolkit/src/Utils.js:49 pmg-gui/js/PBSSnapshotView.js:179
-#: pve-manager/www/manager6/Utils.js:291
 #: pve-manager/www/manager6/dc/OptionView.js:60
 #: pve-manager/www/manager6/storage/CIFSEdit.js:179
 #: pve-manager/www/manager6/storage/PBSEdit.js:226
 #: pve-manager/www/manager6/storage/PBSEdit.js:537
+#: pve-manager/www/manager6/Utils.js:291
 #: pve-manager/www/manager6/window/BulkAction.js:360
-#: proxmox-backup/www/Utils.js:780 proxmox-backup/www/Utils.js:829
-#: proxmox-backup/www/Utils.js:834 proxmox-backup/www/datastore/Content.js:1162
+#: proxmox-backup/www/datastore/Content.js:1162
 #: proxmox-backup/www/datastore/Content.js:1180
-#: proxmox-backup/www/datastore/Content.js:1194
+#: proxmox-backup/www/datastore/Content.js:1194 proxmox-backup/www/Utils.js:780
+#: proxmox-backup/www/Utils.js:829 proxmox-backup/www/Utils.js:834
 #: proxmox-backup/www/window/MaintenanceOptions.js:6
 msgid "None"
 msgstr "არაფერი"
@@ -7981,8 +7987,8 @@ msgstr "შეტყობინება"
 #: pve-manager/www/manager6/dc/Backup.js:347
 #: pve-manager/www/manager6/window/Backup.js:46
 #: proxmox-backup/www/datastore/OptionView.js:165
-#: proxmox-backup/www/tape/window/TapeBackup.js:101
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:136
+#: proxmox-backup/www/tape/window/TapeBackup.js:101
 #: proxmox-backup/www/tape/window/TapeRestore.js:439
 #: proxmox-backup/www/window/NotifyOptions.js:84
 #, fuzzy
@@ -7992,15 +7998,15 @@ msgstr "შეტყობინება"
 #: pve-manager/www/manager6/dc/Backup.js:345
 #: pve-manager/www/manager6/window/Backup.js:44
 #: proxmox-backup/www/datastore/OptionView.js:168
-#: proxmox-backup/www/tape/window/TapeBackup.js:99
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:134
+#: proxmox-backup/www/tape/window/TapeBackup.js:99
 #: proxmox-backup/www/tape/window/TapeRestore.js:437
 #: proxmox-backup/www/window/NotifyOptions.js:81
 #, fuzzy
 msgid "Notification system"
 msgstr "შეტყობინება"
 
-#: proxmox-widget-toolkit/src/Utils.js:671
+#: proxmox-widget-toolkit/src/Utils.js:672
 #, fuzzy
 msgid "Notification type"
 msgstr "შეტყობინება"
@@ -8017,8 +8023,8 @@ msgid "Notify"
 msgstr "შემატყობინე"
 
 #: proxmox-backup/www/datastore/OptionView.js:197
-#: proxmox-backup/www/tape/window/TapeBackup.js:111
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:145
+#: proxmox-backup/www/tape/window/TapeBackup.js:111
 #: proxmox-backup/www/tape/window/TapeRestore.js:448
 #: proxmox-backup/www/window/NotifyOptions.js:93
 msgid "Notify User"
@@ -8039,15 +8045,15 @@ msgstr "კვანძების რიცხვი"
 #: proxmox-widget-toolkit/src/node/Tasks.js:347
 #: proxmox-widget-toolkit/src/window/ConsentModal.js:32
 #: proxmox-widget-toolkit/src/window/Edit.js:309 pmg-gui/js/LoginView.js:182
-#: pmg-gui/js/RegexTester.js:49 pmg-gui/js/mobile/quarantineview.js:36
-#: pve-manager/www/manager6/Utils.js:297
+#: pmg-gui/js/mobile/quarantineview.js:36 pmg-gui/js/RegexTester.js:49
 #: pve-manager/www/manager6/grid/Replication.js:349
-#: proxmox-backup/www/Utils.js:235
+#: pve-manager/www/manager6/Utils.js:297
 #: proxmox-backup/www/dashboard/TaskSummary.js:168
 #: proxmox-backup/www/tape/ChangerStatus.js:60
 #: proxmox-backup/www/tape/ChangerStatus.js:99
 #: proxmox-backup/www/tape/ChangerStatus.js:223
 #: proxmox-backup/www/tape/window/LabelMedia.js:9
+#: proxmox-backup/www/Utils.js:235
 msgid "OK"
 msgstr "დიახ"
 
@@ -8089,7 +8095,7 @@ msgstr "ობიექტები ავარიულია. მოითმ
 
 #: pve-manager/www/manager6/dc/Health.js:112
 #: pve-manager/www/manager6/window/Migrate.js:45
-#: proxmox-backup/www/Utils.js:806 proxmox-backup/www/tape/TapeInventory.js:304
+#: proxmox-backup/www/tape/TapeInventory.js:304 proxmox-backup/www/Utils.js:806
 #: proxmox-backup/www/window/MaintenanceOptions.js:8
 msgid "Offline"
 msgstr "გათიშული"
@@ -8107,8 +8113,8 @@ msgstr ""
 
 #: proxmox-widget-toolkit/src/window/PackageVersions.js:32
 #: pve-manager/www/manager6/node/Summary.js:46
-#: proxmox-backup/www/ServerStatus.js:86
 #: proxmox-backup/www/panel/NodeInfo.js:55
+#: proxmox-backup/www/ServerStatus.js:86
 #: proxmox-backup/www/tape/window/Erase.js:31
 #: proxmox-backup/www/tape/window/MediaRemoveWindow.js:23
 #: proxmox-backup/www/window/DatastoreRepoInfo.js:89
@@ -8232,8 +8238,8 @@ msgstr "პარამეტრი"
 #: pve-manager/www/manager6/qemu/Config.js:303
 #: pve-manager/www/manager6/qemu/Config.js:372
 #: pve-manager/www/manager6/sdn/FirewallPanel.js:28
-#: proxmox-backup/www/DirectoryList.js:153
 #: proxmox-backup/www/datastore/Panel.js:87
+#: proxmox-backup/www/DirectoryList.js:153
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:72
 msgid "Options"
 msgstr "მორგება"
@@ -8287,7 +8293,7 @@ msgstr ""
 msgid "Other DT Activity"
 msgstr ""
 
-#: proxmox-widget-toolkit/src/Utils.js:1318
+#: proxmox-widget-toolkit/src/Utils.js:1320
 msgid "Other Error"
 msgstr "სხვა შეცდომა"
 
@@ -8366,7 +8372,7 @@ msgstr ""
 msgid "Owner"
 msgstr "მფლობელი"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "PB"
 msgstr "პბ"
 
@@ -8458,9 +8464,8 @@ msgstr "მითითებული მოწყობილობის გ�
 #: proxmox-widget-toolkit/src/window/TfaEdit.js:215
 #: pmg-gui/js/ClusterAdministration.js:52 pmg-gui/js/FetchmailEdit.js:69
 #: pmg-gui/js/LDAPConfig.js:113 pmg-gui/js/LoginView.js:363
-#: pmg-gui/js/PBSRemoteEdit.js:80 pmg-gui/js/UserEdit.js:69
-#: pmg-gui/js/UserView.js:140 pmg-gui/js/mobile/loginscreen.js:28
-#: pve-manager/www/manager6/Workspace.js:380
+#: pmg-gui/js/mobile/loginscreen.js:28 pmg-gui/js/PBSRemoteEdit.js:80
+#: pmg-gui/js/UserEdit.js:69 pmg-gui/js/UserView.js:140
 #: pve-manager/www/manager6/dc/ClusterEdit.js:349
 #: pve-manager/www/manager6/dc/UserEdit.js:38
 #: pve-manager/www/manager6/dc/UserView.js:58
@@ -8472,6 +8477,7 @@ msgstr "მითითებული მოწყობილობის გ�
 #: pve-manager/www/manager6/storage/ESXIEdit.js:70
 #: pve-manager/www/manager6/storage/PBSEdit.js:538
 #: pve-manager/www/manager6/window/LoginWindow.js:369
+#: pve-manager/www/manager6/Workspace.js:380
 #: proxmox-backup/www/LoginView.js:297
 #: proxmox-backup/www/tape/EncryptionKeys.js:53
 #: proxmox-backup/www/tape/window/EncryptionEdit.js:36
@@ -8501,8 +8507,8 @@ msgstr "ჩასვით კლასტერის დაშიფრულ�
 #: pve-manager/www/manager6/sdn/VnetACLView.js:20
 #: pve-manager/www/manager6/storage/BTRFSEdit.js:14
 #: pve-manager/www/manager6/window/DirMapEdit.js:176
-#: proxmox-backup/www/DirectoryList.js:138
 #: proxmox-backup/www/config/ACLView.js:176
+#: proxmox-backup/www/DirectoryList.js:138
 #: proxmox-backup/www/form/PartitionSelector.js:52
 #: proxmox-backup/www/tape/ChangerConfig.js:112
 #: proxmox-backup/www/tape/DriveConfig.js:148
@@ -8525,9 +8531,9 @@ msgstr "უნდა იწყებოდეს"
 msgid "Path on Device"
 msgstr "მოწყობილობიდან"
 
-#: pve-manager/www/manager6/Utils.js:2056
 #: pve-manager/www/manager6/qemu/CmdMenu.js:65
 #: pve-manager/www/manager6/qemu/Config.js:171
+#: pve-manager/www/manager6/Utils.js:2056
 msgid "Pause"
 msgstr "პაუზა"
 
@@ -8623,7 +8629,7 @@ msgstr "ფიზიკური მოწყობილობა"
 msgid "Physical devices used by the OSD"
 msgstr "OSD-ის მიერ გამოყენებული ფიზიკური მოწყობილობები"
 
-#: proxmox-widget-toolkit/src/Utils.js:744
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "PiB"
 msgstr "პიბ"
 
@@ -8714,8 +8720,8 @@ msgstr ""
 "კვანძზე, რომლის დამატებაც გნებავთ, დააწექით ღილაკს \"შეერთება\" და "
 "გამოიყენეთ შემდეგი IP მისამართის და ანაბეჭდი."
 
-#: proxmox-widget-toolkit/src/Utils.js:456
 #: proxmox-widget-toolkit/src/panel/TfaView.js:191
+#: proxmox-widget-toolkit/src/Utils.js:456
 #: proxmox-widget-toolkit/src/window/AddWebauthn.js:62
 #: proxmox-widget-toolkit/src/window/LanguageEdit.js:29
 #: proxmox-widget-toolkit/src/window/ThemeEdit.js:26 pmg-gui/js/LoginView.js:81
@@ -8773,13 +8779,13 @@ msgstr "პულის #"
 msgid "Pool View"
 msgstr "პულის ხედი"
 
-#: pve-manager/www/manager6/dc/Backup.js:305
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:396
+#: pve-manager/www/manager6/dc/Backup.js:305
 msgid "Pool based"
 msgstr "პულის ბაზა"
 
-#: pve-manager/www/manager6/dc/Backup.js:320
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:255
+#: pve-manager/www/manager6/dc/Backup.js:320
 msgid "Pool to backup"
 msgstr "დასამარქაფებელი პული"
 
@@ -8945,8 +8951,10 @@ msgstr "პროცესორი"
 msgid "Product"
 msgstr "პროდუქტი"
 
-#: proxmox-widget-toolkit/src/Utils.js:1302
-#: proxmox-widget-toolkit/src/Utils.js:1304
+#: proxmox-widget-toolkit/src/Utils.js:1303
+#: proxmox-widget-toolkit/src/Utils.js:1306
+#: proxmox-widget-toolkit/src/Utils.js:1309
+#: proxmox-widget-toolkit/src/Utils.js:1312
 msgid "Production-ready Enterprise repository enabled"
 msgstr "წარმოებისთვის-მზა რეპოზიტორია ჩართულია"
 
@@ -9039,8 +9047,8 @@ msgid "Proxmox VE Login"
 msgstr "Proxmox VE შესვლა"
 
 #: pve-manager/www/manager6/window/Backup.js:111
-#: pve-manager/www/manager6/window/Prune.js:210 proxmox-backup/www/Utils.js:421
-#: proxmox-backup/www/datastore/Content.js:1330
+#: pve-manager/www/manager6/window/Prune.js:210
+#: proxmox-backup/www/datastore/Content.js:1330 proxmox-backup/www/Utils.js:421
 msgid "Prune"
 msgstr "შეკვეცა"
 
@@ -9218,8 +9226,8 @@ msgstr "RAM"
 #: pve-manager/www/manager6/node/StatusView.js:54
 #: pve-manager/www/manager6/node/Summary.js:178
 #: pve-manager/www/manager6/panel/GuestSummary.js:86
-#: proxmox-backup/www/ServerStatus.js:215
 #: proxmox-backup/www/panel/NodeInfo.js:98
+#: proxmox-backup/www/ServerStatus.js:215
 msgid "RAM usage"
 msgstr "RAM-ის გამოყენება"
 
@@ -9306,10 +9314,10 @@ msgstr "სწრაფი ასლის აღდგენა"
 msgid "Re-sync snapshots, whose verification failed."
 msgstr ""
 
-#: proxmox-backup/www/ServerStatus.js:246
-#: proxmox-backup/www/ServerStatus.js:253
 #: proxmox-backup/www/datastore/Summary.js:334
 #: proxmox-backup/www/datastore/Summary.js:340
+#: proxmox-backup/www/ServerStatus.js:246
+#: proxmox-backup/www/ServerStatus.js:253
 msgid "Read"
 msgstr "წაკითხვა"
 
@@ -9368,14 +9376,14 @@ msgstr "წაკითხვები"
 #: proxmox-widget-toolkit/src/window/AuthEditLDAP.js:82
 #: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:37
 #: proxmox-widget-toolkit/src/window/AuthEditSimple.js:15
-#: pmg-gui/js/UserView.js:164 pve-manager/www/manager6/Utils.js:2013
-#: pve-manager/www/manager6/Utils.js:2014
-#: pve-manager/www/manager6/dc/AuthEditBase.js:37
+#: pmg-gui/js/UserView.js:164 pve-manager/www/manager6/dc/AuthEditBase.js:37
 #: pve-manager/www/manager6/dc/AuthView.js:17
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:107
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:292
 #: pve-manager/www/manager6/dc/UserEdit.js:102
 #: pve-manager/www/manager6/dc/UserView.js:172
+#: pve-manager/www/manager6/Utils.js:2013
+#: pve-manager/www/manager6/Utils.js:2014
 #: proxmox-backup/www/config/UserView.js:209
 #: proxmox-backup/www/window/UserEdit.js:76
 msgid "Realm"
@@ -9433,13 +9441,13 @@ msgstr "თავიდან ბალანსი"
 msgid "Rebalance on Start"
 msgstr "თავიდან ბალანსი გაშვებისას"
 
-#: pve-manager/www/manager6/Utils.js:2057
-#: pve-manager/www/manager6/Utils.js:2086
 #: pve-manager/www/manager6/lxc/CmdMenu.js:78
 #: pve-manager/www/manager6/lxc/Config.js:68
 #: pve-manager/www/manager6/node/Config.js:102
 #: pve-manager/www/manager6/qemu/CmdMenu.js:105
 #: pve-manager/www/manager6/qemu/Config.js:162
+#: pve-manager/www/manager6/Utils.js:2057
+#: pve-manager/www/manager6/Utils.js:2086
 #: proxmox-backup/www/ServerStatus.js:139
 msgid "Reboot"
 msgstr "გადატვირთვა"
@@ -9522,8 +9530,8 @@ msgid "Regex"
 msgstr "რეგექსი"
 
 #: proxmox-widget-toolkit/src/window/ACMEAccount.js:12
-#: pve-manager/www/manager6/Utils.js:2009
 #: pve-manager/www/manager6/node/ACME.js:9
+#: pve-manager/www/manager6/Utils.js:2009
 msgid "Register"
 msgstr "რეგისტრაცია"
 
@@ -9582,26 +9590,28 @@ msgstr "გადაგზავნის პროტოკოლი"
 msgid "Relaying"
 msgstr "გადაგზავნა"
 
-#: proxmox-widget-toolkit/src/Utils.js:705
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:154
 #: proxmox-widget-toolkit/src/node/Tasks.js:232
 #: proxmox-widget-toolkit/src/panel/DiskList.js:358
+#: proxmox-widget-toolkit/src/Utils.js:706
 #: proxmox-widget-toolkit/src/window/DiskSmart.js:89
 #: proxmox-widget-toolkit/src/window/ZFSDetail.js:65
 #: pmg-gui/js/PBSConfig.js:129 pmg-gui/js/PBSSnapshotView.js:163
-#: pmg-gui/js/PBSSnapshotView.js:232 pve-manager/www/manager6/ceph/OSD.js:834
+#: pmg-gui/js/PBSSnapshotView.js:232
 #: pve-manager/www/manager6/ceph/OSDDetails.js:102
+#: pve-manager/www/manager6/ceph/OSD.js:834
 #: pve-manager/www/manager6/node/Directory.js:138
 #: pve-manager/www/manager6/node/LVM.js:140
 #: pve-manager/www/manager6/node/LVMThin.js:169
 #: pve-manager/www/manager6/node/ZFS.js:271
 #: pve-manager/www/manager6/tree/DhcpTree.js:187
-#: proxmox-backup/www/DirectoryList.js:74 proxmox-backup/www/ZFSList.js:108
 #: proxmox-backup/www/datastore/Content.js:1229
+#: proxmox-backup/www/DirectoryList.js:74
 #: proxmox-backup/www/tape/BackupOverview.js:301
 #: proxmox-backup/www/tape/ChangerStatus.js:677
 #: proxmox-backup/www/tape/DriveStatus.js:207
 #: proxmox-backup/www/tape/TapeInventory.js:204
+#: proxmox-backup/www/ZFSList.js:108
 msgid "Reload"
 msgstr "თავიდან ჩატვირთვა"
 
@@ -9639,8 +9649,8 @@ msgstr "დაშორებული საცავი"
 msgid "Remote Sync"
 msgstr "დაშორებული სინქი"
 
-#: proxmox-backup/www/NavigationTree.js:54
 #: proxmox-backup/www/config/RemoteView.js:33
+#: proxmox-backup/www/NavigationTree.js:54
 msgid "Remotes"
 msgstr "დაშორებულები"
 
@@ -9667,10 +9677,7 @@ msgstr "წაშლა დაგეგმილია"
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:858
 #: proxmox-widget-toolkit/src/window/SafeDestroy.js:115
 #: pmg-gui/js/RuleConfiguration.js:166 pmg-gui/js/RuleInfo.js:364
-#: pmg-gui/js/UserBlackWhiteList.js:164 pve-manager/www/manager6/Utils.js:2032
-#: pve-manager/www/manager6/Utils.js:2041
-#: pve-manager/www/manager6/Utils.js:2043
-#: pve-manager/www/manager6/Utils.js:2098
+#: pmg-gui/js/UserBlackWhiteList.js:164
 #: pve-manager/www/manager6/dc/ACLView.js:156
 #: pve-manager/www/manager6/form/TagColorGrid.js:286
 #: pve-manager/www/manager6/grid/PoolMembers.js:193
@@ -9685,10 +9692,14 @@ msgstr "წაშლა დაგეგმილია"
 #: pve-manager/www/manager6/sdn/VnetACLView.js:179
 #: pve-manager/www/manager6/storage/ImageView.js:33
 #: pve-manager/www/manager6/tree/SnapshotTree.js:290
-#: proxmox-backup/www/DirectoryList.js:110 proxmox-backup/www/Utils.js:410
+#: pve-manager/www/manager6/Utils.js:2032
+#: pve-manager/www/manager6/Utils.js:2041
+#: pve-manager/www/manager6/Utils.js:2043
+#: pve-manager/www/manager6/Utils.js:2098
 #: proxmox-backup/www/datastore/Content.js:1339
 #: proxmox-backup/www/datastore/Content.js:1388
-#: proxmox-backup/www/tape/TapeInventory.js:233
+#: proxmox-backup/www/DirectoryList.js:110
+#: proxmox-backup/www/tape/TapeInventory.js:233 proxmox-backup/www/Utils.js:410
 msgid "Remove"
 msgstr "წაშლა"
 
@@ -9711,8 +9722,8 @@ msgstr "გამქრალი მომხმარებლისა და 
 msgid "Remove Attachments"
 msgstr "მიმაგრებული ფაილების კოპირება"
 
-#: proxmox-backup/www/Utils.js:407
 #: proxmox-backup/www/datastore/OptionView.js:149
+#: proxmox-backup/www/Utils.js:407
 msgid "Remove Datastore"
 msgstr "დაშორებული მონაცემების საცავი"
 
@@ -9891,8 +9902,8 @@ msgstr "მოითხოვს '{0}'-ის პრივილეგიებ�
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:11
 #: pmg-gui/js/Settings.js:159 pmg-gui/js/Settings.js:180
-#: pmg-gui/js/Settings.js:278 pve-manager/www/manager6/Utils.js:2058
-#: pve-manager/www/manager6/qemu/Config.js:200
+#: pmg-gui/js/Settings.js:278 pve-manager/www/manager6/qemu/Config.js:200
+#: pve-manager/www/manager6/Utils.js:2058
 #: pve-manager/www/manager6/window/Settings.js:223
 #: pve-manager/www/manager6/window/Settings.js:244
 #: pve-manager/www/manager6/window/Settings.js:363
@@ -9929,9 +9940,9 @@ msgstr "დავაბრუნო წესების ბაზა საწ
 msgid "Reset {0} immediately"
 msgstr "{0}-ს დაუყოვნებლივი გადატვირთვა"
 
-#: pve-manager/www/manager6/Utils.js:2068
 #: pve-manager/www/manager6/lxc/Resources.js:289
 #: pve-manager/www/manager6/qemu/HardwareView.js:455
+#: pve-manager/www/manager6/Utils.js:2068
 msgid "Resize"
 msgstr "ზომის შეცვლა"
 
@@ -9965,10 +9976,9 @@ msgstr "რესურსის პული"
 msgid "Resources"
 msgstr "რესურსები"
 
-#: proxmox-widget-toolkit/src/Utils.js:706
 #: proxmox-widget-toolkit/src/node/ServiceView.js:110
-#: pmg-gui/js/ServerStatus.js:65 pmg-gui/js/ServerStatus.js:67
-#: pve-manager/www/manager6/ceph/OSD.js:896
+#: proxmox-widget-toolkit/src/Utils.js:707 pmg-gui/js/ServerStatus.js:65
+#: pmg-gui/js/ServerStatus.js:67 pve-manager/www/manager6/ceph/OSD.js:896
 #: pve-manager/www/manager6/ceph/ServiceList.js:327
 msgid "Restart"
 msgstr "გადატვირთვა"
@@ -9985,10 +9995,10 @@ msgstr "ცვლილებების გასააქტიურებ�
 #: pmg-gui/js/BackupRestore.js:22 pmg-gui/js/BackupRestore.js:25
 #: pmg-gui/js/BackupRestore.js:102 pmg-gui/js/BackupRestore.js:142
 #: pmg-gui/js/PBSSnapshotView.js:206 pmg-gui/js/Utils.js:894
-#: pve-manager/www/manager6/Utils.js:2059
-#: pve-manager/www/manager6/Utils.js:2087
 #: pve-manager/www/manager6/grid/BackupView.js:185
 #: pve-manager/www/manager6/storage/BackupView.js:84
+#: pve-manager/www/manager6/Utils.js:2059
+#: pve-manager/www/manager6/Utils.js:2087
 #: pve-manager/www/manager6/window/Restore.js:358
 #: pve-manager/www/manager6/window/Restore.js:380
 #: proxmox-backup/www/tape/BackupOverview.js:313
@@ -10020,10 +10030,10 @@ msgstr "სწრაფი ასლის აღდგენა"
 msgid "Resulting Config"
 msgstr "შენარჩუნების მორგება"
 
-#: pve-manager/www/manager6/Utils.js:2060
-#: pve-manager/www/manager6/Utils.js:2088
 #: pve-manager/www/manager6/qemu/CmdMenu.js:80
 #: pve-manager/www/manager6/qemu/Config.js:48
+#: pve-manager/www/manager6/Utils.js:2060
+#: pve-manager/www/manager6/Utils.js:2088
 msgid "Resume"
 msgstr "გაგრძელება"
 
@@ -10036,8 +10046,8 @@ msgstr "შენარჩუნება"
 msgid "Retention Configuration"
 msgstr "შენარჩუნების მორგება"
 
-#: proxmox-backup/www/tape/PoolConfig.js:120
 #: proxmox-backup/www/tape/form/PoolSelector.js:34
+#: proxmox-backup/www/tape/PoolConfig.js:120
 #: proxmox-backup/www/tape/window/PoolEdit.js:49
 msgid "Retention Policy"
 msgstr "შენახვის პოლიტიკა"
@@ -10097,19 +10107,20 @@ msgstr "როლი"
 msgid "Roles"
 msgstr "როლები"
 
+#: pve-manager/www/manager6/tree/SnapshotTree.js:257
 #: pve-manager/www/manager6/Utils.js:2061
 #: pve-manager/www/manager6/Utils.js:2089
-#: pve-manager/www/manager6/tree/SnapshotTree.js:257
 msgid "Rollback"
 msgstr "უკან დაბრუნება"
 
 #: pmg-gui/js/PBSRemoteEdit.js:54
 #: pve-manager/www/manager6/storage/PBSEdit.js:562
-#: proxmox-backup/www/Utils.js:815 proxmox-backup/www/datastore/Content.js:347
+#: proxmox-backup/www/datastore/Content.js:347
 #: proxmox-backup/www/datastore/Content.js:375
 #: proxmox-backup/www/form/NamespaceSelector.js:25
 #: proxmox-backup/www/form/RemoteTargetSelector.js:99
 #: proxmox-backup/www/tape/window/TapeRestore.js:577
+#: proxmox-backup/www/Utils.js:815
 msgid "Root"
 msgstr "Root"
 
@@ -10206,8 +10217,8 @@ msgstr "S.M.A.R.T.-ის მნიშვნელობები"
 msgid "S.Port"
 msgstr "S.Port"
 
-#: pve-manager/www/manager6/qemu/HDEdit.js:194
 #: pve-manager/www/manager6/qemu/HardwareView.js:177
+#: pve-manager/www/manager6/qemu/HDEdit.js:194
 #: pve-manager/www/manager6/qemu/SystemEdit.js:144
 #: pve-manager/www/manager6/window/GuestImport.js:740
 msgid "SCSI Controller"
@@ -10348,9 +10359,10 @@ msgid "Scanning..."
 msgstr "ძებნა ..."
 
 #: pmg-gui/js/PBSConfig.js:17 pmg-gui/js/PBSSnapshotView.js:122
-#: pmg-gui/js/PBSSnapshotView.js:177 pve-manager/www/manager6/dc/Backup.js:294
-#: pve-manager/www/manager6/dc/Backup.js:830
+#: pmg-gui/js/PBSSnapshotView.js:177
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:188
+#: pve-manager/www/manager6/dc/Backup.js:294
+#: pve-manager/www/manager6/dc/Backup.js:830
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:112
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:298
 #: pve-manager/www/manager6/grid/Replication.js:37
@@ -10545,8 +10557,8 @@ msgstr ""
 msgid "Selection"
 msgstr "არჩევა"
 
-#: pve-manager/www/manager6/dc/Backup.js:307
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:199
+#: pve-manager/www/manager6/dc/Backup.js:307
 msgid "Selection mode"
 msgstr "მონიშვნის რეჟიმი"
 
@@ -10788,13 +10800,13 @@ msgstr "გაზიარებული"
 msgid "Shares"
 msgstr "გაზიარებები"
 
-#: proxmox-widget-toolkit/src/Utils.js:704
-#: proxmox-widget-toolkit/src/Utils.js:710
-#: pve-manager/www/manager6/Utils.js:2071
-#: pve-manager/www/manager6/Utils.js:2078
+#: proxmox-widget-toolkit/src/Utils.js:705
+#: proxmox-widget-toolkit/src/Utils.js:711
 #: pve-manager/www/manager6/node/CmdMenu.js:89
 #: pve-manager/www/manager6/node/Config.js:125
 #: pve-manager/www/manager6/node/Config.js:162
+#: pve-manager/www/manager6/Utils.js:2071
+#: pve-manager/www/manager6/Utils.js:2078
 #: proxmox-backup/www/NavigationTree.js:93
 msgid "Shell"
 msgstr "გარსი"
@@ -10871,9 +10883,6 @@ msgid "Show only installed services"
 msgstr ""
 
 #: pmg-gui/js/ServerStatus.js:73 pmg-gui/js/ServerStatus.js:75
-#: pve-manager/www/manager6/Utils.js:2035
-#: pve-manager/www/manager6/Utils.js:2062
-#: pve-manager/www/manager6/Utils.js:2090
 #: pve-manager/www/manager6/lxc/CmdMenu.js:59
 #: pve-manager/www/manager6/lxc/Config.js:59
 #: pve-manager/www/manager6/node/CmdMenu.js:53
@@ -10881,6 +10890,9 @@ msgstr ""
 #: pve-manager/www/manager6/node/Config.js:113
 #: pve-manager/www/manager6/qemu/CmdMenu.js:86
 #: pve-manager/www/manager6/qemu/Config.js:153
+#: pve-manager/www/manager6/Utils.js:2035
+#: pve-manager/www/manager6/Utils.js:2062
+#: pve-manager/www/manager6/Utils.js:2090
 #: proxmox-backup/www/ServerStatus.js:149
 msgid "Shutdown"
 msgstr "გამორთვა"
@@ -10947,7 +10959,7 @@ msgstr "სიმულაცია"
 #: proxmox-widget-toolkit/src/node/Tasks.js:300
 #: proxmox-widget-toolkit/src/panel/JournalView.js:304
 #: proxmox-widget-toolkit/src/panel/LogView.js:320
-#: pmg-gui/js/QuarantineList.js:322 pmg-gui/js/mobile/quarantineview.js:21
+#: pmg-gui/js/mobile/quarantineview.js:21 pmg-gui/js/QuarantineList.js:322
 msgid "Since"
 msgstr "საწყისი დრო"
 
@@ -10977,10 +10989,10 @@ msgstr "ერთი დისკი"
 #: pve-manager/www/manager6/node/ZFS.js:230
 #: pve-manager/www/manager6/storage/ContentView.js:185
 #: pve-manager/www/manager6/window/GuestImport.js:673
-#: proxmox-backup/www/ZFSList.js:67
 #: proxmox-backup/www/dashboard/DataStoreStatistics.js:85
 #: proxmox-backup/www/datastore/Content.js:1079
 #: proxmox-backup/www/form/PartitionSelector.js:65
+#: proxmox-backup/www/ZFSList.js:67
 msgid "Size"
 msgstr "ზომა"
 
@@ -11028,11 +11040,11 @@ msgstr "სლოვენური"
 msgid "Smarthost"
 msgstr "ჭკვანი ჰოსტი"
 
-#: pve-manager/www/manager6/Utils.js:2063
-#: pve-manager/www/manager6/Utils.js:2091
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:239
 #: pve-manager/www/manager6/form/BackupModeSelector.js:5
 #: pve-manager/www/manager6/form/SnapshotSelector.js:56
+#: pve-manager/www/manager6/Utils.js:2063
+#: pve-manager/www/manager6/Utils.js:2091
 #: pve-manager/www/manager6/window/Clone.js:230
 #: pve-manager/www/manager6/window/Snapshot.js:145
 #: pve-manager/www/manager6/window/Snapshot.js:149
@@ -11051,17 +11063,17 @@ msgstr "სწრაფი ასლის არჩევანი"
 msgid "Snapshots"
 msgstr "სწრაფი ასლები"
 
-#: pve-manager/www/manager6/Utils.js:693
 #: pve-manager/www/manager6/storage/Browser.js:119
+#: pve-manager/www/manager6/Utils.js:693
 msgid "Snippets"
 msgstr "ფრაგმენტები"
 
 #: proxmox-widget-toolkit/src/Schema.js:96
-#: proxmox-widget-toolkit/src/Utils.js:1085
+#: proxmox-widget-toolkit/src/Utils.js:1086
 msgid "Socket"
 msgstr "სოკეტი"
 
-#: proxmox-widget-toolkit/src/Utils.js:1085 pmg-gui/js/Subscription.js:134
+#: proxmox-widget-toolkit/src/Utils.js:1086 pmg-gui/js/Subscription.js:134
 #: pve-manager/www/manager6/node/Subscription.js:132
 #: pve-manager/www/manager6/qemu/ProcessorEdit.js:118
 #: pve-manager/www/manager6/window/GuestImport.js:458
@@ -11200,13 +11212,9 @@ msgstr "სტანდარტული"
 msgid "Standard VGA"
 msgstr "სტანდარტული VGA"
 
-#: proxmox-widget-toolkit/src/Utils.js:707
 #: proxmox-widget-toolkit/src/node/ServiceView.js:100
-#: pmg-gui/js/MailTracker.js:97 pmg-gui/js/Utils.js:714
-#: pve-manager/www/manager6/Utils.js:2036
-#: pve-manager/www/manager6/Utils.js:2064
-#: pve-manager/www/manager6/Utils.js:2092
-#: pve-manager/www/manager6/ceph/OSD.js:876
+#: proxmox-widget-toolkit/src/Utils.js:708 pmg-gui/js/MailTracker.js:97
+#: pmg-gui/js/Utils.js:714 pve-manager/www/manager6/ceph/OSD.js:876
 #: pve-manager/www/manager6/ceph/ServiceList.js:309
 #: pve-manager/www/manager6/lxc/CmdMenu.js:53
 #: pve-manager/www/manager6/lxc/Config.js:49
@@ -11214,6 +11222,9 @@ msgstr "სტანდარტული VGA"
 #: pve-manager/www/manager6/node/Config.js:49
 #: pve-manager/www/manager6/qemu/CmdMenu.js:58
 #: pve-manager/www/manager6/qemu/Config.js:58
+#: pve-manager/www/manager6/Utils.js:2036
+#: pve-manager/www/manager6/Utils.js:2064
+#: pve-manager/www/manager6/Utils.js:2092
 msgid "Start"
 msgstr "გაშვება"
 
@@ -11389,17 +11400,17 @@ msgstr "სტატისტიკა ბოლო ნაგვის მოგ
 #: pve-manager/www/manager6/storage/StatusView.js:6
 #: pve-manager/www/manager6/tree/SnapshotTree.js:351
 #: pve-manager/www/manager6/window/BulkAction.js:284
-#: proxmox-backup/www/Subscription.js:102 proxmox-backup/www/Utils.js:679
 #: proxmox-backup/www/config/PruneView.js:243
 #: proxmox-backup/www/config/SyncView.js:379
 #: proxmox-backup/www/config/VerifyView.js:245
 #: proxmox-backup/www/dashboard/LongestTasks.js:91
+#: proxmox-backup/www/Subscription.js:102
 #: proxmox-backup/www/tape/BackupJobs.js:252
 #: proxmox-backup/www/tape/ChangerStatus.js:924
 #: proxmox-backup/www/tape/DriveStatus.js:51
 #: proxmox-backup/www/tape/DriveStatus.js:323
 #: proxmox-backup/www/tape/TapeInventory.js:153
-#: proxmox-backup/www/tape/TapeInventory.js:317
+#: proxmox-backup/www/tape/TapeInventory.js:317 proxmox-backup/www/Utils.js:679
 msgid "Status"
 msgstr "სტატუსი"
 
@@ -11412,13 +11423,10 @@ msgstr "სტატუსი (ლენტა ჩადებული არ�
 msgid "Status: {0}"
 msgstr "სტატუსი"
 
-#: proxmox-widget-toolkit/src/Utils.js:708
 #: proxmox-widget-toolkit/src/node/ServiceView.js:105
+#: proxmox-widget-toolkit/src/Utils.js:709
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:214
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:220
-#: pve-manager/www/manager6/Utils.js:2037
-#: pve-manager/www/manager6/Utils.js:2065
-#: pve-manager/www/manager6/Utils.js:2093
 #: pve-manager/www/manager6/ceph/OSD.js:886
 #: pve-manager/www/manager6/ceph/ServiceList.js:318
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:240
@@ -11427,6 +11435,9 @@ msgstr "სტატუსი"
 #: pve-manager/www/manager6/lxc/Config.js:78
 #: pve-manager/www/manager6/qemu/CmdMenu.js:92
 #: pve-manager/www/manager6/qemu/Config.js:188
+#: pve-manager/www/manager6/Utils.js:2037
+#: pve-manager/www/manager6/Utils.js:2065
+#: pve-manager/www/manager6/Utils.js:2093
 #, fuzzy
 msgid "Stop"
 msgstr ""
@@ -11464,9 +11475,9 @@ msgstr "შეჩერებულია"
 
 #: pmg-gui/js/Dashboard.js:504
 #: pve-manager/www/manager6/data/ResourceStore.js:253
+#: pve-manager/www/manager6/dc/BackupJobDetail.js:183
 #: pve-manager/www/manager6/dc/Backup.js:283
 #: pve-manager/www/manager6/dc/Backup.js:841
-#: pve-manager/www/manager6/dc/BackupJobDetail.js:183
 #: pve-manager/www/manager6/dc/Config.js:59
 #: pve-manager/www/manager6/dc/Summary.js:45
 #: pve-manager/www/manager6/form/DiskStorageSelector.js:11
@@ -11645,11 +11656,11 @@ msgstr "მხარდაჭერა"
 msgid "Support for {0} {1} ends on {2}"
 msgstr "{0}-ის {1} მხარდაჭერის დროი სრულდება: {2}"
 
-#: pve-manager/www/manager6/Utils.js:2094
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:241
 #: pve-manager/www/manager6/form/BackupModeSelector.js:6
 #: pve-manager/www/manager6/node/CmdMenu.js:67
 #: pve-manager/www/manager6/node/Config.js:77
+#: pve-manager/www/manager6/Utils.js:2094
 msgid "Suspend"
 msgstr "ძილი"
 
@@ -11680,9 +11691,9 @@ msgstr "შვედური"
 
 #: proxmox-widget-toolkit/src/panel/AuthView.js:158
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:147
-#: pve-manager/www/manager6/Utils.js:2013
 #: pve-manager/www/manager6/dc/AuthView.js:126
 #: pve-manager/www/manager6/dc/SyncWindow.js:172
+#: pve-manager/www/manager6/Utils.js:2013
 msgid "Sync"
 msgstr "სინქრონიზაცია"
 
@@ -11774,7 +11785,7 @@ msgstr "სისტემა"
 msgid "System Report"
 msgstr "სისტემური ანგარიში"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "TB"
 msgstr "ტბ"
 
@@ -11843,9 +11854,9 @@ msgstr "TOTP კოდები ექვსი ათობითი ციფ�
 msgid "TOTP codes usually consist of six decimal digits"
 msgstr "TOTP კოდები ჩვეულებრივ ექვსი ათობითი ციფრისგან შედგება"
 
-#: pve-manager/www/manager6/qemu/HDTPM.js:81
 #: pve-manager/www/manager6/qemu/HardwareView.js:263
 #: pve-manager/www/manager6/qemu/HardwareView.js:714
+#: pve-manager/www/manager6/qemu/HDTPM.js:81
 msgid "TPM State"
 msgstr "TPM-ის მდგომარეობა"
 
@@ -11899,14 +11910,14 @@ msgstr ""
 msgid "Take Snapshot"
 msgstr "სწრაფი ასლის აღება"
 
-#: proxmox-backup/www/NavigationTree.js:107 proxmox-backup/www/Utils.js:427
 #: proxmox-backup/www/dashboard/TaskSummary.js:34
-#: proxmox-backup/www/tape/TapeManagement.js:5
+#: proxmox-backup/www/NavigationTree.js:107
+#: proxmox-backup/www/tape/TapeManagement.js:5 proxmox-backup/www/Utils.js:427
 msgid "Tape Backup"
 msgstr "მარქაფი ლენტაზე"
 
-#: proxmox-backup/www/Utils.js:428
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:10
+#: proxmox-backup/www/Utils.js:428
 msgid "Tape Backup Job"
 msgstr "ლენტის მარქაფის დავალება"
 
@@ -11934,8 +11945,8 @@ msgstr "ლენტის მდებარეობა"
 msgid "Tape Read"
 msgstr "ლენტის წაკითხვა"
 
-#: proxmox-backup/www/Utils.js:429
 #: proxmox-backup/www/dashboard/TaskSummary.js:35
+#: proxmox-backup/www/Utils.js:429
 msgid "Tape Restore"
 msgstr "ლენტის აღდგენა"
 
@@ -12088,8 +12099,8 @@ msgstr "ამოცანის ტიპი"
 
 #: pmg-gui/js/ServerAdministration.js:73
 #: pve-manager/www/manager6/panel/StatusPanel.js:34
-#: proxmox-backup/www/ServerAdministration.js:76
 #: proxmox-backup/www/button/TaskButton.js:12
+#: proxmox-backup/www/ServerAdministration.js:76
 msgid "Tasks"
 msgstr "Tasks"
 
@@ -12159,10 +12170,6 @@ msgstr "გადასატანი სწრაფი ასლების 
 msgid "The newest version installed in the Cluster."
 msgstr "კლასტერში დაყენებული უახლესი ვერსია."
 
-#: proxmox-widget-toolkit/src/node/APTRepositories.js:305
-msgid "The no-subscription repository is NOT production-ready"
-msgstr "გამოწერის-არმქონე რეპოზიტორია წარმოებისთვის მზა არაა"
-
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:175
 msgid ""
 "The no-subscription repository is not the best choice for production setups."
@@ -12204,6 +12211,7 @@ msgid ""
 "Enterprise Repository is not yet available."
 msgstr ""
 
+#: proxmox-widget-toolkit/src/node/APTRepositories.js:305
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:306
 msgid "The test repository may contain unstable updates"
 msgstr "სატესტო რეპოზიტორია შეიძლება არასტაბილურ განახლებებს შეიცავდეს"
@@ -12298,7 +12306,7 @@ msgstr "ზღვარი"
 msgid "Thu"
 msgstr "ხუთ"
 
-#: proxmox-widget-toolkit/src/Utils.js:744
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "TiB"
 msgstr "ტიბ"
 
@@ -12345,7 +12353,7 @@ msgstr "დროის შუალედი"
 msgid "Timeframes"
 msgstr "დროის შუალედები"
 
-#: proxmox-widget-toolkit/src/Utils.js:1322
+#: proxmox-widget-toolkit/src/Utils.js:1324
 msgid "Timeout"
 msgstr "ვადა"
 
@@ -12441,10 +12449,10 @@ msgstr "საუკეთესო მიმღებები"
 #: pve-manager/www/manager6/ceph/StatusDetail.js:60
 #: pve-manager/www/manager6/node/Summary.js:178
 #: pve-manager/www/manager6/panel/GuestSummary.js:86
+#: proxmox-backup/www/datastore/Summary.js:328
 #: proxmox-backup/www/ServerStatus.js:215
 #: proxmox-backup/www/ServerStatus.js:224
 #: proxmox-backup/www/ServerStatus.js:239
-#: proxmox-backup/www/datastore/Summary.js:328
 #, fuzzy
 msgid "Total"
 msgstr ""
@@ -12495,13 +12503,13 @@ msgstr "სულ ბირთვები"
 msgid "Tracking Center"
 msgstr "ტრეკინგის ცენტრი"
 
-#: pmg-gui/js/DomainStatistics.js:79 pmg-gui/js/DomainStatistics.js:123
-#: pmg-gui/js/dashboard/MailProcessing.js:33
+#: pmg-gui/js/dashboard/MailProcessing.js:33 pmg-gui/js/DomainStatistics.js:79
+#: pmg-gui/js/DomainStatistics.js:123
 msgid "Traffic"
 msgstr "ტრაფიკი"
 
-#: proxmox-backup/www/NavigationTree.js:60
 #: proxmox-backup/www/config/TrafficControlView.js:29
+#: proxmox-backup/www/NavigationTree.js:60
 msgid "Traffic Control"
 msgstr "ტრაფიკის კონტროლი"
 
@@ -12613,10 +12621,10 @@ msgstr "2FA ავთენტიკაცია"
 #: pve-manager/www/manager6/storage/StatusView.js:45
 #: pve-manager/www/manager6/storage/TemplateView.js:66
 #: pve-manager/www/manager6/window/BulkAction.js:319
-#: proxmox-backup/www/Subscription.js:96
 #: proxmox-backup/www/config/MetricServerView.js:61
 #: proxmox-backup/www/form/AuthidSelector.js:72
 #: proxmox-backup/www/form/GroupFilter.js:514
+#: proxmox-backup/www/Subscription.js:96
 #: proxmox-backup/www/tape/ChangerStatus.js:36
 msgid "Type"
 msgstr "ტიპი"
@@ -12809,7 +12817,7 @@ msgstr "კონტეინერი პრივილეგიების �
 #: proxmox-widget-toolkit/src/node/Tasks.js:311
 #: proxmox-widget-toolkit/src/panel/JournalView.js:320
 #: proxmox-widget-toolkit/src/panel/LogView.js:339
-#: pmg-gui/js/QuarantineList.js:329 pmg-gui/js/mobile/quarantineview.js:29
+#: pmg-gui/js/mobile/quarantineview.js:29 pmg-gui/js/QuarantineList.js:329
 msgid "Until"
 msgstr "დასასრულის დრო"
 
@@ -12819,8 +12827,8 @@ msgstr "გამოუყენებელი"
 
 #: pve-manager/www/manager6/lxc/MPEdit.js:368
 #: pve-manager/www/manager6/lxc/Resources.js:125
-#: pve-manager/www/manager6/qemu/HDEdit.js:473
 #: pve-manager/www/manager6/qemu/HardwareView.js:312
+#: pve-manager/www/manager6/qemu/HDEdit.js:473
 msgid "Unused Disk"
 msgstr "გამოუყენებელი დისკი"
 
@@ -12844,7 +12852,7 @@ msgstr "ახლა განახლება"
 msgid "Update now"
 msgstr "ახლა განახლება"
 
-#: proxmox-widget-toolkit/src/Utils.js:702
+#: proxmox-widget-toolkit/src/Utils.js:703
 msgid "Update package database"
 msgstr "პაკეტების ბაზის განახლება"
 
@@ -12917,7 +12925,7 @@ msgstr "ზედა რეგისტრში"
 #: pmg-gui/js/ClusterAdministration.js:272 pmg-gui/js/dashboard/NodeInfo.js:129
 #: pve-manager/www/manager6/data/ResourceStore.js:239
 #: pve-manager/www/manager6/dc/NodeView.js:68
-#: pve-manager/www/manager6/node/StatusView.js:145
+#: pve-manager/www/manager6/node/StatusView.js:359
 #: pve-manager/www/manager6/panel/GuestStatusView.js:166
 #: proxmox-backup/www/panel/NodeInfo.js:184
 msgid "Uptime"
@@ -13221,9 +13229,8 @@ msgstr "მომხმარებლის კლასები"
 #: pve-manager/www/manager6/storage/CephFSEdit.js:62
 #: pve-manager/www/manager6/storage/RBDEdit.js:181
 #: pve-manager/www/manager6/window/LoginWindow.js:355
-#: proxmox-backup/www/LoginView.js:283
 #: proxmox-backup/www/config/UserView.js:202
-#: proxmox-backup/www/window/UserEdit.js:66
+#: proxmox-backup/www/LoginView.js:283 proxmox-backup/www/window/UserEdit.js:66
 #, fuzzy
 msgid "User name"
 msgstr ""
@@ -13249,8 +13256,8 @@ msgid "User/Group/API Token"
 msgstr "მომხმარებელი/ჯგუფი/API-ის კოდი"
 
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:111
-#: pmg-gui/js/FetchmailEdit.js:62 pmg-gui/js/PBSRemoteEdit.js:61
-#: pmg-gui/js/mobile/loginscreen.js:19
+#: pmg-gui/js/FetchmailEdit.js:62 pmg-gui/js/mobile/loginscreen.js:19
+#: pmg-gui/js/PBSRemoteEdit.js:61
 #: pve-manager/www/manager6/storage/CIFSEdit.js:162
 #: pve-manager/www/manager6/storage/ESXIEdit.js:64
 #: pve-manager/www/manager6/storage/PBSEdit.js:527
@@ -13555,8 +13562,9 @@ msgid "Verify new backups immediately after completion"
 msgstr "ახალი მარქაფები დასრულებისთანავე გადამოწმდება"
 
 #: proxmox-widget-toolkit/src/node/APT.js:25 pmg-gui/js/ClamAVDatabase.js:94
-#: pmg-gui/js/SpamDetectorStatus.js:34 pve-manager/www/manager6/ceph/OSD.js:776
+#: pmg-gui/js/SpamDetectorStatus.js:34
 #: pve-manager/www/manager6/ceph/OSDDetails.js:131
+#: pve-manager/www/manager6/ceph/OSD.js:776
 #: pve-manager/www/manager6/ceph/ServiceList.js:449
 #: pve-manager/www/manager6/ceph/Services.js:184
 #: pve-manager/www/manager6/qemu/HDTPM.js:63
@@ -13700,8 +13708,8 @@ msgstr "ტომის ქმედება"
 msgid "Volume Details for {0}"
 msgstr "{0}-ის ტომის დეტალები"
 
-#: proxmox-backup/www/Utils.js:634 proxmox-backup/www/tape/ChangerStatus.js:913
-#: proxmox-backup/www/tape/DriveStatus.js:267
+#: proxmox-backup/www/tape/ChangerStatus.js:913
+#: proxmox-backup/www/tape/DriveStatus.js:267 proxmox-backup/www/Utils.js:634
 msgid "Volume Statistics"
 msgstr "ტომის სტატისტიკა"
 
@@ -13784,8 +13792,8 @@ msgstr ""
 msgid "Warning: Your subscription levels are not the same."
 msgstr "გაფრთხილება თქვენი გამოწერის დონეები ტოლი არაა."
 
-#: proxmox-widget-toolkit/src/Utils.js:51
 #: proxmox-widget-toolkit/src/node/Tasks.js:349
+#: proxmox-widget-toolkit/src/Utils.js:51
 #: pve-manager/www/manager6/window/GuestImport.js:604
 msgid "Warnings"
 msgstr "გაფრთხილებები"
@@ -13862,10 +13870,10 @@ msgstr ""
 "როცა მონიშნულია ერთზე მეტი მოწყობილობა, სტუმრის გაშვებისას არჩეული პირველივე "
 "თავისუფალი იქნება."
 
-#: pmg-gui/js/MailProxyConfiguration.js:54 pmg-gui/js/QuarantineView.js:23
+#: pmg-gui/js/MailProxyConfiguration.js:54 pmg-gui/js/mobile/mailview.js:36
+#: pmg-gui/js/mobile/quarantineview.js:87 pmg-gui/js/QuarantineView.js:23
 #: pmg-gui/js/SpamContextMenu.js:19 pmg-gui/js/SpamQuarantine.js:255
 #: pmg-gui/js/UserBlackWhiteList.js:56 pmg-gui/js/UserBlackWhiteList.js:240
-#: pmg-gui/js/mobile/mailview.js:36 pmg-gui/js/mobile/quarantineview.js:87
 msgid "Whitelist"
 msgstr "თეთრი სია"
 
@@ -13946,10 +13954,10 @@ msgstr "უარესი"
 msgid "Would you like to install it now?"
 msgstr "გნებავთ, დააყენოთ?"
 
-#: proxmox-backup/www/ServerStatus.js:246
-#: proxmox-backup/www/ServerStatus.js:253
 #: proxmox-backup/www/datastore/Summary.js:334
 #: proxmox-backup/www/datastore/Summary.js:340
+#: proxmox-backup/www/ServerStatus.js:246
+#: proxmox-backup/www/ServerStatus.js:253
 msgid "Write"
 msgstr "ჩასწორება"
 
@@ -13988,7 +13996,7 @@ msgstr ""
 msgid "Wrong file extension"
 msgstr "არასწორი ფაილის გაფართოება"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "YB"
 msgstr "იობ"
 
@@ -14001,9 +14009,10 @@ msgstr "წელი"
 msgid "Yearly"
 msgstr "წლიურად"
 
-#: proxmox-widget-toolkit/src/Utils.js:44 pve-manager/www/manager6/Utils.js:317
+#: proxmox-widget-toolkit/src/Utils.js:44
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:250
 #: pve-manager/www/manager6/node/Subscription.js:143
+#: pve-manager/www/manager6/Utils.js:317
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:37
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:38
 #: pve-manager/www/manager6/window/TreeSettingsEdit.js:50
@@ -14012,7 +14021,7 @@ msgstr "წლიურად"
 msgid "Yes"
 msgstr "დიახ"
 
-#: proxmox-widget-toolkit/src/Utils.js:744
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "YiB"
 msgstr "იიბ"
 
@@ -14048,6 +14057,7 @@ msgid ""
 "get a list of available options."
 msgstr ""
 
+#: proxmox-widget-toolkit/src/node/APTRepositories.js:474
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:479
 msgid "You get supported updates for {0}"
 msgstr "იღებთ მხარდაჭერილ განახლებებს {0}-სთვის"
@@ -14115,7 +14125,7 @@ msgstr "Yubico OTP"
 msgid "Yubico OTP Key"
 msgstr "Yubico OTP-ის გასაღები"
 
-#: proxmox-widget-toolkit/src/Utils.js:742
+#: proxmox-widget-toolkit/src/Utils.js:743
 msgid "ZB"
 msgstr "ზბ"
 
@@ -14128,7 +14138,7 @@ msgstr "ZFS-ის პული"
 msgid "ZFS Storage"
 msgstr "ZFS საცავი"
 
-#: proxmox-widget-toolkit/src/Utils.js:744
+#: proxmox-widget-toolkit/src/Utils.js:745
 msgid "ZiB"
 msgstr "ზიბ"
 
@@ -14414,9 +14424,8 @@ msgstr "პარავირტუალიზებული"
 msgid "peer's link address: {0}"
 msgstr "პარტნიორის ბმის მისამართი: {0}"
 
-#: pve-manager/www/manager6/Utils.js:1124
 #: pve-manager/www/manager6/grid/Replication.js:386
-#: proxmox-backup/www/Utils.js:248
+#: pve-manager/www/manager6/Utils.js:1124 proxmox-backup/www/Utils.js:248
 msgid "pending"
 msgstr "pending"
 
@@ -14592,12 +14601,13 @@ msgstr "{0} თვე"
 msgid "{0} not installed."
 msgstr "{0} დაყენებული არაა."
 
-#: proxmox-widget-toolkit/src/Utils.js:1060
+#: proxmox-widget-toolkit/src/Utils.js:1061
 #: pve-manager/www/manager6/ceph/Status.js:347
 #: pve-manager/www/manager6/dc/Summary.js:202
-#: pve-manager/www/manager6/dc/Summary.js:205 proxmox-backup/www/Utils.js:322
+#: pve-manager/www/manager6/dc/Summary.js:205
 #: proxmox-backup/www/datastore/DataStoreListSummary.js:71
 #: proxmox-backup/www/datastore/DataStoreListSummary.js:76
+#: proxmox-backup/www/Utils.js:322
 msgid "{0} of {1}"
 msgstr "{0} {1}-დან"
 
@@ -14621,7 +14631,7 @@ msgstr "{0}-ს პრიორიტეტი გააჩნია."
 msgid "{0} to {1}"
 msgstr "{0}-დან {1}-მდე"
 
-#: proxmox-widget-toolkit/src/Utils.js:1297
+#: proxmox-widget-toolkit/src/Utils.js:1298
 msgid "{0} updates"
 msgstr "{0} განახლება"
 
@@ -14633,10 +14643,18 @@ msgstr "{0} კვრა"
 msgid "{0} years"
 msgstr "{0} წელი"
 
-#: proxmox-widget-toolkit/src/Utils.js:1048
+#: proxmox-widget-toolkit/src/Utils.js:1049
 #, fuzzy, javascript-format
 msgid "{0}% of {1}"
 msgstr "{0}% {1}-დან"
+
+#: pve-manager/www/manager6/node/StatusView.js:176
+msgid "主板温度"
+msgstr ""
+
+#: pve-manager/www/manager6/node/StatusView.js:216
+msgid "风扇转速"
+msgstr ""
 
 #~ msgid " Network/Time"
 #~ msgstr " ქსელი/დრო"
@@ -14668,6 +14686,9 @@ msgstr "{0}% {1}-დან"
 
 #~ msgid "Email"
 #~ msgstr "ელფოტა"
+
+#~ msgid "Enterprise repository needs valid subscription"
+#~ msgstr "საწარმოო რეპოზიტორიას სწორი გამოწერა ესაჭიროება"
 
 #~ msgid "Extra ID"
 #~ msgstr "დამატებითი ID"
@@ -14704,9 +14725,18 @@ msgstr "{0}% {1}-დან"
 #~ msgid "No endpoint selected"
 #~ msgstr "დისკი მონიშნული არაა"
 
+#~ msgid "No {0} repository enabled!"
+#~ msgstr "{0} რეპოზიტორია ჩართული არაა!"
+
+#~ msgid "No {0} repository is enabled, you do not get any updates!"
+#~ msgstr "{0} რეპოზიტორია ჩართული არაა. განახლებებს არ მიიღებთ!"
+
 #, fuzzy
 #~ msgid "Node Fencing"
 #~ msgstr "კვანძის ამოღება"
+
+#~ msgid "Non production-ready repository enabled!"
+#~ msgstr "ჩართულია არა-წარმოებისთვის-მზა რეპოზიტორია!"
 
 #~ msgid ""
 #~ "Not all nodes in the cluster have an active subscription, so not all have "
@@ -14758,6 +14788,9 @@ msgstr "{0}% {1}-დან"
 
 #~ msgid "Start Garbage Collection"
 #~ msgstr "ნაგვის მოგროვების დაწყება"
+
+#~ msgid "The no-subscription repository is NOT production-ready"
+#~ msgstr "გამოწერის-არმქონე რეპოზიტორია წარმოებისთვის მზა არაა"
 
 #, fuzzy
 #~ msgid "UUID"

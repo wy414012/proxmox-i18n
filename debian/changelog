@@ -1,3 +1,15 @@
+proxmox-i18n (3.4.5-2) bookworm; urgency=medium
+
+  * Update version 3.4.5-2
+
+ -- Proxmox Support Team <ymwlpoolc@qq.com>  Wed, 11 Jun 2025 13:30:57 +0800
+
+proxmox-i18n (3.4.5-1) bookworm; urgency=medium
+
+  * Update submodule to latest version
+
+ -- Proxmox Support Team <ymwlpoolc@qq.com>  Wed, 11 Jun 2025 13:28:12 +0800
+
 proxmox-i18n (3.4.5) bookworm; urgency=medium
 
   * update Korean translations
