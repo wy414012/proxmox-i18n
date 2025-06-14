@@ -34,6 +34,7 @@ jobs:
         gawk \
         gnupg2 \
         systemd \
+        rsync \
         jq \
         ca-certificates && \
         echo "deb [arch=amd64] http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list && \
