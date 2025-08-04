@@ -1,20 +1,20 @@
 [submodule "pmg-gui"]
 	path = pmg-gui
-	url = ../pmg-gui/
+	url = https://git.proxmox.com/git/pmg-gui.git
 
 [submodule "proxmox-widget-toolkit"]
 	path = proxmox-widget-toolkit
-	url = ../proxmox-widget-toolkit/
+	url = https://github.com/wy414012/proxmox-widget-toolkit.git
 
 [submodule "pve-manager"]
 	path = pve-manager
-	url = ../pve-manager/
+	url = https://github.com/wy414012/pve-manager.git
 [submodule "proxmox-backup"]
 	path = proxmox-backup
-	url = ../proxmox-backup
+	url = https://git.proxmox.com/git/proxmox-backup.git
 [submodule "proxmox-datacenter-manager"]
 	path = proxmox-datacenter-manager
-	url = ../proxmox-datacenter-manager
+	url = https://git.proxmox.com/git/proxmox-datacenter-manager.git
 [submodule "proxmox-yew-widget-toolkit"]
 	path = proxmox-yew-widget-toolkit
 	url = git://git.proxmox.com/git/ui/proxmox-yew-widget-toolkit.git
