@@ -15,13 +15,13 @@
 	url = https://git.proxmox.com/git/proxmox-datacenter-manager.git
 [submodule "proxmox-yew-widget-toolkit"]
 	path = proxmox-yew-widget-toolkit
-	url = https://git.proxmox.com/git/proxmox-yew-widget-toolkit.git
+	url = https://git.proxmox.com/git/ui/proxmox-yew-widget-toolkit.git
 [submodule "proxmox-yew-comp"]
 	path = proxmox-yew-comp
-	url = https://git.proxmox.com/git/proxmox-yew-comp.git
+	url = https://git.proxmox.com/git/ui/proxmox-yew-comp.git
 [submodule "pve-yew-mobile-gui"]
 	path = pve-yew-mobile-gui
-	url = https://git.proxmox.com/git/pve-yew-mobile-gui.git
+	url = https://git.proxmox.com/git/ui/pve-yew-mobile-gui.git
 [submodule "pmg-yew-quarantine-gui"]
 	path = pmg-yew-quarantine-gui
-	url = https://git.proxmox.com/git/pmg-yew-quarantine-gui.git
+	url = https://git.proxmox.com/git/ui/pmg-yew-quarantine-gui.git
